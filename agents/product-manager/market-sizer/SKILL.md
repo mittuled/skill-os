@@ -1,7 +1,50 @@
+---
+name: market-sizer
+description: >
+  This skill sizes the total addressable, serviceable, and obtainable market for a product opportunity.
+  Use when asked to estimate market size, calculate TAM/SAM/SOM, or validate whether an opportunity
+  is large enough to pursue. Also consider when a PRD or initiative brief lacks quantified market
+  context. Suggest when the team is about to commit engineering resources to an opportunity without
+  understanding its revenue ceiling.
+department: product
+agent: product-manager
+version: 1.0.0
+complexity: medium
+related-skills: []
+---
+
 # market-sizer
 
 ## Agent: Product Manager
 L2 product manager (multi-instance) responsible for customer discovery, requirements extraction, sprint planning, backlog management, and go-live approval. Bridges customer needs and engineering delivery.
 
+Department ethos: [ideal-product.md](../../../departments/product/ideal-product.md)
+
 ## Skill Description
-Sizes the total addressable, serviceable, and obtainable market for a product opportunity
+Sizes the total addressable, serviceable, and obtainable market for a product opportunity using top-down and bottom-up estimation methods.
+
+## When to Use
+- When a new product opportunity needs quantified market context before entering the roadmap
+- When leadership requests a revenue ceiling estimate to prioritize between competing initiatives
+- When an existing market sizing is stale (older than two quarters) or based on assumptions that have shifted due to competitive moves or regulatory changes
+
+## Workflow
+1. **Define the market boundary**: Identify the target customer segment, geography, and use case. Exclude adjacent segments that the product cannot credibly serve today. Deliverable: one-paragraph market definition with explicit inclusion and exclusion criteria.
+2. **Estimate TAM (top-down)**: Pull industry reports, analyst estimates, and public filings to calculate the total addressable market in annual revenue terms. Cross-check at least two independent sources. Deliverable: TAM figure with source citations and confidence rating (high/medium/low).
+3. **Estimate SAM (bottom-up)**: Narrow TAM to the segment reachable with the current product capabilities, pricing model, and go-to-market channels. Multiply estimated reachable accounts by average contract value. Deliverable: SAM figure with assumptions table.
+4. **Estimate SOM**: Apply realistic penetration assumptions based on competitive intensity, sales capacity, and time horizon (typically 3 years). Deliverable: SOM figure with penetration rate justification.
+5. **Triangulate and stress-test**: Compare top-down and bottom-up estimates. Flag any divergence greater than 2x and investigate. Run sensitivity analysis on the two most uncertain assumptions. Deliverable: summary table showing TAM/SAM/SOM with confidence intervals.
+6. **Package for decision-makers**: Assemble a one-page market sizing brief suitable for inclusion in a PRD, investment memo, or roadmap review. Deliverable: formatted brief with key figures, assumptions, sources, and recommendation on whether the opportunity clears the minimum threshold.
+
+## Anti-Patterns
+- **Single-source sizing**: Relying on one analyst report without cross-validation. *Why*: Analyst methodologies vary widely; a single source can overstate or understate by 3-5x, leading to misallocated resources.
+- **TAM-only thinking**: Presenting the total addressable market as if it were capturable revenue. *Why*: TAM ignores competitive dynamics, distribution constraints, and product gaps, giving leadership a dangerously inflated picture.
+- **Static snapshots**: Sizing the market once and never revisiting as conditions change. *Why*: Markets shift with new entrants, regulation, and technology changes; stale numbers silently corrupt downstream prioritization decisions.
+
+## Output
+**On success**: A market sizing brief containing TAM, SAM, and SOM figures with confidence intervals, an assumptions table, source citations, and a go/no-go recommendation -- formatted for embedding in a PRD or roadmap review deck.
+
+**On failure**: Report which estimates could not be completed (missing data sources, unreliable segment definitions, irreconcilable top-down vs. bottom-up gap), what was attempted, and recommend specific data acquisitions or customer interviews to close the gaps.
+
+## Related Skills
+- (none yet -- cross-references added in Phase 1.6)
