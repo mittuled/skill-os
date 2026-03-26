@@ -1,0 +1,61 @@
+# YAML Frontmatter Validation Schema for SKILL.md files
+# Used by scripts/validate.py to check all skill files
+
+required_fields:
+  name:
+    type: string
+    pattern: "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+    max_length: 64
+    must_match: parent_directory_name
+
+  description:
+    type: string
+    min_length: 50
+    max_length: 1024
+    must_not_start_with:
+      - "You "
+      - "I "
+      - "We "
+      - "Claude "
+    should_contain_one_of:
+      - "Use when"
+      - "use when"
+      - "Suggest when"
+      - "suggest when"
+
+  department:
+    type: string
+    must_match: existing_department_directory
+
+  agent:
+    type: string
+    must_match: parent_agent_directory
+
+  version:
+    type: string
+    pattern: "^\\d+\\.\\d+\\.\\d+$"
+
+  complexity:
+    type: enum
+    values:
+      - simple
+      - medium
+      - complex
+
+  related-skills:
+    type: list
+    items:
+      type: string
+      must_resolve_to: existing_file
+
+word_limits:
+  simple: 500
+  medium: 1000
+  complex: 1500
+
+ethos_profile:
+  max_words: 500
+  location_pattern: "departments/{department}/ideal-{department}.md"
+
+tier1_metadata_max_words: 100
+tier3_reference_toc_threshold_lines: 300
