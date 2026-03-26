@@ -1,7 +1,7 @@
 # Skill OS — Enrichment Status
 
 **Last Updated**: 2026-03-27
-**Total Skills**: 472 | **Enriched**: 82 | **Pending**: 390 | **Progress**: 17%
+**Total Skills**: 472 | **Enriched**: 178 | **Pending**: 294 | **Progress**: 38%
 **Migration Order**: Department-by-department, starting with Product
 
 ---
@@ -12,8 +12,8 @@
 |---|-----------|--------|--------|----------|---------|---------------|
 | 1 | Product | 5 | 82 | 82 | 0 | Done |
 | 2 | Engineering | 12 | 100 | 0 | 100 | Not started |
-| 3 | Marketing | 12 | 54 | 0 | 54 | Not started |
-| 4 | Design | 8 | 42 | 0 | 42 | Not started |
+| 3 | Marketing | 12 | 54 | 54 | 0 | Done |
+| 4 | Design | 8 | 42 | 42 | 0 | Done |
 | 5 | Data & Growth | 4 | 39 | 0 | 39 | Not started |
 | 6 | Finance | 5 | 32 | 0 | 32 | Not started |
 | 7 | Legal & Compliance | 4 | 24 | 0 | 24 | Not started |
@@ -26,7 +26,7 @@
 | 14 | Applied Research | 1 | 5 | 0 | 5 | Not started |
 | 15 | Account Management | 2 | 5 | 0 | 5 | Not started |
 | 16 | Implementation | 2 | 4 | 0 | 4 | Not started |
-| | **TOTAL** | **80** | **472** | **82** | **390** | **1 / 15** |
+| | **TOTAL** | **80** | **472** | **178** | **294** | **3 / 15** |
 
 ---
 
