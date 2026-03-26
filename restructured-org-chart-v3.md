@@ -1,6 +1,10 @@
 # AI Startup — Restructured Agent Org Chart v3
 > Complete organisational blueprint with Chief Business Officer, separated Sales function, Agent Operations reframe, expanded Marketing, and clean COO operational umbrella. All 584+ skills preserved and redistributed.
 
+## Enrichment Status
+
+Skills are being enriched from a 3-section format to a 9-section executable format with YAML frontmatter. Enriched skills live at `agents/<agent>/<skill>/SKILL.md` (subdirectory format). Unenriched skills remain as `agents/<agent>/<skill>.md` (flat format) during migration. See `status.md` for department-by-department progress.
+
 ---
 
 ## What Changed from v2
