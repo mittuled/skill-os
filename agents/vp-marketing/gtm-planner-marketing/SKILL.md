@@ -1,7 +1,64 @@
+---
+name: gtm-planner-marketing
+description: >
+  This skill develops the overall go-to-market plan for the marketing function including channel mix,
+  timing, and budget allocation. Use when launching a new product, entering a new market, or resetting
+  annual marketing strategy. Also consider when positioning shifts require a revised GTM approach.
+  Suggest when product roadmap milestones lack a corresponding marketing plan.
+department: marketing
+agent: vp-marketing
+version: 1.0.0
+complexity: complex
+related-skills:
+  - ../gtm-activation-marketing/SKILL.md
+  - ../demand-gen-planner/SKILL.md
+---
+
 # gtm-planner-marketing
 
 ## Agent: VP Marketing
-L1 marketing leader reporting to the CBO, responsible for GTM planning, demand generation strategy, and marketing activation across all channels.
+
+L1 marketing leader (1x) reporting to the CBO, responsible for GTM planning, demand generation strategy, and marketing activation across all channels.
+
+Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
 
 ## Skill Description
-Develops the overall go-to-market plan for the marketing function including channel mix, timing, and budget allocation
+
+Develops the overall go-to-market plan for the marketing function including channel mix, timing, budget allocation, and positioning strategy tied to revenue objectives.
+
+## When to Use
+
+- When a new product or major feature launch requires a coordinated marketing plan across all channels.
+- When entering a new market segment or geography that needs a tailored GTM motion.
+- When annual or semi-annual marketing strategy resets require a fresh plan aligned to updated revenue targets.
+- When competitive positioning shifts demand a revised channel mix and messaging framework.
+
+## Workflow
+
+1. **Synthesize market inputs**: Gather ICP definitions, competitive landscape, product positioning, and revenue targets from product marketing, sales, and CBO. Deliverable: market context brief.
+2. **Define GTM objectives**: Translate revenue targets into marketing-specific objectives -- pipeline contribution, brand awareness thresholds, market share targets. Assign measurable KPIs to each. Deliverable: GTM objectives with KPIs.
+3. **Select channel mix**: Map ICP attention patterns to available channels (paid search, content, social, events, partnerships, PR). Prioritize channels by expected pipeline contribution and CAC efficiency. Deliverable: channel priority matrix.
+4. **Build timeline**: Sequence marketing activities against product milestones, seasonal patterns, and competitive events. Identify pre-launch, launch, and post-launch phases with specific channel activations per phase. Deliverable: GTM timeline with phase gates.
+5. **Allocate budget**: Distribute the marketing budget across channels, content production, tooling, and contingency. Tie each allocation to an expected output (leads, pipeline, impressions). Deliverable: budget allocation spreadsheet with ROI projections.
+6. **Align cross-functional stakeholders**: Present the GTM plan to product, sales, customer success, and CBO. Resolve conflicts on timing, messaging, or resource allocation. Deliverable: cross-functional sign-off document.
+7. **Publish and distribute**: Finalize the GTM plan and distribute to all execution teams. Ensure every channel owner has their specific brief, timeline, and budget. Deliverable: published GTM plan with channel-specific briefs.
+
+## Anti-Patterns
+
+- **Product-out planning**: Building the GTM plan around product features rather than buyer problems and market positioning. *Why*: feature-led plans produce messaging that resonates internally but fails to connect with buyer pain points.
+- **Channel comfort bias**: Selecting channels based on team expertise rather than ICP behavior data. *Why*: marketers default to channels they know, which may not be where target buyers actually consume information.
+- **Budget-before-strategy**: Locking budget allocations before defining objectives and channel priorities. *Why*: budget-first planning forces strategy to fit arbitrary constraints rather than revenue logic.
+- **Planning in isolation**: Building the GTM plan without sales, product, and CS input. *Why*: marketing plans that ignore sales capacity, product readiness, or customer feedback produce campaigns that launch into organizational misalignment.
+
+## Output
+
+**On success**: Produces a comprehensive GTM plan document containing market context, objectives with KPIs, channel priority matrix, phased timeline, budget allocations with ROI projections, and channel-specific briefs. Delivered to CBO, sales leadership, product marketing, and all channel execution teams.
+
+**On failure**: Report which strategic inputs were unavailable (ICP data, competitive intelligence, revenue targets), what assumptions were substituted, and recommend steps to fill gaps before plan finalization.
+
+## Related Skills
+
+- [`gtm-activation-marketing`](../gtm-activation-marketing/SKILL.md) — Executes the activation phase of the GTM plan this skill produces.
+- [`demand-gen-planner`](../demand-gen-planner/SKILL.md) — Translates the GTM plan's channel strategy into specific lead volume targets and MQL definitions.
+- [`channel-signal-analyst`](../../demand-gen-manager/channel-signal-analyst/SKILL.md) — Provides historical channel performance data that informs channel mix selection.
+- [`marketing-attribution-modeller`](../../marketing-operations-manager/marketing-attribution-modeller/SKILL.md) — Supplies the attribution data used to project channel ROI in budget allocation.
