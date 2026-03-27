@@ -1,7 +1,0 @@
-# revenue-funnel-analyst
-
-## Agent: Revenue Operations
-L1 revenue operations function reporting to the COO, responsible for CRM infrastructure, billing, attribution, and funnel analytics. Maintains operational neutrality across all CBO revenue functions.
-
-## Skill Description
-Analyses the full revenue funnel from lead to renewal to identify conversion bottlenecks
