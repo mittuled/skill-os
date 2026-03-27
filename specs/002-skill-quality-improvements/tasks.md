@@ -11,10 +11,10 @@
 
 **Purpose**: Validation script updates and schema artifacts that all user stories depend on.
 
-- [ ] T001 Update `scripts/validate.py` to accept optional `triggers` frontmatter field (list of strings). Validation: each item is a non-empty string, 5-50 chars. No error if field absent. 1 commit.
-- [ ] T002 Update `scripts/validate.py` to accept `[GATE]` markers in workflow steps as valid syntax. Add warning (not error) when `[GATE]` appears in a skill with `complexity: simple`. 1 commit.
-- [ ] T003 Update `scripts/validate.py` to validate `allowed-tools.yaml` at repo root: check YAML syntax, `schema_version` field present and supported, department keys match `departments/` dirs, agent keys match `agents/` dirs. 1 commit.
-- [ ] T004 Create `allowed-tools.yaml` at repo root with `schema_version: 1` and empty `company-wide: []` placeholder. 1 commit.
+- [x] T001 Update `scripts/validate.py` to accept optional `triggers` frontmatter field (list of strings). Validation: each item is a non-empty string, 5-50 chars. No error if field absent. 1 commit.
+- [x] T002 Update `scripts/validate.py` to accept `[GATE]` markers in workflow steps as valid syntax. Add warning (not error) when `[GATE]` appears in a skill with `complexity: simple`. 1 commit.
+- [x] T003 Update `scripts/validate.py` to validate `allowed-tools.yaml` at repo root: check YAML syntax, `schema_version` field present and supported, department keys match `departments/` dirs, agent keys match `agents/` dirs. 1 commit.
+- [x] T004 Create `allowed-tools.yaml` at repo root with `schema_version: 1` and empty `company-wide: []` placeholder. 1 commit.
 - [ ] T005 Update enrichment template at `specs/001-enrich-skill-directory/contracts/skill-template.md` — add `triggers` as optional frontmatter field, add `[GATE]` guidance in Workflow section comments, add `Tool policy` reference in Agent header. 1 commit.
 - [ ] T006 Update `specs/001-enrich-skill-directory/quickstart.md` — add sections for triggers, gates, rubrics, code examples, and tool policy reference. 1 commit.
 
