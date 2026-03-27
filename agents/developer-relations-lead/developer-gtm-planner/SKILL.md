@@ -10,6 +10,11 @@ agent: developer-relations-lead
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "plan the developer GTM"
+  - "how do we reach developers"
+  - "create a developer acquisition strategy"
+  - "plan the developer launch"
 ---
 
 # developer-gtm-planner

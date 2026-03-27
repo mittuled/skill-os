@@ -10,6 +10,11 @@ related-skills:
   - instrumentation-spec-data
   - instrumentation-implementer-data
   - effort-estimator-data
+triggers:
+  - "plan the instrumentation rollout"
+  - "how should we implement tracking"
+  - "create an analytics implementation plan"
+  - "sequence the event deployment"
 ---
 
 # instrumentation-planner-data

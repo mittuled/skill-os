@@ -11,6 +11,11 @@ agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build the onboarding playbook"
+  - "design the customer onboarding flow"
+  - "reduce time to value for new customers"
+  - "standardize onboarding"
 ---
 
 # cs-onboarding-playbook-cs

@@ -10,6 +10,11 @@ agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design the user flow"
+  - "map the interaction flow"
+  - "create a task flow for this journey"
+  - "how should this flow work step by step"
 ---
 
 # flow-designer

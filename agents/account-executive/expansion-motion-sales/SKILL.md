@@ -13,6 +13,11 @@ related-skills:
   - ../sales-signal-collector/SKILL.md
   - ../sales-signal-synthesizer/SKILL.md
   - ../../vp-sales/opportunity-framer-sales/SKILL.md
+triggers:
+  - "plan an upsell"
+  - "expand this account"
+  - "find cross-sell opportunities"
+  - "grow revenue in existing accounts"
 ---
 
 # expansion-motion-sales

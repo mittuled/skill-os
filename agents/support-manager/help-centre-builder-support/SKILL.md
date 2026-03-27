@@ -10,6 +10,11 @@ agent: support-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build the help center"
+  - "create a knowledge base"
+  - "set up self-service support docs"
+  - "launch the help centre"
 ---
 
 # help-centre-builder-support

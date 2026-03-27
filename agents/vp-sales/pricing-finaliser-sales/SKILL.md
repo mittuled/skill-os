@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../pricing-strategy-sales/SKILL.md
   - ../../sales-manager/objection-handler-updater-sales/SKILL.md
+triggers:
+  - "finalize the pricing"
+  - "is this pricing sellable"
+  - "sign off on the price"
+  - "validate pricing with sales"
 ---
 
 # pricing-finaliser-sales

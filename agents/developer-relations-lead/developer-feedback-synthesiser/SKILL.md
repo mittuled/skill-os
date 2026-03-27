@@ -10,6 +10,11 @@ agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "summarize developer feedback"
+  - "what are developers saying"
+  - "consolidate dev community feedback"
+  - "synthesize developer pain points"
 ---
 
 # developer-feedback-synthesiser

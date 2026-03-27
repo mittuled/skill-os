@@ -14,6 +14,11 @@ related-skills:
   - ../../sales-manager/sales-playbook-builder/SKILL.md
   - ../../sales-manager/first-sales-process-builder/SKILL.md
   - ../../account-executive/expansion-motion-sales/SKILL.md
+triggers:
+  - "frame the sales opportunity"
+  - "define the sales motion for this segment"
+  - "how should we position this deal"
+  - "structure the sales approach"
 ---
 
 # opportunity-framer-sales

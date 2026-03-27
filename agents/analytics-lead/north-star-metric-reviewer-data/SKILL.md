@@ -10,6 +10,11 @@ related-skills:
   - goal-framer-data
   - alerting-configurator-data
   - north-star-metric-reviewer
+triggers:
+  - "review the north star metric"
+  - "is our north star still valid"
+  - "audit the key metric"
+  - "should we change our north star"
 ---
 
 # north-star-metric-reviewer-data

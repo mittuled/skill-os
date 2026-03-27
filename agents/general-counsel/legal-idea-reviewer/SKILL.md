@@ -13,6 +13,11 @@ complexity: simple
 related-skills:
   - ../../product-counsel/business-model-legal-reviewer/SKILL.md
   - ../../corporate-counsel/compliance-scanner/SKILL.md
+triggers:
+  - "review this idea for legal risks"
+  - "is this product concept legally viable"
+  - "check for IP issues with this idea"
+  - "vet this concept with legal"
 ---
 
 # legal-idea-reviewer

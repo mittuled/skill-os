@@ -10,6 +10,11 @@ agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "grow the developer community"
+  - "plan a developer event"
+  - "build a contributor program"
+  - "increase developer engagement"
 ---
 
 # developer-community-grower

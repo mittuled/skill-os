@@ -10,6 +10,11 @@ agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "package the developer launch"
+  - "prepare SDK release assets"
+  - "bundle the launch kit for developers"
+  - "get developer docs ready for launch"
 ---
 
 # developer-launch-packager
