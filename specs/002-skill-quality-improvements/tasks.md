@@ -28,12 +28,12 @@
 
 **Independent Test**: Run in a test environment with 3 tools (GitHub, Slack, mock CRM). Verify discovery, authentication, and agent access.
 
-- [ ] T007 [US1] Create `agents/agent-configuration-manager/company-tooling-onboarder/` directory structure (SKILL.md, scripts/, references/). 1 commit.
-- [ ] T008 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/SKILL.md` — enriched 9-section format (complexity: complex). Workflow: interview operator about tool categories → detect existing MCP servers → authenticate → connect → generate allowed-tools.yaml → delegate to mcp-server-builder for tools without MCP. 1 commit.
-- [ ] T009 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/references/tool-categories.md` — standard SaaS tool categories (communication, source control, PM, observability, CRM, documentation, finance, legal, design) with top 3-5 tools per category and their MCP availability status. 1 commit.
-- [ ] T010 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/discover-tools.py` — interactive tool discovery script. Presents categories, records selections, checks for existing MCP servers via package registry lookup. Zero external deps. 1 commit.
-- [ ] T011 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/connect-mcp.py` — MCP server connection helper. Takes tool name + auth credentials, configures the MCP server endpoint, validates connectivity, records in allowed-tools.yaml. 1 commit.
-- [ ] T012 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/configure-secrets.py` — platform secret store setup helper. Detects platform (Claude Code → .env, Codex → vault, generic → env vars), writes credentials to the appropriate store, never to repo. 1 commit.
+- [x] T007 [US1] Create `agents/agent-configuration-manager/company-tooling-onboarder/` directory structure (SKILL.md, scripts/, references/). 1 commit.
+- [x] T008 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/SKILL.md` — enriched 9-section format (complexity: complex). 1 commit.
+- [x] T009 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/references/tool-categories.md`. 1 commit.
+- [x] T010 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/discover-tools.py`. 1 commit.
+- [x] T011 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/connect-mcp.py`. 1 commit.
+- [x] T012 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/configure-secrets.py`. 1 commit.
 - [ ] T013 [US1] Update `restructured-org-chart-v3.md` — add `company-tooling-onboarder` to Agent Configuration Manager's skill list. 1 commit.
 
 ---
@@ -44,10 +44,10 @@
 
 **Independent Test**: Add/remove/modify tool permissions via the skill. Verify allowed-tools.yaml updates correctly and validation passes.
 
-- [ ] T014 [US2] Create `agents/agent-configuration-manager/tool-policy-manager/` directory structure. 1 commit.
-- [ ] T015 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/SKILL.md` — enriched 9-section format (complexity: medium). Workflow: read current policy → apply requested change (add/remove/modify tool at specified level) → validate schema → commit with change tracking. 1 commit.
-- [ ] T016 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/scripts/validate-policy.py` — standalone YAML schema validation for allowed-tools.yaml. Checks schema_version, structure, reference resolution. 1 commit.
-- [ ] T017 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/assets/allowed-tools-template.yaml` — starter template with example entries for each access level. 1 commit.
+- [x] T014 [US2] Create `agents/agent-configuration-manager/tool-policy-manager/` directory structure. 1 commit.
+- [x] T015 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/SKILL.md`. 1 commit.
+- [x] T016 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/scripts/validate-policy.py`. 1 commit.
+- [x] T017 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/assets/allowed-tools-template.yaml`. 1 commit.
 - [ ] T018 [US2] Add tool policy reference to all agent directories — add `Tool policy: [allowed-tools.yaml](../../allowed-tools.yaml)` line to the Agent header section of one representative skill per agent (80 agents). This is a batch update, not per-skill. 1 commit.
 - [ ] T019 [US2] Update `restructured-org-chart-v3.md` — add `tool-policy-manager` to Agent Configuration Manager's skill list. 1 commit.
 
@@ -59,11 +59,11 @@
 
 **Independent Test**: Point at a tool with an OpenAPI spec. Verify it scaffolds a working MCP server.
 
-- [ ] T020 [US3] Create `agents/skill-builder/mcp-server-builder/` directory structure (SKILL.md, scripts/, references/). 1 commit.
-- [ ] T021 [US3] Write `agents/skill-builder/mcp-server-builder/SKILL.md` — enriched 9-section format (complexity: complex). Workflow: receive API docs → parse endpoints → map to MCP tools → scaffold server code → validate against API → report results. 1 commit.
-- [ ] T022 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/parse-openapi.py` — OpenAPI spec parser. Extracts endpoints, methods, parameters, response schemas. Outputs structured JSON. Zero external deps (uses json + urllib only). 1 commit.
-- [ ] T023 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/scaffold-mcp.py` — MCP server scaffolding script. Takes parsed API structure, generates a FastMCP-compatible Python server with tool definitions. 1 commit.
-- [ ] T024 [US3] Write `agents/skill-builder/mcp-server-builder/references/mcp-protocol.md` — MCP protocol reference covering: tool definition format, transport options, error handling patterns, best practices for tool naming and descriptions. 1 commit.
+- [x] T020 [US3] Create `agents/skill-builder/mcp-server-builder/` directory structure. 1 commit.
+- [x] T021 [US3] Write `agents/skill-builder/mcp-server-builder/SKILL.md`. 1 commit.
+- [x] T022 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/parse-openapi.py`. 1 commit.
+- [x] T023 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/scaffold-mcp.py`. 1 commit.
+- [x] T024 [US3] Write `agents/skill-builder/mcp-server-builder/references/mcp-protocol.md`. 1 commit.
 - [ ] T025 [US3] Update `restructured-org-chart-v3.md` — add `mcp-server-builder` to Skill Builder's skill list. 1 commit.
 
 ---
@@ -74,10 +74,10 @@
 
 **Independent Test**: Connect 3 tools, revoke one token. Verify health report catches the failure.
 
-- [ ] T026 [US4] Create `agents/agent-operations-manager/tool-health-checker/` directory structure (SKILL.md, scripts/, assets/). 1 commit.
-- [ ] T027 [US4] Write `agents/agent-operations-manager/tool-health-checker/SKILL.md` — enriched 9-section format (complexity: medium). Workflow: read allowed-tools.yaml → for each tool, test connectivity + auth → classify status (healthy/degraded/unreachable) → generate report. 1 commit.
-- [ ] T028 [US4] Write `agents/agent-operations-manager/tool-health-checker/scripts/check-health.py` — connectivity and auth checker. For each tool in allowed-tools.yaml, attempts a lightweight API call (e.g., whoami endpoint), reports pass/fail with latency. 1 commit.
-- [ ] T029 [US4] Write `agents/agent-operations-manager/tool-health-checker/assets/health-report-template.md` — output template with tool name, status, last checked, latency, and remediation steps columns. 1 commit.
+- [x] T026 [US4] Create `agents/agent-operations-manager/tool-health-checker/` directory structure. 1 commit.
+- [x] T027 [US4] Write `agents/agent-operations-manager/tool-health-checker/SKILL.md`. 1 commit.
+- [x] T028 [US4] Write `agents/agent-operations-manager/tool-health-checker/scripts/check-health.py`. 1 commit.
+- [x] T029 [US4] Write `agents/agent-operations-manager/tool-health-checker/assets/health-report-template.md`. 1 commit.
 - [ ] T030 [US4] Update `restructured-org-chart-v3.md` — add `tool-health-checker` to Agent Operations Manager's skill list. 1 commit.
 
 ---

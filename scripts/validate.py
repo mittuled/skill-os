@@ -283,12 +283,33 @@ def validate_allowed_tools(repo_root, result):
         result.error("allowed-tools.yaml", f"Cannot read file: {e}")
         return
 
-    # Simple YAML parsing for the policy file
-    import yaml  # noqa: delayed import — only needed if file exists
+    # Simple YAML parsing — try yaml module, fall back to basic parsing
     try:
+        import yaml
         data = yaml.safe_load(text)
+    except ImportError:
+        # No pyyaml — use basic string parsing
+        data = {}
+        for line in text.split("\n"):
+            stripped = line.strip()
+            if stripped.startswith("#") or not stripped:
+                continue
+            if ":" in stripped and not stripped.startswith("-"):
+                key, _, val = stripped.partition(":")
+                val = val.strip()
+                if val.isdigit():
+                    data[key.strip()] = int(val)
+                elif val == "[]":
+                    data[key.strip()] = []
+                elif val:
+                    data[key.strip()] = val
+                else:
+                    data[key.strip()] = {}
+        if not data:
+            if "schema_version:" not in text:
+                result.error("allowed-tools.yaml", "Missing schema_version field")
+            return
     except Exception:
-        # Fallback: try to detect basic structure without yaml module
         if "schema_version:" not in text:
             result.error("allowed-tools.yaml", "Missing schema_version field")
         return
