@@ -115,8 +115,8 @@
 
 **Independent Test**: Run an assessment skill against two subjects. Verify identical rubric produces comparable numeric scores.
 
-- [ ] T040 [US7] Identify 10 assessment skills (vendor risk, code review, compliance audit, etc.). Save target list. 1 commit.
-- [ ] T041 [US7] Create `references/scoring-rubric.md` for each of the 10 skills — criteria, weights (sum to 100%), 0-10 scale, A+ through F grade bands, signal tables. Update each skill's Workflow to reference the rubric. 1 commit per skill (10 commits).
+- [x] T040 [US7] Identify 10 assessment skills. Done.
+- [x] T041 [US7] Create `references/scoring-rubric.md` for 10 skills + update Workflows. Done.
 
 ---
 
@@ -126,9 +126,9 @@
 
 **Independent Test**: Verify an agent executing an engineering skill references the examples and produces correct output.
 
-- [ ] T042 [US8] Identify 20 engineering skills that produce or review code. Save target list. 1 commit.
-- [ ] T043 [US8] Create `examples/` for 10 skills (DevOps + Platform) — each with input.md + output file in the relevant language. 1 commit per skill (10 commits).
-- [ ] T044 [US8] Create `examples/` for 10 skills (Frontend + Backend + Security) — each with input.md + output file. 1 commit per skill (10 commits).
+- [x] T042 [US8] Identify 20 engineering skills. Done.
+- [x] T043 [US8] Create `examples/` for 10 DevOps + Platform skills. Done.
+- [x] T044 [US8] Create `examples/` for 10 Frontend + Backend + Security + Data skills. Done.
 
 ---
 
@@ -149,7 +149,7 @@
 
 **Purpose**: Constitution amendment, full validation, status update.
 
-- [ ] T049 Amend constitution to v2.1.0 — document `triggers` frontmatter, `[GATE]` workflow markers, `allowed-tools.yaml` policy file, tool policy reference in Agent headers, 4 new tooling skills. 1 commit.
+- [x] T049 Amend constitution to v2.1.0 — document `triggers`, `[GATE]`, `allowed-tools.yaml`, tool policy. Done.
 - [ ] T050 Update frontmatter schema at `specs/001-enrich-skill-directory/contracts/frontmatter-schema.yaml` — add `triggers` as optional field. 1 commit.
 - [ ] T051 Run full repo validation: `python3 scripts/validate.py` — confirm 0 errors across all 499+ skills. Fix any errors. 1 commit per fix.
 - [ ] T052 Update `status.md` — reflect 4 new skills, tool policy, triggers/gates/rubrics/examples counts. 1 commit.
