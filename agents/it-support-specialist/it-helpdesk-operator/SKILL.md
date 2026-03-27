@@ -19,6 +19,7 @@ related-skills: []
 L2 IT support specialist (Nx, multi-instance) responsible for helpdesk operations.
 
 Department ethos: [ideal-technical-operations.md](../../../departments/technical-operations/ideal-technical-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

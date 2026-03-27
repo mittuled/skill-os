@@ -35,6 +35,16 @@ related-skills: []
 
 Write the description "pushy" — include trigger phrases so AI agents know when to activate.
 
+### Optional: Add Triggers
+
+Add a `triggers` list to frontmatter for the most commonly activated skills. Each trigger is a short phrase (5-50 chars) that helps AI agents match user intent to this skill:
+
+```yaml
+triggers:
+  - "review this contract"
+  - "draft a press release"
+```
+
 ## Step 3: Expand the Body
 
 Keep the existing Agent header and Skill Description. Add the new sections:
@@ -47,12 +57,23 @@ Keep the existing Agent header and Skill Description. Add the new sections:
 
 Use the template at `specs/001-enrich-skill-directory/contracts/skill-template.md`.
 
-## Step 4: Add the Ethos Reference
+### Gates
+
+For complex skills with high-stakes steps, add `[GATE]` markers in the Workflow to require explicit approval before proceeding:
+
+```markdown
+4. **[GATE] Legal Review**: Obtain sign-off from Product Counsel before publishing. Deliverable: signed approval.
+```
+
+Use gates sparingly -- only for steps where proceeding without review could cause irreversible harm.
+
+## Step 4: Add the Ethos and Tool Policy References
 
 In the Agent header section, add:
 
 ```markdown
 Department ethos: [ideal-<dept>.md](../../../departments/<dept>/ideal-<dept>.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 ```
 
 ## Step 5: Check Word Limits

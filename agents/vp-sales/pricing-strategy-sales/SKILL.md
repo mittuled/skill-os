@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../pricing-finaliser-sales/SKILL.md
   - ../opportunity-framer-sales/SKILL.md
+triggers:
+  - "set the pricing strategy"
+  - "what should we charge"
+  - "build pricing based on field data"
+  - "develop pricing for this segment"
 ---
 
 # pricing-strategy-sales

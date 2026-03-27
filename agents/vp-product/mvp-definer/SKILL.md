@@ -10,6 +10,12 @@ agent: vp-product
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "define the MVP"
+  - "what's the minimum we need to ship"
+  - "scope the v1"
+  - "draw the MVP cut line"
+  - "what can we cut from v1"
 ---
 
 # mvp-definer

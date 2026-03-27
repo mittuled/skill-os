@@ -13,6 +13,11 @@ complexity: simple
 related-skills:
   - ../../product-counsel/business-model-legal-reviewer/SKILL.md
   - ../../corporate-counsel/compliance-scanner/SKILL.md
+triggers:
+  - "review this idea for legal risks"
+  - "is this product concept legally viable"
+  - "check for IP issues with this idea"
+  - "vet this concept with legal"
 ---
 
 # legal-idea-reviewer
@@ -37,7 +42,7 @@ Reviews new business ideas and product concepts for material legal risks includi
 
 1. **Concept Intake**: Review the business idea brief, product concept document, or pitch deck. Identify the target market, data flows, revenue model, and key technology components. Deliverable: structured risk intake summary.
 2. **Legal Risk Scan**: Assess the concept across five dimensions: regulatory compliance (industry-specific licensing, permits), IP risk (freedom to operate, prior art, trademark conflicts), liability exposure (product liability, indemnification obligations), data privacy (GDPR, CCPA, COPPA applicability), and contractual constraints (existing obligations that may conflict). Deliverable: risk assessment matrix rated green/yellow/red per dimension.
-3. **Recommendation**: Provide a go/no-go/conditional-go recommendation with specific conditions that must be met. Deliverable: one-page legal risk memo with the risk matrix and actionable next steps.
+3. **Recommendation**: Provide a go/no-go/conditional-go recommendation with specific conditions that must be met. Deliverable: one-page legal risk memo with the risk matrix and actionable next steps. [GATE]
 
 ## Anti-Patterns
 

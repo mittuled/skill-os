@@ -35,7 +35,7 @@ The vendor risk assessor evaluates the risk profile of current and prospective v
 
 1. **Define risk criteria**: Establish the risk dimensions to evaluate: financial stability, security posture, operational resilience, compliance, and concentration risk. Deliverable: risk assessment framework.
 2. **Gather vendor information**: Request security questionnaires, SOC 2 reports, financial statements, and business continuity plans from the vendor. Deliverable: vendor information package.
-3. **Assess each dimension**: Score the vendor on each risk dimension using the defined framework. Deliverable: risk scorecard.
+3. **Assess each dimension**: Score the vendor on each risk dimension using the defined framework. Apply the scoring rubric at `references/scoring-rubric.md`. Deliverable: risk scorecard.
 4. **Identify mitigations**: For elevated risks, define mitigation strategies such as contractual protections, backup vendors, or monitoring. Deliverable: risk mitigation plan.
 5. **Document and recommend**: Compile the assessment into a risk report with a clear accept, mitigate, or reject recommendation. Deliverable: vendor risk assessment report.
 

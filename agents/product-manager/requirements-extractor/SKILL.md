@@ -11,6 +11,11 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "extract requirements from these notes"
+  - "turn interview notes into requirements"
+  - "what are the requirements for this feature"
+  - "structure these feature requests"
 ---
 
 # requirements-extractor

@@ -14,6 +14,11 @@ related-skills:
   - ../infrastructure-requirements-extractor/SKILL.md
   - ../runbook-drafter/SKILL.md
   - ../performance-monitor/SKILL.md
+triggers:
+  - "check if we're production ready"
+  - "run a production readiness review"
+  - "is this service ready for launch"
+  - "audit operational maturity"
 ---
 
 # production-readiness-reviewer

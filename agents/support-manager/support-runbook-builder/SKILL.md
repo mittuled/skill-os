@@ -10,6 +10,11 @@ agent: support-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build support runbooks"
+  - "document support procedures"
+  - "create troubleshooting guides"
+  - "standardize agent responses"
 ---
 
 # support-runbook-builder

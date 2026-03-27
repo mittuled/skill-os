@@ -18,6 +18,7 @@ related-skills: []
 L3 PMM analyst and content strategist (multi-instance) responsible for in-app announcements, changelog publishing, case study creation, and content engine operations.
 
 Department ethos: [ideal-product.md](../../../departments/product/ideal-product.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 Extracts and structures customer case studies from CS and sales inputs into publishable narratives that demonstrate measurable business outcomes.

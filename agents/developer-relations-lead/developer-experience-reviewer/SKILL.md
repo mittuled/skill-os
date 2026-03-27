@@ -10,6 +10,11 @@ agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review the developer experience"
+  - "audit the SDK onboarding"
+  - "check developer docs usability"
+  - "how is our DX"
 ---
 
 # developer-experience-reviewer

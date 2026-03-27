@@ -40,7 +40,7 @@ Drafts and maintains the terms of service and related user agreements by transla
 3. **Drafting**: Draft the terms in clear, accessible language while maintaining legal enforceability. Structure sections logically: account terms, acceptable use, intellectual property, payment terms, liability, dispute resolution, termination, and modifications. Deliverable: draft terms of service.
 4. **Internal Review**: Route the draft to product, engineering, and business stakeholders to verify accuracy of product descriptions, data practices, and commercial terms. Deliverable: stakeholder-reviewed draft.
 5. **Enforceability Optimization**: Review clickwrap/browsewrap implementation for enforceability. Ensure the acceptance mechanism creates a binding agreement. Design the change notification process for existing users. Deliverable: acceptance mechanism specification and change notification plan.
-6. **Publication and Versioning**: Publish the terms with proper versioning, effective date, and change summary. Archive previous versions. Implement the user notification process for material changes. Deliverable: published terms with version history.
+6. **Publication and Versioning**: Publish the terms with proper versioning, effective date, and change summary. Archive previous versions. Implement the user notification process for material changes. Deliverable: published terms with version history. [GATE]
 
 ## Anti-Patterns
 

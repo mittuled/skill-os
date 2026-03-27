@@ -18,6 +18,7 @@ related-skills: []
 L2 product marketing manager responsible for competitive intelligence, positioning, GTM planning, pricing strategy, launch narrative, and sales enablement.
 
 Department ethos: [ideal-product.md](../../../departments/product/ideal-product.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 Monitors competitive activity and maintains the competitive response playbook, ensuring the organization reacts swiftly and strategically to market moves by rival products.

@@ -20,6 +20,7 @@ related-skills: []
 L2 technical account manager (1x) responsible for technical health monitoring of enterprise accounts and identifying expansion opportunities.
 
 Department ethos: [ideal-customer-success.md](../../../departments/customer-success/ideal-customer-success.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

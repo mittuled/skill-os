@@ -144,6 +144,43 @@ distinguish excellent practitioners from average ones, not generic platitudes.
 Without them, skills produce technically correct but soulless output. With them,
 agents embody the judgment and values that make work excellent.
 
+### VIII. Tool Policy
+
+A structured `allowed-tools.yaml` file at the repo root defines which tools are
+available to agents at four levels: company-wide, department, agent, and skill.
+Each agent directory's Agent header MUST include a tool policy reference:
+`Tool policy: [allowed-tools.yaml](../../allowed-tools.yaml)`.
+
+The file MUST include a `schema_version` field. Credentials MUST be stored in
+the consuming AI platform's native secret store — never in the repo.
+
+**Rationale**: Connecting tools without access control is a security risk. The
+policy file is the guardrail that makes tool connectivity safe at scale.
+
+### IX. Optional Frontmatter Extensions
+
+Skill frontmatter MAY include optional fields beyond the 7 required fields:
+
+- `triggers`: A list of short phrases (2-10 words) for machine-optimized skill
+  activation. Complements the pushy `description` field.
+
+Additional optional fields are permitted but not validated — this allows future
+extensibility without breaking existing skills.
+
+**Rationale**: Triggers improve activation accuracy. Optional fields enable
+platform-specific enhancements without imposing them on all consumers.
+
+### X. Checkpoint Gates
+
+Complex skill workflows MAY include `[GATE]` markers on steps that require human
+approval before the agent proceeds. Format: `[GATE]` appended to the workflow
+step text. The validation script SHOULD warn when `[GATE]` appears in a
+simple-complexity skill.
+
+**Rationale**: Prevents autonomous execution of high-stakes decisions — deploys,
+legal filings, budget approvals, security exceptions. Gates are advisory;
+enforcement depends on the agent runtime.
+
 ## Structural Conventions
 
 - Each skill MUST live in its own subdirectory: `agents/<agent>/<skill>/SKILL.md`.
@@ -188,11 +225,11 @@ format, naming, or commit discipline. CLAUDE.md continues to govern tooling choi
 workflow shortcuts, and project-startup checklists.
 
 All speckit plan and task generation commands MUST verify compliance with Principles
-I–VII before proceeding. Any detected violation MUST be reported in the Constitution
+I–X before proceeding. Any detected violation MUST be reported in the Constitution
 Check section of the relevant plan.md before the plan advances.
 
 Complexity or deviation from these principles MUST be justified explicitly in a
 Complexity Tracking table in the relevant plan.md — not in commit messages or
 conversation.
 
-**Version**: 2.0.0 | **Ratified**: 2026-03-26 | **Last Amended**: 2026-03-26
+**Version**: 2.1.0 | **Ratified**: 2026-03-26 | **Last Amended**: 2026-03-27

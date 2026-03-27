@@ -21,6 +21,7 @@ related-skills: []
 L2 customer programs manager (1x) responsible for customer advisory boards, NPS programme, customer reference programme, and community health.
 
 Department ethos: [ideal-customer-success.md](../../../departments/customer-success/ideal-customer-success.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -10,6 +10,9 @@ version: 1.0.0
 complexity: simple | medium | complex
 related-skills:
   - ../../<other-agent>/<other-skill>/SKILL.md
+triggers:                          # optional — 5-50 chars per item
+  - "<short activation phrase 1>"
+  - "<short activation phrase 2>"
 ---
 
 # <skill-slug>
@@ -19,6 +22,7 @@ related-skills:
 <Seniority level (L1/L2/L3)> <role description> (<instance type: 1x or Nx>) responsible for <scope summary>.
 
 Department ethos: [ideal-<dept>.md](../../../departments/<dept>/ideal-<dept>.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 
@@ -35,6 +39,10 @@ Department ethos: [ideal-<dept>.md](../../../departments/<dept>/ideal-<dept>.md)
 1. **<Phase/Step Name>**: <Imperative instruction>. Deliverable: <what this step produces>.
 2. **<Phase/Step Name>**: <Imperative instruction>. Deliverable: <what this step produces>.
 3. **<Phase/Step Name>**: <Imperative instruction>. Deliverable: <what this step produces>.
+
+<!-- For high-stakes steps, add [GATE] to require explicit approval before proceeding:
+4. **[GATE] <Critical Step>**: <Imperative instruction requiring sign-off>. Deliverable: <what this step produces>.
+-->
 
 ## Anti-Patterns
 

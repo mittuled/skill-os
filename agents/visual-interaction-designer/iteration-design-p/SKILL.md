@@ -20,6 +20,7 @@ related-skills: []
 L3 visual and interaction designer (Nx) responsible for session analysis and design iteration in the production phase.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

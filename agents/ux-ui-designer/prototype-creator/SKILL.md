@@ -11,6 +11,11 @@ agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build a prototype"
+  - "create a clickable demo"
+  - "make an interactive mockup"
+  - "prototype this for testing"
 ---
 
 # prototype-creator

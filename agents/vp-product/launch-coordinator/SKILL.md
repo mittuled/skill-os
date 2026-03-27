@@ -38,7 +38,7 @@ Coordinates all cross-functional activities required for a successful product la
 4. **Coordinate marketing and comms**: Confirm messaging, blog posts, changelog entries, email campaigns, and social media are queued and reviewed. Deliverable: comms checklist with publication dates and approval status.
 5. **Prepare sales enablement**: Ensure sales decks, demo scripts, pricing updates, and FAQ documents are finalized and distributed. Deliverable: enablement package with distribution confirmation.
 6. **Stage support readiness**: Verify knowledge base articles, runbooks, escalation procedures, and support tier routing are updated. Deliverable: support readiness sign-off from CS and support leads.
-7. **Execute go/no-go ceremony**: Convene all workstream owners for final go/no-go. Walk through every checklist item, surface blockers, and make the call. Deliverable: go/no-go decision record with blocker resolution plan if conditional.
+7. **Execute go/no-go ceremony**: Convene all workstream owners for final go/no-go. Walk through every checklist item, surface blockers, and make the call. Deliverable: go/no-go decision record with blocker resolution plan if conditional. [GATE]
 8. **Monitor rollout**: Track feature flag progression, error rates, latency, and user-reported issues during phased rollout. Deliverable: rollout dashboard with real-time metrics and incident log.
 9. **Run hypercare**: Staff a dedicated response team for the first 48-72 hours post-launch. Triage incoming issues, escalate P0/P1 bugs, and communicate status to stakeholders. Deliverable: hypercare summary report with issue count, resolution times, and follow-up items.
 

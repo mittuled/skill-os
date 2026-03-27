@@ -37,7 +37,7 @@ Executes progressive rollouts (canary, blue-green, percentage-based) by incremen
 
 1. **Pre-Rollout Verification**: Verify the rollout configuration (stages, percentages, durations, success criteria). Confirm the rollback plan is ready and tested. Verify monitoring dashboards and alerts are active. Deliverable: pre-rollout checklist confirmation.
 2. **Initial Canary**: Deploy to the initial canary percentage (typically 1-5% of traffic). Monitor error rates, latency, and business metrics for the configured bake time. Compare canary metrics against the baseline. Deliverable: canary stage metrics and comparison.
-3. **Progressive Expansion**: If canary metrics pass success criteria, advance to each subsequent stage (e.g., 10%, 25%, 50%, 100%). At each stage, monitor for the configured bake time before advancing. Deliverable: stage-by-stage metrics report.
+3. **Progressive Expansion**: If canary metrics pass success criteria, advance to each subsequent stage (e.g., 10%, 25%, 50%, 100%). At each stage, monitor for the configured bake time before advancing. Deliverable: stage-by-stage metrics report. [GATE]
 4. **Anomaly Response**: If metrics degrade at any stage, pause the rollout immediately. Assess whether the degradation is caused by the change or is coincidental. Execute rollback if the change is confirmed as the cause. Deliverable: anomaly assessment and action taken.
 5. **Completion**: Once 100% traffic is on the new version and metrics are stable, mark the rollout as complete. Clean up old version resources. Update deployment records. Deliverable: rollout completion report.
 

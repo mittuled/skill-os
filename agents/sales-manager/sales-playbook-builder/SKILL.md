@@ -43,7 +43,7 @@ Builds the sales playbook including qualification criteria, discovery questions,
 4. **Competitive Battle Cards**: Create battle cards for the top 3 competitors covering positioning, strengths, weaknesses, landmines to set, and trap questions to ask. Include "why we win" and "why we lose" sections from win/loss data. Deliverable: competitive battle cards.
 5. **Objection Handler**: Document the top 15 objections with response frameworks using the acknowledge-reframe-evidence pattern. Categorize by pricing, product, competition, timing, and trust. Deliverable: objection handler document.
 6. **Closing Playbook**: Define closing techniques matched to deal types: trial close questions, proposal frameworks, negotiation guardrails, and mutual action plan templates. Deliverable: closing playbook section.
-7. **Assembly and Review**: Assemble all components into a single navigable playbook. Review with VP Sales and 2 senior reps. Incorporate feedback and publish. Deliverable: complete sales playbook v1.0.
+7. **Assembly and Review**: Assemble all components into a single navigable playbook. Review with VP Sales and 2 senior reps. Incorporate feedback and publish. Deliverable: complete sales playbook v1.0. [GATE]
 
 ## Anti-Patterns
 

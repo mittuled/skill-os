@@ -18,6 +18,7 @@ related-skills: []
 L3 product operations analyst (multi-instance) responsible for rollout configuration, adoption tracking, revenue impact monitoring, support triage, and iteration prioritisation.
 
 Department ethos: [ideal-product.md](../../../departments/product/ideal-product.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 Tracks user adoption metrics against targets and flags underperformance requiring intervention.

@@ -20,6 +20,7 @@ related-skills: []
 L2 customer success manager (1x) responsible for CS cohort selection, release readiness, health monitoring, and case study extraction.
 
 Department ethos: [ideal-customer-success.md](../../../departments/customer-success/ideal-customer-success.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -22,6 +22,7 @@ related-skills:
 L3 sales development representative (Nx) responsible for outbound prospecting and cohort-based targeting.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

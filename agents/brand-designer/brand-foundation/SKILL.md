@@ -20,6 +20,7 @@ related-skills: []
 L2 brand designer (1x) responsible for brand foundation, visual identity, and positioning expression through design.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -11,6 +11,11 @@ agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "map components for this feature"
+  - "what design system components do we need"
+  - "find component gaps"
+  - "audit component coverage"
 ---
 
 # component-mapper-design

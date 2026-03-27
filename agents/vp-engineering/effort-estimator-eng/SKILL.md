@@ -12,6 +12,11 @@ complexity: medium
 related-skills:
   - ../../vp-engineering/team-allocator/SKILL.md
   - ../../vp-engineering/phase-planner-eng/SKILL.md
+triggers:
+  - "estimate the effort for this"
+  - "how long will this take to build"
+  - "size this feature"
+  - "give me a time estimate"
 ---
 
 # effort-estimator-eng

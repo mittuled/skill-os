@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../risk-register-legal/SKILL.md
   - ../compliance-scanner/SKILL.md
+triggers:
+  - "review this vendor contract"
+  - "check the terms of service"
+  - "is this SaaS agreement safe to sign"
+  - "review this third-party agreement"
 ---
 
 # third-party-tos-reviewer

@@ -20,6 +20,7 @@ related-skills: []
 L3 UAT coordinator within Customer Success (1x) responsible for coordinating user acceptance testing with customers.
 
 Department ethos: [ideal-customer-success.md](../../../departments/customer-success/ideal-customer-success.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

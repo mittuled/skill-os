@@ -229,6 +229,23 @@ def validate_skill(skill_path, repo_root, result):
         if ethos_filename not in body and ethos_filename not in text:
             result.warn(rel, f"No reference to ethos profile '{ethos_filename}' found in file")
 
+    # --- Triggers validation (optional field) ---
+    triggers = fm.get("triggers", None)
+    if triggers is not None:
+        if not isinstance(triggers, list):
+            result.warn(rel, "triggers must be a list of strings")
+        else:
+            for i, t in enumerate(triggers):
+                if not isinstance(t, str) or not t.strip():
+                    result.warn(rel, f"triggers[{i}] must be a non-empty string")
+                elif len(t) < 5 or len(t) > 50:
+                    result.warn(rel, f"triggers[{i}] should be 5-50 chars: '{t}' ({len(t)} chars)")
+
+    # --- [GATE] marker validation ---
+    if "[GATE]" in body:
+        if complexity == "simple":
+            result.warn(rel, "[GATE] marker found in a simple-complexity skill — gates are unusual for simple skills")
+
     # --- Related skills cross-reference paths ---
     related = fm.get("related-skills", [])
     if isinstance(related, list):
@@ -252,6 +269,75 @@ def validate_ethos(ethos_path, repo_root, result):
     word_count = count_body_words(text)
     if word_count > ETHOS_PROFILE_MAX_WORDS:
         result.error(rel, f"ethos profile word count {word_count} exceeds max {ETHOS_PROFILE_MAX_WORDS}")
+
+
+def validate_allowed_tools(repo_root, result):
+    """Validate allowed-tools.yaml if it exists."""
+    policy_file = repo_root / "allowed-tools.yaml"
+    if not policy_file.is_file():
+        return
+
+    try:
+        text = policy_file.read_text(encoding="utf-8")
+    except Exception as e:
+        result.error("allowed-tools.yaml", f"Cannot read file: {e}")
+        return
+
+    # Simple YAML parsing — try yaml module, fall back to basic parsing
+    try:
+        import yaml
+        data = yaml.safe_load(text)
+    except ImportError:
+        # No pyyaml — use basic string parsing
+        data = {}
+        for line in text.split("\n"):
+            stripped = line.strip()
+            if stripped.startswith("#") or not stripped:
+                continue
+            if ":" in stripped and not stripped.startswith("-"):
+                key, _, val = stripped.partition(":")
+                val = val.strip()
+                if val.isdigit():
+                    data[key.strip()] = int(val)
+                elif val == "[]":
+                    data[key.strip()] = []
+                elif val:
+                    data[key.strip()] = val
+                else:
+                    data[key.strip()] = {}
+        if not data:
+            if "schema_version:" not in text:
+                result.error("allowed-tools.yaml", "Missing schema_version field")
+            return
+    except Exception:
+        if "schema_version:" not in text:
+            result.error("allowed-tools.yaml", "Missing schema_version field")
+        return
+
+    if not isinstance(data, dict):
+        result.error("allowed-tools.yaml", "File must be a YAML mapping")
+        return
+
+    # Check schema_version
+    sv = data.get("schema_version")
+    if sv is None:
+        result.error("allowed-tools.yaml", "Missing schema_version field")
+    elif sv != 1:
+        result.warn("allowed-tools.yaml", f"Unknown schema_version: {sv} (expected 1)")
+
+    # Check department references
+    dept_tools = data.get("department", {})
+    if isinstance(dept_tools, dict):
+        for dept_name in dept_tools:
+            if not (repo_root / "departments" / dept_name).is_dir():
+                result.warn("allowed-tools.yaml", f"department '{dept_name}' not found in departments/")
+
+    # Check agent references
+    agent_tools = data.get("agent", {})
+    if isinstance(agent_tools, dict):
+        for agent_name in agent_tools:
+            if not (repo_root / "agents" / agent_name).is_dir():
+                result.warn("allowed-tools.yaml", f"agent '{agent_name}' not found in agents/")
 
 
 def check_bidirectional_refs(all_skills, repo_root, result):
@@ -347,6 +433,9 @@ def main():
     # Check bidirectional refs (full repo only, or if multiple files)
     if len(skill_files) > 1:
         check_bidirectional_refs(skill_files, repo_root, result)
+
+    # Check allowed-tools.yaml
+    validate_allowed_tools(repo_root, result)
 
     # Check reference file TOC requirements
     check_reference_toc(repo_root, result)

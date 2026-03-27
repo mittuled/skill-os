@@ -12,6 +12,11 @@ complexity: complex
 related-skills:
   - ../../demand-gen-manager/channel-signal-analyst/SKILL.md
   - ../../marketing-operations-manager/lead-scoring-model-builder/SKILL.md
+triggers:
+  - "plan demand generation"
+  - "set pipeline targets for the quarter"
+  - "build the demand gen strategy"
+  - "how do we generate more leads"
 ---
 
 # demand-gen-planner
@@ -21,6 +26,7 @@ related-skills:
 L1 marketing leader (1x) reporting to the CBO, responsible for GTM planning, demand generation strategy, and marketing activation across all channels.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

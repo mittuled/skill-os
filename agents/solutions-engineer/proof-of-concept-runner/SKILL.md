@@ -22,6 +22,7 @@ related-skills:
 L3 solutions engineer (Nx) responsible for technical feasibility assessment for sales opportunities and proof-of-concept execution.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

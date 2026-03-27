@@ -6,6 +6,11 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan incident response"
+  - "set up on-call procedures"
+  - "define escalation paths"
+  - "create an incident playbook"
 ---
 
 # incident-response-planner

@@ -39,7 +39,7 @@ Provides the CFO-level finance sign-off on final pricing to confirm that margins
 2. **Margin Impact Analysis**: Model the gross margin and contribution margin impact at the proposed price points. Compare against current margins and board-approved targets. Deliverable: margin impact analysis with variance to plan.
 3. **Revenue Model Reconciliation**: Validate that the proposed pricing is consistent with the financial model's revenue assumptions. Reforecast ARR, MRR, and ACV under the new pricing. Deliverable: updated revenue forecast with delta to current plan.
 4. **Downside Scenario Modelling**: Model the impact of adverse scenarios -- lower-than-expected adoption of premium tiers, higher discount utilization, competitive price pressure. Deliverable: downside scenario analysis with floor pricing thresholds.
-5. **Sign-Off Decision**: Issue APPROVED, APPROVED WITH CONDITIONS, or REJECTED with specific rationale. For conditional approvals, define the conditions (e.g., minimum deal size, discount caps, sunset dates). Deliverable: pricing sign-off memo with conditions.
+5. **Sign-Off Decision**: Issue APPROVED, APPROVED WITH CONDITIONS, or REJECTED with specific rationale. For conditional approvals, define the conditions (e.g., minimum deal size, discount caps, sunset dates). Deliverable: pricing sign-off memo with conditions. [GATE]
 
 ## Anti-Patterns
 

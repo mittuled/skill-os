@@ -1,8 +1,10 @@
 # Skill OS — Enrichment Status
 
 **Last Updated**: 2026-03-27
-**Total Skills**: 495 | **Enriched**: 495 | **Pending**: 0 | **Progress**: 100%
+**Total Skills**: 499 | **Enriched**: 499 | **Pending**: 0 | **Progress**: 100%
 **Migration Order**: Department-by-department, starting with Product
+
+> **Note (002)**: 4 new tooling skills added in 002-skill-quality-improvements: `company-tooling-onboarder` and `tool-policy-manager` (Agent Configuration Manager), `mcp-server-builder` (Skill Builder), `tool-health-checker` (Agent Operations Manager).
 
 ---
 
@@ -17,7 +19,7 @@
 | 5 | Data & Growth | 4 | 39 | 39 | 0 | Done |
 | 6 | Finance | 5 | 32 | 32 | 0 | Done |
 | 7 | Legal & Compliance | 4 | 24 | 24 | 0 | Done |
-| 8 | Agent Operations | 6 | 23 | 23 | 0 | Done |
+| 8 | Agent Operations | 6 | 27 | 27 | 0 | Done |
 | 9 | Customer Success | 6 | 21 | 21 | 0 | Done |
 | 10 | Sales | 7 | 17 | 17 | 0 | Done |
 | 11 | Customer Support | 2 | 9 | 9 | 0 | Done |
@@ -26,7 +28,7 @@
 | 14 | Applied Research | 1 | 5 | 5 | 0 | Done |
 | 15 | Account Management | 2 | 5 | 5 | 0 | Done |
 | 16 | Implementation | 2 | 4 | 4 | 0 | Done |
-| | **TOTAL** | **80** | **495** | **495** | **0** | **15 / 15** |
+| | **TOTAL** | **80** | **499** | **499** | **0** | **15 / 15** |
 
 ---
 
@@ -122,11 +124,11 @@
 | Agent | Dir | Skills | Enriched | Pending Skills |
 |-------|-----|--------|----------|----------------|
 | VP Agent Operations | `vp-agent-operations` | 4 | 0 | agent-workforce-planner, agent-performance-framework-designer, agent-ops-budget-owner, agent-capability-roadmap-setter |
-| Agent Operations Manager | `agent-operations-manager` | 4 | 0 | agent-lifecycle-manager, agent-performance-reviewer, agent-incident-responder, agent-capacity-planner |
+| Agent Operations Manager | `agent-operations-manager` | 5 | 0 | agent-lifecycle-manager, agent-performance-reviewer, agent-incident-responder, agent-capacity-planner, tool-health-checker |
 | Skill Builder Lead | `skill-builder-lead` | 2 | 0 | skill-architecture-designer, skill-quality-standards-setter |
-| Skill Builder | `skill-builder` | 1 | 0 | skill-author |
+| Skill Builder | `skill-builder` | 2 | 0 | skill-author, mcp-server-builder |
 | Agent Trainer / Skill Optimizer | `agent-trainer-skill-optimizer` | 5 | 0 | prompt-engineer, evaluation-suite-builder, fine-tuning-coordinator, agent-behaviour-analyst, skill-performance-benchmarker |
-| Agent Configuration Manager | `agent-configuration-manager` | 7 | 0 | agent-provisioner, tool-access-controller, model-routing-configurator, context-window-optimizer, guardrail-policy-setter, agent-version-manager, multi-agent-orchestration-designer |
+| Agent Configuration Manager | `agent-configuration-manager` | 9 | 0 | agent-provisioner, tool-access-controller, model-routing-configurator, context-window-optimizer, guardrail-policy-setter, agent-version-manager, multi-agent-orchestration-designer, company-tooling-onboarder, tool-policy-manager |
 
 ### 9. Customer Success (21 skills)
 

@@ -1,0 +1,30 @@
+schema_version: 1
+
+# Tool access policies for skill-os agents.
+# Managed by the tool-policy-manager skill.
+# See specs/002-skill-quality-improvements/contracts/allowed-tools-schema.yaml for schema.
+
+company-wide: []
+# Example:
+#   - name: slack
+#     mcp: true
+#     scopes: [read, send]
+#   - name: github
+#     mcp: true
+#     scopes: [read, write, pr]
+
+# department:
+#   engineering:
+#     - name: datadog
+#       mcp: true
+#       scopes: [read]
+
+# agent:
+#   security-engineer:
+#     - name: burpsuite
+#       mcp: false
+
+# skill:
+#   contract-review-orchestrator:
+#     - name: docusign
+#       scopes: [read]

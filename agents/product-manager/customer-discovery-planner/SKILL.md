@@ -12,6 +12,11 @@ related-skills:
   - requirements-extractor
   - jtbd-to-stories
   - market-sizer
+triggers:
+  - "plan customer discovery"
+  - "set up user interviews"
+  - "design a discovery program"
+  - "how should we talk to customers about this"
 ---
 
 # customer-discovery-planner

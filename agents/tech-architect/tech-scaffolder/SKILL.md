@@ -12,6 +12,11 @@ complexity: medium
 related-skills:
   - ../../tech-architect/architecture-designer/SKILL.md
   - ../../tech-architect/api-contract-definer/SKILL.md
+triggers:
+  - "scaffold the project"
+  - "set up the repo structure"
+  - "bootstrap a new service"
+  - "create the project skeleton"
 ---
 
 # tech-scaffolder

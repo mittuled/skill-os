@@ -1,0 +1,18 @@
+# Schema extension for triggers frontmatter field
+# Added to the existing frontmatter-schema.yaml
+
+optional_fields:
+  triggers:
+    type: list
+    items:
+      type: string
+      min_length: 5
+      max_length: 50
+    description: >
+      Short phrases (2-10 words) for machine-optimized skill activation.
+      Complements the pushy description field. Designed for fuzzy matching,
+      not regex. Examples: "review this PR", "code review", "check my code".
+    validation:
+      - each item must be a non-empty string
+      - empty list is valid (explicitly no triggers)
+      - absence of field is valid (field is optional)

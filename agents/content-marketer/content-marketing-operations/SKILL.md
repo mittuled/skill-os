@@ -21,6 +21,7 @@ related-skills:
 L3 content marketer (Nx) responsible for ongoing content production and distribution operations.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

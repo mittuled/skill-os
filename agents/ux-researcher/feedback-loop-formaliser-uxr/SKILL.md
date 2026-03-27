@@ -20,6 +20,7 @@ related-skills: []
 L3 UX researcher (Nx) responsible for user feedback synthesis, session analysis, and feeding research findings back into the product and design cycle.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -22,6 +22,7 @@ related-skills:
 L2 product counsel (1x) responsible for legal review of business models, positioning, pricing, product compliance, and security audit oversight.
 
 Department ethos: [ideal-legal.md](../../../departments/legal/ideal-legal.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

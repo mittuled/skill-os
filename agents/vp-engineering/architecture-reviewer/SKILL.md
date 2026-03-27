@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../../tech-architect/architecture-designer/SKILL.md
   - ../../tech-architect/technical-feasibility-check/SKILL.md
+triggers:
+  - "review this architecture"
+  - "evaluate this system design"
+  - "is this architecture sound"
+  - "check the design doc"
 ---
 
 # architecture-reviewer
@@ -22,6 +27,7 @@ related-skills:
 L1 engineering leader (1x) responsible for spec intake review, team allocation, architecture oversight, velocity monitoring, and go-live approvals. Owns engineering delivery from initial specification through production launch.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 
@@ -40,7 +46,7 @@ Reviews proposed system architectures for soundness, scalability, and alignment 
 3. **Evaluate scalability posture**: Check horizontal and vertical scaling assumptions against projected load. Verify capacity planning accounts for 3x headroom beyond stated SLOs. Deliverable: scalability assessment with identified ceilings.
 4. **Check standards alignment**: Confirm the proposal adheres to existing technology radar choices, observability requirements (structured logging, metrics, distributed tracing), and security posture (threat model present, auth flows documented). Deliverable: standards compliance checklist.
 5. **Identify operational risks**: Assess deployment complexity, rollback strategy, data migration paths, and on-call burden. Deliverable: operational risk summary.
-6. **Render verdict**: Approve, request changes, or reject with explicit rationale tied to principles. Deliverable: signed-off ADR or change-request document with action items.
+6. **Render verdict**: Apply the scoring rubric at `references/scoring-rubric.md`. Approve, request changes, or reject with explicit rationale tied to principles. Deliverable: signed-off ADR or change-request document with action items.
 
 ## Anti-Patterns
 
