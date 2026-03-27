@@ -15,8 +15,8 @@
 - [x] T002 Update `scripts/validate.py` to accept `[GATE]` markers in workflow steps as valid syntax. Add warning (not error) when `[GATE]` appears in a skill with `complexity: simple`. 1 commit.
 - [x] T003 Update `scripts/validate.py` to validate `allowed-tools.yaml` at repo root: check YAML syntax, `schema_version` field present and supported, department keys match `departments/` dirs, agent keys match `agents/` dirs. 1 commit.
 - [x] T004 Create `allowed-tools.yaml` at repo root with `schema_version: 1` and empty `company-wide: []` placeholder. 1 commit.
-- [ ] T005 Update enrichment template at `specs/001-enrich-skill-directory/contracts/skill-template.md` — add `triggers` as optional frontmatter field, add `[GATE]` guidance in Workflow section comments, add `Tool policy` reference in Agent header. 1 commit.
-- [ ] T006 Update `specs/001-enrich-skill-directory/quickstart.md` — add sections for triggers, gates, rubrics, code examples, and tool policy reference. 1 commit.
+- [x] T005 Update enrichment template at `specs/001-enrich-skill-directory/contracts/skill-template.md` — add `triggers` as optional frontmatter field, add `[GATE]` guidance in Workflow section comments, add `Tool policy` reference in Agent header. 1 commit.
+- [x] T006 Update `specs/001-enrich-skill-directory/quickstart.md` — add sections for triggers, gates, rubrics, code examples, and tool policy reference. 1 commit.
 
 **Checkpoint**: Validation script handles all new elements. Templates updated. Phase 2+ can begin.
 
@@ -34,7 +34,7 @@
 - [x] T010 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/discover-tools.py`. 1 commit.
 - [x] T011 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/connect-mcp.py`. 1 commit.
 - [x] T012 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/configure-secrets.py`. 1 commit.
-- [ ] T013 [US1] Update `restructured-org-chart-v3.md` — add `company-tooling-onboarder` to Agent Configuration Manager's skill list. 1 commit.
+- [x] T013 [US1] Update `restructured-org-chart-v3.md` — add `company-tooling-onboarder` to Agent Configuration Manager's skill list. 1 commit.
 
 ---
 
@@ -49,7 +49,7 @@
 - [x] T016 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/scripts/validate-policy.py`. 1 commit.
 - [x] T017 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/assets/allowed-tools-template.yaml`. 1 commit.
 - [ ] T018 [US2] Add tool policy reference to all agent directories — add `Tool policy: [allowed-tools.yaml](../../allowed-tools.yaml)` line to the Agent header section of one representative skill per agent (80 agents). This is a batch update, not per-skill. 1 commit.
-- [ ] T019 [US2] Update `restructured-org-chart-v3.md` — add `tool-policy-manager` to Agent Configuration Manager's skill list. 1 commit.
+- [x] T019 [US2] Update `restructured-org-chart-v3.md` — add `tool-policy-manager` to Agent Configuration Manager's skill list. 1 commit.
 
 ---
 
@@ -64,7 +64,7 @@
 - [x] T022 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/parse-openapi.py`. 1 commit.
 - [x] T023 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/scaffold-mcp.py`. 1 commit.
 - [x] T024 [US3] Write `agents/skill-builder/mcp-server-builder/references/mcp-protocol.md`. 1 commit.
-- [ ] T025 [US3] Update `restructured-org-chart-v3.md` — add `mcp-server-builder` to Skill Builder's skill list. 1 commit.
+- [x] T025 [US3] Update `restructured-org-chart-v3.md` — add `mcp-server-builder` to Skill Builder's skill list. 1 commit.
 
 ---
 
@@ -78,7 +78,7 @@
 - [x] T027 [US4] Write `agents/agent-operations-manager/tool-health-checker/SKILL.md`. 1 commit.
 - [x] T028 [US4] Write `agents/agent-operations-manager/tool-health-checker/scripts/check-health.py`. 1 commit.
 - [x] T029 [US4] Write `agents/agent-operations-manager/tool-health-checker/assets/health-report-template.md`. 1 commit.
-- [ ] T030 [US4] Update `restructured-org-chart-v3.md` — add `tool-health-checker` to Agent Operations Manager's skill list. 1 commit.
+- [x] T030 [US4] Update `restructured-org-chart-v3.md` — add `tool-health-checker` to Agent Operations Manager's skill list. 1 commit.
 
 ---
 
@@ -150,10 +150,10 @@
 **Purpose**: Constitution amendment, full validation, status update.
 
 - [x] T049 Amend constitution to v2.1.0 — document `triggers`, `[GATE]`, `allowed-tools.yaml`, tool policy. Done.
-- [ ] T050 Update frontmatter schema at `specs/001-enrich-skill-directory/contracts/frontmatter-schema.yaml` — add `triggers` as optional field. 1 commit.
-- [ ] T051 Run full repo validation: `python3 scripts/validate.py` — confirm 0 errors across all 499+ skills. Fix any errors. 1 commit per fix.
-- [ ] T052 Update `status.md` — reflect 4 new skills, tool policy, triggers/gates/rubrics/examples counts. 1 commit.
-- [ ] T053 Update `CLAUDE.md` — add tool policy reference, triggers guidance, gate guidance. 1 commit.
+- [x] T050 Update frontmatter schema at `specs/001-enrich-skill-directory/contracts/frontmatter-schema.yaml` — add `triggers` as optional field. 1 commit.
+- [x] T051 Run full repo validation: `python3 scripts/validate.py` — confirm 0 errors across all 499+ skills. Fix any errors. 1 commit per fix.
+- [x] T052 Update `status.md` — reflect 4 new skills, tool policy, triggers/gates/rubrics/examples counts. 1 commit.
+- [x] T053 Update `CLAUDE.md` — add tool policy reference, triggers guidance, gate guidance. 1 commit.
 
 ---
 
