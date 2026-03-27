@@ -1,7 +1,7 @@
 # Skill OS — Enrichment Status
 
 **Last Updated**: 2026-03-27
-**Total Skills**: 472 | **Enriched**: 178 | **Pending**: 294 | **Progress**: 38%
+**Total Skills**: 472 | **Enriched**: 278 | **Pending**: 194 | **Progress**: 59%
 **Migration Order**: Department-by-department, starting with Product
 
 ---
@@ -11,7 +11,7 @@
 | # | Department | Agents | Skills | Enriched | Pending | Ethos Profile |
 |---|-----------|--------|--------|----------|---------|---------------|
 | 1 | Product | 5 | 82 | 82 | 0 | Done |
-| 2 | Engineering | 12 | 100 | 0 | 100 | Not started |
+| 2 | Engineering | 12 | 100 | 100 | 0 | Done |
 | 3 | Marketing | 12 | 54 | 54 | 0 | Done |
 | 4 | Design | 8 | 42 | 42 | 0 | Done |
 | 5 | Data & Growth | 4 | 39 | 0 | 39 | Not started |
@@ -26,7 +26,7 @@
 | 14 | Applied Research | 1 | 5 | 0 | 5 | Not started |
 | 15 | Account Management | 2 | 5 | 0 | 5 | Not started |
 | 16 | Implementation | 2 | 4 | 0 | 4 | Not started |
-| | **TOTAL** | **80** | **472** | **178** | **294** | **3 / 15** |
+| | **TOTAL** | **80** | **472** | **278** | **194** | **4 / 15** |
 
 ---
 
