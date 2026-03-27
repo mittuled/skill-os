@@ -34,17 +34,13 @@ The DevOps / Infrastructure Engineer builds and configures continuous integratio
 
 ## Workflow
 
-1. Gather requirements: target environments, deployment cadence, test suites, security scan requirements, and artifact storage.
-2. Design the pipeline stages: source checkout, dependency install, lint, unit test, integration test, security scan, build, artifact publish, deploy to staging, deploy to production.
-3. Configure the CI platform (GitHub Actions, GitLab CI, etc.) with pipeline-as-code definitions.
-4. Implement caching strategies for dependencies and build artifacts to minimize pipeline duration.
-5. Add quality gates: fail the pipeline on lint errors, test failures, security vulnerabilities above threshold, or coverage drops.
-6. Configure environment-specific deployment steps with secrets managed through the CI platform's secret store.
-7. Implement notification hooks for pipeline failures (Slack, email, PagerDuty).
-8. Add pipeline metrics: track build duration, success rate, and flaky test frequency.
-9. Test the full pipeline end-to-end with a representative change.
-10. Document the pipeline architecture, stage responsibilities, and troubleshooting guide.
-    - **Deliverable**: A working CI/CD pipeline with all stages, quality gates, notifications, and documentation.
+1. **Requirements and Strategy**: Gather target environments, deployment cadence, test suites, security scan requirements, and artifact storage. Select a deployment strategy based on risk tolerance: **blue-green** (zero-downtime swap between two identical environments), **canary** (route 1-5% of traffic to the new version, monitor error rates and p99 latency before full promotion), or **rolling** (incremental pod/instance replacement with readiness probes). Deliverable: pipeline requirements document with deployment strategy selection.
+2. **Build and Test Stages**: Configure the CI platform (GitHub Actions, GitLab CI, CircleCI) with pipeline-as-code. Structure stages as: source checkout, dependency install with layer caching (Docker layer cache, npm/pip cache keyed by lockfile hash), parallel lint + unit test + SAST scan (Snyk, Trivy, or Semgrep), integration tests against ephemeral service containers, and artifact build with immutable image tagging (git SHA, not `latest`). Deliverable: pipeline definition files committed to the repository.
+3. **Quality Gates**: Fail the pipeline on: lint errors, test failures, SAST findings above severity threshold (critical/high block, medium warn), coverage drops below baseline, and container image CVEs. Implement **feature flag** gating: deployments with risky changes ship behind flags (LaunchDarkly, Unleash, or environment variables) so the code deploys but the behavior is disabled until explicitly enabled. Deliverable: quality gate configuration with pass/fail criteria.
+4. **Deployment Stages**: For blue-green: deploy to the inactive environment, run smoke tests against it, then swap the load balancer target group. For canary: deploy to the canary target group, configure weighted routing (AWS ALB weights, Istio VirtualService, or NGINX split_clients), monitor for 10-15 minutes, then promote or roll back automatically based on error rate and latency thresholds. Include automated **rollback**: if post-deploy health checks fail (HTTP 200 on `/healthz`, dependency connectivity, baseline metric comparison), revert the load balancer swap or scale the canary to zero. Deliverable: deployment stage configuration with rollback triggers.
+5. **Secrets and Environment Configuration**: Store secrets in the CI platform's secret store (GitHub Secrets, Vault, AWS Secrets Manager) — never in pipeline YAML. Use environment-scoped secrets so staging and production credentials are isolated. Inject secrets as environment variables at runtime, not build time. Deliverable: secrets management configuration.
+6. **Observability and Notifications**: Emit pipeline metrics (build duration, success rate, flaky test frequency, deployment frequency, lead time for changes) to a dashboard (Datadog, Grafana). Send failure notifications to Slack or PagerDuty with direct links to the failed stage logs. Deliverable: monitoring dashboard and notification configuration.
+7. **End-to-End Validation**: Test the full pipeline with a representative change including a feature-flagged deployment. Verify rollback triggers work by intentionally deploying a failing health check. Deliverable: validation report confirming all stages, quality gates, deployment strategy, and rollback behavior.
 
 ## Anti-Patterns
 
