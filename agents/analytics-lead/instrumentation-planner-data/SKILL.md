@@ -42,7 +42,7 @@ The instrumentation planner designs the implementation approach for event tracki
 2. **Select tooling**: Choose or confirm the analytics SDK, CDP, and event router for each platform. Document trade-offs (client-side vs. server-side, first-party vs. third-party).
 3. **Design event routing**: Map the flow from event trigger to final data warehouse table. Specify buffering, batching, retry, and deduplication behaviour.
 4. **Sequence by platform**: Order implementation across platforms by data criticality and engineering availability. Prioritize the platform that generates the highest-volume user interactions.
-5. **Define rollout phases**: Break implementation into phases — Phase 1: core funnel events, Phase 2: engagement events, Phase 3: edge-case and error events. Each phase has a verification gate.
+5. **Define rollout phases**: Break implementation into phases — Phase 1: core funnel events, Phase 2: engagement events, Phase 3: edge-case and error events. Each phase has a verification gate. Apply the scoring rubric at `references/scoring-rubric.md`.
 6. **Coordinate with engineering**: Produce a task list per engineering team with event names, trigger points in code, and property sources. Align on sprint allocation.
 
 ## Anti-Patterns

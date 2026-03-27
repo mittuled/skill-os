@@ -45,7 +45,7 @@ Reviews proposed system architectures for soundness, scalability, and alignment 
 3. **Evaluate scalability posture**: Check horizontal and vertical scaling assumptions against projected load. Verify capacity planning accounts for 3x headroom beyond stated SLOs. Deliverable: scalability assessment with identified ceilings.
 4. **Check standards alignment**: Confirm the proposal adheres to existing technology radar choices, observability requirements (structured logging, metrics, distributed tracing), and security posture (threat model present, auth flows documented). Deliverable: standards compliance checklist.
 5. **Identify operational risks**: Assess deployment complexity, rollback strategy, data migration paths, and on-call burden. Deliverable: operational risk summary.
-6. **Render verdict**: Approve, request changes, or reject with explicit rationale tied to principles. Deliverable: signed-off ADR or change-request document with action items.
+6. **Render verdict**: Apply the scoring rubric at `references/scoring-rubric.md`. Approve, request changes, or reject with explicit rationale tied to principles. Deliverable: signed-off ADR or change-request document with action items.
 
 ## Anti-Patterns
 

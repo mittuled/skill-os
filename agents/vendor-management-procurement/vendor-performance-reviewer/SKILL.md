@@ -34,7 +34,7 @@ The vendor performance reviewer evaluates vendor delivery against contractual SL
 ## Workflow
 
 1. **Gather performance data**: Collect SLA compliance data, incident reports, user satisfaction feedback, and usage metrics for the review period. Deliverable: raw performance dataset.
-2. **Score against criteria**: Rate the vendor on agreed criteria: SLA adherence, responsiveness, quality, and value. Deliverable: vendor scorecard.
+2. **Score against criteria**: Rate the vendor on agreed criteria: SLA adherence, responsiveness, quality, and value. Apply the scoring rubric at `references/scoring-rubric.md`. Deliverable: vendor scorecard.
 3. **Identify issues**: Flag SLA breaches, recurring problems, and areas where delivery fell short of expectations. Deliverable: issue log with severity ratings.
 4. **Conduct the review meeting**: Present findings to the vendor, discuss issues, and agree on improvement actions. Deliverable: review meeting notes with action items.
 5. **Recommend action**: Based on the scorecard, recommend renew, renegotiate, or replace. Deliverable: vendor action recommendation.

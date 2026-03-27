@@ -42,7 +42,7 @@ Builds the customer success onboarding playbook for delivering consistent time-t
 2. **Map Onboarding Journey**: Design the step-by-step onboarding journey from contract signing to first value milestone. Include touchpoints, content delivery, and customer actions at each stage. Deliverable: onboarding journey map with timeline.
 3. **Create Playbook Content**: Write the playbook sections: kickoff meeting agenda, configuration checklist, training schedule, success criteria per stage, and escalation triggers for stalled onboarding. Deliverable: complete onboarding playbook document.
 4. **Define Handoff Protocols**: Specify how the customer transitions from sales to CS at onboarding start, and from onboarding to steady-state CS at completion. Deliverable: handoff checklists for both transitions.
-5. **Establish Measurement**: Define onboarding metrics -- time-to-value, completion rate, stage drop-off rates, and customer satisfaction at onboarding end. Deliverable: onboarding metrics framework.
+5. **Establish Measurement**: Define onboarding metrics -- time-to-value, completion rate, stage drop-off rates, and customer satisfaction at onboarding end. Apply the scoring rubric at `references/scoring-rubric.md`. Deliverable: onboarding metrics framework.
 
 ## Anti-Patterns
 

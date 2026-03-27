@@ -41,7 +41,7 @@ Implements security and compliance frameworks by mapping framework requirements 
 3. **Gap Remediation Planning**: For each gap, design the control implementation: technical controls (tooling, configurations), administrative controls (policies, procedures), and physical controls (access restrictions). Estimate effort, assign owners, and set timelines. Deliverable: remediation plan with owner assignments.
 4. **Control Implementation**: Execute the remediation plan. Build technical controls, draft policies, configure monitoring, and establish evidence collection processes. Validate each control works as designed. Deliverable: implemented controls with validation evidence.
 5. **Evidence Framework**: Design the ongoing evidence collection process: what evidence each control produces, how it is collected (automated vs. manual), where it is stored, and how often it is reviewed. Deliverable: evidence collection framework.
-6. **Certification Readiness Review**: Conduct a pre-certification internal audit against the full framework. Identify any remaining gaps or weak controls. Remediate before engaging the external auditor. Deliverable: certification readiness report.
+6. **Certification Readiness Review**: Conduct a pre-certification internal audit against the full framework. Apply the scoring rubric at `references/scoring-rubric.md`. Identify any remaining gaps or weak controls. Remediate before engaging the external auditor. Deliverable: certification readiness report.
 
 ## Anti-Patterns
 
