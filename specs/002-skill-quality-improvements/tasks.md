@@ -88,12 +88,12 @@
 
 **Independent Test**: Verify 5 skills with triggers activate more reliably in Claude Code.
 
-- [ ] T031 [US5] Identify the top 50 skills by cross-reference count and domain importance — produce a prioritized list. Save to `specs/002-skill-quality-improvements/triggers-target-list.md`. 1 commit.
-- [ ] T032 [US5] Add `triggers` to the first 10 skills from the list (Product department). Each skill gets 3-5 trigger phrases. 1 commit per skill (10 commits).
-- [ ] T033 [US5] Add `triggers` to the next 10 skills (Engineering department). 1 commit per skill (10 commits).
-- [ ] T034 [US5] Add `triggers` to the next 10 skills (Marketing department). 1 commit per skill (10 commits).
-- [ ] T035 [US5] Add `triggers` to the next 10 skills (Sales + Legal). 1 commit per skill (10 commits).
-- [ ] T036 [US5] Add `triggers` to the final 10 skills (remaining departments). 1 commit per skill (10 commits).
+- [x] T031 [US5] Identify the top 50 skills by cross-reference count and domain importance. Done.
+- [x] T032 [US5] Add `triggers` to 10 Product skills. Done.
+- [x] T033 [US5] Add `triggers` to 10 Engineering skills. Done.
+- [x] T034 [US5] Add `triggers` to 10 Marketing skills. Done.
+- [x] T035 [US5] Add `triggers` to 10 Sales + Legal skills. Done.
+- [x] T036 [US5] Add `triggers` to 10 remaining department skills. Done.
 
 ---
 
@@ -103,9 +103,9 @@
 
 **Independent Test**: Verify `[GATE]` markers are visible in workflow and validation script accepts them.
 
-- [ ] T037 [US6] Identify 20 complex skills with irreversible or high-stakes steps (deploys, legal filings, budget approvals, security exceptions). Save target list to `specs/002-skill-quality-improvements/gates-target-list.md`. 1 commit.
-- [ ] T038 [US6] Add `[GATE]` markers to 10 skills (Engineering + Legal). 1 commit per skill (10 commits).
-- [ ] T039 [US6] Add `[GATE]` markers to 10 skills (Product + Finance + Sales). 1 commit per skill (10 commits).
+- [x] T037 [US6] Identify 20 complex skills with high-stakes steps. Done.
+- [x] T038 [US6] Add `[GATE]` markers to 10 skills (Engineering + Legal). Done.
+- [x] T039 [US6] Add `[GATE]` markers to 10 skills (Product + Finance + Sales). Done.
 
 ---
 
