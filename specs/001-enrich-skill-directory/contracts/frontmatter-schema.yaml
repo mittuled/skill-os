@@ -48,6 +48,15 @@ required_fields:
       type: string
       must_resolve_to: existing_file
 
+optional_fields:
+  triggers:
+    type: list
+    items:
+      type: string
+      min_length: 5
+      max_length: 50
+    description: "Short trigger phrases that help AI agents know when to activate this skill"
+
 word_limits:
   simple: 500
   medium: 1000
