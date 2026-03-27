@@ -20,6 +20,7 @@ related-skills: []
 L3 Skill Builder (Nx) responsible for building and testing individual SKILL.md files. Multiple Skill Builders can work across different domains simultaneously.
 
 Department ethos: [ideal-agent-operations.md](../../../departments/agent-operations/ideal-agent-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

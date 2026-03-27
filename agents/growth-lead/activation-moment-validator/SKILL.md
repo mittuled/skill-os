@@ -19,6 +19,7 @@ related-skills:
 L1 growth leader (1x) responsible for distribution strategy, activation signal definition, retention modelling, growth model design, and growth loop optimisation.
 
 Department ethos: [ideal-data-growth.md](../../../departments/data-growth/ideal-data-growth.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

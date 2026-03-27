@@ -15,6 +15,7 @@ related-skills: []
 L2 event marketing manager responsible for conference presence, sales kickoffs, user conferences, company offsites, and virtual events.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

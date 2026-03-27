@@ -28,6 +28,7 @@ triggers:
 L1 sales leader (1x) reporting to the CBO, responsible for sales strategy, pricing sign-off, quota setting, and team structure. Owns the sales motion from pipeline through close.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

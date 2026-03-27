@@ -19,6 +19,7 @@ related-skills: []
 L1 IT operations manager (1x) reporting to the COO, responsible for SaaS stack management, access provisioning, hardware lifecycle, and identity and access management.
 
 Department ethos: [ideal-technical-operations.md](../../../departments/technical-operations/ideal-technical-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

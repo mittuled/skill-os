@@ -27,6 +27,7 @@ triggers:
 L1 engineering leader (1x) responsible for spec intake review, team allocation, architecture oversight, velocity monitoring, and go-live approvals. Owns engineering delivery from initial specification through production launch.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

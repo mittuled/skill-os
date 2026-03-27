@@ -25,6 +25,7 @@ triggers:
 L1 customer success leader reporting to the CBO (1x) responsible for CS strategy, SLA design, playbook creation, expansion motion, and training materials.
 
 Department ethos: [ideal-customer-success.md](../../../departments/customer-success/ideal-customer-success.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -20,6 +20,7 @@ related-skills: []
 L3 content designer and UX writer (Nx) responsible for support readiness, help content creation, in-app announcements, and training materials.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

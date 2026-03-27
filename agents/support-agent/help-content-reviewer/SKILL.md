@@ -19,6 +19,7 @@ related-skills: []
 L2 support agent (Nx, multi-instance) responsible for ticket triage, support readiness confirmation, and help content review.
 
 Department ethos: [ideal-customer-support.md](../../../departments/customer-support/ideal-customer-support.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

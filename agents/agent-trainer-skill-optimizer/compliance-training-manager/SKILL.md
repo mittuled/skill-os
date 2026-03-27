@@ -20,6 +20,7 @@ related-skills: []
 L2 Agent Trainer and Skill Optimizer (1x) responsible for evaluating existing skills, running evals, optimising prompts, improving agent performance, and training new agent configurations.
 
 Department ethos: [ideal-agent-operations.md](../../../departments/agent-operations/ideal-agent-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

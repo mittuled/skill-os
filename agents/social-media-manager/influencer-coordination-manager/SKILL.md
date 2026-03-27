@@ -15,6 +15,7 @@ related-skills: []
 L2 social media manager responsible for organic social content, social listening, influencer coordination, and user-generated content programmes.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

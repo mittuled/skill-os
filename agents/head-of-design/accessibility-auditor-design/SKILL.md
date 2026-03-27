@@ -20,6 +20,7 @@ related-skills: []
 L1 design leader (1x) responsible for design strategy, review governance, and accessibility oversight. Oversees UX Research and Content Design as sub-disciplines reporting into Design.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

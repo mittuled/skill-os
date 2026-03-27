@@ -19,6 +19,7 @@ related-skills: []
 L2 account manager (Nx, multi-instance) responsible for collecting account signals and executing expansion motions.
 
 Department ethos: [ideal-account-management.md](../../../departments/account-management/ideal-account-management.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

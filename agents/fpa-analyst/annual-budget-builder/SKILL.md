@@ -22,6 +22,7 @@ related-skills:
 L2 FP&A analyst (1x) responsible for budgeting, forecasting, variance analysis, board reporting, fundraising models, and SaaS metrics.
 
 Department ethos: [ideal-finance.md](../../../departments/finance/ideal-finance.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

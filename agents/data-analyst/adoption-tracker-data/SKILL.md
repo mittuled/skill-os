@@ -19,6 +19,7 @@ related-skills:
 L2 data analyst (Nx) responsible for data modelling, instrumentation implementation, metrics dashboards, funnel analysis, and signal synthesis.
 
 Department ethos: [ideal-data-growth.md](../../../departments/data-growth/ideal-data-growth.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -15,6 +15,7 @@ related-skills: []
 L2 analyst relations manager responsible for analyst briefings, inquiry responses, Magic Quadrant strategy, and peer review platform management.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

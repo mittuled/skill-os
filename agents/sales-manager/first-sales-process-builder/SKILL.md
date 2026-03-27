@@ -23,6 +23,7 @@ related-skills:
 L2 sales manager (1x) responsible for sales playbook development, objection handling, GTM activation for sales, and building the first sales process.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

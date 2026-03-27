@@ -23,6 +23,7 @@ related-skills:
 L2 finance manager (1x) responsible for business model review, financial risk assessment, revenue impact monitoring, and north star metric oversight.
 
 Department ethos: [ideal-finance.md](../../../departments/finance/ideal-finance.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

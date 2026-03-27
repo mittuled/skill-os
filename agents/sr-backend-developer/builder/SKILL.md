@@ -20,6 +20,7 @@ related-skills:
 L3 senior backend developer (Nx) responsible for third-party integrations, instrumentation, building backend services, and security review.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

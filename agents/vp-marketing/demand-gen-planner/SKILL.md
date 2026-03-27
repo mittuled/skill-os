@@ -26,6 +26,7 @@ triggers:
 L1 marketing leader (1x) reporting to the CBO, responsible for GTM planning, demand generation strategy, and marketing activation across all channels.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

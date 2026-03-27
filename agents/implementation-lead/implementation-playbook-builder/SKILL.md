@@ -19,6 +19,7 @@ related-skills: []
 L1 implementation lead (1x) reporting to the COO, responsible for implementation playbook and integration catalogue. Bridges signed deals and live customers through operational delivery.
 
 Department ethos: [ideal-implementation.md](../../../departments/implementation/ideal-implementation.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

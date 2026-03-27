@@ -19,6 +19,7 @@ related-skills: []
 L1 applied research leader (1x) responsible for market research synthesis, technology trend analysis, competitive deep dives, benchmarking, and contributing to the research roadmap.
 
 Department ethos: [ideal-applied-research.md](../../../departments/applied-research/ideal-applied-research.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

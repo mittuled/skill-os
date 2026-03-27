@@ -22,6 +22,7 @@ related-skills:
 L2 corporate counsel (1x) responsible for compliance scanning, legal risk register, third-party TOS review, entity formation, corporate governance, and founder equity.
 
 Department ethos: [ideal-legal.md](../../../departments/legal/ideal-legal.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

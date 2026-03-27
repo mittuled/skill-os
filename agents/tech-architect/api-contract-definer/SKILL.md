@@ -27,6 +27,7 @@ triggers:
 L2 technical architect (1x) responsible for feasibility assessment, system design, API contract definition, and infrastructure planning. Ensures technical decisions support product goals and scale requirements.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

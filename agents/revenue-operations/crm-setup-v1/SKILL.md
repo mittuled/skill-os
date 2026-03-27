@@ -19,6 +19,7 @@ related-skills: []
 L1 revenue operations function (1x) reporting to the COO, responsible for CRM infrastructure, billing, attribution, and funnel analytics. Maintains operational neutrality across all CBO revenue functions.
 
 Department ethos: [ideal-revenue-operations.md](../../../departments/revenue-operations/ideal-revenue-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

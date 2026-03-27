@@ -26,6 +26,7 @@ triggers:
 L2 demand generation manager (1x) responsible for channel signal analysis, content engine operations, and roadmap timing input for marketing campaigns.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

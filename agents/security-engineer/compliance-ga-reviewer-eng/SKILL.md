@@ -22,6 +22,7 @@ related-skills:
 L2 security engineer (Nx) responsible for threat modelling, security requirements, architecture review, code review, penetration testing, compliance, and continuous monitoring.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

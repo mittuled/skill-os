@@ -15,6 +15,7 @@ related-skills: []
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

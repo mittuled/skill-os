@@ -27,6 +27,7 @@ triggers:
 L3 account executive (Nx) responsible for sales signal synthesis, signal collection, and expansion sales motions.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

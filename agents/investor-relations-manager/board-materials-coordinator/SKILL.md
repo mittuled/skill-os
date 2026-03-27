@@ -22,6 +22,7 @@ related-skills:
 L2 investor relations manager (1x) responsible for investor updates, board materials, cap table management, fundraising process, and data room.
 
 Department ethos: [ideal-finance.md](../../../departments/finance/ideal-finance.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

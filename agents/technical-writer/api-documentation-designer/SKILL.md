@@ -19,6 +19,7 @@ related-skills: []
 L3 technical writer reporting to Developer Relations Lead, responsible for API documentation, developer guides, and documentation accuracy.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

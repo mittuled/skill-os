@@ -20,6 +20,7 @@ related-skills:
 L2 growth engineer (Nx) responsible for growth instrumentation, metrics dashboards, funnel analysis, and growth loop activation.
 
 Department ethos: [ideal-data-growth.md](../../../departments/data-growth/ideal-data-growth.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -22,6 +22,7 @@ related-skills:
 L2 business development manager (1x) responsible for partner activation planning and execution.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 
