@@ -12,6 +12,11 @@ complexity: medium
 related-skills:
   - ../../vp-engineering/inter-phase-retrospective/SKILL.md
   - ../../vp-engineering/team-allocator/SKILL.md
+triggers:
+  - "check team velocity"
+  - "how is engineering throughput"
+  - "are we on track for delivery"
+  - "flag delivery risks"
 ---
 
 # velocity-monitor

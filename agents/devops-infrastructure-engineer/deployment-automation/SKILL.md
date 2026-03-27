@@ -6,6 +6,11 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "automate deployments"
+  - "remove manual deploy steps"
+  - "make releases one-click"
+  - "set up automated deploys"
 ---
 
 # deployment-automation
@@ -36,8 +41,8 @@ The DevOps / Infrastructure Engineer automates deployment processes to reduce ma
 5. Add post-deployment checks: smoke tests, health endpoint verification, and metric baseline comparison.
 6. Implement rollback automation triggered by failed post-deployment checks.
 7. Test the automated deployment end-to-end in a non-production environment.
-8. Document the automated deployment process and any remaining manual gates.
-   - **Deliverable**: An automated deployment pipeline with pre/post checks, rollback capability, and documentation.
+8. Deploy the automated pipeline to production. Document the automated deployment process and any remaining manual gates.
+   - **Deliverable**: An automated deployment pipeline with pre/post checks, rollback capability, and documentation. [GATE]
 
 ## Anti-Patterns
 

@@ -39,7 +39,7 @@ Validates that the final pricing is sellable based on field feedback, competitiv
 2. **Willingness-to-Pay Validation**: Compare proposed pricing against actual deal data: average selling price vs. list price, discount depth distribution, and deal velocity by price tier. Flag any tier where discount rates exceed 20% as a sellability risk. Deliverable: willingness-to-pay analysis with tier-level risk flags.
 3. **Competitive Pricing Benchmark**: Map proposed pricing against the top 3 competitors' published and street pricing. Identify where the proposed pricing creates a positive spread (premium justified by value) vs. negative spread (premium without differentiation). Deliverable: competitive pricing benchmark with spread analysis.
 4. **Pipeline Impact Assessment**: Model the impact of proposed pricing on current pipeline: deals at risk of stalling, deals that benefit from simplification, and net pipeline value change. Deliverable: pipeline impact model with deal-level exposure.
-5. **Sign-Off Decision**: Issue a go/no-go/conditional recommendation. If conditional, specify required adjustments (tier restructuring, discount policy changes, bundling modifications). Deliverable: pricing sign-off memo with conditions if applicable.
+5. **Sign-Off Decision**: Issue a go/no-go/conditional recommendation. If conditional, specify required adjustments (tier restructuring, discount policy changes, bundling modifications). Deliverable: pricing sign-off memo with conditions if applicable. [GATE]
 
 ## Anti-Patterns
 

@@ -41,7 +41,7 @@ Runs the monthly financial close process including GL reconciliations, accruals,
 4. **Bank and Account Reconciliations**: Reconcile all bank accounts, credit cards, and intercompany accounts. Investigate and clear all reconciling items older than 30 days. Deliverable: reconciliation workpapers with cleared items.
 5. **Financial Statement Preparation**: Prepare the income statement, balance sheet, and cash flow statement. Run a trial balance and verify that debits equal credits, balance sheet balances, and cash flow reconciles to bank. Deliverable: draft financial statements with trial balance.
 6. **Analytical Review**: Perform flux analysis comparing current month to prior month and budget. Investigate any variance greater than 10% or $25K. Document explanations for all material movements. Deliverable: flux analysis with explanations.
-7. **Close Certification**: Certify that all close tasks are complete, all reconciling items are resolved, and the financials are ready for review. Lock the period in the GL. Deliverable: close certification with locked period confirmation.
+7. **Close Certification**: Certify that all close tasks are complete, all reconciling items are resolved, and the financials are ready for review. Lock the period in the GL. Deliverable: close certification with locked period confirmation. [GATE]
 
 ## Anti-Patterns
 

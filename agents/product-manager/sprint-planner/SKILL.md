@@ -12,6 +12,11 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan the next sprint"
+  - "what should we pull into this sprint"
+  - "build a sprint plan"
+  - "balance the sprint workload"
 ---
 
 # sprint-planner
@@ -34,7 +39,7 @@ Plans the sprint by selecting and sequencing stories from the groomed backlog, m
 2. **Review groomed backlog**: Pull the top-priority stories from the groomed backlog. Confirm each has acceptance criteria, an estimate, and no unresolved blockers. Flag any story that is not sprint-ready. Deliverable: sprint-candidate list ordered by priority with readiness status.
 3. **Select and sequence stories**: Fill the sprint from the top of the candidate list until capacity is reached, leaving a 10-20% buffer for unplanned work. Sequence stories by dependency order — prerequisites first, dependents after. Assign owners based on expertise and load balance. Deliverable: sprint plan table with story, estimate, owner, sequence order, and dependency links.
 4. **Identify risks and buffers**: Flag stories with external dependencies, uncertain estimates, or first-time technical territory. Ensure the buffer allocation covers at least one high-risk story slipping. Deliverable: risk annotations on flagged stories with contingency notes.
-5. **Commit and communicate**: Present the sprint plan to the team for commitment. Record any objections or adjustments. Lock the plan with a sprint goal statement summarising the sprint's primary outcome. Deliverable: committed sprint plan with sprint goal, team sign-off, and start date.
+5. **Commit and communicate**: Present the sprint plan to the team for commitment. Record any objections or adjustments. Lock the plan with a sprint goal statement summarising the sprint's primary outcome. Deliverable: committed sprint plan with sprint goal, team sign-off, and start date. [GATE]
 
 ## Anti-Patterns
 - **Capacity stuffing**: Loading the sprint to 100% of theoretical capacity with no buffer for unplanned work. *Why*: Every sprint has interruptions — production issues, clarification loops, sick days. A fully loaded sprint guarantees spillover, which trains the team to treat commitments as aspirational.

@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../../tech-architect/architecture-designer/SKILL.md
   - ../../tech-architect/technical-feasibility-check/SKILL.md
+triggers:
+  - "review this architecture"
+  - "evaluate this system design"
+  - "is this architecture sound"
+  - "check the design doc"
 ---
 
 # architecture-reviewer

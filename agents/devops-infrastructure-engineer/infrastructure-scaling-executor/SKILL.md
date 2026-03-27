@@ -37,7 +37,7 @@ Executes infrastructure scaling operations -- both horizontal and vertical -- in
 
 1. **Scaling Assessment**: Analyze the scaling trigger (alert, load test result, growth plan). Determine whether horizontal scaling (more instances), vertical scaling (larger instances), or architectural changes are needed. Deliverable: scaling assessment with recommended approach.
 2. **Change Planning**: Define the specific scaling changes: instance counts, instance types, auto-scaling policies, database read replicas, cache cluster sizes. Calculate cost impact. Deliverable: scaling change plan with cost estimate.
-3. **Execution**: Apply scaling changes using infrastructure-as-code (Terraform, Pulumi, CloudFormation) or orchestration tools (Kubernetes HPA/VPA). Execute during low-traffic windows for non-urgent changes. Deliverable: applied infrastructure changes with deployment record.
+3. **Execution**: Apply scaling changes using infrastructure-as-code (Terraform, Pulumi, CloudFormation) or orchestration tools (Kubernetes HPA/VPA). Execute during low-traffic windows for non-urgent changes. Deliverable: applied infrastructure changes with deployment record. [GATE]
 4. **Validation**: Verify the scaling changes are effective by monitoring resource utilization, latency, and error rates post-change. Run targeted load tests if needed. Deliverable: validation report confirming scaling effectiveness.
 5. **Documentation Update**: Update infrastructure documentation, runbooks, and capacity plans to reflect the new configuration. Adjust auto-scaling policies and alert thresholds as needed. Deliverable: updated infrastructure documentation.
 

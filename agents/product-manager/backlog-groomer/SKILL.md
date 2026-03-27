@@ -11,6 +11,11 @@ related-skills:
   - sprint-planner
   - story-writer
   - dependency-mapper-review
+triggers:
+  - "groom the backlog"
+  - "refine upcoming stories"
+  - "clean up the backlog"
+  - "prioritize backlog items"
 ---
 
 # backlog-groomer

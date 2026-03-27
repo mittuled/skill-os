@@ -12,6 +12,11 @@ complexity: medium
 related-skills:
   - ../../vp-marketing/demand-gen-planner/SKILL.md
   - ../../marketing-operations-manager/campaign-analytics-reporter/SKILL.md
+triggers:
+  - "analyse channel performance"
+  - "which channels are working"
+  - "why is CPL spiking"
+  - "find the best ROI channels"
 ---
 
 # channel-signal-analyst

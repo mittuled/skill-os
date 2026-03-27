@@ -12,6 +12,11 @@ complexity: complex
 related-skills:
   - ../gtm-planner-marketing/SKILL.md
   - ../demand-gen-planner/SKILL.md
+triggers:
+  - "activate the GTM plan"
+  - "coordinate the launch across channels"
+  - "kick off the marketing campaign"
+  - "execute the go-to-market"
 ---
 
 # gtm-activation-marketing

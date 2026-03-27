@@ -13,6 +13,11 @@ complexity: complex
 related-skills:
   - ../api-contract-definer/SKILL.md
   - ../technical-feasibility-check/SKILL.md
+triggers:
+  - "design the system architecture"
+  - "create an architecture diagram"
+  - "how should we structure this system"
+  - "plan the technical architecture"
 ---
 
 # architecture-designer

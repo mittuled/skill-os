@@ -11,6 +11,11 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "place this on the roadmap"
+  - "schedule this feature for next quarter"
+  - "re-sequence the roadmap"
+  - "where does this fit on the roadmap"
 ---
 
 # roadmap-placer

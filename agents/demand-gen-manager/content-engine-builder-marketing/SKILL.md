@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../../content-marketer/content-marketing-operations/SKILL.md
   - ../channel-signal-analyst/SKILL.md
+triggers:
+  - "build a content engine"
+  - "set up repeatable content production"
+  - "scale content output"
+  - "create a content pipeline"
 ---
 
 # content-engine-builder-marketing

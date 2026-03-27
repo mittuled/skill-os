@@ -37,7 +37,7 @@ Manages the issuance of founder equity including drafting restricted stock purch
 
 1. **Equity Structure Design**: Confirm the number of shares, share class, par value, vesting schedule (standard 4-year with 1-year cliff), acceleration provisions, and repurchase rights. Deliverable: founder equity term sheet.
 2. **Board Authorization**: Prepare board resolutions authorizing the issuance of shares to each founder at the specified price and terms. Ensure the issuance falls within authorized share limits. Deliverable: board consent resolution.
-3. **Agreement Drafting**: Draft the Restricted Stock Purchase Agreement (RSPA) for each founder covering purchase price, vesting schedule, repurchase rights, transfer restrictions, and representations. Deliverable: executed RSPAs.
+3. **Agreement Drafting**: Draft the Restricted Stock Purchase Agreement (RSPA) for each founder covering purchase price, vesting schedule, repurchase rights, transfer restrictions, and representations. Deliverable: executed RSPAs. [GATE]
 4. **Securities Compliance**: Verify the issuance qualifies for a securities exemption (typically Rule 701 or Section 4(a)(2)). Prepare any required state blue sky filings. File Form D if needed. Deliverable: securities exemption memo and filings.
 5. **83(b) Election Coordination**: Notify each founder of the 83(b) election option and coordinate filing within the 30-day deadline. Hand off to the 83b-election-coordinator for tracking. Deliverable: 83(b) election notification and handoff confirmation.
 
