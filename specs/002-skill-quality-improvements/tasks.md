@@ -48,7 +48,7 @@
 - [x] T015 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/SKILL.md`. 1 commit.
 - [x] T016 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/scripts/validate-policy.py`. 1 commit.
 - [x] T017 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/assets/allowed-tools-template.yaml`. 1 commit.
-- [ ] T018 [US2] Add tool policy reference to all agent directories — add `Tool policy: [allowed-tools.yaml](../../allowed-tools.yaml)` line to the Agent header section of one representative skill per agent (80 agents). This is a batch update, not per-skill. 1 commit.
+- [x] T018 [US2] Add tool policy reference to all 80 agent directories. Done.
 - [x] T019 [US2] Update `restructured-org-chart-v3.md` — add `tool-policy-manager` to Agent Configuration Manager's skill list. 1 commit.
 
 ---
@@ -138,10 +138,10 @@
 
 **Independent Test**: Re-score rewritten skills — both departments should score 5.0.
 
-- [ ] T045 [US9] Identify all Engineering skills scoring below 5/5 in the quality assessment. Run validation to find skills missing frontmatter or with generalist content. Save list. 1 commit.
-- [ ] T046 [US9] Rewrite identified Engineering skills with domain-specific patterns and terminology. 1 commit per skill.
-- [ ] T047 [US9] Identify all Legal skills with anti-patterns missing *Why* rationale. 1 commit.
-- [ ] T048 [US9] Update identified Legal skills — add *Why* rationale to every anti-pattern. 1 commit per skill.
+- [x] T045 [US9] Identified Engineering skills scoring below 5/5: ci-cd-pipeline-builder, deployment-automation. Done.
+- [x] T046 [US9] Rewrote 2 Engineering skills with specific patterns (blue-green, canary, feature flags, GitOps). Done.
+- [x] T047 [US9] Checked 8 Legal skills — all already had *Why* rationale. No fixes needed.
+- [x] T048 [US9] N/A — Legal skills already compliant.
 
 ---
 
