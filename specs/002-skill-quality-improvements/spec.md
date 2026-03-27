@@ -5,6 +5,14 @@
 **Status**: Draft
 **Input**: Address competitive gap recommendations from the comparative report, build a company tooling onboarding system, and add platform enhancements (triggers, gates, rubrics, code examples). Skill depth and 29 missing skills moved to `003-production-grade-depth`.
 
+## Clarifications
+
+### Session 2026-03-27
+
+- Q: Where are tool credentials stored after onboarding? → A: In the AI platform's native secret store (environment variables, `.env`). skill-os stores tool names and MCP endpoints only, never secrets.
+- Q: Are the 4 tooling skills documentation-only or executable? → A: Hybrid — SKILL.md provides workflow + decision logic, `scripts/` contains executable helpers for deterministic tasks (API auth, YAML parsing, MCP scaffolding).
+- Q: Should allowed-tools.yaml include a schema version? → A: Yes — `schema_version: 1` at the top, validation script checks compatibility.
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Company Tooling Onboarding Skill (Priority: P1)
@@ -170,10 +178,12 @@ Rewrite Engineering skills scoring below 5/5 (generalist checklists → practiti
 - **FR-001**: A `company-tooling-onboarder` skill MUST exist at `agents/agent-configuration-manager/company-tooling-onboarder/SKILL.md`. It interactively discovers, authenticates, and connects the org's tools via MCP servers or CLI integrations.
 - **FR-002**: The onboarding skill MUST cover standard tool categories: communication (Slack, Teams), source control (GitHub, GitLab), project management (Linear, Jira), observability (Datadog, Grafana), CRM (HubSpot, Salesforce), documentation (Notion, Confluence), finance (QuickBooks, Xero), legal (DocuSign, Ironclad), and design (Figma).
 - **FR-003**: For tools without existing MCP servers, the onboarding skill MUST offer to create a custom wrapper by delegating to the `mcp-server-builder` skill.
+- **FR-003a**: Credentials (API keys, OAuth tokens) MUST be stored in the consuming AI platform's native secret store (environment variables, `.env` files, platform vault). skill-os MUST NOT store secrets in the repo, in `allowed-tools.yaml`, or in any committed file. The onboarding skill configures the platform's secret store during setup and records only tool names, MCP endpoints, and connection status.
+- **FR-003b**: The 4 tooling skills (onboarder, policy manager, MCP builder, health checker) MUST follow a hybrid model: SKILL.md provides the workflow and decision logic (like all other skills), and each MUST include executable helpers in `scripts/` for deterministic tasks — API authentication flows, YAML validation, MCP server scaffolding, connectivity checks. The agent executes the workflow; the scripts handle the plumbing.
 
 **Tool Policy Management**
 
-- **FR-004**: A structured `allowed-tools.yaml` file MUST exist at repo root defining tool access at four levels: `company-wide` (all agents), `department` (agents in a specific department), `agent` (a specific agent role), and `skill` (a specific skill). Each entry includes `name`, `mcp` (boolean), and optional `scopes` (list of permitted actions).
+- **FR-004**: A structured `allowed-tools.yaml` file MUST exist at repo root defining tool access at four levels: `company-wide` (all agents), `department` (agents in a specific department), `agent` (a specific agent role), and `skill` (a specific skill). Each entry includes `name`, `mcp` (boolean), and optional `scopes` (list of permitted actions). The file MUST include a `schema_version: 1` field at the top; the validation script checks compatibility and warns on unknown schema versions.
 - **FR-005**: A `tool-policy-manager` skill MUST exist at `agents/agent-configuration-manager/tool-policy-manager/SKILL.md` for ongoing governance of `allowed-tools.yaml`.
 - **FR-006**: Every agent directory's Agent header MUST include a tool policy reference: `Tool policy: [allowed-tools.yaml](../../allowed-tools.yaml)`. This is added at the agent level, not per-skill — agents inherit their tool permissions.
 - **FR-007**: The validation script MUST validate `allowed-tools.yaml`: proper YAML syntax, referenced departments exist in `departments/`, referenced agents exist in `agents/`.

@@ -95,3 +95,10 @@ When an AI agent needs resources: skill → agent → department → `_shared/`.
 - Every skill enrichment = 1 commit
 - Format: `Enrich skill: <skill-slug> for <Agent Role>`
 - Never batch multiple skills in one commit
+
+## Active Technologies
+- Python 3.10+ for executable scripts, Bash for shell helpers. Markdown + YAML for skill files and policy files. + None beyond stdlib — scripts must be zero-dependency (per existing convention from `scripts/validate.py`). (002-skill-quality-improvements)
+- Git-managed filesystem. `allowed-tools.yaml` at repo root. Credentials in platform-native secret stores (never in repo). (002-skill-quality-improvements)
+
+## Recent Changes
+- 002-skill-quality-improvements: Added Python 3.10+ for executable scripts, Bash for shell helpers. Markdown + YAML for skill files and policy files. + None beyond stdlib — scripts must be zero-dependency (per existing convention from `scripts/validate.py`).

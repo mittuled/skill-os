@@ -1,0 +1,52 @@
+# Schema for allowed-tools.yaml
+# Defines tool access policies at four levels
+
+required_fields:
+  schema_version:
+    type: integer
+    current: 1
+
+levels:
+  company-wide:
+    type: list
+    description: Tools available to all agents
+    items:
+      name:
+        type: string
+        required: true
+      mcp:
+        type: boolean
+        required: true
+      scopes:
+        type: list
+        items: string
+        required: false
+
+  department:
+    type: map
+    keys: must_match_departments_directory
+    values:
+      type: list
+      items: same_as_company_wide
+
+  agent:
+    type: map
+    keys: must_match_agents_directory
+    values:
+      type: list
+      items: same_as_company_wide
+
+  skill:
+    type: map
+    keys: must_match_skill_directory
+    values:
+      type: list
+      items: same_as_company_wide
+
+lookup_chain:
+  order: [company-wide, department, agent, skill]
+  merge_strategy: union
+  description: >
+    An agent's available tools = company-wide ∪ department-level ∪
+    agent-level ∪ skill-level. Most permissive wins — if a tool
+    appears at any level, the agent can use it.
