@@ -23,6 +23,7 @@ related-skills:
 L2 solutions engineering manager (1x) responsible for technical buyer signal extraction and solutions playbook development.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

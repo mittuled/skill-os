@@ -20,6 +20,7 @@ related-skills: []
 L1 VP of Agent Operations reporting to the COO (1x) responsible for the agent lifecycle -- provisioning, health monitoring, configuration governance, and retirement of deprecated agents. Owns the org design of the agent fleet.
 
 Department ethos: [ideal-agent-operations.md](../../../departments/agent-operations/ideal-agent-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

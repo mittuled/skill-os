@@ -19,6 +19,7 @@ related-skills:
 L1 analytics leader (1x) responsible for search demand validation, market sizing, goal framing, instrumentation strategy, and north star metric governance.
 
 Department ethos: [ideal-data-growth.md](../../../departments/data-growth/ideal-data-growth.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -22,6 +22,7 @@ related-skills:
 L1 general counsel (1x) reporting to the COO, responsible for legal strategy, IP assignment, stock plan setup, and entity structure decisions.
 
 Department ethos: [ideal-legal.md](../../../departments/legal/ideal-legal.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

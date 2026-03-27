@@ -22,6 +22,7 @@ related-skills:
 L2 security and compliance programme manager (1x) responsible for SOC 2, security awareness training, disaster recovery, GDPR/CCPA compliance, and penetration test programme management.
 
 Department ethos: [ideal-legal.md](../../../departments/legal/ideal-legal.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

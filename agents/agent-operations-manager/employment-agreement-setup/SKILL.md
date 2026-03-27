@@ -20,6 +20,7 @@ related-skills: []
 L2 Agent Operations Manager (1x) responsible for message passing infrastructure, context sharing protocols, inter-agent coordination, and agent health monitoring.
 
 Department ethos: [ideal-agent-operations.md](../../../departments/agent-operations/ideal-agent-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

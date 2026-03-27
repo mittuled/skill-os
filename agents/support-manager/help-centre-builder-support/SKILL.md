@@ -10,6 +10,11 @@ agent: support-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build the help center"
+  - "create a knowledge base"
+  - "set up self-service support docs"
+  - "launch the help centre"
 ---
 
 # help-centre-builder-support
@@ -19,6 +24,7 @@ related-skills: []
 L1 support manager (1x) reporting to the COO, responsible for support runbooks, help centre, incident response planning, and support activation. Owns queue management, SLA adherence, and support tooling.
 
 Department ethos: [ideal-customer-support.md](../../../departments/customer-support/ideal-customer-support.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

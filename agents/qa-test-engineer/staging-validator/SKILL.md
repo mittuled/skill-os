@@ -35,7 +35,7 @@ The QA / Test Engineer validates the full system in the staging environment befo
 5. Confirm observability is functioning: logs are flowing, metrics are emitting, traces are connected.
 6. Run smoke tests on any infrastructure changes (DNS, load balancers, certificates).
 7. Document pass/fail results for each validation area in a staging sign-off checklist.
-8. Issue a promotion recommendation (proceed, proceed with caveats, or block).
+8. Apply the scoring rubric at `references/scoring-rubric.md`. Issue a promotion recommendation (proceed, proceed with caveats, or block).
    - **Deliverable**: Staging validation checklist with pass/fail per area and a promotion recommendation.
 
 ## Anti-Patterns

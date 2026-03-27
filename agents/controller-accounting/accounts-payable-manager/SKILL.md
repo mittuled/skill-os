@@ -22,6 +22,7 @@ related-skills:
 L2 controller and accounting lead (1x) responsible for monthly close, accounts payable and receivable, payroll, audit preparation, tax compliance, and financial systems setup.
 
 Department ethos: [ideal-finance.md](../../../departments/finance/ideal-finance.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

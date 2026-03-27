@@ -20,6 +20,7 @@ related-skills: []
 L2 UX research lead (1x) (moved from Product, now reports to Head of Design) responsible for planning and leading user research to directly inform design decisions.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

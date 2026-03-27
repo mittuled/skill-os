@@ -1,0 +1,53 @@
+# allowed-tools.yaml — Starter template for tool access policies.
+# Managed by the tool-policy-manager skill.
+#
+# Levels (most specific wins):
+#   company-wide  → all agents inherit
+#   department    → agents in that department inherit
+#   agent         → only that agent
+#   skill         → only that skill execution
+#
+# Each tool entry requires:
+#   name:   string  (unique identifier)
+#   mcp:    bool    (true if accessed via MCP server)
+#   scopes: list    (e.g., [read], [read, write], [read, write, delete])
+#
+# Optional fields:
+#   health_endpoint: string  (URL for health checks)
+#   auth_method:     string  (api_key | bearer | oauth2)
+
+schema_version: 1
+
+company-wide:
+  - name: slack
+    mcp: true
+    scopes: [read, send]
+  - name: github
+    mcp: true
+    scopes: [read, write, pr]
+
+department:
+  engineering:
+    - name: datadog
+      mcp: true
+      scopes: [read]
+      health_endpoint: https://api.datadoghq.com/api/v1/validate
+    - name: sentry
+      mcp: false
+      scopes: [read, write]
+  sales:
+    - name: salesforce
+      mcp: true
+      scopes: [read, write]
+
+agent:
+  security-engineer:
+    - name: burpsuite
+      mcp: false
+      scopes: [read, scan]
+
+skill:
+  contract-review-orchestrator:
+    - name: docusign
+      mcp: false
+      scopes: [read]

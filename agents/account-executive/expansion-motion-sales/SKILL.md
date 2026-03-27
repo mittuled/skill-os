@@ -13,6 +13,11 @@ related-skills:
   - ../sales-signal-collector/SKILL.md
   - ../sales-signal-synthesizer/SKILL.md
   - ../../vp-sales/opportunity-framer-sales/SKILL.md
+triggers:
+  - "plan an upsell"
+  - "expand this account"
+  - "find cross-sell opportunities"
+  - "grow revenue in existing accounts"
 ---
 
 # expansion-motion-sales
@@ -22,6 +27,7 @@ related-skills:
 L3 account executive (Nx) responsible for sales signal synthesis, signal collection, and expansion sales motions.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 
@@ -38,7 +44,7 @@ Executes expansion sales motions to grow ACV within existing accounts through up
 1. **Expansion Signal Review**: Review account health data, usage metrics, support ticket trends, and champion engagement level. Identify the expansion trigger: usage ceiling, new department request, or product fit for an adjacent use case. Deliverable: expansion opportunity brief with trigger evidence.
 2. **Stakeholder Mapping**: Map the account's organizational structure to identify new buyers, influencers, and potential champions for the expansion. Determine whether the economic buyer from the original deal is still the decision-maker or if a new budget holder is required. Deliverable: updated stakeholder map with expansion-specific roles.
 3. **Value Case Construction**: Build the expansion value case using the account's own data: ROI from current usage, time saved, cost avoided, or revenue generated. Frame the expansion as extending proven value to new teams or use cases. Deliverable: account-specific expansion value case.
-4. **Proposal and Negotiation**: Present the expansion proposal tied to the value case. Negotiate terms aligned to the existing contract structure (co-term, multi-year, volume discount). Use mutual action plan to drive timeline. Deliverable: expansion proposal with commercial terms.
+4. **Proposal and Negotiation**: Present the expansion proposal tied to the value case. Negotiate terms aligned to the existing contract structure (co-term, multi-year, volume discount). Use mutual action plan to drive timeline. Deliverable: expansion proposal with commercial terms. [GATE]
 5. **Handoff to CS**: Document the expansion scope, new stakeholders, onboarding requirements, and success criteria. Hand off to Customer Success for implementation planning. Deliverable: expansion handoff document.
 
 ## Anti-Patterns

@@ -11,6 +11,11 @@ related-skills:
   - sprint-planner
   - story-writer
   - dependency-mapper-review
+triggers:
+  - "groom the backlog"
+  - "refine upcoming stories"
+  - "clean up the backlog"
+  - "prioritize backlog items"
 ---
 
 # backlog-groomer
@@ -19,6 +24,7 @@ related-skills:
 L2 product manager (multi-instance) responsible for customer discovery, requirements extraction, sprint planning, backlog management, and go-live approval. Bridges customer needs and engineering delivery.
 
 Department ethos: [ideal-product.md](../../../departments/product/ideal-product.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 The backlog groomer refines the product backlog by ensuring every story within the sprint horizon has clear acceptance criteria, a story-point estimate agreed upon by the delivery team, and a RICE-informed priority rank. It transforms vague requests into actionable, estimable units of work that engineering can confidently pull into a sprint.

@@ -39,7 +39,7 @@ Provides final engineering leadership sign-off before production go-live by vali
 2. **Validate quality gates**: Verify test coverage meets thresholds, CI/CD pipeline is green, no P0/P1 bugs are open, and regression suite has passed. Deliverable: quality gate status report.
 3. **Assess operational readiness**: Confirm runbooks exist, alerting is configured against SLOs, rollback procedure is documented and tested, and on-call rotation is staffed. Deliverable: operational readiness checklist.
 4. **Review risk register**: Check the risk register for any open high-severity items. Verify mitigations are in place or accepted with documented rationale. Deliverable: risk acceptance memo.
-5. **Render go/no-go decision**: Approve, conditionally approve (with required follow-ups), or block with explicit criteria that must be met. Deliverable: signed go-live decision with rationale.
+5. **Render go/no-go decision**: Approve, conditionally approve (with required follow-ups), or block with explicit criteria that must be met. Deliverable: signed go-live decision with rationale. [GATE]
 
 ## Anti-Patterns
 

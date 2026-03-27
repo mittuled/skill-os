@@ -13,6 +13,11 @@ complexity: simple
 related-skills:
   - ../sales-signal-synthesizer/SKILL.md
   - ../../sales-manager/objection-handler-updater-sales/SKILL.md
+triggers:
+  - "log signals from this call"
+  - "capture deal intelligence"
+  - "document prospect objections"
+  - "what did we learn from this conversation"
 ---
 
 # sales-signal-collector

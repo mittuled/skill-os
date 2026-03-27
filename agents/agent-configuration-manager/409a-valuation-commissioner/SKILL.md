@@ -20,6 +20,7 @@ related-skills: []
 L2 Agent Configuration Manager (1x) responsible for model selection per agent, compute budget allocation, context window sizing, tool access policies, and API key management.
 
 Department ethos: [ideal-agent-operations.md](../../../departments/agent-operations/ideal-agent-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

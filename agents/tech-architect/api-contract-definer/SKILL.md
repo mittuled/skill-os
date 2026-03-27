@@ -13,6 +13,11 @@ complexity: complex
 related-skills:
   - ../architecture-designer/SKILL.md
   - ../technical-feasibility-check/SKILL.md
+triggers:
+  - "define the API contract"
+  - "design the API endpoints"
+  - "what should the API look like"
+  - "create the API spec"
 ---
 
 # api-contract-definer
@@ -22,6 +27,7 @@ related-skills:
 L2 technical architect (1x) responsible for feasibility assessment, system design, API contract definition, and infrastructure planning. Ensures technical decisions support product goals and scale requirements.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

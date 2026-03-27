@@ -19,6 +19,7 @@ related-skills: []
 L1 vendor management and procurement function (1x) reporting to the COO, responsible for vendor contracts, risk assessment, procurement process, and vendor performance reviews.
 
 Department ethos: [ideal-technical-operations.md](../../../departments/technical-operations/ideal-technical-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

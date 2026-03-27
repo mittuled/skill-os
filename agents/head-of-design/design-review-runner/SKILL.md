@@ -11,6 +11,11 @@ agent: head-of-design
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run a design review"
+  - "crit this design"
+  - "is this design ready for handoff"
+  - "check design against the system"
 ---
 
 # design-review-runner

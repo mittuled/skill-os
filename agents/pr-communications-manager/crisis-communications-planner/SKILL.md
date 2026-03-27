@@ -22,6 +22,7 @@ related-skills:
 L2 PR and communications manager (1x) responsible for earned media, press relationships, crisis communications, thought leadership programme, and executive visibility.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

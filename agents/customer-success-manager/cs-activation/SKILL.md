@@ -20,6 +20,7 @@ related-skills: []
 L3 customer success manager (Nx) responsible for signal extraction, feedback synthesis, early adopter success, and customer activation.
 
 Department ethos: [ideal-customer-success.md](../../../departments/customer-success/ideal-customer-success.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

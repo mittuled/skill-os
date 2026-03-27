@@ -20,6 +20,7 @@ related-skills: []
 L2 Skill Builder Lead (1x) responsible for identifying capability gaps, designing new skills, sourcing external skill modules, and maintaining the skill registry.
 
 Department ethos: [ideal-agent-operations.md](../../../departments/agent-operations/ideal-agent-operations.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

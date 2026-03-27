@@ -11,6 +11,11 @@ agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build the onboarding playbook"
+  - "design the customer onboarding flow"
+  - "reduce time to value for new customers"
+  - "standardize onboarding"
 ---
 
 # cs-onboarding-playbook-cs
@@ -20,6 +25,7 @@ related-skills: []
 L1 customer success leader reporting to the CBO (1x) responsible for CS strategy, SLA design, playbook creation, expansion motion, and training materials.
 
 Department ethos: [ideal-customer-success.md](../../../departments/customer-success/ideal-customer-success.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 
@@ -37,7 +43,7 @@ Builds the customer success onboarding playbook for delivering consistent time-t
 2. **Map Onboarding Journey**: Design the step-by-step onboarding journey from contract signing to first value milestone. Include touchpoints, content delivery, and customer actions at each stage. Deliverable: onboarding journey map with timeline.
 3. **Create Playbook Content**: Write the playbook sections: kickoff meeting agenda, configuration checklist, training schedule, success criteria per stage, and escalation triggers for stalled onboarding. Deliverable: complete onboarding playbook document.
 4. **Define Handoff Protocols**: Specify how the customer transitions from sales to CS at onboarding start, and from onboarding to steady-state CS at completion. Deliverable: handoff checklists for both transitions.
-5. **Establish Measurement**: Define onboarding metrics -- time-to-value, completion rate, stage drop-off rates, and customer satisfaction at onboarding end. Deliverable: onboarding metrics framework.
+5. **Establish Measurement**: Define onboarding metrics -- time-to-value, completion rate, stage drop-off rates, and customer satisfaction at onboarding end. Apply the scoring rubric at `references/scoring-rubric.md`. Deliverable: onboarding metrics framework.
 
 ## Anti-Patterns
 

@@ -22,6 +22,7 @@ related-skills:
 L1 CFO and VP Finance (1x) reporting to the COO, responsible for unit economics, financial modelling, pricing sign-off, and pitch narration for financial audiences.
 
 Department ethos: [ideal-finance.md](../../../departments/finance/ideal-finance.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

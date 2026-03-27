@@ -12,6 +12,11 @@ complexity: medium
 related-skills:
   - ../../vp-marketing/demand-gen-planner/SKILL.md
   - ../../marketing-operations-manager/campaign-analytics-reporter/SKILL.md
+triggers:
+  - "analyse channel performance"
+  - "which channels are working"
+  - "why is CPL spiking"
+  - "find the best ROI channels"
 ---
 
 # channel-signal-analyst
@@ -21,6 +26,7 @@ related-skills:
 L2 demand generation manager (1x) responsible for channel signal analysis, content engine operations, and roadmap timing input for marketing campaigns.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

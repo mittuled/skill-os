@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../compliance-scanner/SKILL.md
   - ../third-party-tos-reviewer/SKILL.md
+triggers:
+  - "build the legal risk register"
+  - "what are our legal exposures"
+  - "track legal risks"
+  - "prioritize legal risks"
 ---
 
 # risk-register-legal

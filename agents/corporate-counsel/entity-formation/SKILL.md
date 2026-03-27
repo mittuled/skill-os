@@ -37,7 +37,7 @@ Handles the legal entity formation process including selecting entity type, prep
 
 1. **Entity Type Confirmation**: Confirm the entity type decision (C-Corp, LLC, S-Corp, etc.) based on business goals, tax considerations, and financing plans. Verify the chosen state of incorporation. Deliverable: entity type confirmation memo.
 2. **Document Preparation**: Prepare the certificate of incorporation (or articles of organization for LLC) including authorized share classes, par value, registered agent designation, and any special provisions. Deliverable: draft formation documents.
-3. **State Filing**: File formation documents with the Secretary of State. Pay filing fees and request expedited processing if needed. Obtain the stamped filing confirmation and entity number. Deliverable: filed and stamped formation documents.
+3. **State Filing**: File formation documents with the Secretary of State. Pay filing fees and request expedited processing if needed. Obtain the stamped filing confirmation and entity number. Deliverable: filed and stamped formation documents. [GATE]
 4. **Post-Formation Setup**: Obtain an EIN from the IRS. Register for state tax accounts. File foreign qualification in any states where the company will operate. Designate a registered agent in each jurisdiction. Deliverable: EIN confirmation and state registrations.
 5. **Corporate Records Assembly**: Assemble the initial corporate records including formation documents, EIN letter, registered agent agreements, and any state registrations into the corporate minute book. Deliverable: organized corporate minute book.
 

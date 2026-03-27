@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../risk-register-legal/SKILL.md
   - ../third-party-tos-reviewer/SKILL.md
+triggers:
+  - "scan for compliance risks"
+  - "what regulations apply to us"
+  - "check regulatory requirements"
+  - "audit our compliance posture"
 ---
 
 # compliance-scanner

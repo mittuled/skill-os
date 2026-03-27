@@ -10,6 +10,11 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review the sprint output"
+  - "what shipped this sprint"
+  - "check acceptance criteria for delivered stories"
+  - "is this sprint work shippable"
 ---
 
 # sprint-reviewer

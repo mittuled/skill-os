@@ -18,6 +18,7 @@ related-skills:
 L3 database specialist (1x) responsible for data model design and database architecture. Co-owns data modelling with the Data Engineer and Senior Backend Developer.
 
 Department ethos: [ideal-engineering.md](../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

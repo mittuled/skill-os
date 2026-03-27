@@ -10,6 +10,11 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "write user stories"
+  - "create stories for this feature"
+  - "turn this into user stories"
+  - "draft acceptance criteria"
 ---
 
 # story-writer

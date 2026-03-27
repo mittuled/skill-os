@@ -6,6 +6,11 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "automate deployments"
+  - "remove manual deploy steps"
+  - "make releases one-click"
+  - "set up automated deploys"
 ---
 
 # deployment-automation
@@ -29,15 +34,12 @@ The DevOps / Infrastructure Engineer automates deployment processes to reduce ma
 
 ## Workflow
 
-1. Audit the current deployment process: document every manual step, decision point, and prerequisite.
-2. Identify which steps can be automated immediately vs. which require infrastructure changes first.
-3. Implement deployment scripts or pipeline stages that replace each manual step.
-4. Add pre-deployment checks: version validation, dependency verification, and environment health.
-5. Add post-deployment checks: smoke tests, health endpoint verification, and metric baseline comparison.
-6. Implement rollback automation triggered by failed post-deployment checks.
-7. Test the automated deployment end-to-end in a non-production environment.
-8. Document the automated deployment process and any remaining manual gates.
-   - **Deliverable**: An automated deployment pipeline with pre/post checks, rollback capability, and documentation.
+1. **Process Audit**: Document every manual deployment step, decision point, and prerequisite. Map the current runbook to identify SSH sessions, console clicks, script executions, and tribal knowledge. Deliverable: current-state deployment map with automation candidates flagged.
+2. **Strategy Selection**: Choose the deployment pattern based on infrastructure: **blue-green** for stateless services (swap ALB target groups or Kubernetes service selectors), **canary** for high-traffic services (route 1-5% via Istio traffic splitting or AWS weighted target groups), **rolling** for stateful workloads (Kubernetes rolling update with maxSurge/maxUnavailable tuning). Deliverable: deployment strategy document with pattern rationale.
+3. **Pre-Deployment Automation**: Implement automated pre-flight checks: artifact version validation (SHA-tagged immutable images, never `latest`), dependency health verification (database connectivity, downstream API availability), environment drift detection (Terraform plan diff, Kubernetes config audit), and capacity headroom check. Deliverable: pre-deployment gate configuration.
+4. **Deployment Execution Automation**: Replace manual steps with pipeline stages or infrastructure-as-code. For Kubernetes: Helm chart or Kustomize overlays with ArgoCD or Flux for GitOps-driven deploys. For VM-based: Ansible playbooks or Terraform with zero-downtime rolling replacement. Include **health check gates**: readiness probes (`/healthz` returning 200), startup probes for slow-initializing services, and liveness probes to catch post-deploy crashes. Deliverable: automated deployment pipeline or GitOps configuration.
+5. **Post-Deployment Validation**: Automate smoke tests (critical user journey HTTP assertions), metric baseline comparison (compare p95 latency, error rate, and throughput against the previous 30-minute window), and synthetic monitoring triggers. If any check fails within the bake time window (10-15 minutes), trigger automatic **rollback**: revert the Kubernetes deployment revision, swap the blue-green target group back, or scale the canary to zero. Deliverable: post-deployment validation suite with automated rollback triggers.
+6. **Human Gates**: Retain manual approval gates only where required: database migrations with backward-incompatible schema changes, breaking API version deprecations, and compliance-sensitive deployments. Implement approval via Slack-integrated workflow (approve/reject buttons) rather than SSH access. Deliverable: gate policy document specifying which deployments require human approval and why. [GATE]
 
 ## Anti-Patterns
 

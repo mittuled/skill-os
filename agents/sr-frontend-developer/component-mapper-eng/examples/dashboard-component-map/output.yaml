@@ -1,0 +1,81 @@
+# Component Map: Analytics Dashboard
+# Each component lists its props, children, and data dependencies
+
+app:
+  component: DashboardLayout
+  children:
+    - component: Sidebar
+      props: { collapsed: boolean }
+      children:
+        - component: Logo
+          props: { variant: "icon" | "full" }
+        - component: NavMenu
+          props: { items: NavItem[], activeRoute: string }
+          children:
+            - component: NavItem
+              props: { icon: IconName, label: string, href: string, badge?: number }
+        - component: UserProfile
+          props: { user: User }
+          data_source: auth/currentUser
+
+    - component: TopBar
+      children:
+        - component: Breadcrumbs
+          props: { segments: BreadcrumbSegment[] }
+          data_source: router/currentRoute
+        - component: SearchBar
+          props: { placeholder: string, onSearch: (query: string) => void }
+        - component: NotificationBell
+          props: { count: number, onOpen: () => void }
+          data_source: notifications/unreadCount
+
+    - component: FilterBar
+      props: { filters: FilterConfig[], onChange: (filters: ActiveFilters) => void }
+      state: { dateRange: DateRange, segment: string, comparison: boolean }
+      children:
+        - component: DateRangePicker
+          props: { value: DateRange, onChange: (range: DateRange) => void }
+        - component: SegmentSelect
+          props: { options: string[], value: string }
+        - component: FilterChip
+          props: { label: string, onRemove: () => void }
+
+    - component: DashboardGrid
+      props: { filters: ActiveFilters }
+      children:
+        - component: KPICardRow
+          layout: "grid grid-cols-4 gap-4"
+          children:
+            - component: KPICard
+              props: { title: string, value: number, trend: number, format: "number" | "currency" | "percent" }
+              data_source: analytics/kpis
+              instances: 4  # Revenue, Users, Conversion, Avg Order Value
+
+        - component: LineChart
+          props: { data: TimeSeriesData[], xKey: string, yKeys: string[], height: number }
+          data_source: analytics/timeseries
+          library: recharts
+
+        - component: DataTable
+          props: { columns: Column[], data: Row[], sortable: boolean, paginated: boolean }
+          data_source: analytics/tableData
+          children:
+            - component: TableHeader
+              props: { columns: Column[], sortColumn: string, sortDirection: "asc" | "desc" }
+            - component: TableRow
+              props: { row: Row, columns: Column[] }
+            - component: Pagination
+              props: { page: number, totalPages: number, onPageChange: (page: number) => void }
+
+# Shared / Reusable Components
+shared:
+  - component: Button
+    props: { variant: "primary" | "secondary" | "ghost", size: "sm" | "md" | "lg", loading: boolean }
+  - component: Modal
+    props: { open: boolean, onClose: () => void, title: string }
+  - component: Tooltip
+    props: { content: string, placement: "top" | "bottom" | "left" | "right" }
+  - component: Skeleton
+    props: { width: string, height: string, variant: "text" | "rect" | "circle" }
+  - component: EmptyState
+    props: { icon: IconName, title: string, description: string, action?: { label: string, onClick: () => void } }

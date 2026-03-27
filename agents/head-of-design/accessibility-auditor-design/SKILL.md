@@ -20,6 +20,7 @@ related-skills: []
 L1 design leader (1x) responsible for design strategy, review governance, and accessibility oversight. Oversees UX Research and Content Design as sub-disciplines reporting into Design.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 
@@ -38,7 +39,7 @@ Conducts full accessibility audits of shipped product experiences against WCAG s
 2. **Inventory existing state**: Pull current accessibility annotations, design tokens (colour contrast ratios, focus states, touch targets), and any prior audit reports. Deliverable: baseline inventory document.
 3. **Execute automated checks**: Run automated tooling (axe-core, Lighthouse accessibility, colour-contrast analyzers) across all scoped surfaces. Record every violation with severity, WCAG criterion, and screenshot. Deliverable: raw automated findings log.
 4. **Perform manual testing**: Test keyboard navigation, screen reader compatibility (VoiceOver, NVDA, TalkBack), magnification, reduced motion, and high-contrast mode. Document interaction sequences that fail. Deliverable: manual testing results matrix.
-5. **Classify and prioritize findings**: Score each issue by severity (critical, major, minor), affected user population, and remediation effort. Group by WCAG principle (Perceivable, Operable, Understandable, Robust). Deliverable: prioritized issue register.
+5. **Classify and prioritize findings**: Score each issue by severity (critical, major, minor), affected user population, and remediation effort. Apply the scoring rubric at `references/scoring-rubric.md`. Group by WCAG principle (Perceivable, Operable, Understandable, Robust). Deliverable: prioritized issue register.
 6. **Draft remediation recommendations**: For each finding, specify the design change required -- updated colour tokens, focus ring additions, ARIA label corrections, reflow adjustments. Assign to design or engineering. Deliverable: remediation plan with owners and effort estimates.
 7. **Compile audit report**: Assemble findings, screenshots, compliance scores, and remediation plan into a structured report. Include executive summary with pass/fail verdict. Deliverable: accessibility audit report.
 8. **Present and hand off**: Walk stakeholders through critical findings and remediation timeline. File issues in the backlog with audit references. Deliverable: backlog tickets linked to audit findings.

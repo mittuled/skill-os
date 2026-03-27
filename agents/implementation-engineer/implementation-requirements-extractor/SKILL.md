@@ -19,6 +19,7 @@ related-skills: []
 L2 implementation engineer (Nx, multi-instance) responsible for extracting customer requirements and running technical onboarding.
 
 Department ethos: [ideal-implementation.md](../../../departments/implementation/ideal-implementation.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

@@ -485,11 +485,12 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 **Owns:** Message passing infrastructure, context sharing protocols, inter-agent coordination, agent health monitoring
 **Analogy:** In a human company, People Ops handles onboarding logistics and keeps the organisational machinery running. Agent Ops Manager handles the equivalent — ensuring agents can communicate, share context, and hand off work cleanly.
 
-**Skills (4):** *(preserved, reframed)*
+**Skills (5):** *(preserved, reframed + 1 new)*
 - `hiring-plan-builder` → **Agent provisioning planner** — Plans which agents need to be provisioned for each delivery phase [Ph5]
 - `team-health-monitor` → **Agent health monitor** — Monitors latency, error rates, context window usage, and hallucination rates as leading indicators of delivery risk [Ph8]
 - `employment-agreement-setup` → **Agent interface contract setup** — Defines the standard input/output contract template for all agent interactions [FOUND]
 - `first-hire-process-builder` → **First agent deployment process** — Designs the testing, validation, and deployment procedure for the first production agent [FOUND]
+- `tool-health-checker` → **Tool health checker** — Verifies tool connectivity, credentials, and MCP responsiveness across agent fleet [002]
 
 ### Skill Builder Lead · L2 · `1x` *(reframed from Talent Acquisition Lead)*
 
@@ -506,8 +507,9 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 **Why Nx:** Multiple skills across different domains can be built simultaneously.
 **Analogy:** Where a recruiter sources and closes individual candidates, a Skill Builder writes and validates individual skills.
 
-**Skills (1):** *(preserved, reframed)*
+**Skills (2):** *(preserved, reframed + 1 new)*
 - `engineering-talent-sourcer` → **Skill developer** — Builds, tests, and validates individual skills against specific capability requirements [Ph8]
+- `mcp-server-builder` → **MCP server builder** — Generates MCP server wrappers from API documentation for tool integration [002]
 
 ### Agent Trainer / Skill Optimizer · L2 · `1x` *(reframed from L&D Manager)*
 
@@ -526,7 +528,7 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 **Owns:** Model selection per agent, compute budget allocation, context window sizing, tool access policies, API key management
 **Analogy:** Comp & Benefits decides how to resource employees — salary, equity, benefits. Agent Configuration decides how to resource agents — which model, how much compute, what context window, which tools.
 
-**Skills (7):** *(preserved, reframed)*
+**Skills (9):** *(preserved, reframed + 2 new)*
 - `compensation-benchmarking` → **Model benchmarking** — Evaluates and selects the optimal model tier for each agent role annually [AOS]
 - `annual-comp-review-runner` → **Annual agent configuration review** — Reviews whether each agent's model, compute, and tool access are appropriately sized [AOS]
 - `equity-programme-manager` → **Agent capability investment manager** — Manages the allocation of premium capabilities (expensive models, large context windows) across agents [AOS]
@@ -534,6 +536,8 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 - `option-pool-design` → **Agent resource pool design** — Designs the initial compute and model allocation strategy [FOUND]
 - `409a-valuation-commissioner` → **Agent cost-benefit evaluator** — Evaluates the ROI of each agent's compute spend against its output value [FOUND]
 - `benefits-setup-v1` → **Agent tooling setup v1** — Selects and configures the founding tool access package for all agents [FOUND]
+- `company-tooling-onboarder` → **Company tooling onboarder** — Discovers, authenticates, and connects company tools for agent access [002]
+- `tool-policy-manager` → **Tool policy manager** — Manages allowed-tools.yaml as an ongoing governance function for tool access control [002]
 
 ---
 

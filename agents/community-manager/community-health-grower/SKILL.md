@@ -19,6 +19,7 @@ related-skills: []
 L2 community manager responsible for extracting community signals, designing community-led growth, building the early community, and maintaining community health.
 
 Department ethos: [ideal-marketing.md](../../../departments/marketing/ideal-marketing.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

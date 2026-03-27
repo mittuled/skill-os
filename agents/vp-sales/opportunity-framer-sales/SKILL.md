@@ -14,6 +14,11 @@ related-skills:
   - ../../sales-manager/sales-playbook-builder/SKILL.md
   - ../../sales-manager/first-sales-process-builder/SKILL.md
   - ../../account-executive/expansion-motion-sales/SKILL.md
+triggers:
+  - "frame the sales opportunity"
+  - "define the sales motion for this segment"
+  - "how should we position this deal"
+  - "structure the sales approach"
 ---
 
 # opportunity-framer-sales
@@ -23,6 +28,7 @@ related-skills:
 L1 sales leader (1x) reporting to the CBO, responsible for sales strategy, pricing sign-off, quota setting, and team structure. Owns the sales motion from pipeline through close.
 
 Department ethos: [ideal-sales.md](../../../departments/sales/ideal-sales.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

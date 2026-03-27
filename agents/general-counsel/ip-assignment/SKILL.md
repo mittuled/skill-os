@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../../corporate-counsel/founder-equity-issuance/SKILL.md
   - ../../corporate-counsel/legal-template-library-builder/SKILL.md
+triggers:
+  - "set up IP assignment agreements"
+  - "make sure IP is assigned to the company"
+  - "draft contractor IP transfer"
+  - "audit IP ownership"
 ---
 
 # ip-assignment

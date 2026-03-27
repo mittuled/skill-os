@@ -20,6 +20,7 @@ related-skills: []
 L2 UX/UI designer (Nx) responsible for user flow design, wireframing, prototyping, and component mapping.
 
 Department ethos: [ideal-design.md](../../../departments/design/ideal-design.md)
+Tool policy: [allowed-tools.yaml](../../../allowed-tools.yaml)
 
 ## Skill Description
 

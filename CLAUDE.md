@@ -16,6 +16,7 @@ skill-os/
 ├── CLAUDE.md                     # This file
 ├── restructured-org-chart-v3.md  # Canonical org chart
 ├── status.md                     # Enrichment progress tracker
+├── allowed-tools.yaml            # Tool policy: 4-level access control
 ├── departments/                  # Department ethos profiles + shared context
 │   └── <dept>/
 │       ├── ideal-<dept>.md       # Ethos profile (max 500 words)
@@ -52,12 +53,12 @@ Roles are tagged with seniority level (`L1`/`L2`/`L3`) and instance count (`1x` 
 
 Every enriched skill lives at `agents/<agent-slug>/<skill-slug>/SKILL.md` with YAML frontmatter and 9 sections:
 
-1. **YAML frontmatter**: `name`, `description` (pushy), `department`, `agent`, `version`, `complexity`, `related-skills`
+1. **YAML frontmatter**: `name`, `description` (pushy), `department`, `agent`, `version`, `complexity`, `related-skills`, optional `triggers` (list of activation phrases, 5-50 chars each)
 2. **Title**: `# <skill-slug>`
-3. **Agent header**: Seniority + role description + ethos profile reference
+3. **Agent header**: Seniority + role description + ethos profile reference + tool policy reference
 4. **Skill Description**: One sentence, third-person declarative
 5. **When to Use**: Trigger scenarios (min 1)
-6. **Workflow**: Imperative numbered steps with deliverables
+6. **Workflow**: Imperative numbered steps with deliverables. High-stakes steps may include `[GATE]` markers requiring explicit approval before proceeding.
 7. **Anti-Patterns**: What to avoid + why (rationale required)
 8. **Output**: Success artifacts + failure reporting
 9. **Related Skills**: Bidirectional cross-references with rationale
@@ -90,8 +91,26 @@ python3 scripts/validate.py agents/<agent>/<skill>/SKILL.md  # One skill
 
 When an AI agent needs resources: skill → agent → department → `_shared/`. Most specific wins.
 
+## Tool Policy
+
+`allowed-tools.yaml` at repo root defines a 4-level access model for tool permissions:
+
+1. **Company-wide**: Tools available to all agents (e.g., GitHub, Slack)
+2. **Department**: Tools scoped to a department (e.g., Figma for Design)
+3. **Agent**: Tools scoped to a specific agent role
+4. **Skill**: Tools scoped to a single skill execution
+
+Agents reference the tool policy via their Agent header: `Tool policy: [allowed-tools.yaml](../../allowed-tools.yaml)`. The `tool-policy-manager` skill governs ongoing changes. The `company-tooling-onboarder` skill handles initial tool discovery and connection.
+
 ## Commit Discipline
 
 - Every skill enrichment = 1 commit
 - Format: `Enrich skill: <skill-slug> for <Agent Role>`
 - Never batch multiple skills in one commit
+
+## Active Technologies
+
+- Python 3.10+ for executable scripts, Bash for shell helpers
+- Markdown + YAML for skill files and policy files
+- Zero external dependencies — scripts use stdlib only
+- Git-managed filesystem; credentials in platform-native secret stores (never in repo)
