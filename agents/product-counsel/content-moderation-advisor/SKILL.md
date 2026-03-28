@@ -35,10 +35,10 @@ Advises on content moderation policies, enforcement procedures, and appeal mecha
 
 ## Workflow
 
-1. **Policy Framework Review**: Review existing content moderation policies against applicable laws (Section 230, DSA, local speech regulations). Identify gaps between legal requirements and current policy coverage. Deliverable: policy gap analysis.
-2. **Enforcement Procedure Design**: Design or review the moderation enforcement workflow: detection methods (automated and human), escalation criteria, response timeframes, and appeal mechanisms. Ensure procedures meet regulatory requirements for notice and due process. Deliverable: moderation procedure specification.
-3. **Decision Review**: When high-risk moderation decisions arise (government requests, public figure content, legally ambiguous speech), provide legal analysis on the decision and its implications. Deliverable: legal analysis memo for the moderation decision.
-4. **Compliance Monitoring**: Track regulatory developments affecting content moderation obligations. Advise on required transparency reports, government disclosure requirements, and cross-border content obligations. Deliverable: compliance update with required actions.
+1. **Policy Framework Review**: Review existing content moderation policies against applicable laws using the legal framework at `references/content-moderation-framework.md` — Section 230, EU Digital Services Act, NetzDG, Online Safety Act, CSAM reporting obligations, and state social media laws. Identify gaps between legal requirements and current policy coverage. Deliverable: policy gap analysis.
+2. **Enforcement Procedure Design**: Design or review the moderation enforcement workflow: detection methods (automated hash-matching, ML classifiers, human review), escalation criteria, response timeframes per DSA requirements, and appeal mechanisms per DSA Article 20. Produce policy using template at `assets/content-moderation-policy-template.md`. Deliverable: moderation procedure specification.
+3. **Decision Review**: When high-risk moderation decisions arise (government requests, public figure content, legally ambiguous speech), provide legal analysis applying the Section 230 analysis framework from `references/content-moderation-framework.md`. Deliverable: legal analysis memo.
+4. **Compliance Monitoring**: Track regulatory developments affecting content moderation. Advise on DSA transparency reports (Article 15/24/42), government disclosure requirements, and cross-border content obligations. Deliverable: compliance update with required actions.
 
 ## Anti-Patterns
 
