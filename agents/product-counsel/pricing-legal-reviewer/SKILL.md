@@ -35,9 +35,9 @@ Reviews pricing strategy, discount programs, and billing practices for complianc
 
 ## Workflow
 
-1. **Pricing Structure Review**: Analyze the pricing model for antitrust concerns including predatory pricing, price-fixing risk (if coordinated with market data), tying arrangements (bundling products to coerce purchases), and price discrimination across similarly situated customers. Deliverable: antitrust risk assessment for the pricing structure.
-2. **Consumer Protection Compliance**: Review billing practices for compliance with auto-renewal statutes (California ARL, FTC Negative Option Rule), transparent pricing disclosures, refund and cancellation policies, and currency conversion practices for international pricing. Deliverable: consumer protection compliance checklist with pass/fail per item.
-3. **Recommendation**: Provide a compliant/modify/reject recommendation with specific changes needed. For compliant pricing, confirm the review scope and any assumptions. For modifications, provide compliant alternative structures. Deliverable: pricing review memo with recommendation and approved pricing terms.
+1. **Pricing Structure Review**: Analyze the pricing model for antitrust concerns — predatory pricing assessment against market position, Robinson-Patman Act analysis for differential pricing, tying/bundling review for market power abuse, and price-fixing risk evaluation. For international pricing, assess EU competition law. Deliverable: antitrust risk assessment.
+2. **Consumer Protection Compliance**: Review billing practices against California ARL Section 17602, FTC Negative Option Rule, EU Consumer Rights Directive, and Australian Consumer Law. Verify auto-renewal disclosures, free trial conversion flows (check for dark patterns), refund/cancellation policies, and currency conversion transparency. Deliverable: consumer protection checklist with pass/fail per item.
+3. **Recommendation**: Apply scoring rubric at `references/scoring-rubric.md`. Provide compliant/modify/reject recommendation with specific changes. Produce memo using template at `assets/pricing-review-memo-template.md`. For modifications, include compliant alternative pricing structures. Deliverable: pricing review memo.
 
 ## Anti-Patterns
 
