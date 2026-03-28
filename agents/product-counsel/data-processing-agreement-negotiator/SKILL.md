@@ -35,12 +35,12 @@ Negotiates data processing agreements with vendors and customers by defining pro
 
 ## Workflow
 
-1. **Processing Scope Definition**: Document the personal data categories, data subjects, processing purposes, and retention periods for the relationship. Determine whether the company is controller or processor in the arrangement. Deliverable: processing scope document.
-2. **Template Selection and Customization**: Select the appropriate DPA template (company standard, customer-provided, or regulatory model clauses). Customize for the specific processing activities and relationship structure. Deliverable: customized DPA draft.
-3. **Security Requirements Alignment**: Define the technical and organizational security measures required. Align with the company's security standards and any regulatory minimums. Review the counterparty's security certifications and audit reports. Deliverable: security schedule with required measures.
-4. **Sub-Processor Terms**: Define sub-processor notification and approval rights. Review the counterparty's current sub-processor list. Establish the flow-down obligations from the primary DPA to sub-processors. Deliverable: sub-processor schedule and approval workflow.
-5. **Cross-Border Transfer Mechanisms**: Identify cross-border data transfers and implement appropriate transfer mechanisms (SCCs, adequacy decisions, binding corporate rules, or derogations). Conduct transfer impact assessments where required. Deliverable: transfer mechanism documentation.
-6. **Negotiation and Execution**: Negotiate contentious terms (liability caps, indemnification, audit rights, breach notification timelines). Document deviations from standard terms with risk acceptance rationale. Execute the final agreement. Deliverable: executed DPA with deviation log.
+1. **Processing Scope Definition**: Document the personal data categories, data subjects, processing purposes, and retention periods. Determine controller/processor designation per GDPR Article 28. Apply risk tiering from `references/dpa-negotiation-framework.md` to set assessment depth. Deliverable: processing scope document.
+2. **Template Selection and Customization**: Select the appropriate DPA template and customize per the GDPR Article 28 mandatory clauses checklist in `references/dpa-negotiation-framework.md`. Deliverable: customized DPA draft.
+3. **Security Requirements Alignment**: Define technical and organizational security measures required per GDPR Article 32. Align with the company's security standards. Review counterparty SOC 2/ISO 27001 certifications. Deliverable: security schedule.
+4. **Sub-Processor Terms**: Define sub-processor notification and approval rights per the negotiation positions in `references/dpa-negotiation-framework.md`. Review the counterparty's sub-processor list. Establish flow-down obligations. Deliverable: sub-processor schedule.
+5. **Cross-Border Transfer Mechanisms**: Identify cross-border transfers and implement mechanisms per the transfer decision tree in `references/dpa-negotiation-framework.md` — SCCs, adequacy decisions, BCRs, or derogations. Conduct Transfer Impact Assessments. Deliverable: transfer mechanism documentation.
+6. **Negotiation and Execution**: Negotiate per the key positions in `references/dpa-negotiation-framework.md`. Document deviations with risk acceptance rationale. Produce DPA using template at `assets/dpa-template.md`. Execute the final agreement. Deliverable: executed DPA with deviation log.
 
 ## Anti-Patterns
 
