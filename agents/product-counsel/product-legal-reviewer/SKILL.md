@@ -35,10 +35,10 @@ Reviews product features and changes for legal and regulatory compliance by eval
 
 ## Workflow
 
-1. **Feature Intake**: Receive the feature specification, user flows, and data practices documentation from the product team. Clarify the feature's purpose, target users, data handling, and monetization approach. Deliverable: legal review intake summary.
-2. **Regulatory Mapping**: Identify all applicable regulations and legal requirements for the feature by jurisdiction. Cover consumer protection, privacy, accessibility, advertising, financial services, health, and sector-specific rules. Deliverable: regulatory applicability matrix.
-3. **Risk Assessment**: Evaluate each applicable requirement against the feature design. Identify compliance gaps, ambiguities, and areas where the feature's design creates unnecessary legal exposure. Deliverable: legal risk assessment with gap list.
-4. **Recommendation and Clearance**: Provide actionable recommendations to close each gap. Classify each as blocking (must fix before launch), recommended (should fix within a defined window), or advisory (best practice). Issue legal clearance when blocking items are resolved. Deliverable: legal review memo with clearance status.
+1. **Feature Intake**: Receive the feature specification, user flows, and data practices documentation. Clarify purpose, target users, data handling, monetization, and geographic reach. Deliverable: legal review intake summary.
+2. **Regulatory Mapping**: Identify all applicable regulations by jurisdiction — consumer protection, privacy (GDPR, CCPA), accessibility (ADA, WCAG), advertising (FTC), financial services, health (HIPAA), employment (EEOC AI guidance, NYC LL 144), and sector-specific rules. Deliverable: regulatory applicability matrix.
+3. **Risk Assessment**: Evaluate each requirement against feature design. Identify compliance gaps with severity classification (blocking/recommended/advisory) and likelihood/severity evaluation. Apply scoring rubric at `references/scoring-rubric.md`. Deliverable: legal risk assessment.
+4. **Recommendation and Clearance**: Provide actionable recommendations with compliant alternatives that achieve the product goal. Produce memo using template at `assets/product-legal-review-memo-template.md`. Issue legal clearance when blocking items resolved. Deliverable: legal review memo with clearance status.
 
 ## Anti-Patterns
 
