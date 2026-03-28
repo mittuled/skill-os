@@ -41,10 +41,10 @@ Scans the business model, product features, and operations against applicable re
 ## Workflow
 
 1. **Scope Definition**: Identify the jurisdictions, industries, and data types involved. Map the business model to regulatory domains (data privacy, financial services, healthcare, employment, consumer protection). Deliverable: regulatory scope matrix.
-2. **Regulation Mapping**: Research applicable regulations for each domain (GDPR, CCPA, SOC 2, PCI-DSS, HIPAA, CAN-SPAM, ADA, etc.). Identify specific requirements, thresholds, and exemptions that apply to the company's size and stage. Deliverable: regulation applicability register.
-3. **Gap Analysis**: Compare current practices against each applicable requirement. Categorize gaps as critical (legal exposure), moderate (best practice), or low (aspirational). Deliverable: compliance gap report with severity ratings.
-4. **Remediation Roadmap**: Prioritize gaps by legal risk and effort. Define remediation actions, owners, and timelines. Identify any gaps requiring external counsel or specialist expertise. Deliverable: prioritized remediation plan.
-5. **Ongoing Monitoring**: Establish a cadence for re-scanning (quarterly or upon material business changes). Track regulatory developments in relevant domains. Deliverable: monitoring schedule and regulatory watch list.
+2. **Regulation Mapping**: Research applicable regulations for each domain (GDPR, CCPA/CPRA, SOC 2, PCI-DSS, HIPAA, CAN-SPAM, ADA, state biometric privacy laws like BIPA). Identify specific requirements, thresholds, and exemptions that apply to the company's size and stage. Document penalty ranges per regulation. Deliverable: regulation applicability register.
+3. **Gap Analysis**: Compare current practices against each applicable requirement. Score compliance posture using the scoring rubric at `references/scoring-rubric.md` across five criteria (regulatory identification, gap depth, data privacy, remediation quality, monitoring). Categorize gaps as critical (legal exposure), moderate (best practice), or low (aspirational). Deliverable: compliance gap report with severity ratings and composite grade.
+4. **Remediation Roadmap**: Prioritize gaps by penalty severity and enforcement likelihood. Define remediation actions, owners, timelines, and cost estimates. Identify gaps requiring external counsel or specialist expertise. Deliverable: prioritized remediation plan.
+5. **Ongoing Monitoring**: Establish quarterly re-scan cadence and trigger events for ad hoc scans (new product, new market, M&A). Produce the compliance scan report using template at `assets/compliance-scan-report-template.md`. Track regulatory developments in relevant domains. Deliverable: monitoring schedule, regulatory watch list, and compliance scan report.
 
 ## Anti-Patterns
 
