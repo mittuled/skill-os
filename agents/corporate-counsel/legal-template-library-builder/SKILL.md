@@ -35,10 +35,10 @@ Builds and maintains a library of standardized legal templates covering NDAs, co
 
 ## Workflow
 
-1. **Needs Assessment**: Identify the most frequently requested contract types and prioritize template creation by volume and risk. Deliverable: prioritized template backlog.
-2. **Template Drafting**: Draft each template with company-favorable defaults, clear fill-in fields, and usage instructions. Include fallback positions for negotiable terms. Deliverable: completed templates with usage guides.
-3. **Review and Approval**: Route templates through General Counsel for approval. Incorporate feedback and finalize. Deliverable: approved template library.
-4. **Distribution**: Publish templates to a shared location accessible to all teams. Train stakeholders on when and how to use each template. Deliverable: published library with access documentation.
+1. **Needs Assessment**: Identify the most frequently requested contract types and prioritize using the template prioritization matrix in `references/framework.md` (Priority 1: NDA, contractor agreement, offer letter, IP assignment, SAFE; Priority 2: SaaS agreement, DPA, advisor agreement; Priority 3: JV, reseller, data sharing). Deliverable: prioritized template backlog.
+2. **Template Drafting**: Draft each template following the structure standards in `references/framework.md`: header block, instructions section, deviation limits per the deviation authority matrix, fill-in fields with guidance notes, fallback positions for negotiable terms, and consistent defined terms. Apply regulatory compliance requirements per template type (DTSA whistleblower carve-outs for NDAs, GDPR Art. 28 for DPAs, IRS 20-factor test for contractor agreements). Deliverable: completed templates with usage guides.
+3. **Review and Approval**: Route templates through General Counsel for approval. Apply version control per `references/framework.md` (semantic versioning, changelog, annual review cycle). Incorporate feedback and finalize. Deliverable: approved template library.
+4. **Distribution**: Publish templates using the library index template at `assets/template-library-index-template.md`. Define self-serve vs. legal-review-required access per the deviation authority matrix in `references/framework.md`. Train stakeholders on when and how to use each template. Deliverable: published library index with access documentation and training.
 
 ## Anti-Patterns
 
