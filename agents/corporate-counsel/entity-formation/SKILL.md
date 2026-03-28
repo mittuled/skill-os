@@ -35,11 +35,11 @@ Handles the legal entity formation process including selecting entity type, prep
 
 ## Workflow
 
-1. **Entity Type Confirmation**: Confirm the entity type decision (C-Corp, LLC, S-Corp, etc.) based on business goals, tax considerations, and financing plans. Verify the chosen state of incorporation. Deliverable: entity type confirmation memo.
-2. **Document Preparation**: Prepare the certificate of incorporation (or articles of organization for LLC) including authorized share classes, par value, registered agent designation, and any special provisions. Deliverable: draft formation documents.
-3. **State Filing**: File formation documents with the Secretary of State. Pay filing fees and request expedited processing if needed. Obtain the stamped filing confirmation and entity number. Deliverable: filed and stamped formation documents. [GATE]
-4. **Post-Formation Setup**: Obtain an EIN from the IRS. Register for state tax accounts. File foreign qualification in any states where the company will operate. Designate a registered agent in each jurisdiction. Deliverable: EIN confirmation and state registrations.
-5. **Corporate Records Assembly**: Assemble the initial corporate records including formation documents, EIN letter, registered agent agreements, and any state registrations into the corporate minute book. Deliverable: organized corporate minute book.
+1. **Entity Type Confirmation**: Follow the pre-filing preparation section of `references/checklist.md`. Confirm the entity type decision (C-Corp, LLC, S-Corp) and verify the chosen state of incorporation. Check name availability with Secretary of State and reserve if needed. Deliverable: entity type confirmation memo.
+2. **Document Preparation**: Prepare the certificate of incorporation (DGCL 102 for Delaware C-Corp) or articles of organization for LLC. Follow the certificate checklist in `references/checklist.md`: authorized share structure (standard 10M Common + 5M Preferred at $0.00001 par value), DGCL 102(b)(7) exculpation provision, registered agent designation, and purpose clause. Deliverable: draft formation documents.
+3. **State Filing**: File formation documents with the Secretary of State per the state filing section of `references/checklist.md`. Pay filing fees (Delaware C-Corp: $89 standard / $189 expedited). Obtain the stamped filing confirmation and entity number. Deliverable: filed and stamped formation documents. [GATE]
+4. **Post-Formation Setup**: Follow the federal and state registrations sections of `references/checklist.md`. Obtain EIN (Form SS-4). Register for state tax accounts. File foreign qualification in each state where the company will transact business. File S-Corp election (Form 2553) within 75 days if applicable. Deliverable: EIN confirmation and state registrations.
+5. **Corporate Records Assembly**: Assemble the corporate minute book per the records assembly section of `references/checklist.md`: formation documents, EIN letter, registered agent agreements, state registrations, and blank stock ledger. Calendar annual report deadlines (Delaware: March 1 for C-Corp). Hand off to bylaws-and-board-setup and founder-equity-issuance. Deliverable: organized corporate minute book.
 
 ## Anti-Patterns
 
