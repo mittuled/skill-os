@@ -1,5 +1,7 @@
 # Scoring Rubric: CS Onboarding Playbook
 
+Evaluates the quality of a customer onboarding playbook across value milestones, journey completeness, segment adaptability, handoff design, and measurement.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Measurement Framework | 15% | 0-10 | Robustness of onboarding metrics: time-to-value, completion rate, drop-off tracking |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | Measurable milestones tied to business outcomes; segment-specific tracks validated with data; automated metrics driving iteration | Deploy playbook and establish quarterly review cadence |
+| A | 8.0 – 8.9 | Strong | Well-defined milestones and journey; segment tracks exist; handoffs documented; metrics tracked with minor automation gaps | Deploy with plan to automate remaining manual metrics |
+| B | 7.0 – 7.9 | Good | Milestones defined but some lack quantitative criteria; journey mapped with minor gaps; one handoff needs tightening | Deploy for primary segment; iterate on gaps before expanding |
+| C | 5.0 – 6.9 | Adequate | Milestones are mix of measurable and vague; single playbook for all segments; metrics defined but not consistently tracked | Revise milestones and add segment-specific adaptations before launch |
+| D | 3.0 – 4.9 | Weak | Milestones reflect internal steps not customer value; no segment variation; handoffs informal; no measurement | Redesign playbook with customer outcome focus and CS leadership input |
+| F | 0.0 – 2.9 | Failing | No structured onboarding journey; no milestones or success criteria defined | Commission playbook creation from scratch with cross-functional input |
 
 ## Signal Tables
 
