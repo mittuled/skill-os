@@ -1,5 +1,7 @@
 # Scoring Rubric: Architecture Reviewer
 
+Evaluates architecture decision records and design proposals across structural soundness, scalability, standards alignment, operational readiness, and simplicity.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Architectural Simplicity | 15% | 0-10 | Appropriate complexity for the problem; avoidance of premature abstraction and unnecessary components |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | Clean component boundaries; 3x+ scaling headroom; full standards alignment; automated deployment with tested rollback; minimal complexity | Approve ADR and proceed to implementation |
+| A | 8.0 – 8.9 | Strong | Well-isolated components; adequate scaling; mostly standards-aligned; deployment automated with minor operational gaps | Approve with follow-up on flagged operational items |
+| B | 7.0 – 7.9 | Good | Component boundaries clear but some coupling; scaling approach defined for primary paths; observability partially designed | Approve conditionally; address coupling and observability before sprint 2 |
+| C | 5.0 – 6.9 | Adequate | Leaky abstractions; scaling untested; off-radar technology without justification; manual deployment | Return for revision; schedule architecture pairing session |
+| D | 3.0 – 4.9 | Weak | Tightly coupled components; no scaling design; no observability or security analysis; over-engineered | Reject; require fundamental redesign with architectural guidance |
+| F | 0.0 – 2.9 | Failing | Monolithic with no isolation; no deployment strategy; no standards adherence; team cannot operate proposed system | Reject; assign architecture sponsor and restart design from requirements |
 
 ## Signal Tables
 
