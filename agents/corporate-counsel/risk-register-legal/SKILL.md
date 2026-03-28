@@ -40,11 +40,11 @@ Builds and maintains the legal risk register by identifying, categorizing, and p
 
 ## Workflow
 
-1. **Risk Identification**: Gather legal risks from all sources: compliance scans, contract reviews, regulatory changes, employee matters, IP concerns, and pending or threatened claims. Deliverable: raw risk inventory.
-2. **Risk Assessment**: Evaluate each risk on likelihood (low/medium/high) and impact (low/medium/high/critical). Categorize by type: contractual, regulatory, IP, employment, litigation. Deliverable: assessed risk register with severity matrix.
-3. **Mitigation Planning**: Define mitigation actions for each high and critical risk. Assign owners, set deadlines, and identify any risks requiring insurance coverage or external counsel. Deliverable: mitigation plan with ownership assignments.
-4. **Register Maintenance**: Update the register quarterly or upon material events. Track mitigation progress, close resolved risks, and add newly identified risks. Deliverable: updated risk register with change log.
-5. **Reporting**: Prepare risk register summaries for the board, executive team, and auditors. Highlight changes since last report, top risks, and overdue mitigations. Deliverable: risk report for stakeholders.
+1. **Risk Identification**: Gather legal risks from all sources using the risk taxonomy in `references/framework.md` (six categories: contractual, regulatory, IP, employment, litigation, corporate governance). Collect from compliance scans, contract reviews, regulatory changes, employee matters, IP concerns, and pending or threatened claims. Deliverable: raw risk inventory.
+2. **Risk Assessment**: Evaluate each risk using the likelihood scale (1-5) and impact scale (1-5) from `references/framework.md`. Calculate risk score (Likelihood x Impact) and map to severity bands (Critical: 15-25, High: 9-14, Medium: 5-8, Low: 1-4). Categorize by type per the risk taxonomy. Assign response type (avoid, mitigate, transfer, accept). Deliverable: assessed risk register with severity matrix.
+3. **Mitigation Planning**: Define mitigation actions for each high and critical risk. Assign owners, set deadlines, estimate mitigation costs, and identify risks requiring insurance coverage or external counsel. Deliverable: mitigation plan with ownership assignments.
+4. **Register Maintenance**: Update the register per the cadence defined in `references/framework.md` (quarterly review, plus ad hoc triggers for new products, material contracts, regulatory changes, security incidents, litigation, M&A). Track mitigation progress, close resolved risks, and add newly identified risks. Deliverable: updated risk register with change log.
+5. **Reporting**: Produce the risk register report using template at `assets/risk-register-template.md`. Follow the board report format in `references/framework.md`: dashboard, top 5 risks, new risks, closed risks, overdue mitigations. Prepare summaries for the board, executive team, and auditors. Deliverable: risk report for stakeholders.
 
 ## Anti-Patterns
 
