@@ -1,5 +1,7 @@
 # Scoring Rubric: Accessibility Auditor Design
 
+Evaluates WCAG conformance and assistive technology compatibility across perceivable, operable, understandable, and robust principles.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Assistive Technology Compatibility | 15% | 0-10 | Real-device testing with screen readers, magnifiers, switch access, and voice control |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | WCAG AAA conformance across all principles; verified with 4+ assistive technologies; zero critical or major issues | Ship and add to accessibility showcase; schedule annual re-audit |
+| A | 8.0 – 8.9 | Strong | WCAG AA full conformance; tested with 2-3 assistive technologies; minor issues documented | Ship with minor fixes tracked; re-test after remediation |
+| B | 7.0 – 7.9 | Good | WCAG AA mostly met but gaps in contrast, keyboard navigation, or AT compatibility | Fix identified AA failures before release; re-audit affected components |
+| C | 5.0 – 6.9 | Adequate | Partial WCAG AA conformance; keyboard traps or missing alt text present; limited AT testing | Block release for accessibility remediation sprint |
+| D | 3.0 – 4.9 | Weak | Widespread AA failures; primary flows unusable via keyboard or screen reader | Escalate to design and engineering leads; remediate before any user exposure |
+| F | 0.0 – 2.9 | Failing | No meaningful accessibility; application is unusable for users with disabilities | Halt release; engage accessibility specialist for full remediation |
 
 ## Signal Tables
 
