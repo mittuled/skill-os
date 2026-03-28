@@ -35,9 +35,9 @@ Reviews product requirements documents to ensure non-functional compliance requi
 
 ## Workflow
 
-1. **PRD Review**: Read the PRD to understand the feature scope, data flows, user interactions, and target audience. Identify areas where compliance requirements should apply. Deliverable: annotated PRD highlighting compliance-relevant sections.
-2. **NFR Injection**: Draft non-functional compliance requirements for each relevant area: data privacy (consent collection, data minimization, retention limits, deletion capabilities), accessibility (WCAG 2.1 AA), security (encryption at rest and in transit, authentication requirements), regulatory disclosures (terms acceptance, cookie consent, age verification), and audit logging (who accessed what, when). Deliverable: compliance NFR appendix with testable acceptance criteria per requirement.
-3. **PRD Update and Handoff**: Collaborate with the product manager to integrate the compliance NFRs into the PRD. Confirm that each requirement has a clear acceptance criterion and is assigned to the appropriate engineering team. Deliverable: updated PRD with embedded compliance requirements and PM acknowledgment.
+1. **PRD Review**: Read the PRD to understand feature scope, data flows, user interactions, and target audience. Identify compliance areas per the coverage criteria in `references/scoring-rubric.md`: privacy, accessibility, security, regulatory disclosures, audit logging, and sector-specific requirements. Deliverable: annotated PRD highlighting compliance-relevant sections.
+2. **NFR Injection**: Draft testable NFRs for each area — data privacy (GDPR consent, CCPA opt-out, data minimization, retention, deletion endpoint with 30-day SLA), accessibility (WCAG 2.1 AA), security (AES-256 at rest, TLS 1.2+ in transit, MFA), regulatory disclosures (terms acceptance, cookie consent, age verification), and audit logging. Each NFR must have a concrete acceptance criterion. Deliverable: compliance NFR appendix.
+3. **PRD Update and Handoff**: Integrate NFRs into the PRD with traceability to regulatory source. Confirm each requirement is assigned to engineering and acknowledged by PM. Apply scoring rubric at `references/scoring-rubric.md` to evaluate review completeness. Deliverable: updated PRD with embedded compliance requirements and PM acknowledgment.
 
 ## Anti-Patterns
 
