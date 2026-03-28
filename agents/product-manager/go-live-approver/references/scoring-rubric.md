@@ -1,5 +1,7 @@
 # Scoring Rubric: Go-Live Approver
 
+Evaluates release readiness across acceptance verification, customer impact, rollback preparedness, cross-functional alignment, and open risk documentation.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Open Risk Register | 15% | 0-10 | Quality of risk documentation: known issues catalogued, severity assessed, mitigations planned |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | All acceptance criteria verified, rollback tested, cross-functional teams signed off, risk register clean | Approve go-live immediately |
+| A | 8.0 – 8.9 | Strong | Acceptance criteria met with minor gaps; rollback documented; cross-functional teams briefed | Approve go-live with minor items tracked as fast-follows |
+| B | 7.0 – 7.9 | Good | Most criteria verified but rollback untested or one cross-functional team not fully prepared | Approve with conditions; resolve gaps before deploy window |
+| C | 5.0 – 6.9 | Adequate | Notable gaps in acceptance verification or customer impact assessment; rollback plan exists but untested | Delay go-live; close critical gaps and re-evaluate |
+| D | 3.0 – 4.9 | Weak | Multiple unverified acceptance criteria; no rollback plan; customer-facing teams unaware of release | Block go-live; escalate to product and engineering leadership |
+| F | 0.0 – 2.9 | Failing | Release contents unknown; no readiness checks performed; risk is unquantified | Reject release; return to planning phase |
 
 ## Signal Tables
 
