@@ -3,13 +3,13 @@
 **Feature Branch**: `003-production-grade-depth`
 **Created**: 2026-03-27
 **Status**: Draft
-**Input**: Deepen all 495 skills to match or exceed zubair-trabzada's production-grade quality, and add 29 missing high-impact skills identified in the zubair comparison report (`specs/001-enrich-skill-directory/zubair-comparison-report.md`).
+**Input**: Deepen all 499 skills to match or exceed zubair-trabzada's production-grade quality, and add 29 missing high-impact skills identified in the zubair comparison report (`specs/001-enrich-skill-directory/zubair-comparison-report.md`).
 
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Deepen All 495 Skills to Production-Grade Quality (Priority: P1)
 
-Every skill in skill-os is rewritten to match or exceed the depth of zubair-trabzada's best skills. This means: every workflow step has specific deliverables and decision logic (not generic checklists), every assessment skill has a weighted scoring rubric with grade bands, every skill that produces output has a full pre-built template (not just a format description), and every skill includes signal tables, framework references, or methodology details specific to its domain.
+Every skill in skill-os (499 total, including 4 tooling skills from 002) is deepened to match or exceed zubair-trabzada's best skills. This means: every workflow step has specific deliverables and decision logic (not generic checklists), every assessment skill has a weighted scoring rubric with grade bands, every skill that produces output has a full pre-built template (not just a format description), and every skill includes signal tables, framework references, or methodology details specific to its domain.
 
 The current 500/1,000/1,500 word limits for the SKILL.md body remain — but depth is achieved through aggressive use of `references/` subdirectories. The lean body provides the workflow and decision logic. The references provide the scoring rubrics, output templates, signal tables, framework details, and domain-specific checklists that make the skill production-ready.
 
@@ -23,7 +23,7 @@ The current 500/1,000/1,500 word limits for the SKILL.md body remain — but dep
 2. **Given** a skill that evaluates or assesses, **When** executed, **Then** it produces a quantitative score using a weighted rubric in `references/scoring-rubric.md` with criteria, weights (summing to 100%), scale (0-10 or 0-100), and grade bands (A+ through F).
 3. **Given** a skill that produces a report or document, **When** executed, **Then** it follows a full output template in `assets/` with every section pre-defined — not just "produces a report in markdown" but the actual template with section headings, placeholder content, and formatting guidance.
 4. **Given** the deepened skill body + references, **When** the body word count is checked, **Then** it stays within the complexity tier limit (500/1,000/1,500). Depth lives in `references/`, not in a bloated body.
-5. **Given** the full set of 495 deepened skills, **When** compared against zubair's equivalent skills, **Then** skill-os matches on depth while exceeding on structural consistency, organizational context, and breadth.
+5. **Given** the full set of 499 deepened skills, **When** compared against zubair's equivalent skills, **Then** skill-os matches on depth while exceeding on structural consistency, organizational context, and breadth.
 
 ---
 
@@ -71,11 +71,16 @@ The current 500/1,000/1,500 word limits for the SKILL.md body remain — but dep
 - **FR-009**: Each of the 29 new skills MUST be created at production-grade depth from day one — scoring rubrics, output templates, domain-specific frameworks, and signal tables included. No "v1 thin, v2 deep" approach.
 - **FR-010**: The org chart and status.md MUST be updated to reflect the 29 new skills.
 
-**Quality Standard**
+**Phasing**
 
-- **FR-011**: All Engineering skills scoring below 5/5 MUST be rewritten with domain-specific patterns and terminology as part of the depth pass.
-- **FR-012**: All Legal skills missing anti-pattern rationale MUST be updated with *Why* explanations as part of the depth pass.
-- **FR-013**: The constitution MUST be amended (MINOR bump to v2.1.0) to document the depth requirements (FR-001 through FR-005) and the 29 new skills.
+- **FR-011**: The depth pass MUST proceed department-by-department in this order: (1) Sales + Legal (most gaps from zubair comparison, 29 new skills created here), (2) Marketing (7 new skills + deepening existing), (3) Product (deepening only), (4) Engineering (deepening only), (5) all remaining departments. Within each department, create new skills first, then deepen existing ones.
+- **FR-012**: The 29 new skills MUST be created before deepening existing skills in the same department — new skills establish the depth standard that existing skills are deepened to match.
+
+**Pre-Completed (from 002)**
+
+- ~~FR-013~~: Engineering quality fixes (2 skills rewritten) — completed in 002.
+- ~~FR-014~~: Legal anti-pattern rationale — already compliant, confirmed in 002.
+- ~~FR-015~~: Constitution v2.1.0 — already amended in 002.
 
 ### Key Entities
 
@@ -91,17 +96,17 @@ The current 500/1,000/1,500 word limits for the SKILL.md body remain — but dep
 - **SC-001**: 100% of skills that evaluate or assess have a weighted scoring rubric in `references/scoring-rubric.md`.
 - **SC-002**: 100% of skills that produce reports or documents have a full output template in `assets/`.
 - **SC-003**: When 10 skill-os skills are compared against their zubair equivalents, skill-os matches or exceeds on workflow specificity, scoring rigour, and output template completeness.
-- **SC-004**: All 495 existing skills are deepened — each has at minimum the SKILL.md body + one `references/` or `assets/` file (except justified simple skills).
+- **SC-004**: All 499 existing skills are deepened — each has at minimum the SKILL.md body + one `references/` or `assets/` file (except justified simple skills).
 - **SC-005**: All 29 new skills pass validation with 0 errors and include scoring rubrics + output templates.
-- **SC-006**: Total skill count reaches 524 (495 existing + 29 new).
+- **SC-006**: Total skill count reaches 528 (499 existing + 29 new).
 - **SC-007**: All departments score 5.0 in the quality assessment.
 - **SC-008**: Validation script passes with 0 errors across the full repo.
 
 ## Assumptions
 
-- The depth pass touches all 495 skills but at varying levels: assessment skills get scoring rubrics, output-producing skills get templates, workflow-only skills get more specific step detail. Not every skill needs every type of depth artifact.
+- The depth pass touches all 499 skills (495 original + 4 tooling from 002) at varying levels: assessment skills get scoring rubrics, output-producing skills get templates, workflow-only skills get more specific step detail. Not every skill needs every type of depth artifact.
 - The 29 new skills are net-new additions, not replacements. They may overlap with existing lighter skills — both coexist with cross-references.
 - Depth is achieved through `references/` and `assets/`, not by inflating the SKILL.md body past word limits.
-- The depth pass proceeds department-by-department, same as the original enrichment. Marketing, Sales, and Legal first (most gaps), then remaining departments.
+- The depth pass proceeds department-by-department: Sales + Legal first (29 new skills + deepening), then Marketing (7 new + deepening), then Product, Engineering, and remaining departments (deepening only). Engineering and Legal quality fixes from 002 are already complete — no re-work needed.
 - Web research is required for each domain to ensure depth reflects real-world best practices, not generic AI-generated content.
 - Each deepened/new skill is a separate commit, following constitution Principle V.
