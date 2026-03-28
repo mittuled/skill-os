@@ -1,5 +1,7 @@
 # Scoring Rubric: Instrumentation Planner
 
+Evaluates the quality of an instrumentation rollout plan across platform coverage, tooling architecture, phase sequencing, verification gates, and engineering coordination.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Engineering Coordination | 20% | 0-10 | Clarity of per-team task assignments, sprint alignment, and cross-team dependencies |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | All platforms instrumented with verified pipelines; phased rollout with automated gates; engineering tasks assigned per-sprint | Approve plan and begin Phase 1 implementation |
+| A | 8.0 – 8.9 | Strong | Major platforms covered with clear architecture; phases sequenced logically; minor gaps in verification automation | Approve with manual verification checkpoints for Phase 1 |
+| B | 7.0 – 7.9 | Good | Primary platform covered but secondary surfaces deferred; verification gates exist but are informal | Approve conditionally; document deferred surfaces and add gate checklists |
+| C | 5.0 – 6.9 | Adequate | Single-platform plan with vague phasing; tooling decisions not justified; engineering coordination is high-level only | Revise plan to address coverage gaps and add concrete verification steps |
+| D | 3.0 – 4.9 | Weak | No phasing or verification; tooling chosen without evaluation; no engineering buy-in | Rework plan with engineering and data teams before proceeding |
+| F | 0.0 – 2.9 | Failing | No systematic instrumentation plan; ad-hoc event tracking with no architecture or coordination | Start over with platform inventory and stakeholder alignment |
 
 ## Signal Tables
 
