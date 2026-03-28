@@ -1,5 +1,7 @@
 # Scoring Rubric: Staging Validator
 
+Evaluates staging environment readiness across environment parity, test coverage, integration validation, observability, and infrastructure smoke tests.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Infrastructure Smoke Tests | 20% | 0-10 | Validation of DNS, load balancers, certificates, and infrastructure changes |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | Staging mirrors production exactly; all critical journeys pass; integrations verified; observability confirmed; infrastructure smoke-tested | Clear for production deployment |
+| A | 8.0 – 8.9 | Strong | High environment parity; critical paths tested; most integrations verified; observability working with minor trace gaps | Clear for deployment with monitoring watch during rollout |
+| B | 7.0 – 7.9 | Good | Staging mostly matches production; core test coverage present but some integration or observability gaps | Deploy with caution; address integration gaps in parallel |
+| C | 5.0 – 6.9 | Adequate | Known configuration drift from production; partial test coverage; async workflows unverified; observability incomplete | Block deployment until parity and integration gaps resolved |
+| D | 3.0 – 4.9 | Weak | Staging significantly diverges from production; minimal test execution; no integration or observability validation | Halt deployment; rebuild staging environment to match production |
+| F | 0.0 – 2.9 | Failing | Staging bears no resemblance to production; no tests run; infrastructure unverified | Reject release; staging validation must be performed from scratch |
 
 ## Signal Tables
 
