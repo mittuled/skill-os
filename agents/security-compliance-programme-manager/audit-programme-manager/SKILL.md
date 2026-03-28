@@ -36,12 +36,12 @@ Manages the security and compliance audit programme by scheduling internal and e
 
 ## Workflow
 
-1. **Audit Calendar Planning**: Define the annual audit schedule based on compliance framework requirements, certification renewal dates, customer contractual obligations, and regulatory examination cycles. Coordinate with audit firms on timing and scope. Deliverable: annual audit calendar with firm engagements.
-2. **Readiness Assessment**: Before each audit, conduct an internal readiness assessment against the audit scope. Review control implementations, evidence availability, and known gaps. Remediate critical gaps before the audit begins. Deliverable: readiness assessment report with pre-audit remediation plan.
-3. **Evidence Collection**: Gather and organize audit evidence per the auditor's request list. Assign evidence owners, set collection deadlines, and review evidence for completeness and accuracy before submission. Deliverable: organized evidence package.
-4. **Auditor Facilitation**: Manage the auditor relationship during the engagement: schedule walkthroughs, coordinate interviews with control owners, respond to follow-up questions, and resolve disputes over control interpretations. Deliverable: audit facilitation log.
-5. **Finding Management**: When audit findings (observations, exceptions, deficiencies) are issued, assign remediation owners, set deadlines, and track progress. Validate that remediations address the root cause. Deliverable: finding remediation tracker.
-6. **Continuous Improvement**: After each audit cycle, conduct a retrospective to identify recurring findings, evidence collection bottlenecks, and process improvements. Update the audit programme for the next cycle. Deliverable: audit programme retrospective and improvements.
+1. **Audit Calendar Planning**: Define the annual schedule per the cadences and coordination principles in `references/audit-programme-framework.md`. Stagger audits to avoid evidence bottlenecks (no more than 2 audits per month). Complete internal audits 2-3 months before externals. Deliverable: annual audit calendar with firm engagements.
+2. **Readiness Assessment**: Conduct internal readiness per the checklist in `references/audit-programme-framework.md` — access controls, change management, incident response, risk assessment, vendor management, training, DR/BCP, logging, encryption, and policies. Remediate critical gaps before audit begins. Deliverable: readiness assessment report.
+3. **Evidence Collection**: Gather evidence per the automation priority matrix in `references/audit-programme-framework.md`. Automate where feasible (IAM exports, ticketing APIs, LMS integration). Ensure evidence meets quality standards: timestamped, scoped, attributable, complete, current. Deliverable: organized evidence package.
+4. **Auditor Facilitation**: Schedule walkthroughs, coordinate control owner interviews, respond to follow-up questions, resolve control interpretation disputes. Deliverable: audit facilitation log.
+5. **Finding Management**: Apply remediation SLAs from `references/audit-programme-framework.md` — Critical: 7 days, High: 30 days, Medium: 90 days, Low: next cycle. Validate root cause remediation. Deliverable: finding remediation tracker.
+6. **Continuous Improvement**: Retrospective on recurring findings, evidence bottlenecks, and process improvements. Update audit programme for next cycle. Deliverable: audit programme retrospective.
 
 ## Anti-Patterns
 
