@@ -51,6 +51,14 @@ The current 500/1,000/1,500 word limits for the SKILL.md body remain — but dep
 - What happens when the 29 new skills overlap with existing skills? The new skill is the deep execution-focused version. The existing skill becomes the lighter coordination/oversight version. Both coexist with cross-references.
 - What happens when a zubair skill is 5,000+ words and can't be matched within skill-os word limits? The SKILL.md body captures the workflow and decision logic (within limits). All depth — rubrics, signal tables, templates, checklists — goes into `references/` and `assets/`. The total depth across body + references should match or exceed zubair.
 
+## Clarifications
+
+### Session 2026-03-28
+
+- Q: What size range should individual reference/asset files target? → A: No cap — let domain needs dictate length, validate by content quality only.
+- Q: What research granularity should the depth pass use? → A: Per-domain-cluster — research grouped skill families (e.g., "sales qualification", "contract review"), ~50-80 research batches.
+- Q: How should existing 002 depth artifacts be handled? → A: Upgrade — review and deepen all 10 existing rubrics to match 003's production-grade standard.
+
 ## Requirements *(mandatory)*
 
 ### Functional Requirements
@@ -60,7 +68,7 @@ The current 500/1,000/1,500 word limits for the SKILL.md body remain — but dep
 - **FR-001**: Every skill MUST have workflow steps specific enough for an AI agent to execute without guessing — named frameworks, defined deliverables, explicit decision criteria. Generic steps like "Analyze the data" are not acceptable; "Apply RICE scoring to the backlog using Reach (0-10), Impact (0-10), Confidence (0-100%), Effort (person-weeks)" is.
 - **FR-002**: Every skill that evaluates, assesses, scores, or reviews MUST include a weighted scoring rubric in `references/scoring-rubric.md` with: criteria names, weights summing to 100%, a numeric scale (0-10 or 0-100), grade bands (A+ through F with labels), and signal tables mapping observable evidence to scores.
 - **FR-003**: Every skill that produces a report, document, or structured output MUST include a full output template in `assets/` with every section pre-defined — headings, placeholder content, formatting guidance, and examples of good vs. bad content per section.
-- **FR-004**: The SKILL.md body stays within word limits (500/1,000/1,500). Depth is achieved through `references/` (rubrics, frameworks, signal tables, checklists) and `assets/` (output templates). The body provides the workflow and decision logic; references provide the domain-specific detail.
+- **FR-004**: The SKILL.md body stays within word limits (500/1,000/1,500). Depth is achieved through `references/` (rubrics, frameworks, signal tables, checklists) and `assets/` (output templates). The body provides the workflow and decision logic; references provide the domain-specific detail. Reference and asset files have no word cap — length is dictated by domain needs and validated by content quality, not arbitrary limits.
 - **FR-005**: Each deepened skill MUST include at minimum: the body SKILL.md, one file in `references/` (scoring rubric, framework detail, or domain checklist), and one file in `assets/` (output template). Simple skills with no assessment or report output may omit `references/` and `assets/` if justified.
 
 **29 Missing Skills**
@@ -75,6 +83,8 @@ The current 500/1,000/1,500 word limits for the SKILL.md body remain — but dep
 
 - **FR-011**: The depth pass MUST proceed department-by-department in this order: (1) Sales + Legal (most gaps from zubair comparison, 29 new skills created here), (2) Marketing (7 new skills + deepening existing), (3) Product (deepening only), (4) Engineering (deepening only), (5) all remaining departments. Within each department, create new skills first, then deepen existing ones.
 - **FR-012**: The 29 new skills MUST be created before deepening existing skills in the same department — new skills establish the depth standard that existing skills are deepened to match.
+- **FR-012a**: Research MUST be conducted per-domain-cluster (grouped skill families such as "sales qualification", "contract review", "compliance audit"), yielding ~50-80 research batches across the full repo. Each cluster's research informs all skills in that family.
+- **FR-012b**: All 10 existing scoring rubrics from branch 002 MUST be upgraded to match 003's production-grade standard — including signal tables, A+ through F grade bands, and domain-specific frameworks. No 002 artifacts are grandfathered.
 
 **Pre-Completed (from 002)**
 
@@ -104,9 +114,9 @@ The current 500/1,000/1,500 word limits for the SKILL.md body remain — but dep
 
 ## Assumptions
 
-- The depth pass touches all 499 skills (495 original + 4 tooling from 002) at varying levels: assessment skills get scoring rubrics, output-producing skills get templates, workflow-only skills get more specific step detail. Not every skill needs every type of depth artifact.
+- The depth pass touches all 499 skills (495 original + 4 tooling from 002) at varying levels: assessment skills get scoring rubrics, output-producing skills get templates, workflow-only skills get more specific step detail. Not every skill needs every type of depth artifact. The 10 existing rubrics from 002 are upgraded to match the 003 standard — no grandfathering.
 - The 29 new skills are net-new additions, not replacements. They may overlap with existing lighter skills — both coexist with cross-references.
-- Depth is achieved through `references/` and `assets/`, not by inflating the SKILL.md body past word limits.
+- Depth is achieved through `references/` and `assets/`, not by inflating the SKILL.md body past word limits. Reference/asset files have no word cap — length is driven by domain needs.
 - The depth pass proceeds department-by-department: Sales + Legal first (29 new skills + deepening), then Marketing (7 new + deepening), then Product, Engineering, and remaining departments (deepening only). Engineering and Legal quality fixes from 002 are already complete — no re-work needed.
-- Web research is required for each domain to ensure depth reflects real-world best practices, not generic AI-generated content.
+- Web research is conducted per-domain-cluster (~50-80 batches across the repo), not per-individual-skill, to ensure depth reflects real-world best practices without requiring 500+ individual searches.
 - Each deepened/new skill is a separate commit, following constitution Principle V.
