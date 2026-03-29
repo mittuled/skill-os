@@ -1,17 +1,24 @@
 # Scoring Rubric: Accessibility Auditor Design
 
-Evaluates WCAG conformance and assistive technology compatibility across perceivable, operable, understandable, and robust principles.
+Evaluates the rigour and completeness of an accessibility audit across automated coverage, manual testing depth, finding classification, remediation quality, and report clarity.
 
 ## Criteria
 
-| Criterion | Weight | Scale | Description |
-|-----------|--------|-------|-------------|
-| Perceivable | 25% | 0-10 | WCAG Perceivable principle: text alternatives, captions, contrast, content adaptability |
-| Operable | 25% | 0-10 | WCAG Operable principle: keyboard access, timing, seizure safety, navigation |
-| Understandable | 20% | 0-10 | WCAG Understandable principle: readability, predictability, input assistance |
-| Robust | 15% | 0-10 | WCAG Robust principle: parsing, compatibility with assistive technologies |
-| Assistive Technology Compatibility | 15% | 0-10 | Real-device testing with screen readers, magnifiers, switch access, and voice control |
-| **Total** | **100%** | | |
+| # | Criterion | Weight | Description |
+|---|-----------|--------|-------------|
+| 1 | Automated Coverage | 15% | Breadth and accuracy of automated accessibility scanning across all scoped surfaces |
+| 2 | Manual Testing Depth | 25% | Thoroughness of assistive technology testing including keyboard, screen reader, magnification, and reduced motion |
+| 3 | Finding Classification | 20% | Accuracy of WCAG criterion mapping, severity rating, and affected-population assessment per finding |
+| 4 | Remediation Specificity | 25% | Actionability of remediation recommendations with design-level fixes, owner assignments, and effort estimates |
+| 5 | Report Clarity | 15% | Structured presentation with executive summary, compliance scorecard, and stakeholder-appropriate communication |
+| **Total** | | **100%** | |
+
+## Scale
+
+Each criterion is scored **0-10**:
+- **0**: No evidence / completely absent
+- **5**: Partially present with significant gaps
+- **10**: Fully present, comprehensive, no gaps
 
 **Composite Score** = Σ (criterion score × weight)
 
@@ -19,56 +26,56 @@ Evaluates WCAG conformance and assistive technology compatibility across perceiv
 
 | Grade | Composite Score | Label | Description | Recommended Action |
 |-------|----------------|-------|-------------|-------------------|
-| A+ | 9.0 – 10.0 | Exceptional | WCAG AAA conformance across all principles; verified with 4+ assistive technologies; zero critical or major issues | Ship and add to accessibility showcase; schedule annual re-audit |
-| A | 8.0 – 8.9 | Strong | WCAG AA full conformance; tested with 2-3 assistive technologies; minor issues documented | Ship with minor fixes tracked; re-test after remediation |
-| B | 7.0 – 7.9 | Good | WCAG AA mostly met but gaps in contrast, keyboard navigation, or AT compatibility | Fix identified AA failures before release; re-audit affected components |
-| C | 5.0 – 6.9 | Adequate | Partial WCAG AA conformance; keyboard traps or missing alt text present; limited AT testing | Block release for accessibility remediation sprint |
-| D | 3.0 – 4.9 | Weak | Widespread AA failures; primary flows unusable via keyboard or screen reader | Escalate to design and engineering leads; remediate before any user exposure |
-| F | 0.0 – 2.9 | Failing | No meaningful accessibility; application is unusable for users with disabilities | Halt release; engage accessibility specialist for full remediation |
+| A+ | 9.0 – 10.0 | Exceptional | All WCAG principles covered with assistive tech validation; every finding has specific design-level remediation | Approve and schedule periodic re-audit at 6-month cadence |
+| A | 8.0 – 8.9 | Strong | Comprehensive coverage with minor gaps in edge-case assistive technology combinations | Approve with follow-up on flagged AT gaps within next sprint |
+| B | 7.0 – 7.9 | Good | Solid automated and manual coverage but remediation lacks design specificity or effort estimates | Approve conditionally; strengthen remediation plan before handoff |
+| C | 5.0 – 6.9 | Adequate | Core WCAG criteria checked but manual testing limited to one AT; findings lack precise criterion mapping | Revise audit; expand manual testing before releasing findings |
+| D | 3.0 – 4.9 | Weak | Automated-only audit or significant WCAG principles untested; generic remediation recommendations | Rework with dedicated assistive technology testing sessions |
+| F | 0.0 – 2.9 | Failing | No systematic audit performed; findings are anecdotal or untraceable to WCAG | Halt and commission a full accessibility audit engagement |
 
 ## Signal Tables
 
-### Perceivable
+### Automated Coverage
 | Score | Evidence |
 |-------|----------|
-| 9-10 | All images have meaningful alt text; video has captions and audio descriptions; contrast ratios meet AAA (7:1); content reflows at 400% zoom without loss |
-| 7-8 | Alt text present on all images; contrast meets AA (4.5:1); content reflows at 200% zoom; minor gaps in multimedia alternatives |
-| 5-6 | Most images have alt text but some are decorative without null alt; contrast meets AA for body text but fails on some UI elements; reflow issues at high zoom |
-| 3-4 | Many images missing alt text; contrast failures on primary text; content does not reflow; no captions on video |
-| 1-2 | Systematic missing alt text; widespread contrast failures; no multimedia alternatives; content unusable at increased zoom |
+| 9-10 | axe-core, Lighthouse, and colour-contrast analyser run on every scoped page; all violations logged with WCAG criterion, element selector, and screenshot |
+| 7-8 | Two automated tools used across most pages; minor pages or dynamically-loaded content omitted with justification |
+| 5-6 | Single tool run on key pages only; dynamic content and modal overlays not scanned |
+| 3-4 | Automated scan run on homepage or a few representative pages; most surfaces unscanned |
+| 0-2 | No automated scanning performed |
 
-### Operable
+### Manual Testing Depth
 | Score | Evidence |
 |-------|----------|
-| 9-10 | Full keyboard navigation with visible focus indicators; no keyboard traps; skip navigation present; all interactive elements reachable; touch targets 44x44px minimum |
-| 7-8 | Keyboard navigation works for all primary flows; focus indicators visible; minor gaps in secondary interactions; touch targets mostly compliant |
-| 5-6 | Keyboard navigation works for most flows but some interactive elements unreachable; focus indicators inconsistent; some touch targets too small |
-| 3-4 | Keyboard traps present; focus order is illogical; many interactive elements keyboard-inaccessible; no skip navigation |
-| 1-2 | Application is unusable via keyboard; no focus management; mouse-only interactions throughout |
+| 9-10 | Keyboard navigation, VoiceOver, NVDA, TalkBack, magnification (200%), reduced motion, and high-contrast mode all tested on scoped flows |
+| 7-8 | Keyboard and two screen readers tested; magnification or reduced motion tested on critical flows only |
+| 5-6 | Keyboard-only testing completed; one screen reader tested superficially |
+| 3-4 | Keyboard testing on primary happy path only; no screen reader testing |
+| 0-2 | No manual assistive technology testing performed |
 
-### Understandable
+### Finding Classification
 | Score | Evidence |
 |-------|----------|
-| 9-10 | Language attributes set; form inputs have visible labels and error messages; navigation is consistent; no unexpected context changes; reading level appropriate |
-| 7-8 | Language set; most forms have labels and errors; navigation mostly consistent; minor unexpected behaviours documented |
-| 5-6 | Language partially set; some forms rely on placeholder-only labels; inconsistent navigation patterns; some context changes without warning |
-| 3-4 | No language attribute; forms lack labels or error guidance; navigation patterns vary across pages; frequent unexpected behaviours |
-| 1-2 | Content is disorganized; forms are unusable without visual cues; no error prevention or correction mechanisms |
+| 9-10 | Every finding maps to a specific WCAG 2.1 success criterion; severity rated by impact on task completion, affected population size, and workaround availability |
+| 7-8 | Findings mapped to WCAG criteria with severity ratings; minor inconsistencies in population impact assessment |
+| 5-6 | Findings reference WCAG principles (Perceivable, Operable) but not specific success criteria; severity ratings present but not consistently justified |
+| 3-4 | Findings listed without WCAG mapping; severity based on subjective assessment |
+| 0-2 | Findings are vague descriptions without criterion or severity |
 
-### Robust
+### Remediation Specificity
 | Score | Evidence |
 |-------|----------|
-| 9-10 | Valid, well-structured HTML; ARIA used correctly and only when native HTML is insufficient; compatibility verified with current versions of major assistive technologies |
-| 7-8 | HTML is well-structured; ARIA is mostly correct; minor parsing issues; compatible with most assistive technologies |
-| 5-6 | HTML has some structural issues; ARIA misused in places (redundant or incorrect roles); compatibility untested on some platforms |
-| 3-4 | Significant HTML parsing errors; ARIA used incorrectly creating confusion for assistive technologies; tested on one AT only |
-| 1-2 | Invalid HTML; ARIA absent or systematically misused; no assistive technology testing performed |
+| 9-10 | Every critical/major finding has a named design change (updated colour token, focus ring spec, ARIA label text), assigned owner, and effort estimate |
+| 7-8 | Remediation specified for most findings with design-level detail; effort estimates present for critical items |
+| 5-6 | Remediation described in general terms without specific token values or component references |
+| 3-4 | Generic recommendations without design-level guidance |
+| 0-2 | No remediation recommendations provided |
 
-### Assistive Technology Compatibility
+### Report Clarity
 | Score | Evidence |
 |-------|----------|
-| 9-10 | Tested with VoiceOver, NVDA, TalkBack, and at least one additional AT; all primary flows functional; announcement order logical; no AT-specific bugs |
-| 7-8 | Tested with 2-3 screen readers; primary flows functional; minor announcement issues documented |
-| 5-6 | Tested with one screen reader only; primary flows mostly work; some announcement gaps or confusing interactions |
-| 3-4 | Limited AT testing; screen reader cannot complete primary flows; significant interaction failures |
-| 1-2 | No assistive technology testing performed; compatibility is unknown |
+| 9-10 | Executive summary with pass/fail verdict, compliance scorecard per WCAG principle, prioritised issue register, and remediation timeline — all audience-appropriate |
+| 7-8 | Structured report with summary and scorecard; minor gaps in stakeholder-appropriate framing |
+| 5-6 | Findings documented but no executive summary or compliance scorecard; raw findings list only |
+| 3-4 | Informal notes or spreadsheet of issues without structure or summary |
+| 0-2 | No structured report produced |
