@@ -33,12 +33,12 @@ Plans how the documentation structure and tooling will scale as the product grow
 
 ## Workflow
 
-1. **Assess current state**: Evaluate the existing documentation stack (authoring tools, build pipeline, hosting, search, analytics, contribution workflow). Deliverable: current state assessment with pain points.
-2. **Project growth trajectory**: Estimate documentation growth over the next 12-18 months based on product roadmap (new APIs, platforms, languages, products). Deliverable: growth projection document.
-3. **Identify scaling bottlenecks**: Determine which parts of the current stack will fail at projected scale (build times, content duplication, navigation complexity, contributor onboarding). Deliverable: bottleneck analysis with severity ratings.
-4. **Evaluate tooling options**: Research and compare documentation tooling that addresses identified bottlenecks (static site generators, docs-as-code platforms, content management systems, API doc generators). Deliverable: tooling comparison matrix.
-5. **Design scale plan**: Propose the target documentation architecture including information architecture evolution, tooling changes, content reuse strategy, and migration path. Deliverable: documentation scale plan.
-6. **Define migration roadmap**: Create a phased migration plan with effort estimates, risk mitigation, and rollback strategy. Deliverable: migration roadmap with milestones.
+1. **Assess current state**: Evaluate the existing documentation stack using the six dimensions in [framework.md](references/framework.md) (authoring, build pipeline, hosting, search, analytics, contribution workflow). Identify warning signs for each dimension. Deliverable: current state assessment with pain points.
+2. **Project growth trajectory**: Estimate documentation growth over the next 12–18 months based on product roadmap (new APIs, platforms, languages, products). Apply the maintenance burden formula from the framework to estimate team capacity requirements at projected scale. Deliverable: growth projection document.
+3. **Identify scaling bottlenecks**: Use the bottleneck diagnosis criteria in the framework to identify which parts of the current stack will fail at projected scale. Deliverable: bottleneck analysis with severity ratings.
+4. **Evaluate tooling options**: Score tooling options using the six evaluation criteria and comparison matrix from the framework. Deliverable: scored tooling comparison matrix.
+5. **Design scale plan**: Select the appropriate IA pattern from the framework for the projected page count. Propose target architecture including tooling changes, content reuse strategy, and IA evolution. Deliverable: documentation scale plan.
+6. **Define migration roadmap**: Use the phased migration model from the framework (PoC → parallel run → progressive migration → cutover → decommission). Include the 72-hour rollback gate. Deliverable: migration roadmap with milestones.
 
 ## Anti-Patterns
 
