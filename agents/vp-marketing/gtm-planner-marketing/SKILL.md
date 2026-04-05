@@ -40,12 +40,12 @@ Develops the overall go-to-market plan for the marketing function including chan
 
 ## Workflow
 
-1. **Synthesize market inputs**: Gather ICP definitions, competitive landscape, product positioning, and revenue targets from product marketing, sales, and CBO. Deliverable: market context brief.
-2. **Define GTM objectives**: Translate revenue targets into marketing-specific objectives -- pipeline contribution, brand awareness thresholds, market share targets. Assign measurable KPIs to each. Deliverable: GTM objectives with KPIs.
-3. **Select channel mix**: Map ICP attention patterns to available channels (paid search, content, social, events, partnerships, PR). Prioritize channels by expected pipeline contribution and CAC efficiency. Deliverable: channel priority matrix.
-4. **Build timeline**: Sequence marketing activities against product milestones, seasonal patterns, and competitive events. Identify pre-launch, launch, and post-launch phases with specific channel activations per phase. Deliverable: GTM timeline with phase gates.
-5. **Allocate budget**: Distribute the marketing budget across channels, content production, tooling, and contingency. Tie each allocation to an expected output (leads, pipeline, impressions). Deliverable: budget allocation spreadsheet with ROI projections.
-6. **Align cross-functional stakeholders**: Present the GTM plan to product, sales, customer success, and CBO. Resolve conflicts on timing, messaging, or resource allocation. Deliverable: cross-functional sign-off document.
+1. **Synthesize market inputs**: Gather ICP definitions, competitive landscape, product positioning, and revenue targets from product marketing, sales, and CBO. Use the ICP-to-channel mapping in [`references/framework.md`](references/framework.md) to structure inputs. Deliverable: market context brief.
+2. **Define GTM objectives**: Translate revenue targets into marketing-specific objectives using the KPI framework in [`references/framework.md`](references/framework.md). Assign measurable KPIs per objective. Deliverable: GTM objectives with KPIs.
+3. **Select channel mix**: Score and rank channels using the channel priority matrix model in [`references/framework.md`](references/framework.md). Prioritize channels scoring ≥ 14/20. Deliverable: scored channel priority matrix.
+4. **Build timeline**: Sequence marketing activities against the GTM phase model in [`references/framework.md`](references/framework.md) — pre-launch, launch, amplification, steady state. Identify phase gates and channel activations per phase. Deliverable: GTM timeline with phase gates.
+5. **Allocate budget**: Distribute the marketing budget using the stage-based budget allocation model in [`references/framework.md`](references/framework.md). Tie each allocation to an expected output (leads, pipeline, impressions). Deliverable: budget allocation with ROI projections.
+6. **Align cross-functional stakeholders**: Present the GTM plan and work through the sign-off checklist in [`references/framework.md`](references/framework.md). Resolve conflicts on timing, messaging, or resource allocation. Deliverable: cross-functional sign-off document.
 7. **Publish and distribute**: Finalize the GTM plan and distribute to all execution teams. Ensure every channel owner has their specific brief, timeline, and budget. Deliverable: published GTM plan with channel-specific briefs.
 
 ## Anti-Patterns
