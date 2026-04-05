@@ -33,10 +33,10 @@ Extracts documentation requirements from engineering specs and developer feedbac
 
 ## Workflow
 
-1. **Gather source materials**: Collect engineering specs, PRDs, API changelogs, developer feedback, and support ticket trends. Deliverable: source materials inventory.
-2. **Extract requirements**: Parse each source for documentation implications (new pages, updates, deprecations, new code samples, migration guides). Deliverable: raw requirements list with source attribution.
-3. **Categorize and prioritize**: Group requirements by documentation type and rank by developer impact, release timeline, and effort. Deliverable: prioritized requirements backlog.
-4. **Create documentation tasks**: Convert each requirement into an actionable task with scope, owner, deadline, and acceptance criteria. Deliverable: task list ready for assignment.
+1. **Gather source materials**: Collect engineering specs, PRDs, API changelogs, developer feedback, and support ticket trends. Use the source analysis protocol in [framework.md](references/framework.md) to ensure all high-priority source types are covered. Deliverable: source materials inventory.
+2. **Extract requirements**: Parse each source for documentation implications using the extraction focus questions from the source analysis table. Classify each requirement against the categorization taxonomy (New Content, Update, Migration Guide, Code Sample, etc.). Deliverable: raw requirements list with source attribution and category.
+3. **Categorize and prioritize**: Score each requirement on Developer Impact (1–5) and Release Urgency (1–5) using the priority scoring model in the framework. Assign P1–P4 priority tiers. Deliverable: prioritized requirements backlog.
+4. **Create documentation tasks**: Convert each requirement into an actionable task using the documentation task template from the framework. All fields (scope, owner, deadline, acceptance criteria, dependencies) must be complete before assignment. Deliverable: task list ready for assignment.
 
 ## Anti-Patterns
 
