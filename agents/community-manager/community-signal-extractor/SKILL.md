@@ -33,12 +33,12 @@ Extracts product and market signals from community conversations to surface feat
 
 ## Workflow
 
-1. **Define signal categories**: Establish the taxonomy of signals to extract (feature requests, pain points, competitor mentions, praise, churn indicators, use-case discoveries). Deliverable: signal taxonomy document.
-2. **Select data sources**: Identify which community channels, forums, and threads to monitor (public channels, DMs with consent, event feedback, social mentions). Deliverable: source inventory with access status.
-3. **Extract and tag signals**: Review conversations and tag each signal with category, severity, frequency, and source attribution. Deliverable: tagged signal database or spreadsheet.
-4. **Cluster and prioritize**: Group related signals into themes and rank by frequency, severity, and strategic alignment. Deliverable: prioritized signal report with theme clusters.
-5. **Synthesize insights**: Write a narrative summary connecting signal themes to product and market implications. Deliverable: insight memo for product and leadership teams.
-6. **Distribute and close loop**: Share the insight memo with stakeholders and report back to the community on signals that led to action. Deliverable: distribution confirmation and community acknowledgment post.
+1. **Define signal categories**: Use the signal taxonomy in [framework.md](references/framework.md) to select the categories relevant to this extraction cycle (feature requests, pain points, competitor mentions, praise, churn indicators, use-case discoveries). Deliverable: signal taxonomy document.
+2. **Select data sources**: Inventory all relevant channels per the source inventory model in the framework (public channels, DMs with consent, event feedback, social mentions). Deliverable: source inventory with access status.
+3. **Extract and tag signals**: Review conversations and tag each signal using the tagging protocol in the framework (category, severity P0–P3, frequency, source attribution, verbatim quote). Deliverable: tagged signal database or spreadsheet.
+4. **Cluster and prioritize**: Group signals with > 60% semantic overlap into themes per the clustering method in the framework. Rank P0/P1 signals for immediate routing. Deliverable: prioritized signal report with theme clusters.
+5. **Synthesize insights**: Write a narrative summary using [signal-report-template.md](assets/signal-report-template.md) connecting signal themes to product and market implications. Deliverable: signal report for product and leadership teams.
+6. **Distribute and close loop**: Route signals to the appropriate team per the routing matrix in the framework. Post community acknowledgments for signals that led to action per the closing-the-loop protocol. Deliverable: routing log and community acknowledgment posts.
 
 ## Anti-Patterns
 
