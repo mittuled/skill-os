@@ -33,7 +33,7 @@ Reviews design deliverables at phase boundaries to ensure quality, completeness,
 
 ## Workflow
 
-1. **Identify phase exit criteria**: Retrieve the expected deliverables and quality bar for the current phase. Map each criterion to a verifiable artifact (Figma file, user flow document, research synthesis, prototype). Deliverable: phase exit checklist.
+1. **Identify phase exit criteria**: Retrieve the expected deliverables and quality bar for the current phase using the [phase gate checklist](references/phase-gate-checklist.md). Map each criterion to a verifiable artifact (Figma file, user flow document, research synthesis, prototype). Deliverable: phase exit checklist.
 2. **Collect deliverables**: Gather all design artifacts produced during the phase. Verify completeness against the checklist -- missing items are automatic blockers. Deliverable: deliverable inventory with gap flags.
 3. **Evaluate quality**: Assess each deliverable against design system compliance, accessibility standards, interaction completeness (all states documented), content readiness, and alignment with the product brief. Deliverable: quality assessment per deliverable.
 4. **Document findings**: Record issues as blocking (must resolve before progression) or advisory (can address in the next phase with tracked tickets). Deliverable: phase review findings document.
