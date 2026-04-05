@@ -40,10 +40,10 @@ Reviews the end-to-end developer experience including signup, onboarding, docume
 
 1. **Define review scope and persona**: Select the developer persona and journey stages to review (signup, quickstart, first integration, production deployment). Deliverable: review scope with persona definition.
 2. **Walk the journey**: Complete the full developer journey from scratch using only public resources. Record every step, time spent, confusion, and workaround. Deliverable: journey walkthrough log with timestamps and screenshots.
-3. **Evaluate SDK and tooling**: Test SDK installation, configuration, IDE integration, debugging experience, and upgrade path. Deliverable: SDK usability assessment.
-4. **Assess documentation**: Review guides, tutorials, and reference docs for accuracy, completeness, discoverability, and code sample quality. Deliverable: documentation assessment.
-5. **Score and prioritize**: Rate each journey stage on a friction scale, identify the highest-impact improvement opportunities, and estimate effort. Deliverable: DX scorecard with prioritized recommendations.
-6. **Present findings**: Share the review with product, engineering, and documentation teams with concrete next steps. Deliverable: DX review presentation.
+3. **Evaluate SDK and tooling**: Test SDK installation, configuration, IDE integration, debugging experience, and upgrade path. Score against the SDK Ergonomics criterion in [references/scoring-rubric.md](references/scoring-rubric.md). Deliverable: SDK usability assessment.
+4. **Assess documentation**: Review guides, tutorials, and reference docs for accuracy, completeness, discoverability, and code sample quality. Score against Documentation Depth and Middle Journey criteria in the rubric. Deliverable: documentation assessment.
+5. **Score and prioritize**: Rate each criterion per the rubric, compute composite grade, and identify the highest-impact improvement opportunities with estimated effort. Deliverable: DX scorecard with prioritized recommendations.
+6. **Present findings**: Share the review with product, engineering, and documentation teams with concrete next steps per each grade band recommendation in the rubric. Deliverable: DX review presentation.
 
 ## Anti-Patterns
 
