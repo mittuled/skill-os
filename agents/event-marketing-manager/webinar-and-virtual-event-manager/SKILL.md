@@ -29,7 +29,7 @@ Manages the webinar and virtual event programme from planning through post-event
 
 ## Workflow
 
-1. Define the webinar topic, target audience, format (presentation, panel, demo, AMA), and pipeline goal. Select a date and time optimised for the target time zones.
+1. Define the webinar topic, target audience, format (presentation, panel, demo, AMA), and pipeline goal using the format selection guide in `references/framework.md`. Select a date and time optimised for the target time zones per the posting time benchmarks in the framework.
 2. Recruit speakers: internal SMEs, customer guests, or partner co-hosts. Confirm availability and brief them on format and audience expectations.
 3. Build the registration landing page with compelling copy, speaker bios, and a clear value proposition. Configure the webinar platform with branding, polls, and Q&A.
 4. Launch the promotional campaign: email invitations to the target segment, social posts, sales outreach to target accounts, and partner cross-promotion.
@@ -37,8 +37,8 @@ Manages the webinar and virtual event programme from planning through post-event
 6. Conduct a dry run with all speakers to test AV, screen sharing, and transition cues at least 48 hours before the live event.
 7. Execute the live event: manage introductions, monitor chat and Q&A, run polls, and keep sessions on time.
 8. Publish the recording and slides within 24 hours. Send the on-demand package to registrants who did not attend.
-9. Launch the post-event nurture sequence: follow-up email with recording, related content offers, and a CTA to book a meeting for engaged attendees.
-10. Report on webinar performance: registrations, attendance rate, engagement score, leads generated, and pipeline attributed.
+9. Launch the post-event nurture sequence using the segment-based sequences in `assets/webinar-plan-template.md`. Apply the engagement scoring model in `references/framework.md` to prioritise follow-up by lead tier.
+10. Report on webinar performance using `assets/webinar-plan-template.md`: registrations, attendance rate, engagement score, leads generated, and pipeline attributed. Compare against benchmarks in `references/framework.md`.
 
 ## Anti-Patterns
 
