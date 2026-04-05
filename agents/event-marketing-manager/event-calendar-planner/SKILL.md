@@ -30,13 +30,13 @@ Plans the annual event calendar including conferences, webinars, and hosted even
 ## Workflow
 
 1. Gather inputs: annual pipeline targets by segment, sales territory priorities, product launch dates, and the total events budget.
-2. Inventory candidate events: industry conferences, hosted events, webinars, partner events, and community meetups. Score each on ICP attendance, cost, timing, and historical pipeline data.
-3. Draft the calendar with event types distributed across quarters to maintain consistent pipeline contribution and avoid clustering.
-4. Allocate budget per event including sponsorship, travel, production, and promotion costs. Reserve a contingency fund for opportunistic additions.
+2. Inventory candidate events: industry conferences, hosted events, webinars, partner events, and community meetups. Score each using the event scoring matrix in `references/framework.md` on ICP attendance, cost, timing, and historical pipeline data. Require composite score ≥ 3.0/5 to include.
+3. Draft the calendar with event types distributed across quarters following the cadence model in `references/framework.md` to maintain consistent pipeline contribution and avoid clustering.
+4. Allocate budget per event using the allocation guidelines in `references/framework.md` including sponsorship, travel, production, and promotion costs. Reserve 10% contingency for opportunistic additions.
 5. Map resource requirements: headcount per event, cross-functional dependencies on sales, product, and design, and lead times for production assets.
 6. Present the draft calendar to marketing leadership and sales for alignment. Incorporate feedback on priority events and timing conflicts.
 7. Publish the approved calendar with key milestones, deadlines, and owners for each event.
-8. Review the calendar quarterly: compare actual pipeline attribution per event against plan, and reallocate budget from underperforming events to higher-ROI opportunities.
+8. Review the calendar quarterly following the process in `references/framework.md`: compare actual pipeline attribution per event against plan, and reallocate budget from underperforming events to higher-ROI opportunities.
 
 ## Anti-Patterns
 
