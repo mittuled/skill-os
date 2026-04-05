@@ -33,11 +33,11 @@ Prioritises the design iteration backlog by scoring improvement candidates again
 
 ## Workflow
 
-1. **Inventory backlog items**: Collect all pending design iterations from feedback channels, audit reports, session analysis findings, and stakeholder requests. Normalize each item into a consistent format: problem statement, affected surface, and source. Deliverable: normalized iteration backlog.
-2. **Score each item**: Evaluate against a consistent rubric -- user impact (severity and breadth of affected users), business value (conversion, retention, or revenue effect), design effort (T-shirt size), and accessibility severity (WCAG level affected). Deliverable: scored backlog with rationale per item.
-3. **Apply prioritization framework**: Rank items using an impact-effort matrix or weighted scoring model. Group into priority tiers: must-do (critical usability or accessibility issues), should-do (high-impact improvements), and could-do (nice-to-have refinements). Deliverable: tiered priority list.
+1. **Inventory backlog items**: Collect all pending design iterations from feedback channels, audit reports, session analysis findings, and stakeholder requests. Normalize each item using the format defined in the [prioritisation framework](references/prioritisation-framework.md): problem statement, affected surface, and source. Deliverable: normalized iteration backlog.
+2. **Score each item**: Apply the weighted scoring model from the [prioritisation framework](references/prioritisation-framework.md) — user impact (35%), business value (25%), effort inversion (25%), and accessibility severity (15%). Every score must cite a source. Deliverable: scored backlog with rationale per item.
+3. **Apply prioritization framework**: Assign items to P0/P1/P2/P3 tiers per the composite score thresholds in the [prioritisation framework](references/prioritisation-framework.md). Deliverable: tiered priority list.
 4. **Validate with stakeholders**: Share the proposed prioritization with product and engineering to confirm alignment with roadmap and technical constraints. Adjust based on dependencies or conflicting priorities. Deliverable: agreed-upon prioritized backlog.
-5. **Communicate and track**: Publish the prioritized list to the team, update backlog tooling, and establish a cadence for re-prioritization. Deliverable: published priority list with review schedule.
+5. **Communicate and track**: Publish the prioritized list to the team, update backlog tooling, and establish a re-prioritization cadence per the trigger conditions in the [prioritisation framework](references/prioritisation-framework.md). Deliverable: published priority list with review schedule.
 
 ## Anti-Patterns
 
