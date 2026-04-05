@@ -35,9 +35,10 @@ Writes and distributes press releases for product launches, funding rounds, part
 ## Workflow
 
 1. **Gather announcement details**: Collect the key facts, quotes, data points, and embargo timing from stakeholders. Confirm what is and is not public. Deliverable: press release brief with approved facts and quotes.
-2. **Draft the release**: Write the press release following AP style -- headline, dateline, lead paragraph with the news, supporting details, executive quote, boilerplate. Keep to 400-600 words. Deliverable: draft press release.
+2. **Draft the release**: Write the press release using the inverted pyramid structure and AP Style rules from [`references/framework.md`](references/framework.md). Use [`assets/press-release-template.md`](assets/press-release-template.md) as the structural scaffold — headline, dateline, lead paragraph with the news, supporting details, executive quote, boilerplate. Keep to 400–600 words. Deliverable: draft press release.
 3. **Route for approval**: Send the draft through legal, executive, and communications review. Incorporate feedback while preserving newsworthiness and readability. Deliverable: approved final press release.
-4. **Distribute**: Send to wire service and directly to warm journalist contacts with personalized pitches. Respect embargo windows. Deliverable: distribution confirmation with send list.
+4. **Select wire service and optimise for SEO**: Choose the appropriate wire service using the selection criteria in [`references/framework.md`](references/framework.md). Apply SEO optimisation guidelines before submission. Deliverable: wire-ready release with distribution targeting configured.
+5. **Distribute**: Send to wire service at the optimal timing per [`references/framework.md`](references/framework.md) and directly to warm journalist contacts with personalised pitches. Respect embargo windows and exclusivity protocols. Complete the pre-distribution checklist in [`assets/press-release-template.md`](assets/press-release-template.md). Deliverable: distribution confirmation with send list.
 
 ## Anti-Patterns
 
