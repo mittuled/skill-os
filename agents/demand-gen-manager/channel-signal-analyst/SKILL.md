@@ -42,10 +42,10 @@ Analyses performance signals across acquisition channels to identify the highest
 ## Workflow
 
 1. **Pull channel data**: Extract spend, impressions, clicks, form fills, MQLs, SQLs, and pipeline value by channel for the analysis period. Normalize to common timeframes. Deliverable: raw channel performance dataset.
-2. **Calculate unit economics**: Compute CPL, cost-per-MQL, cost-per-SQL, and CAC for each channel. Compare against targets and prior period benchmarks. Deliverable: unit economics comparison table.
+2. **Calculate unit economics**: Compute CPL, cost-per-MQL, cost-per-SQL, and CAC for each channel using the unit economics table in [`assets/channel-signal-report-template.md`](assets/channel-signal-report-template.md). Compare against targets and prior period benchmarks. Deliverable: unit economics comparison table.
 3. **Identify signal anomalies**: Flag channels where metrics deviate more than 15% from plan or prior period. Categorize as positive signal (outperformance) or negative signal (degradation). Deliverable: annotated anomaly report.
-4. **Diagnose root causes**: For each anomaly, investigate causes -- audience saturation, creative fatigue, competitive bid pressure, seasonality, or tracking issues. Deliverable: root cause analysis per flagged channel.
-5. **Recommend reallocation**: Propose specific budget shifts from underperforming to outperforming channels. Quantify expected impact on lead volume and pipeline. Deliverable: reallocation recommendation with projected outcomes.
+4. **Diagnose root causes**: For each anomaly, investigate causes from the root cause categories in the report template. Deliverable: root cause analysis per flagged channel.
+5. **Recommend reallocation**: Propose specific budget shifts with projected MQL and pipeline impact using the reallocation table in [`assets/channel-signal-report-template.md`](assets/channel-signal-report-template.md). Score the analysis quality against [`references/scoring-rubric.md`](references/scoring-rubric.md) before delivery. Deliverable: channel signal report with reallocation recommendation.
 
 ## Anti-Patterns
 
