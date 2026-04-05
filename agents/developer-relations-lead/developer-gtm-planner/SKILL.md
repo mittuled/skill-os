@@ -38,14 +38,14 @@ Plans the developer go-to-market strategy including developer acquisition channe
 
 ## Workflow
 
-1. **Define developer audience**: Identify target developer personas with demographics, tech stack, motivations, and watering holes. Deliverable: developer persona document.
-2. **Map the developer journey**: Define the stages from awareness to advocacy (discover, evaluate, integrate, build, scale, advocate) with conversion metrics for each. Deliverable: developer journey map with funnel metrics.
-3. **Select acquisition channels**: Evaluate and rank channels by persona fit (content marketing, conference talks, open-source, partnerships, paid ads, community, influencers). Deliverable: channel strategy with budget allocation.
-4. **Design activation experience**: Define the onboarding flow that gets developers from signup to first value as fast as possible (quickstarts, sandbox environments, sample apps). Deliverable: activation flow design.
-5. **Plan community and advocacy**: Define how the community programme supports GTM goals and how to convert successful developers into advocates. Deliverable: community-GTM integration plan.
-6. **Set metrics and milestones**: Establish KPIs for each funnel stage, set quarterly milestones, and define the measurement stack. Deliverable: GTM metrics framework with targets.
-7. **Build launch timeline**: Create a phased launch plan with channel activation sequence, content calendar, and event schedule. Deliverable: developer GTM launch timeline.
-8. **Execute and iterate**: Launch the GTM plan, run weekly metric reviews, and iterate channel mix and messaging based on performance data. Deliverable: weekly GTM performance report.
+1. **Define developer audience**: Use the persona framework in [framework.md](references/framework.md) to document target developer personas with role, tech stack, motivations, watering holes, decision factors, and blockers. Deliverable: developer persona document.
+2. **Map the developer journey**: Use the developer adoption funnel in the framework to define conversion metrics for each stage (discover, evaluate, integrate, build, scale, advocate). Deliverable: developer journey map with funnel metrics.
+3. **Select acquisition channels**: Score and rank channels using the channel selection matrix in the framework by persona fit and scalability. Select the top 3–4 channels for initial GTM. Deliverable: channel strategy with budget allocation.
+4. **Design activation experience**: Apply the activation experience design principles from the framework to define the onboarding flow targeting TTFHW < 10 minutes. Deliverable: activation flow design.
+5. **Plan community and advocacy**: Define how the community programme supports GTM goals and how to convert successful developers into advocates using the advocate stage of the funnel. Deliverable: community-GTM integration plan.
+6. **Set metrics and milestones**: Establish KPIs per the GTM metrics framework in the framework document, set quarterly milestones, and validate the measurement stack is in place. Deliverable: GTM metrics framework with targets.
+7. **Build launch timeline**: Run through the anti-patterns checklist in the framework before finalizing the launch timeline. Create a phased plan with channel activation sequence, content calendar, and event schedule. Deliverable: developer GTM launch timeline.
+8. **Execute and iterate**: Launch the GTM plan, run weekly metric reviews against funnel benchmarks, and iterate channel mix and messaging based on performance data. Deliverable: weekly GTM performance report.
 
 ## Anti-Patterns
 
