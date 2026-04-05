@@ -33,12 +33,12 @@ Builds the initial community by recruiting founding members, establishing norms,
 
 ## Workflow
 
-1. **Define community purpose**: Articulate why this community exists, who it serves, and what value members get that they cannot get elsewhere. Deliverable: community purpose statement.
-2. **Identify founding member profiles**: Define the ideal founding member (demographics, motivations, expertise level, network influence) and where to find them. Deliverable: founding member persona and sourcing plan.
-3. **Recruit founding cohort**: Reach out to candidates through personal invitations, existing networks, and targeted channels. Deliverable: recruited cohort of founding members (target: 20-50).
-4. **Establish norms and rituals**: Co-create community guidelines, posting norms, and recurring rituals (weekly threads, AMAs, challenges) with founding members. Deliverable: community guidelines document and ritual calendar.
-5. **Seed initial content**: Populate the community with starter discussions, resource posts, and conversation prompts that model desired engagement patterns. Deliverable: content seed package (minimum 10 posts).
-6. **Monitor and nurture**: Track founding member activity, respond to every post in the first weeks, and personally re-engage members who go quiet. Deliverable: weekly founding cohort activity report.
+1. **Define community purpose**: Articulate why this community exists, who it serves, and what value members get that they cannot get elsewhere. Deliverable: community purpose statement (see [early-community-package-template.md](assets/early-community-package-template.md)).
+2. **Identify founding member profiles**: Use the founding member profile dimensions and sourcing channel guide in [framework.md](references/framework.md) to define the ideal founding member and build a recruitment plan. Deliverable: founding member persona and sourcing plan.
+3. **Recruit founding cohort**: Reach out to candidates through personal invitations using the invitation structure from the framework. Target 20–50 members. Deliverable: recruited cohort of founding members.
+4. **Establish norms and rituals**: Co-create community guidelines using the norm-setting framework questions, and establish at least 2 recurring rituals from the ritual calendar template in the framework. Deliverable: community guidelines document and ritual calendar.
+5. **Seed initial content**: Apply the 3-2-1-1 seeding formula from the framework (3 resource posts, 2 discussion starters, 1 introduction thread, 1 ritual announcement). Deliverable: content seed package (minimum 10 posts).
+6. **Monitor and nurture**: Track founding member activity against the retention benchmarks in the framework. Respond to every post in the first weeks and personally re-engage members who fall below benchmark. Deliverable: weekly founding cohort activity report compiled in the package template.
 
 ## Anti-Patterns
 
