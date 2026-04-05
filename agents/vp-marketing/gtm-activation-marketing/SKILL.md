@@ -40,13 +40,13 @@ Activates the GTM plan at launch by coordinating execution across all marketing 
 
 ## Workflow
 
-1. **Lock activation timeline**: Convert the GTM plan into a day-by-day activation calendar with channel-specific deadlines. Identify the critical path and flag dependencies. Deliverable: activation timeline with owners and due dates.
-2. **Confirm asset readiness**: Audit all required assets -- landing pages, ad creatives, email sequences, blog posts, sales decks, social copy. Flag gaps and assign owners with hard deadlines. Deliverable: asset readiness checklist with status per item.
-3. **Brief channel owners**: Conduct activation briefings with each channel lead (paid, content, social, email, PR). Confirm messaging, audience segments, UTM conventions, and budget. Deliverable: channel activation briefs.
+1. **Lock activation timeline**: Convert the GTM plan into a day-by-day activation calendar using the planning timeline in [`references/framework.md`](references/framework.md). Identify the critical path and flag dependencies. Deliverable: activation timeline with owners and due dates.
+2. **Confirm asset readiness**: Audit all required assets using the asset readiness checklist categories in [`references/framework.md`](references/framework.md). Flag gaps and assign owners with hard deadlines. Deliverable: asset readiness checklist with status per item.
+3. **Brief channel owners**: Conduct activation briefings with each channel lead. Confirm messaging, audience segments, UTM naming convention from [`references/framework.md`](references/framework.md), and budget. Deliverable: channel activation briefs.
 4. **Stage campaigns**: Load campaigns into platforms in draft/paused state. QA targeting, creative, tracking pixels, and attribution tags. Deliverable: staged campaigns ready for one-click activation.
-5. **Execute launch sequence**: Activate channels in planned sequence. Monitor real-time dashboards for delivery issues, broken links, or tracking failures. Escalate blockers within 30 minutes. Deliverable: live campaigns across all channels.
-6. **Run 48-hour war room**: Monitor launch performance in the first 48 hours. Track impressions, CTR, form fills, and early MQL signals. Adjust bids, budgets, or messaging in real time. Deliverable: 48-hour launch performance snapshot.
-7. **Conduct launch retrospective**: Within one week post-launch, compile channel performance vs. targets. Document what worked, what broke, and process improvements. Deliverable: launch retrospective document.
+5. **Execute launch sequence**: Activate channels in the order defined by the channel activation sequence in [`references/framework.md`](references/framework.md). Monitor real-time dashboards for delivery issues, broken links, or tracking failures. Escalate blockers within 30 minutes. Deliverable: live campaigns across all channels.
+6. **Run 48-hour war room**: Monitor launch performance using the war room protocol and escalation thresholds in [`references/framework.md`](references/framework.md). Adjust bids, budgets, or messaging in real time. Deliverable: 48-hour launch performance snapshot.
+7. **Conduct launch retrospective**: Within one week post-launch, compile channel performance vs. targets using the retrospective template in [`references/framework.md`](references/framework.md). Deliverable: launch retrospective document.
 
 ## Anti-Patterns
 
