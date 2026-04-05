@@ -35,9 +35,10 @@ Tracks press coverage, share of voice, and sentiment versus competitors to measu
 
 ## Workflow
 
-1. **Collect coverage data**: Pull all brand mentions, competitor mentions, and industry keyword hits from media monitoring tools. Categorize by outlet tier, topic, and sentiment. Deliverable: raw coverage dataset for the reporting period.
-2. **Calculate share of voice**: Compute the company's share of voice relative to named competitors by mention count, outlet authority, and estimated reach. Deliverable: share of voice comparison table with trend line.
-3. **Assess sentiment and themes**: Classify coverage as positive, neutral, or negative. Identify dominant themes and narratives. Flag any negative sentiment trends that may require response. Deliverable: sentiment analysis with theme breakdown.
+1. **Collect coverage data**: Pull all brand mentions, competitor mentions, and industry keyword hits from media monitoring tools. Categorize by outlet tier (Tier 1–3 as defined in [`assets/earned-media-report-template.md`](assets/earned-media-report-template.md)), topic, and sentiment. Deliverable: raw coverage dataset for the reporting period.
+2. **Calculate share of voice**: Compute the company's share of voice relative to named competitors by weighting mention count by outlet authority and reach — not raw count. Use the SOV methodology in the report template Section 2. Deliverable: share of voice comparison table with trend line covering at least 2 periods.
+3. **Assess sentiment and themes**: Classify coverage as positive, neutral, or negative. Identify 3–5 dominant themes and narratives. Flag any negative sentiment trends using the flag criteria in [`assets/earned-media-report-template.md`](assets/earned-media-report-template.md) Section 5. Deliverable: sentiment analysis with theme breakdown.
+4. **Compile and quality-check the report**: Assemble findings into the earned media report using [`assets/earned-media-report-template.md`](assets/earned-media-report-template.md). Score the report against [`references/scoring-rubric.md`](references/scoring-rubric.md) before distribution -- target minimum grade B (7.0+). Deliverable: completed earned media report with rubric score noted.
 
 ## Anti-Patterns
 
