@@ -36,11 +36,11 @@ Operates the ongoing content marketing programme -- producing, editing, publishi
 
 ## Workflow
 
-1. **Review editorial calendar**: Check the current week's editorial calendar for assigned pieces, due dates, and status. Identify pieces at risk of missing their publish date. Deliverable: weekly production status update.
-2. **Brief and draft**: Write or coordinate drafts from briefs. Follow the style guide, incorporate SEO keywords, and align messaging to current positioning. Deliverable: completed first draft per brief.
+1. **Review editorial calendar**: Check the current week's editorial calendar for assigned pieces, due dates, and status. Apply the weekly production status model from [`references/framework.md`](references/framework.md) to identify at-risk and blocked pieces. Deliverable: weekly production status update.
+2. **Brief and draft**: Write or coordinate drafts from briefs. Follow the style guide, incorporate SEO keywords using the SEO integration standards in [`references/framework.md`](references/framework.md), and align messaging to current positioning. Deliverable: completed first draft per brief.
 3. **Edit and review**: Route drafts through editorial review for accuracy, tone, and brand consistency. Incorporate SME feedback on technical content. Deliverable: approved final draft.
-4. **Publish and optimize**: Format content in the CMS, add metadata, internal links, CTAs, and tracking UTMs. Publish on schedule. Deliverable: live content with tracking in place.
-5. **Distribute across channels**: Push published content to distribution channels -- email newsletters, social media, paid syndication, sales enablement library. Repurpose long-form into derivative assets (social snippets, email excerpts). Deliverable: distribution confirmation with channel-specific links.
+4. **Publish and optimize**: Format content in the CMS and clear every check in the CMS publishing checklist in [`references/framework.md`](references/framework.md). Publish on schedule. Deliverable: live content with tracking in place.
+5. **Distribute across channels**: Execute distribution steps in sequence from [`references/framework.md`](references/framework.md). Apply the repurposing matrix to generate derivative assets from long-form content. Deliverable: distribution confirmation with channel-specific links.
 
 ## Anti-Patterns
 
