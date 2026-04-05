@@ -34,11 +34,11 @@ Translates product specifications into design briefs and acceptance criteria tha
 
 ## Workflow
 
-1. **Analyze the product spec**: Read the PRD or feature spec end to end. Identify user stories, functional requirements, success metrics, and technical constraints relevant to design. Deliverable: annotated spec with design-relevant callouts.
-2. **Identify design gaps**: Flag areas where the spec is silent on interaction behavior, edge cases, responsive breakpoints, empty/error/loading states, accessibility requirements, or content needs. Deliverable: gap list with questions for product.
+1. **Analyze the product spec**: Read the PRD or feature spec end to end. Identify user stories, functional requirements, success metrics, and technical constraints relevant to design. Use the translation mapping in the [translation framework](references/translation-framework.md) to convert spec elements into brief elements. Deliverable: annotated spec with design-relevant callouts.
+2. **Identify design gaps**: Flag areas where the spec is silent on interaction behavior, edge cases, responsive breakpoints, empty/error/loading states, accessibility requirements, or content needs. Use the gap category checklist in the [translation framework](references/translation-framework.md). Deliverable: gap list with questions for product.
 3. **Resolve gaps**: Collaborate with the product manager to close open questions. Document decisions and assumptions. Deliverable: resolved gap register.
-4. **Draft the design brief**: Write a design brief containing: problem statement, target users, in-scope surfaces, design constraints (tokens, components, patterns to reuse), interaction requirements, accessibility targets (WCAG level), content requirements, and acceptance criteria. Deliverable: design brief document.
-5. **Define acceptance criteria**: Specify measurable conditions that the design must meet to be considered complete -- states covered, responsive breakpoints addressed, accessibility checks passed, design system compliance verified. Deliverable: acceptance criteria checklist appended to the brief.
+4. **Draft the design brief**: Write a design brief using the [design brief template](assets/design-brief-template.md) covering: problem statement, target users, in-scope surfaces, design constraints, interaction requirements, state requirements, accessibility targets, and content requirements. Deliverable: design brief document.
+5. **Define acceptance criteria**: Specify measurable conditions in Given/When/Then format per the [translation framework](references/translation-framework.md). Verify all states, breakpoints, accessibility checks, and design system compliance are covered. Deliverable: acceptance criteria checklist appended to the brief.
 6. **Distribute and align**: Share the brief with the assigned designer(s) and walk through it. Confirm understanding and surface any remaining ambiguities. Deliverable: acknowledged brief with designer confirmation.
 
 ## Anti-Patterns
