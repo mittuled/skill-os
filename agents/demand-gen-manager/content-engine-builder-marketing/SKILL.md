@@ -41,11 +41,11 @@ Builds the repeatable content production engine -- editorial calendar, workflow,
 
 ## Workflow
 
-1. **Map content to funnel stages**: Define content types needed at each funnel stage (TOFU awareness, MOFU consideration, BOFU decision) by ICP segment. Deliverable: content-to-funnel mapping matrix.
-2. **Build editorial calendar**: Create a rolling 90-day editorial calendar with topics, formats, owners, and publish dates. Align topics to demand gen campaign themes and seasonal patterns. Deliverable: editorial calendar in shared tool.
-3. **Design production workflow**: Define the end-to-end workflow from ideation to publish -- brief, draft, review, design, approve, publish, distribute. Assign role responsibilities and SLAs per stage. Deliverable: documented production workflow with SLAs.
-4. **Establish contributor network**: Identify and onboard internal SMEs, freelance writers, and agency partners. Create brief templates and style guides that enable consistent output. Deliverable: contributor roster with brief templates.
-5. **Map distribution channels**: For each content piece, define primary and repurpose distribution -- blog, email, social, paid syndication, sales enablement. Automate distribution where possible. Deliverable: distribution playbook per content type.
+1. **Map content to funnel stages**: Define content types needed at each funnel stage using the content-to-funnel mapping in [`references/framework.md`](references/framework.md). Every piece must belong to exactly one stage. Deliverable: content-to-funnel mapping matrix.
+2. **Build editorial calendar**: Create a rolling 90-day editorial calendar using the cadence structure in [`references/framework.md`](references/framework.md). Align topics to demand gen campaign themes and seasonal patterns. Deliverable: editorial calendar in shared tool.
+3. **Design production workflow**: Implement the 8-stage production workflow with SLAs per stage from [`references/framework.md`](references/framework.md). Assign role responsibilities per stage. Deliverable: documented production workflow with SLAs.
+4. **Establish contributor network**: Onboard contributors using the tier model and brief standards in [`references/framework.md`](references/framework.md). Deliver brief templates and style guides for each contributor type. Deliverable: contributor roster with brief templates.
+5. **Map distribution channels**: Apply the distribution playbook from [`references/framework.md`](references/framework.md) to define primary and repurpose distribution for each content type. Automate distribution where possible. Deliverable: distribution playbook per content type.
 
 ## Anti-Patterns
 
