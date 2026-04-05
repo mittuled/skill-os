@@ -29,16 +29,16 @@ Plans and produces the annual user conference or customer summit, creating the f
 
 ## Workflow
 
-1. Define the conference vision with leadership: theme, target attendance, audience mix (customers, prospects, partners), and business outcomes (retention, expansion pipeline, brand).
-2. Secure the venue, negotiate hotel room blocks, and lock the date. Begin sponsor outreach for partners who want booth or session access.
-3. Open the call for papers. Recruit customer speakers who can share success stories and recruit internal experts for product sessions.
-4. Design the agenda: keynotes, breakout tracks by persona or use case, hands-on workshops, product roadmap sessions, networking events, and an expo hall.
+1. Define the conference vision with leadership using the design model in `references/framework.md`: theme, target attendance, audience mix (customers, prospects, partners), and business outcomes (retention, expansion pipeline, brand).
+2. Secure the venue, negotiate hotel room blocks, and lock the date. Begin sponsor outreach using the sponsor tier model in `references/framework.md` for partners who want booth or session access.
+3. Open the call for papers. Recruit customer speakers who can share success stories and recruit internal experts for product sessions. Use the programming framework in `references/framework.md` to target the right keynote/breakout/workshop mix.
+4. Design the agenda: keynotes, breakout tracks by persona or use case, hands-on workshops, product roadmap sessions, networking events, and an expo hall. Apply the networking programming formats in `references/framework.md`.
 5. Launch registration with tiered pricing and early-bird incentives. Build the promotional campaign across email, social, sales outreach, and partner channels.
 6. Produce all event materials: speaker decks, signage, mobile app configuration, attendee guides, and branded swag.
 7. Coordinate logistics: registration desk staffing, session room AV, catering, transportation, and on-site troubleshooting teams.
 8. Execute the event: manage the run-of-show across multiple tracks, facilitate speaker transitions, monitor session attendance, and capture real-time feedback.
 9. Run the post-event follow-up within 48 hours: thank-you emails, session recordings, survey, and sales follow-up on prospect leads captured.
-10. Deliver the post-conference report: attendance, session ratings, NPS, pipeline generated, sponsor revenue, budget actuals, and recommendations for next year.
+10. Deliver the post-conference report using `assets/user-conference-plan-template.md`: attendance, session ratings, NPS (target ≥ 50 per `references/framework.md`), pipeline generated, sponsor revenue, budget actuals, and recommendations for next year. Use `references/checklist.md` to verify all post-event steps are complete.
 
 ## Anti-Patterns
 
