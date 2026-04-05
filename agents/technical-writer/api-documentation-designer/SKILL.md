@@ -34,11 +34,11 @@ Designs the structure and format of API reference documentation to maximize deve
 
 ## Workflow
 
-1. **Audit existing documentation**: Review current API docs (if any) for structure, coverage gaps, and developer feedback on navigation and findability. Deliverable: documentation audit report.
-2. **Define audience and use cases**: Identify the primary developer personas and their top API use cases to determine what documentation types are needed (reference, guides, tutorials, cookbooks). Deliverable: audience-use case matrix.
-3. **Design information architecture**: Create the documentation hierarchy, navigation structure, URL scheme, and cross-linking strategy. Deliverable: information architecture diagram.
-4. **Define page templates**: Create standardized templates for each documentation type (endpoint reference, quickstart, tutorial, error reference, changelog). Deliverable: template library with field definitions.
-5. **Establish style standards**: Define API documentation conventions (parameter formatting, code sample language, authentication examples, error response format). Deliverable: API documentation style guide.
+1. **Audit existing documentation**: Review current API docs (if any) for structure, coverage gaps, and developer feedback on navigation and findability. Classify existing pages against the Divio type model in [framework.md](references/framework.md) to identify type mixing. Deliverable: documentation audit report.
+2. **Define audience and use cases**: Identify the primary developer personas and their top API use cases. Use the documentation type selection table in the framework to determine which types are needed. Deliverable: audience-use case matrix with documentation type mapping.
+3. **Design information architecture**: Select the IA pattern from the framework (task-first, resource-first, concept-first, or hybrid) and define the URL scheme, navigation structure, and cross-linking strategy. Deliverable: information architecture diagram.
+4. **Define page templates**: Create standardized templates using the endpoint reference and quickstart template specifications from the framework. Deliverable: template library with field definitions.
+5. **Establish style standards**: Adopt the style standards table from the framework as the base. Add product-specific conventions for parameter naming and domain terminology. Deliverable: API documentation style guide.
 6. **Validate with developers**: Test the proposed structure with target developers through card sorting or prototype navigation exercises. Deliverable: validation findings with revisions.
 
 ## Anti-Patterns
