@@ -33,12 +33,12 @@ Designs the community-led growth strategy including advocacy, referral, and cont
 
 ## Workflow
 
-1. **Assess growth readiness**: Verify that community health metrics support scaling (retention above threshold, sentiment positive, moderation capacity sufficient). Deliverable: growth readiness assessment.
-2. **Map growth levers**: Identify which community-led growth mechanisms fit this community (advocacy programme, referral incentives, user-generated content, expert-led events, community-to-product loops). Deliverable: growth lever matrix with feasibility scores.
-3. **Design programme**: For the top-ranked lever, define the programme structure: eligibility, incentives, content requirements, recognition system, and success metrics. Deliverable: programme design document.
+1. **Assess growth readiness**: Verify that community health metrics meet the thresholds defined in [framework.md](references/framework.md) (retention above threshold, sentiment positive, moderation capacity sufficient). Deliverable: growth readiness assessment.
+2. **Map growth levers**: Use the growth lever matrix in the framework to score each mechanism (advocacy programme, referral incentives, user-generated content, expert-led events, community-to-product loops) against feasibility and community fit. Deliverable: growth lever matrix with feasibility scores.
+3. **Design programme**: For the top-ranked lever, define the programme structure using the relevant design pattern from the framework: eligibility, incentives, content requirements, recognition system, and success metrics. Use [growth-programme-design-template.md](assets/growth-programme-design-template.md). Deliverable: programme design document.
 4. **Build enablement assets**: Create the materials participants need (templates, guidelines, swag criteria, referral links, content prompts). Deliverable: enablement kit.
-5. **Pilot and iterate**: Launch with a small cohort, measure results against targets, and refine based on participant feedback. Deliverable: pilot results report with iteration recommendations.
-6. **Scale and sustain**: Roll out to the full community with automated workflows where possible and a recurring review cadence. Deliverable: scaled programme with operational playbook.
+5. **Pilot and iterate**: Launch with a small cohort (10–20 members), measure results against the pilot success criteria in the programme design, and refine based on participant feedback. Deliverable: pilot results report with iteration recommendations.
+6. **Scale and sustain**: Roll out to the full community with automated workflows where possible and the recurring review cadence from the framework's success metrics table. Deliverable: scaled programme with operational playbook.
 
 ## Anti-Patterns
 
