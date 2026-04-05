@@ -41,13 +41,13 @@ Plans the demand generation strategy including lead volume targets, channel inve
 
 ## Workflow
 
-1. **Gather revenue targets**: Obtain the quarterly revenue and pipeline targets from CBO and RevOps. Confirm ASP, win rate, and sales cycle assumptions. Deliverable: validated revenue-to-pipeline model.
+1. **Gather revenue targets**: Obtain the quarterly revenue and pipeline targets from CBO and RevOps. Confirm ASP, win rate, and sales cycle assumptions using the waterfall model in [`references/framework.md`](references/framework.md). Deliverable: validated revenue-to-pipeline model.
 2. **Back into lead volumes**: Calculate required MQLs, SQLs, and opportunities by working backward from pipeline targets through funnel conversion rates. Deliverable: lead volume waterfall by stage.
-3. **Audit channel performance**: Pull historical CPL, conversion rate, and velocity data for each acquisition channel. Flag channels above CAC threshold or below volume floor. Deliverable: channel performance scorecard.
-4. **Define MQL criteria**: Align with sales on behavioral and firmographic scoring thresholds that constitute a marketing-qualified lead. Document handoff SLA. Deliverable: MQL definition document with sales sign-off.
-5. **Allocate channel budget**: Distribute demand gen budget across channels proportional to expected pipeline contribution. Reserve 15-20% for experimentation on emerging channels. Deliverable: channel investment plan with expected yield per dollar.
-6. **Set measurement cadence**: Define weekly leading indicators (impressions, clicks, form fills) and monthly lagging indicators (MQLs, SQLs, pipeline created). Assign dashboard ownership. Deliverable: measurement framework and reporting calendar.
-7. **Socialize and lock plan**: Present the demand gen plan to CBO, sales leadership, and RevOps for alignment. Incorporate feedback and lock the plan for the quarter. Deliverable: approved demand gen plan document.
+3. **Audit channel performance**: Pull historical CPL, conversion rate, and velocity data for each acquisition channel. Compare against the unit economics benchmarks in [`references/framework.md`](references/framework.md). Flag channels above CAC threshold or below volume floor. Deliverable: channel performance scorecard.
+4. **Define MQL criteria**: Align with sales on behavioral and firmographic scoring thresholds using the MQL definition standards in [`references/framework.md`](references/framework.md). Document handoff SLA. Deliverable: MQL definition document with sales sign-off.
+5. **Allocate channel budget**: Distribute demand gen budget across channels using the allocation model in [`references/framework.md`](references/framework.md). Reserve 15–20% for experimentation on emerging channels. Deliverable: channel investment plan in [`assets/demand-gen-plan-template.md`](assets/demand-gen-plan-template.md).
+6. **Set measurement cadence**: Define weekly leading indicators and monthly lagging indicators using the measurement cadence table in [`references/framework.md`](references/framework.md). Assign dashboard ownership. Deliverable: measurement framework and reporting calendar.
+7. **Socialize and lock plan**: Present the completed [`assets/demand-gen-plan-template.md`](assets/demand-gen-plan-template.md) to CBO, sales leadership, and RevOps for alignment. Incorporate feedback and lock the plan for the quarter. Deliverable: approved demand gen plan.
 
 ## Anti-Patterns
 
