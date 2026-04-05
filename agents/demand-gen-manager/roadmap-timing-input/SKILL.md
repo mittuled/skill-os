@@ -35,9 +35,9 @@ Provides marketing timing input to the product roadmap to align feature and prod
 
 ## Workflow
 
-1. **Review proposed roadmap dates**: Obtain the draft product roadmap with proposed launch dates. Cross-reference against the marketing calendar, industry events, competitor launch patterns, and seasonal trends. Deliverable: conflict and opportunity analysis.
-2. **Calculate lead time requirements**: For each launch, determine the minimum marketing lead time needed for asset production, campaign setup, PR outreach, and sales enablement. Deliverable: lead time requirements per launch.
-3. **Submit timing recommendations**: Provide specific date adjustment recommendations to product with rationale. Flag hard conflicts (e.g., launching during a competitor's annual conference) and soft preferences (e.g., shifting one week to align with a webinar series). Deliverable: timing recommendation memo to product leadership.
+1. **Review proposed roadmap dates**: Obtain the draft product roadmap with proposed launch dates. Cross-reference against the marketing calendar, blackout periods, and conflict categories in [`references/framework.md`](references/framework.md). Deliverable: conflict and opportunity analysis.
+2. **Calculate lead time requirements**: For each launch type, determine the minimum and recommended marketing lead time using the lead time table in [`references/framework.md`](references/framework.md). Flag any proposed dates that fall below minimum lead time. Deliverable: lead time requirements per launch.
+3. **Submit timing recommendations**: Build the timing recommendation memo following the structure in [`references/framework.md`](references/framework.md). For feasible dates, apply the optimal launch timing signals to choose the strongest date. Deliverable: timing recommendation memo to product leadership.
 
 ## Anti-Patterns
 
