@@ -33,12 +33,12 @@ Writes technical documentation including guides, tutorials, and API references t
 
 ## Workflow
 
-1. **Review requirements**: Read the documentation requirements, engineering specs, and any existing content to understand scope and audience. Deliverable: writing brief with scope confirmation.
-2. **Research the feature**: Use the product, read the code (if needed), and interview engineers to build a complete understanding of the feature's behaviour, edge cases, and common pitfalls. Deliverable: research notes.
-3. **Outline the content**: Create a structured outline following the documentation architecture and page templates. Deliverable: content outline with section headings and key points.
-4. **Write the draft**: Produce the full documentation draft with explanatory text, code samples, diagrams, and cross-links. Use imperative voice for procedures and third-person for concepts. Deliverable: documentation draft.
-5. **Test code samples**: Execute every code sample against the current product version to verify they work as written. Deliverable: code sample test results.
-6. **Review and publish**: Submit for technical review by engineering and editorial review by writing peers. Incorporate feedback and publish to the documentation site. Deliverable: published documentation page.
+1. **Review requirements**: Read the documentation requirements, engineering specs, and any existing content to understand scope and audience. Identify the documentation type (Tutorial, How-to, Reference, Explanation) per the Divio model — never mix types. Deliverable: writing brief with scope confirmation.
+2. **Research the feature**: Use the product hands-on, read the code (if needed), and interview engineers using the research interview template in [framework.md](references/framework.md). Deliverable: research notes.
+3. **Outline the content**: Create a structured outline following the documentation architecture and page templates for the identified type. Deliverable: content outline with section headings and key points.
+4. **Write the draft**: Apply the writing standards for the documentation type from the framework (voice, tense, structure rules). Use imperative voice for procedures and third-person for reference. Deliverable: documentation draft.
+5. **Test code samples**: Execute every code sample against the current product version using the code sample requirements checklist in the framework. Every sample must run in a clean environment without modification. Deliverable: code sample test results.
+6. **Review and publish**: Complete the pre-publish quality checklist from the framework. Submit for technical review by engineering and editorial review by writing peers. Incorporate feedback and publish. Deliverable: published documentation page.
 
 ## Anti-Patterns
 
