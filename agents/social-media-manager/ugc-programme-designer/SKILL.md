@@ -31,9 +31,9 @@ Designs programmes that encourage and amplify user-generated content, turning cu
 
 1. Define the UGC programme objectives: target content volume, content types, platforms, and how UGC will be used across marketing and sales channels.
 2. Identify the target contributor segments: power users, community members, recent promoters from NPS surveys, and customers with public-facing success stories.
-3. Design the participation mechanic: hashtag campaigns, contests, template prompts, or ambassador tiers with clear incentives and recognition structures.
-4. Draft programme guidelines covering brand usage rules, content standards, legal permissions, and the rights framework for repurposing UGC.
-5. Launch the programme with seed content from internal advocates or early participants to demonstrate the expected format and quality.
+3. Design the participation mechanic using the programme mechanics guide in `references/framework.md`: hashtag campaigns, contests, template prompts, or ambassador tiers with clear incentives and recognition structures.
+4. Draft programme guidelines covering brand usage rules, content standards, legal permissions, and the rights framework for repurposing UGC. Apply the rights acquisition process in `references/framework.md` to define approval per use case.
+5. Verify launch readiness using `references/checklist.md` before going live. Launch the programme with seed content from internal advocates or early participants to demonstrate the expected format and quality.
 6. Monitor submissions for quality, brand safety, and adherence to guidelines. Curate top content for amplification on owned channels.
 7. Repurpose high-performing UGC into sales enablement assets, website testimonials, ad creative, and case study leads.
 8. Report monthly on programme health: submission volume, engagement on amplified UGC, conversion lift from UGC-featuring pages, and contributor retention.
