@@ -36,11 +36,11 @@ Builds and maintains relationships with journalists, editors, and analysts cover
 
 ## Workflow
 
-1. **Build target media list**: Identify journalists, editors, and analysts who cover the company's category, competitors, and adjacent topics. Tier outlets by authority and audience relevance. Deliverable: tiered media list with contact details and beat descriptions.
-2. **Research journalist interests**: Review each target journalist's recent coverage, social media activity, and stated interests. Note their preferred pitch format and story angles they respond to. Deliverable: journalist profile cards with engagement notes.
-3. **Initiate contact**: Reach out with value-first engagement -- offering exclusive data, expert commentary, or a story angle relevant to their beat. Avoid generic pitches. Deliverable: initial outreach log with response tracking.
-4. **Nurture relationships**: Maintain regular contact through non-transactional touchpoints -- sharing relevant industry data, congratulating them on published pieces, offering background briefings. Deliverable: relationship cadence calendar with touchpoint history.
-5. **Activate for announcements**: When a newsworthy event is planned, brief warm contacts with embargoed information and exclusivity offers for top-tier outlets. Deliverable: pre-briefing schedule and embargo tracking sheet.
+1. **Build target media list**: Identify journalists, editors, and analysts who cover the company's category, competitors, and adjacent topics using the beat mapping methodology in [`references/framework.md`](references/framework.md). Tier contacts using the 4-tier model. Complete [`references/checklist.md`](references/checklist.md) Checklist 1 before finalising the list. Deliverable: tiered media list with contact details and beat descriptions.
+2. **Research journalist interests**: Review each target journalist's recent 20 articles, social media activity, and stated interests following the Beat Research Protocol in [`references/framework.md`](references/framework.md). Record all fields in CRM per the CRM Best Practices section. Deliverable: journalist profile cards with engagement notes.
+3. **Initiate contact**: Reach out with value-first engagement -- offering exclusive data, expert commentary, or a story angle relevant to their beat. Use non-transactional touchpoint types from [`references/framework.md`](references/framework.md). Avoid generic pitches. Deliverable: initial outreach log with response tracking.
+4. **Nurture relationships**: Maintain regular contact per the cadence model in [`references/framework.md`](references/framework.md). Monitor CRM health indicators -- flag any Tier 1 contact with last touchpoint >60 days for re-engagement. Run [`references/checklist.md`](references/checklist.md) Checklist 2 quarterly. Deliverable: relationship cadence calendar with touchpoint history.
+5. **Activate for announcements**: When a newsworthy event is planned, complete [`references/checklist.md`](references/checklist.md) Checklist 3. Brief warm Tier 1 contacts with exclusivity offers and Tier 2 contacts with embargoed information following the embargo and exclusivity protocols in [`references/framework.md`](references/framework.md). Deliverable: pre-briefing schedule and embargo tracking sheet.
 
 ## Anti-Patterns
 
