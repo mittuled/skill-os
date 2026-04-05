@@ -1,6 +1,10 @@
 ---
 name: analyst-inquiry-responder
-description: Responds to analyst inquiries with strategically framed answers that reinforce the company's positioning in research.
+description: >
+  Responds to analyst inquiries with strategically framed answers that reinforce the company's positioning in research.
+  Use when an analyst firm sends a formal inquiry, requests customer references, or asks for product and financial data for upcoming research.
+  Also consider when an analyst is advising a buyer in an active deal and needs information before providing a recommendation.
+  Suggest when an evaluation questionnaire arrives or when an analyst inquiry has been pending for more than 24 hours without a response plan.
 department: marketing
 agent: analyst-relations-manager
 version: 1.0.0
@@ -10,7 +14,7 @@ related-skills: []
 
 # analyst-inquiry-responder
 
-## Agent
+## Agent: Analyst Relations Manager
 
 L2 analyst relations manager responsible for analyst briefings, inquiry responses, Magic Quadrant strategy, and peer review platform management.
 
@@ -29,14 +33,14 @@ Responds to analyst inquiries with accurate and strategically framed information
 
 ## Workflow
 
-1. Triage the inquiry: identify the analyst, their firm, the research context, the deadline, and the type of information requested.
-2. Assess the strategic importance: determine whether the inquiry relates to an upcoming evaluation, a published report, or a client advisory that could influence a deal.
-3. Gather the required information from internal stakeholders: product, engineering, customer success, or finance depending on the inquiry scope.
-4. Draft the response with strategic framing: answer the question accurately while steering the narrative toward the company's differentiators and positioning themes.
-5. Review the draft with the relevant internal stakeholders to confirm factual accuracy and strategic alignment. Get legal review for any data-sharing sensitivities.
+1. Triage the inquiry: identify the analyst, their firm, the research context, the deadline, and the inquiry type using the inquiry type table in [`references/framework.md`](references/framework.md). Apply the triage matrix to assign priority level P1/P2/P3.
+2. Assess the strategic importance and response SLA: determine whether the inquiry relates to an upcoming evaluation, a published report, or a client advisory that could influence a deal using the triage criteria in [`references/framework.md`](references/framework.md). Activate P1 escalation protocol if deal-linked or evaluation-linked with <48 hours to respond.
+3. Gather the required information from internal stakeholders per the content gathering step in [`references/framework.md`](references/framework.md): product, engineering, customer success, or finance depending on the inquiry scope. Route each information category to the correct owner.
+4. Draft the response using [`assets/inquiry-response-template.md`](assets/inquiry-response-template.md). Apply the strategic framing principles from [`references/framework.md`](references/framework.md): answer first, then steer; evidence before claims; acknowledge gaps with a remediation timeline.
+5. Review the draft with the relevant internal stakeholders per the review table in [`references/framework.md`](references/framework.md). Confirm factual accuracy and strategic alignment. Get legal review for any data-sharing sensitivities or financial metrics.
 6. Submit the response within the analyst's stated deadline. If the deadline cannot be met, communicate proactively and negotiate an extension.
-7. Log the inquiry and response in the analyst relations tracker: date, analyst, topic, key messages delivered, and any follow-up commitments.
-8. Monitor for the resulting publication or advisory to assess whether the response influenced the analyst's framing.
+7. Log the inquiry and response in the analyst relations tracker using all response tracker fields from [`references/framework.md`](references/framework.md): date, analyst, type, priority, key messages delivered, data shared, and open commitments.
+8. Monitor for the resulting publication or advisory to assess whether the response influenced the analyst's framing. Update the tracker with the publication impact when the report is released.
 
 ## Anti-Patterns
 
@@ -59,4 +63,6 @@ Responds to analyst inquiries with accurate and strategically framed information
 
 ## Related Skills
 
-*No related skills defined yet.*
+- [`analyst-briefing-scheduler`](../analyst-briefing-scheduler/SKILL.md) — Formal briefings often precede or follow inquiries; use to prepare for the analyst interaction that generated the inquiry.
+- [`magic-quadrant-strategy`](../magic-quadrant-strategy/SKILL.md) — Evaluation questionnaires are a specialised form of formal inquiry requiring the full submission strategy managed by this skill.
+- [`analyst-report-monitor`](../analyst-report-monitor/SKILL.md) — Monitoring resulting publications confirms whether inquiry responses influenced the analyst's published framing.
