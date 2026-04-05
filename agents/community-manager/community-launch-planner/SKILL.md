@@ -33,11 +33,11 @@ Plans the public launch of the community platform including timeline, channel st
 
 ## Workflow
 
-1. **Define launch goals**: Establish measurable success criteria for the launch (member count targets, activation rate, first-week engagement). Deliverable: launch goals document.
-2. **Audit readiness**: Verify platform configuration, moderation policies, welcome flows, seed content, and team coverage. Deliverable: readiness checklist with pass/fail for each item.
-3. **Build launch timeline**: Create a phased timeline covering pre-launch seeding, soft launch, and public launch with owners for each milestone. Deliverable: launch timeline with dependencies mapped.
-4. **Prepare launch content**: Draft announcement posts, welcome messages, onboarding guides, and initial discussion prompts. Deliverable: content package ready for publication.
-5. **Coordinate cross-functional**: Align with marketing, product, and support teams on launch messaging, escalation paths, and monitoring responsibilities. Deliverable: RACI matrix for launch week.
+1. **Define launch goals**: Establish measurable success criteria using the success metrics table in [framework.md](references/framework.md) (member count targets, activation rate, first-week engagement, 30-day retention). Deliverable: launch goals document.
+2. **Audit readiness**: Verify platform configuration, moderation policies, welcome flows, seed content, and team coverage against the readiness checklist in the framework. Deliverable: readiness checklist with pass/fail for each item.
+3. **Build launch timeline**: Create a phased timeline covering pre-launch seeding, soft launch, and public launch per the phase model in the framework, with owners for each milestone. Deliverable: launch timeline with dependencies mapped.
+4. **Prepare launch content**: Draft announcement posts, welcome messages, onboarding guides, and initial discussion prompts using the 3-2-1 seed pattern from the framework. Deliverable: content package ready for publication.
+5. **Coordinate cross-functional**: Align with marketing, product, and support teams on launch messaging, escalation paths, and monitoring responsibilities. Use the [community-launch-plan-template.md](assets/community-launch-plan-template.md) RACI section. Deliverable: RACI matrix for launch week.
 6. **Execute and monitor**: Run the launch sequence, monitor real-time metrics, and activate contingency plans if targets are missed. Deliverable: daily launch metrics report.
 7. **Conduct post-launch review**: Compile results against goals, document lessons learned, and hand off to ongoing community operations. Deliverable: post-launch retrospective.
 
