@@ -33,10 +33,10 @@ Runs internal design showcases to align stakeholders on design direction, surfac
 
 ## Workflow
 
-1. **Define demo objectives**: Clarify what decision or alignment the demo should achieve -- directional buy-in, feedback on a specific interaction, awareness of a system update. Deliverable: demo brief with objectives and audience list.
-2. **Prepare demo materials**: Assemble the prototype, Figma walkthrough, or presentation. Structure the narrative: problem context, design rationale, key decisions made, and open questions for the audience. Deliverable: demo deck or interactive prototype with speaker notes.
-3. **Facilitate the session**: Present the work, narrate design decisions and tradeoffs, and guide the audience through interactive elements. Capture feedback in real time, distinguishing actionable items from general reactions. Deliverable: session recording and raw feedback notes.
-4. **Synthesize and distribute**: Compile feedback into themes, identify action items, and share a summary with attendees and the broader design team. Deliverable: demo summary with feedback themes and next steps.
+1. **Define demo objectives**: Clarify what decision or alignment the demo should achieve -- directional buy-in, feedback on a specific interaction, awareness of a system update. Select the appropriate demo type from the [demo framework](references/demo-framework.md). Deliverable: demo brief with objectives and audience list.
+2. **Prepare demo materials**: Assemble the prototype, Figma walkthrough, or presentation. Structure the narrative following the problem → rationale → open questions format in the [demo framework](references/demo-framework.md). Calibrate prototype fidelity to the demo objective. Deliverable: demo deck or interactive prototype with speaker notes.
+3. **Facilitate the session**: Present the work, narrate design decisions and tradeoffs, and guide the audience through interactive elements. Use the feedback collection format from the [demo framework](references/demo-framework.md) to capture actionable items in real time. Deliverable: session recording and raw feedback notes.
+4. **Synthesize and distribute**: Compile feedback into themes, identify action items, and share a summary with attendees and the broader design team within 24 hours. Deliverable: demo summary with feedback themes and next steps.
 
 ## Anti-Patterns
 
