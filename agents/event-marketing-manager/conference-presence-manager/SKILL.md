@@ -29,16 +29,16 @@ Manages the company's presence at industry conferences including booth design, s
 
 ## Workflow
 
-1. Evaluate the conference against ICP attendance data, competitor presence, and historical pipeline attribution. Recommend participation level: attend-only, booth, sponsorship tier, or speaking.
+1. Evaluate the conference using the scoring matrix in `references/framework.md` against ICP attendance data, competitor presence, and historical pipeline attribution. Recommend participation level: attend-only, booth, sponsorship tier, or speaking. Require composite score ≥ 3.5/5 to commit budget.
 2. Secure the sponsorship package and booth placement. Negotiate add-ons like speaking slots, attendee list access, and branded session rooms.
 3. Submit speaking proposals for relevant sessions. Coordinate with subject matter experts on abstract, deck, and rehearsal schedule.
 4. Design the booth experience: messaging, demos, interactive elements, and staffing plan. Align booth messaging with the campaign theme running before and after the event.
 5. Plan the pre-event outreach campaign: targeted emails and social posts to drive booth visits and meeting bookings with high-value attendees.
 6. Brief all on-site staff on lead qualification criteria, conversation guides, demo flow, and lead capture process.
 7. Execute on-site: manage booth operations, coordinate speaker logistics, host meetings, and run any sponsored activations.
-8. Capture and enrich leads in real-time. Tag leads by conversation quality, interest level, and next action.
-9. Launch the post-event follow-up sequence within 48 hours: personalised emails referencing the on-site conversation, demo recordings, and meeting bookings for qualified leads.
-10. Compile the post-conference report: leads captured, meetings held, pipeline generated, cost-per-lead, and recommendations for future participation.
+8. Capture and enrich leads in real-time. Tag leads using the A/B/C tier model in `references/framework.md` by conversation quality, interest level, and next action.
+9. Launch the post-event follow-up sequence within 48 hours per the sequence in `assets/conference-presence-plan-template.md`: personalised emails referencing the on-site conversation, demo recordings, and meeting bookings for qualified leads.
+10. Compile the post-conference report using `assets/conference-presence-plan-template.md`: leads captured, meetings held, pipeline generated, cost-per-lead, and recommendations for future participation.
 
 ## Anti-Patterns
 
