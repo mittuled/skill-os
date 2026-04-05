@@ -1,6 +1,10 @@
 ---
 name: magic-quadrant-strategy
-description: Develops the strategy and submission for Magic Quadrant and analyst evaluations that directly influence enterprise buying decisions.
+description: >
+  Develops the strategy and submission for Magic Quadrant and analyst evaluations that directly influence enterprise buying decisions.
+  Use when an analyst firm announces an upcoming evaluation cycle and submissions open, or when previous placement was below target.
+  Also consider when a new category definition emerges that the company should be included in for buyer discovery.
+  Suggest when product or market changes create a credible opportunity to improve the company's placement in an evaluation framework.
 department: marketing
 agent: analyst-relations-manager
 version: 1.0.0
@@ -10,7 +14,7 @@ related-skills: []
 
 # magic-quadrant-strategy
 
-## Agent
+## Agent: Analyst Relations Manager
 
 L2 analyst relations manager responsible for analyst briefings, inquiry responses, Magic Quadrant strategy, and peer review platform management.
 
@@ -29,16 +33,16 @@ Develops the strategy and submission for Gartner Magic Quadrant, Forrester Wave,
 
 ## Workflow
 
-1. Identify the evaluation: confirm the analyst firm, evaluation type, category definition, timeline, and submission requirements.
-2. Assess the company's current position: review the previous evaluation results, analyst feedback, and the gap between current placement and target placement.
-3. Map the evaluation criteria to company strengths and gaps. Prioritise the criteria with the highest weighting and identify where the company can credibly improve its score.
-4. Develop the positioning narrative: the strategic story that connects the company's vision, product capabilities, market traction, and customer outcomes to the evaluation criteria.
-5. Coordinate the submission: gather product capability responses, customer reference lists, financial data, and roadmap details from across the organisation. Ensure consistency with other public statements.
-6. Prepare customer references: brief reference customers on the evaluation context, likely questions, and the company's key messages. Confirm their availability and willingness.
-7. Submit the completed questionnaire and supporting materials by the deadline. Log all submitted claims for future reference.
-8. Prepare for the analyst demo and follow-up briefing: rehearse the demo flow, anticipate tough questions, and assign roles to internal participants.
-9. Conduct the demo and briefing. Note analyst reactions, follow-up questions, and any concerns raised.
-10. After publication, analyse the results: compare placement against target, review strengths and cautions, and develop a gap-closure plan for the next cycle.
+1. Identify the evaluation: confirm the analyst firm, evaluation type, category definition, timeline, and submission requirements. Complete Section 1 of [`assets/mq-strategy-plan-template.md`](assets/mq-strategy-plan-template.md). Review the MQ and Wave framework definitions in [`references/framework.md`](references/framework.md) to understand axis definitions and scoring methodology.
+2. Assess the company's current position: review the previous evaluation results, analyst feedback, and the gap between current placement and target placement. Complete Section 2 of the strategy plan template using the criteria mapping table from [`references/framework.md`](references/framework.md).
+3. Map the evaluation criteria to company strengths and gaps using the criteria mapping section in [`references/framework.md`](references/framework.md). Prioritise criteria with the highest estimated weighting. Identify where the company can credibly improve its score vs. what requires longer-term investment. Complete Section 4 of the strategy plan.
+4. Develop the positioning narrative using the key messages structure in Section 3 of [`assets/mq-strategy-plan-template.md`](assets/mq-strategy-plan-template.md): the strategic story that connects the company's vision, product capabilities, market traction, and customer outcomes to the evaluation criteria.
+5. Coordinate the submission: gather product capability responses, customer reference lists, financial data, and roadmap details from across the organisation. Complete [`references/checklist.md`](references/checklist.md) Checklist 1 to confirm submission readiness. Apply the consistency requirements from [`references/framework.md`](references/framework.md) before filing.
+6. Prepare customer references using the reference tier model and preparation protocol from [`references/framework.md`](references/framework.md). Brief references on evaluation context, likely questions, and key messages. Check for reference fatigue. Complete Section 5 of the strategy plan. [GATE: confirm all listed references are briefed and available before submitting reference list to analyst firm.]
+7. Submit the completed questionnaire and supporting materials by the deadline. Log all submitted claims in the strategy plan evidence library (Appendix C) for future reference.
+8. Prepare for the analyst demo and follow-up briefing: rehearse the demo flow, anticipate tough questions, and assign roles using [`references/checklist.md`](references/checklist.md) Checklist 1 demo preparation section.
+9. Conduct the demo and briefing. Note analyst reactions, follow-up questions, and any concerns raised. Record in the AR tracker.
+10. After publication, complete [`references/checklist.md`](references/checklist.md) Checklist 3. Analyse the results: compare placement against target, review strengths and cautions using the post-publication gap-closure planning section of [`references/framework.md`](references/framework.md), and develop a gap-closure plan as Section 8 of the strategy plan.
 
 ## Anti-Patterns
 
@@ -62,4 +66,7 @@ Develops the strategy and submission for Gartner Magic Quadrant, Forrester Wave,
 
 ## Related Skills
 
-*No related skills defined yet.*
+- [`analyst-briefing-scheduler`](../analyst-briefing-scheduler/SKILL.md) — Evaluation briefings and demo sessions are coordinated through this skill as part of the submission process.
+- [`analyst-inquiry-responder`](../analyst-inquiry-responder/SKILL.md) — Formal evaluation questionnaires are the highest-priority inquiry type; this skill governs the response strategy.
+- [`analyst-report-monitor`](../analyst-report-monitor/SKILL.md) — Post-publication analysis of evaluation results uses the report monitoring framework to extract positioning intelligence and build the gap-closure plan.
+- [`peer-review-platform-manager`](../peer-review-platform-manager/SKILL.md) — Analyst evaluations increasingly incorporate G2/Capterra data as market presence evidence; strong review presence supports execution scores.
