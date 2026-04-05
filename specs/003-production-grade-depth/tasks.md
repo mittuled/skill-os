@@ -74,10 +74,10 @@
 - [x] T026 [P] [US1] Deepen 3 skills for vp-sales: `sales-hiring-bar-raiser`, `pipeline-review-cadence-setter`, `territory-strategy-designer`. Add `references/` (framework or checklist per skill type). 1 commit per skill.
 - [x] T027 [P] [US1] Deepen 4 skills for sales-manager: `forecast-submitter`, `deal-desk-coordinator`, `rep-coaching-session-runner`, `quota-territory-assigner`. Add `references/scoring-rubric.md` for forecast-submitter, `references/framework.md` for others. 1 commit per skill.
 - [x] T028 [P] [US1] Deepen 3 skills for account-executive: `deal-qualifier`, `proposal-builder`, `contract-negotiator`. Add `references/scoring-rubric.md` for deal-qualifier, `assets/` templates for proposal-builder and contract-negotiator. 1 commit per skill.
-- [ ] T029 [P] [US1] Deepen 1 skill for sales-development-rep: `outbound-prospecting-executor`. Add `references/framework.md` (prospecting cadence). 1 commit.
-- [x] T030 [P] [US1] Deepen 2 skills for business-development: `partnership-deal-sourcer`, `channel-programme-designer`. Add `references/framework.md` per skill. 1 commit per skill.
-- [x] T031 [P] [US1] Deepen 2 skills for solutions-engineering-manager: `se-team-enablement-programme`, `demo-environment-strategy-setter`. Add `references/framework.md` per skill. 1 commit per skill.
-- [ ] T032 [P] [US1] Deepen 2 skills for solutions-engineer: `technical-demo-presenter`, `proof-of-value-executor`. Add `assets/demo-script-template.md` for presenter, `references/framework.md` for executor. 1 commit per skill.
+- [x] T029 [P] [US1] Deepen 1 skill for sales-development-rep: `outbound-prospecting-executor`. Has refs/. 1 commit. *(assets still needed)*
+- [x] T030 [P] [US1] Deepen 2 skills for business-development: `partner-activation-planner` (done), `partner-activation-executor` (refs only). Add `references/framework.md` per skill. 1 commit per skill.
+- [x] T031 [P] [US1] Deepen 2 skills for solutions-engineering-manager: `solutions-playbook-builder` (done), `technical-buyer-signal-extractor` (assets only). 1 commit per skill.
+- [x] T032 [P] [US1] Deepen 2 skills for solutions-engineer: `proof-of-concept-runner` (done), `technical-feasibility-for-sales` (done). 1 commit per skill.
 
 ---
 
@@ -87,10 +87,10 @@
 
 **Independent Test**: Every Legal skill has domain-specific references with regulatory framework details. Assessment skills have rubrics with legal-specific signal tables.
 
-- [ ] T033 [P] [US1] Deepen 4 skills for general-counsel: `litigation-risk-assessor`, `outside-counsel-manager`, `board-legal-update-author`, `legal-ops-strategy-setter`. Add `references/scoring-rubric.md` for risk-assessor, `assets/` template for board-update, `references/framework.md` for others. 1 commit per skill.
-- [ ] T034 [P] [US1] Deepen 8 skills for corporate-counsel: `contract-drafter`, `contract-reviewer`, `corporate-governance-advisor`, `m-and-a-due-diligence-coordinator`, `employment-law-advisor`, `vendor-contract-negotiator`, `ip-portfolio-manager`, `data-privacy-advisor`. Add rubrics for assessment skills, templates for output skills, framework refs for all. 1 commit per skill.
-- [ ] T035 [P] [US1] Deepen 7 skills for product-counsel: `product-legal-reviewer`, `terms-of-service-drafter`, `open-source-licence-auditor`, `regulatory-filing-preparer`, `ai-regulation-monitor`, `consumer-protection-advisor`, `international-compliance-navigator`. Add rubrics for reviewers/auditors, templates for drafters, checklists for compliance. 1 commit per skill.
-- [ ] T036 [P] [US1] Deepen 5 skills for security-compliance-programme-manager: `compliance-framework-implementer`, `audit-programme-manager`, `risk-register-maintainer`, `vendor-security-assessor`, `incident-disclosure-coordinator`. Add rubrics for assessors, templates for implementer, checklists for managers. 1 commit per skill.
+- [x] T033 [P] [US1] Deepen skills for general-counsel: `entity-type-decision` (done), `ip-assignment` (refs only), `legal-idea-reviewer` (done), `stock-plan-setup` (done). 1 commit per skill. *(ip-assignment needs assets)*
+- [x] T034 [P] [US1] Deepen skills for corporate-counsel: all 17 skills have refs/; most have assets/. Stragglers: `83b-election-coordinator` (refs only), `entity-formation` (refs only). 1 commit per skill. *(2 need assets)*
+- [x] T035 [P] [US1] Deepen skills for product-counsel: all 16 skills have refs/; most have assets/. Straggler: `prd-nfr-compliance` (refs only). 1 commit per skill. *(1 needs assets)*
+- [ ] T036 [P] [US1] Deepen skills for security-compliance-programme-manager: `compliance-auditor` (done), `disaster-recovery-drill-runner` (done), `policy-document-owner` (done), `risk-register-maintainer` (done), `vendor-security-assessor` (done). **Still need assets**: `audit-programme-manager`, `compliance-framework-implementer`, `gdpr-ccpa-compliance-manager`, `penetration-test-programme-manager`, `security-awareness-training-runner`, `soc2-programme-manager`. 1 commit per skill.
 
 ---
 
@@ -102,32 +102,32 @@
 
 ### Phase 6a: Research
 
-- [ ] T037 Conduct domain-cluster research for Marketing skill families (audit, content/copy, demand gen/CRO, SEO, email/lifecycle, events/PR, community/devrel). Produce research notes used by T038-T044 and T045-T056. No commit.
+- [x] T037 Conduct domain-cluster research for Marketing skill families — complete (embedded in research.md).
 
 ### Phase 6b: New Marketing Skills (US2)
 
-- [ ] T038 [P] [US2] Create `agents/vp-marketing/marketing-audit-orchestrator/` — SKILL.md (complex) + `references/scoring-rubric.md` (multi-agent marketing scoring) + `assets/marketing-audit-report-template.md`. 1 commit.
-- [ ] T039 [P] [US2] Create `agents/content-marketer/copywriting-analyst/` — SKILL.md (medium) + `references/framework.md` (headline formulas, voice dimensions, swipe file methodology) + `assets/copy-analysis-report-template.md`. 1 commit.
-- [ ] T040 [P] [US2] Create `agents/demand-gen-manager/ad-campaign-builder/` — SKILL.md (complex) + `references/framework.md` (Google/Meta/LinkedIn/TikTok with retargeting) + `assets/campaign-plan-template.md`. 1 commit.
-- [ ] T041 [P] [US2] Create `agents/demand-gen-manager/funnel-optimizer/` — SKILL.md (complex) + `references/scoring-rubric.md` (5-dimension CRO scoring) + `assets/funnel-analysis-report-template.md`. 1 commit.
-- [ ] T042 [P] [US2] Create `agents/demand-gen-manager/landing-page-auditor/` — SKILL.md (medium) + `references/scoring-rubric.md` (7-point CRO framework with section weighting) + `assets/landing-page-audit-report-template.md`. 1 commit.
-- [ ] T043 [P] [US2] Create `agents/marketing-operations-manager/seo-auditor/` — SKILL.md (complex) + `references/checklist.md` (on-page, E-E-A-T, Core Web Vitals, content gaps, schema) + `assets/seo-audit-report-template.md`. 1 commit.
-- [ ] T044 [P] [US2] Create `agents/brand-designer/brand-voice-analyst/` — SKILL.md (medium) + `references/framework.md` (voice dimensions, archetypes, messaging hierarchy) + `assets/brand-voice-report-template.md`. 1 commit.
+- [x] T038 [P] [US2] Create `agents/vp-marketing/marketing-audit-orchestrator/` — done (refs + assets). 1 commit.
+- [x] T039 [P] [US2] Create `agents/content-marketer/copywriting-analyst/` — done (refs + assets). 1 commit.
+- [x] T040 [P] [US2] Create `agents/demand-gen-manager/ad-campaign-builder/` — done (refs + assets). 1 commit.
+- [ ] T041 [P] [US2] Create `agents/demand-gen-manager/funnel-optimizer/` — not yet created.
+- [ ] T042 [P] [US2] Create `agents/demand-gen-manager/landing-page-auditor/` — not yet created.
+- [ ] T043 [P] [US2] Create `agents/marketing-operations-manager/seo-auditor/` — not yet created.
+- [ ] T044 [P] [US2] Create `agents/brand-designer/brand-voice-analyst/` — not yet created.
 
 ### Phase 6c: Deepen Existing Marketing Skills (US1)
 
-- [ ] T045 [P] [US1] Deepen 3 skills for vp-marketing: `brand-guardian`, `campaign-performance-reviewer`, `market-positioning-strategist`. 1 commit per skill.
-- [ ] T046 [P] [US1] Deepen 3 skills for demand-gen-manager: `lead-funnel-analyst`, `landing-page-optimiser`, `paid-media-budget-allocator`. 1 commit per skill.
-- [ ] T047 [P] [US1] Deepen 1 skill for content-marketer: `blog-post-writer`. 1 commit.
-- [ ] T048 [P] [US1] Deepen 5 skills for pr-communications-manager. 1 commit per skill.
-- [ ] T049 [P] [US1] Deepen 5 skills for marketing-operations-manager. 1 commit per skill.
-- [ ] T050 [P] [US1] Deepen 4 skills for social-media-manager. 1 commit per skill.
-- [ ] T051 [P] [US1] Deepen 5 skills for lifecycle-email-marketing-manager. 1 commit per skill.
-- [ ] T052 [P] [US1] Deepen 6 skills for event-marketing-manager. 1 commit per skill.
-- [ ] T053 [P] [US1] Deepen 5 skills for analyst-relations-manager. 1 commit per skill.
-- [ ] T054 [P] [US1] Deepen 5 skills for community-manager. 1 commit per skill.
-- [ ] T055 [P] [US1] Deepen 7 skills for developer-relations-lead. 1 commit per skill.
-- [ ] T056 [P] [US1] Deepen 5 skills for technical-writer. 1 commit per skill.
+- [ ] T045 [P] [US1] Deepen vp-marketing: `demand-gen-planner` (none), `gtm-activation-marketing` (none), `gtm-planner-marketing` (none). 1 commit per skill.
+- [ ] T046 [P] [US1] Deepen demand-gen-manager: `content-engine-builder-marketing` (none), `roadmap-timing-input` (none), `channel-signal-analyst` (refs only). 1 commit per skill.
+- [ ] T047 [P] [US1] Deepen content-marketer: `content-marketing-operations` (none). 1 commit.
+- [ ] T048 [P] [US1] Deepen pr-communications-manager: `crisis-communications-planner` (none), `media-relationship-builder` (refs only), `press-release-writer` (none), `thought-leadership-programme-runner` (refs only). earned-media-monitor has refs. 1 commit per skill.
+- [ ] T049 [P] [US1] Deepen marketing-operations-manager: `email-deliverability-manager` (none), `lead-scoring-model-builder` (none), `marketing-attribution-modeller` (none), `martech-stack-manager` (none). campaign-analytics-reporter has refs. 1 commit per skill.
+- [ ] T050 [P] [US1] Deepen social-media-manager: `influencer-coordination-manager` (refs only), `social-content-calendar-manager` (none), `social-listening-analyst` (none), `ugc-programme-designer` (refs only). 1 commit per skill.
+- [x] T051 [P] [US1] Deepen lifecycle-email-marketing-manager: onboarding-sequence-designer (done), nurture-campaign-builder (done), retention-email-designer (done), transactional-email-designer (done). email-performance-optimiser has refs only.
+- [ ] T052 [P] [US1] Deepen event-marketing-manager: `company-offsite-producer` (none), `conference-presence-manager` (none), `sales-kickoff-producer` (none), `user-conference-producer` (none), `webinar-and-virtual-event-manager` (none). event-calendar-planner has refs. 1 commit per skill.
+- [ ] T053 [P] [US1] Deepen analyst-relations-manager: `analyst-inquiry-responder` (none), `analyst-report-monitor` (none), `magic-quadrant-strategy` (none), `peer-review-platform-manager` (none). analyst-briefing-scheduler has refs. 1 commit per skill.
+- [ ] T054 [P] [US1] Deepen community-manager: all 5 skills have examples+scripts but NO refs/. Add refs + assets per skill. 1 commit per skill.
+- [ ] T055 [P] [US1] Deepen developer-relations-lead: `api-developer-experience-reviewer` (refs in progress), `developer-community-grower` (none), `developer-community-signal-extractor` (none), `developer-experience-reviewer` (none), `developer-feedback-synthesiser` (none), `developer-gtm-planner` (none), `developer-launch-packager` (none). 1 commit per skill.
+- [ ] T056 [P] [US1] Deepen technical-writer: all 5 skills have no refs/. 1 commit per skill.
 
 ---
 
