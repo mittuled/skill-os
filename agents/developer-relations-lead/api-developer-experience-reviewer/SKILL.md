@@ -35,11 +35,11 @@ Reviews the API developer experience including endpoint design, documentation cl
 ## Workflow
 
 1. **Define review scope**: Identify which API endpoints, SDKs, and documentation pages are in scope. Deliverable: review scope document with endpoint inventory.
-2. **Attempt first integration**: Walk through the API as a new developer would, from reading docs to making the first successful call. Record every friction point, confusion, and workaround. Deliverable: first-call experience log with timestamps.
-3. **Audit error handling**: Trigger common and edge-case errors to evaluate error message clarity, HTTP status code correctness, and recovery guidance. Deliverable: error handling audit table.
+2. **Attempt first integration**: Walk through the API as a new developer would, from reading docs to making the first successful call. Record every friction point, confusion, and workaround in the first-call experience log section of [api-dx-review-report-template.md](assets/api-dx-review-report-template.md). Deliverable: first-call experience log with timestamps.
+3. **Audit error handling**: Trigger common and edge-case errors to evaluate error message clarity, HTTP status code correctness, and recovery guidance. Score each scenario using the error handling audit table in the report template. Deliverable: error handling audit table.
 4. **Review documentation**: Assess completeness, accuracy, code sample quality, and navigation structure of API reference docs. Deliverable: documentation gap analysis.
-5. **Benchmark against standards**: Compare the experience against API design best practices (consistent naming, pagination, versioning, rate limiting transparency). Deliverable: standards compliance checklist.
-6. **Compile recommendations**: Prioritize findings by developer impact and implementation effort. Deliverable: API DX review report with prioritized action items.
+5. **Benchmark against standards**: Compare the experience against API design best practices using the standards compliance checklist in the report template and the scoring rubric in [references/scoring-rubric.md](references/scoring-rubric.md). Deliverable: scored standards compliance checklist.
+6. **Compile recommendations**: Score each criterion per the rubric, compute composite grade, and prioritize P1/P2/P3 findings by developer impact and implementation effort. Deliverable: completed API DX review report.
 
 ## Anti-Patterns
 
