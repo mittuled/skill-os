@@ -34,12 +34,12 @@ Reviews engineering implementations against design specifications to verify visu
 
 ## Workflow
 
-1. **Prepare comparison baseline**: Open the Figma design specs alongside the staging implementation. Confirm which screens, states, and breakpoints are in scope for review. Deliverable: review scope document with Figma links and staging URLs.
-2. **Check visual fidelity**: Compare spacing, typography (font family, size, weight, line height), colour tokens, border radii, elevation/shadow, and iconography against Figma redlines. Use overlay tools or pixel comparison where precision matters. Deliverable: visual fidelity checklist with pass/fail per element.
-3. **Verify interaction behavior**: Test all interactive states -- hover, focus, active, disabled. Verify transitions and animations match specified timing and easing curves. Check that loading, error, and empty states render correctly. Deliverable: interaction verification checklist.
-4. **Test responsive behavior**: Resize the viewport across all specified breakpoints. Verify layout reflow, content truncation rules, and component adaptation. Deliverable: responsive behavior checklist.
-5. **Validate accessibility implementation**: Confirm focus order, ARIA labels, keyboard navigation, colour contrast in the live DOM, and screen reader announcements. Deliverable: accessibility implementation checklist.
-6. **File deviations**: Document every deviation with a screenshot, the expected behavior (Figma reference), the actual behavior, and severity (blocking, minor). Deliverable: deviation log filed as tickets linked to the implementation PR.
+1. **Prepare comparison baseline**: Open the Figma design specs alongside the staging implementation. Confirm which screens, states, and breakpoints are in scope. Use the [implementation review report template](assets/implementation-review-report-template.md) as the working document throughout the review. Deliverable: populated review scope section.
+2. **Check visual fidelity**: Compare spacing, typography (font family, size, weight, line height), colour tokens, border radii, elevation/shadow, and iconography against Figma redlines. Score visual fidelity using the [scoring rubric](references/scoring-rubric.md). Deliverable: visual fidelity checklist with pass/fail per element.
+3. **Verify interaction behavior**: Test all interactive states per the interaction state checklist in the [report template](assets/implementation-review-report-template.md) — hover, focus, active, disabled, loading, error, empty. Verify transitions and animations match specified timing. Deliverable: interaction verification checklist.
+4. **Test responsive behavior**: Resize the viewport across all specified breakpoints per the responsive checklist in the [report template](assets/implementation-review-report-template.md). Verify layout reflow, content truncation rules, and component adaptation. Deliverable: responsive behavior checklist.
+5. **Validate accessibility implementation**: Confirm focus order, ARIA labels, keyboard navigation, colour contrast in the live DOM, and screen reader announcements per the accessibility checklist in the [report template](assets/implementation-review-report-template.md). Deliverable: accessibility implementation checklist.
+6. **File deviations and issue verdict**: Document every deviation with a screenshot, expected behaviour (Figma reference), actual behaviour, and severity rating from the [scoring rubric](references/scoring-rubric.md). Issue the review verdict in the [report template](assets/implementation-review-report-template.md). Deliverable: deviation log filed as tickets; completed report delivered to engineer and engineering lead.
 
 ## Anti-Patterns
 
