@@ -35,11 +35,11 @@ Manages sender reputation, list hygiene, authentication protocols, and inbox pla
 
 ## Workflow
 
-1. **Audit current deliverability**: Pull inbox placement rates, bounce rates, spam complaint rates, and blacklist status across all sending domains. Compare against ISP thresholds and internal benchmarks. Deliverable: deliverability health scorecard.
-2. **Verify authentication**: Confirm SPF, DKIM, and DMARC records are correctly configured and aligned for all sending domains. Fix any authentication failures. Deliverable: authentication compliance report.
-3. **Execute list hygiene**: Suppress hard bounces, remove invalid addresses, and sunset unengaged contacts (no opens in 90+ days). Segment re-engagement candidates for a win-back campaign before suppression. Deliverable: cleaned list with suppression log.
-4. **Monitor sender reputation**: Check domain and IP reputation scores across major ISPs (Google Postmaster, Microsoft SNDS). Investigate and remediate any reputation degradation. Deliverable: reputation monitoring dashboard.
-5. **Optimize sending practices**: Review send frequency, segmentation, and content practices that affect deliverability. Implement throttling for large sends and segment-based send-time optimization. Deliverable: updated sending best practices document.
+1. **Audit current deliverability**: Pull inbox placement rates, bounce rates, spam complaint rates, and blacklist status across all sending domains. Compare against the health thresholds in [`references/framework.md`](references/framework.md). Deliverable: deliverability health scorecard using [`assets/deliverability-health-report-template.md`](assets/deliverability-health-report-template.md).
+2. **Verify authentication**: Confirm SPF, DKIM, and DMARC records meet the authentication protocol standards in [`references/framework.md`](references/framework.md). Fix any misalignment or failures. Deliverable: authentication compliance section of the report.
+3. **Execute list hygiene**: Apply the list hygiene cadence from [`references/framework.md`](references/framework.md) — suppress hard bounces, remove spam traps, sunset unengaged contacts per the 90-day rule, and remove role-based addresses. Deliverable: cleaned list with suppression log.
+4. **Monitor sender reputation**: Check domain and IP reputation using the ISP-specific tools in [`references/framework.md`](references/framework.md). If reputation degrades, execute the remediation steps in order. Deliverable: reputation status per ISP in the health report.
+5. **Optimize sending practices**: Review send frequency, segmentation, and warmup status against the domain warmup schedule in [`references/framework.md`](references/framework.md). Implement throttling for large sends. Deliverable: updated sending best practices document.
 
 ## Anti-Patterns
 

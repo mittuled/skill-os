@@ -34,12 +34,12 @@ Monitors and grows community health metrics including activity, retention, and s
 
 ## Workflow
 
-1. **Define health dimensions**: Identify the metrics that matter for this community stage (activity rate, retention cohort curves, sentiment score, response time, content contribution ratio). Deliverable: health scorecard framework.
-2. **Collect baseline data**: Pull current values for each metric from community platform analytics, survey tools, and conversation analysis. Deliverable: baseline snapshot document.
-3. **Diagnose gaps**: Compare baselines against targets or historical trends to identify the largest health gaps. Deliverable: prioritized gap list with severity ratings.
-4. **Design interventions**: For each top gap, propose a specific intervention (e.g., welcome sequence for retention, prompt threads for activity, moderation policy for sentiment). Deliverable: intervention plan with owners, timelines, and expected impact.
-5. **Implement and track**: Execute interventions and set up recurring measurement cadence. Deliverable: live health dashboard and weekly trend report.
-6. **Report outcomes**: Summarize metric changes, attribute to interventions, and recommend next cycle actions. Deliverable: health growth report.
+1. **Define health dimensions**: Use the five-dimension health model (activity, retention, sentiment, content quality, growth) to select the metrics relevant to this community stage. Reference: [framework.md](references/framework.md). Deliverable: health scorecard framework.
+2. **Collect baseline data**: Pull current values for each metric from community platform analytics, survey tools, and conversation analysis. Compare against thresholds in the framework. Deliverable: baseline snapshot document.
+3. **Diagnose gaps**: Compare baselines against green/yellow/red thresholds and historical trends to identify the largest health gaps. Deliverable: prioritized gap list with severity ratings.
+4. **Design interventions**: For each top gap, select the appropriate intervention from the intervention playbook in the framework (e.g., welcome sequence for retention, prompt threads for activity, moderation policy for sentiment). Deliverable: intervention plan with owners, timelines, and expected impact.
+5. **Implement and track**: Execute interventions and set up recurring measurement cadence per the framework's measurement schedule. Deliverable: live health dashboard and weekly trend report.
+6. **Report outcomes**: Compile results using the [community-health-report-template.md](assets/community-health-report-template.md). Summarize metric changes, attribute to interventions, and recommend next cycle actions. Deliverable: health growth report.
 
 ## Anti-Patterns
 

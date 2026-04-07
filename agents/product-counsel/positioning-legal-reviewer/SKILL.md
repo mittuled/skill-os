@@ -35,9 +35,9 @@ Reviews marketing positioning statements, product claims, and competitive compar
 
 ## Workflow
 
-1. **Claims Inventory**: Catalog all factual claims, performance assertions, comparative statements, and implied representations in the positioning materials. Deliverable: annotated claims inventory categorizing each as factual, opinion, puffery, or comparative.
-2. **Substantiation Review**: Verify that each factual claim is supported by competent and reliable evidence. For performance claims, confirm testing methodology and sample sizes. For comparative claims, verify the comparison is accurate, current, and not misleading. Deliverable: substantiation assessment with evidence status per claim.
-3. **Compliance Recommendation**: Flag non-substantiated claims, misleading comparisons, missing disclosures (material connections, typical results disclaimers), and FTC/Lanham Act violations. Propose compliant alternative language for each flagged item. Deliverable: positioning review memo with flagged items and approved alternative language.
+1. **Claims Inventory**: Catalog all factual claims, performance assertions, comparative statements, and implied representations. Review full context (landing page, adjacent visuals, footnotes) for net impression per FTC Policy Statement on Deception. Deliverable: annotated claims inventory categorizing each as factual, opinion, puffery, or comparative.
+2. **Substantiation Review**: Verify each factual claim against FTC "competent and reliable evidence" standard. For performance claims, confirm testing methodology and sample sizes. For comparative claims, verify accuracy under Lanham Act Section 43(a). Deliverable: substantiation assessment with evidence status per claim.
+3. **Compliance Recommendation**: Flag violations citing specific FTC/Lanham Act provisions. Propose compliant alternative language. Identify missing disclosures (FTC Endorsement Guides material connections, typical results disclaimers). Apply scoring rubric at `references/scoring-rubric.md`. Produce memo using template at `assets/positioning-review-memo-template.md`. Deliverable: positioning review memo.
 
 ## Anti-Patterns
 

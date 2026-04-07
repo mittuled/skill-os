@@ -1,5 +1,7 @@
 # Scoring Rubric: Vendor Risk Assessor
 
+Evaluates vendor risk exposure across financial stability, security posture, operational resilience, compliance standing, and concentration risk.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Concentration Risk | 15% | 0-10 | Dependency exposure: single-source risk, geographic concentration, substitutability |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | Financially sound; mature security programme; multi-region resilience; full compliance; low concentration risk | Approve vendor with standard monitoring cadence |
+| A | 8.0 – 8.9 | Strong | Stable finances; SOC 2 Type II current; tested DR plan; primary certifications held; alternatives available | Approve with annual risk re-assessment |
+| B | 7.0 – 7.9 | Good | Adequate financial health; security programme with minor gaps; DR plan exists but untested; moderate concentration | Approve with enhanced monitoring and contractual risk mitigations |
+| C | 5.0 – 6.9 | Adequate | Flat revenue or moderate debt; SOC 2 Type I only; SLA misses in past year; limited alternatives | Approve only with risk acceptance sign-off from business owner |
+| D | 3.0 – 4.9 | Weak | Declining financials; material security gaps; no DR plan; missing certifications; deep vendor lock-in | Reject or approve only with executive risk acceptance and exit plan |
+| F | 0.0 – 2.9 | Failing | Bankruptcy risk; known breaches; no resilience; regulatory violations; sole source with no migration path | Reject vendor; do not onboard or initiate immediate transition |
 
 ## Signal Tables
 

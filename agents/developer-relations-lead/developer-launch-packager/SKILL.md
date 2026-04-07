@@ -38,13 +38,13 @@ Packages the developer launch assets including SDKs, sample apps, documentation,
 
 ## Workflow
 
-1. **Inventory required assets**: List all assets needed for launch (SDK packages, API reference, quickstart guide, sample apps, changelog, blog post, social content, demo video, migration guide). Deliverable: asset checklist with owners and deadlines.
-2. **Coordinate with engineering**: Confirm SDK and API readiness, version numbers, breaking changes, and deprecation notices. Deliverable: engineering sign-off document.
-3. **Prepare documentation**: Ensure all docs are updated, reviewed, and published to staging (quickstart, reference, tutorials, migration guide). Deliverable: documentation readiness confirmation.
-4. **Build sample applications**: Create or update sample apps that demonstrate key use cases and work with the released SDK version. Deliverable: tested sample apps in target languages.
-5. **Draft announcement content**: Write the launch blog post, release notes, social media posts, and email to the developer newsletter. Deliverable: announcement content package.
-6. **Assemble and test the kit**: Bundle all assets, verify links work, samples compile, and docs match the released API. Run through the complete developer first-run experience. Deliverable: tested launch kit.
-7. **Execute launch sequence**: Publish assets in the correct order (SDK, docs, blog, social, email) according to the GTM timeline. Deliverable: launch execution confirmation with publish timestamps.
+1. **Inventory required assets**: Use the asset inventory model in [framework.md](references/framework.md) to list all assets required for the launch type (new product, major, minor, or patch). Assign owners and deadlines. Deliverable: asset checklist with owners and deadlines.
+2. **Coordinate with engineering**: Confirm SDK and API readiness, version numbers per the semantic versioning reference in the framework, breaking changes, and deprecation notices. Complete Gate 1 from the pre-launch readiness gates. Deliverable: engineering sign-off document.
+3. **Prepare documentation**: Ensure all docs are updated, reviewed, and published to staging. Write the changelog entry using the Keep a Changelog format from the framework. Complete Gate 2. Deliverable: documentation readiness confirmation.
+4. **Build sample applications**: Create or update sample apps that demonstrate key use cases and run without error against the released SDK version. Deliverable: tested sample apps in target languages.
+5. **Draft announcement content**: Write the launch blog post, release notes, social media posts, and developer newsletter section. Complete Gate 3. Deliverable: announcement content package.
+6. **Assemble and test the kit**: Run through all four pre-launch readiness gates in the framework. Complete a first-run developer experience check to verify TTFHW and sample app integrity. Deliverable: tested launch kit with gate sign-off.
+7. **Execute launch sequence**: Follow the launch sequence protocol from the framework — publish SDK first, then docs and changelog, then blog, then social, then newsletter. Record timestamps. Deliverable: launch execution log with publish timestamps.
 
 ## Anti-Patterns
 

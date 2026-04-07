@@ -34,10 +34,10 @@ Populates the design backlog with well-defined, estimable design tasks derived f
 
 ## Workflow
 
-1. **Review source material**: Read the design brief, product spec, or roadmap item. Identify all design deliverables required -- flows, wireframes, visual designs, prototypes, component specs, handoff documentation. Deliverable: deliverable inventory.
-2. **Decompose into tasks**: Break each deliverable into discrete, estimable backlog items. Each item must have a clear definition of done, the target Figma file or page, and any dependencies on other design or product tasks. Deliverable: draft backlog items.
-3. **Tag and categorize**: Apply labels for design phase (discovery, wireframe, visual, prototype, handoff), complexity, and design system impact (new component, variant, or existing reuse). Deliverable: tagged backlog items.
-4. **Sequence and link**: Order items by dependency and phase. Link related items (e.g., wireframe precedes visual design for the same surface). Deliverable: sequenced backlog ready for sprint planning.
+1. **Review source material**: Read the design brief, product spec, or roadmap item. Identify all design deliverables required -- flows, wireframes, visual designs, prototypes, component specs, handoff documentation. Use the deliverable-to-ticket mapping in the [backlog framework](references/backlog-framework.md). Deliverable: deliverable inventory.
+2. **Decompose into tasks**: Break each deliverable into discrete, estimable backlog items using the ticket template in the [backlog framework](references/backlog-framework.md). Each item must have a clear definition of done, the target Figma file or page, and any dependencies. Deliverable: draft backlog items.
+3. **Tag and categorize**: Apply phase labels (`phase:wireframe`, `phase:visual`, etc.) and design system impact labels (`ds:none`, `ds:new-component`, etc.) per the [backlog framework](references/backlog-framework.md). Deliverable: tagged backlog items.
+4. **Sequence and link**: Order items using the sequencing rules in the [backlog framework](references/backlog-framework.md). Apply dependency flags (BLOCKED:research, BLOCKED:content) where upstream work is outstanding. Deliverable: sequenced backlog ready for sprint planning.
 
 ## Anti-Patterns
 

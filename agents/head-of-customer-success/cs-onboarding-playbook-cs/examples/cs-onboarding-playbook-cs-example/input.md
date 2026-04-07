@@ -1,0 +1,3 @@
+# Scenario: Cs Onboarding Playbook Cs
+
+Execute cs onboarding playbook cs for a B2B SaaS company with 50 customers across enterprise, mid-market, and self-serve segments. Standard CS frameworks apply (health scores, NPS, CSAT, QBR methodology).

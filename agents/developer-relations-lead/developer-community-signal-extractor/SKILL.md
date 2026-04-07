@@ -33,12 +33,12 @@ Extracts product and market signals from developer community forums and feedback
 
 ## Workflow
 
-1. **Define signal taxonomy**: Establish categories relevant to developer communities (API pain points, SDK bugs, missing features, documentation gaps, performance complaints, migration friction, praise signals). Deliverable: developer signal taxonomy.
-2. **Map data sources**: Inventory all developer touchpoints (forums, Discord/Slack, GitHub issues, Stack Overflow, Twitter/X, conference feedback, support tickets). Deliverable: source map with access and volume notes.
-3. **Extract and classify**: Review developer conversations and classify each signal by category, affected product area, severity, and frequency. Deliverable: classified signal log.
-4. **Identify patterns**: Cluster signals into themes and correlate with product milestones, releases, or external events. Deliverable: pattern analysis with timeline correlation.
-5. **Write signal brief**: Produce a concise brief connecting developer signal themes to product and engineering implications with specific recommendations. Deliverable: developer signal brief.
-6. **Route and track**: Distribute the brief to engineering, product, and documentation teams. Track which signals lead to action and report outcomes back to the community. Deliverable: signal routing tracker.
+1. **Define signal taxonomy**: Use the developer signal taxonomy in [framework.md](references/framework.md) to select the relevant categories for this extraction cycle (API pain points, SDK bugs, missing features, documentation gaps, performance complaints, migration friction, praise signals). Deliverable: developer signal taxonomy.
+2. **Map data sources**: Inventory all developer touchpoints using the source map in the framework (forums, Discord/Slack, GitHub issues, Stack Overflow, Twitter/X, conference feedback, support tickets). Deliverable: source map with access and volume notes.
+3. **Extract and classify**: Review developer conversations and classify each signal using the classification protocol in the framework (category, severity P0–P3, product area, developer segment, frequency, verbatim quote). Deliverable: classified signal log.
+4. **Identify patterns**: Cluster signals using the pattern analysis method from the framework — semantic clustering, product timeline correlation, segment weighting, and velocity tracking. Deliverable: pattern analysis with timeline correlation.
+5. **Write signal brief**: Produce a concise brief connecting developer signal themes to product and engineering implications with specific recommendations ranked by severity and business impact. Deliverable: developer signal brief.
+6. **Route and track**: Distribute signals per the routing matrix in the framework. Track which signals lead to action and report outcomes back to the community. Deliverable: signal routing tracker.
 
 ## Anti-Patterns
 

@@ -36,11 +36,12 @@ Manages the executive visibility programme -- securing byline placements, podcas
 
 ## Workflow
 
-1. **Define thought leadership themes**: Align with executives on 2-3 core themes that connect their expertise to company positioning and market trends. Ensure themes differentiate from competitor executive messaging. Deliverable: approved theme brief per executive.
-2. **Build opportunity pipeline**: Research target publications accepting bylines, podcasts seeking guests, and conferences with open speaker slots. Prioritize by audience overlap with ICP. Deliverable: opportunity pipeline with deadlines and submission requirements.
-3. **Produce content**: Ghostwrite byline articles, prepare podcast talking points, and develop conference presentation decks. Route through executive review for voice and accuracy. Deliverable: submission-ready content per opportunity.
-4. **Pitch and place**: Submit bylines to editors, pitch executives to podcast producers, and apply for conference speaking slots. Leverage existing media relationships for warm introductions. Deliverable: pitch tracker with status per opportunity.
-5. **Amplify placements**: Once content is published or events confirmed, amplify through company social channels, email newsletters, and sales enablement. Track engagement and reach. Deliverable: amplification report with reach metrics.
+1. **Define thought leadership themes**: Align with executives on 2-3 core themes that connect their expertise to company positioning and market trends using the Authority-Building Framework in [`references/framework.md`](references/framework.md). Ensure themes differentiate from competitor executive messaging. Map each executive to ICP segments per the Audience Relevance dimension. Deliverable: approved theme brief per executive.
+2. **Build opportunity pipeline**: Research target publications accepting bylines using the publication tier model in [`references/framework.md`](references/framework.md). Source open CFPs for conferences using the speaker pipeline management timeline. Prioritise by ICP audience overlap. Deliverable: opportunity pipeline with deadlines and submission requirements.
+3. **Produce content**: Ghostwrite byline articles following the pitch protocol in [`references/framework.md`](references/framework.md). Use [`references/checklist.md`](references/checklist.md) Checklist 2 for each byline from briefing to publication. Route through executive review for voice and accuracy. Deliverable: submission-ready content per opportunity.
+4. **Pitch and place**: Submit bylines to editors, pitch executives to podcast producers, and apply for conference speaking slots. Leverage existing media relationships for warm introductions. Use [`references/checklist.md`](references/checklist.md) Checklist 3 for each speaking opportunity. Deliverable: pitch tracker with status per opportunity.
+5. **Amplify placements**: Apply the PESO model from [`references/framework.md`](references/framework.md) to amplify each placement -- owned, shared, earned, and paid channels in sequence. Track engagement and reach against programme health metrics. Deliverable: amplification report with reach metrics.
+6. **Run quarterly programme audit**: Use [`references/checklist.md`](references/checklist.md) Checklist 1 to review executive engagement, content pipeline health, speaking pipeline fill rate, and metrics. Deliverable: quarterly programme health report with gap-closure actions.
 
 ## Anti-Patterns
 

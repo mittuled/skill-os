@@ -39,10 +39,10 @@ Maps product requirements and design deliverables to existing design system comp
 
 ## Workflow
 
-1. **Inventory requirements**: Extract every UI element, pattern, and interaction from the design brief or wireframes. List each with its context (screen, state, platform). Deliverable: UI element inventory.
-2. **Map to existing components**: For each element, search the design system library (Figma component library, token documentation) for an existing match. Record exact component name, variant, and any required property overrides. Deliverable: component mapping table (requirement, component, variant, coverage status).
-3. **Identify gaps**: Flag elements with no existing component match, partial matches requiring new variants, or components that exist but lack required states (error, disabled, loading). Deliverable: gap register with severity (blocking, non-blocking).
-4. **Propose gap resolution**: For each gap, recommend one of: create new component, add variant to existing component, extend token set, or accept one-off usage with documented rationale. Estimate effort per resolution. Deliverable: gap resolution plan.
+1. **Inventory requirements**: Extract every UI element, pattern, and interaction from the design brief or wireframes. Classify each element by atomic level (atom, molecule, organism, template) using the [atomic design framework](references/atomic-design-framework.md). Deliverable: UI element inventory with atomic classification.
+2. **Map to existing components**: For each element, search the design system library for an existing match. Apply the semantic matching rules in the [atomic design framework](references/atomic-design-framework.md) — verify role, interaction behaviour, and state availability, not just visual similarity. Record exact component name, variant, and coverage status. Deliverable: component mapping table.
+3. **Identify gaps**: Flag elements with no existing component match, partial matches requiring new variants, or missing token coverage. Use the severity classification in the [atomic design framework](references/atomic-design-framework.md) to tag each gap as blocking or non-blocking. Deliverable: gap register with severity.
+4. **Propose gap resolution**: Apply the gap resolution decision tree in the [atomic design framework](references/atomic-design-framework.md) to recommend the appropriate path for each gap. Estimate effort per resolution using the framework's effort table. Deliverable: gap resolution plan.
 5. **Align with system owners**: Review the gap resolution plan with the design system maintainer to confirm feasibility, naming conventions, and timeline. Deliverable: approved resolution plan with assignments.
 
 ## Anti-Patterns

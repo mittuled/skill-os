@@ -32,9 +32,9 @@ Estimates design effort required for features and initiatives by decomposing wor
 
 ## Workflow
 
-1. **Decompose the design scope**: Break the feature into design deliverables -- user flows, wireframes, visual design, prototypes, design system updates, handoff specs. Deliverable: design work breakdown structure.
-2. **Assess complexity factors**: Evaluate each deliverable for novel patterns vs. existing component reuse, number of responsive breakpoints, interaction complexity, accessibility requirements, and expected review cycles. Deliverable: complexity assessment per deliverable.
-3. **Estimate effort**: Assign T-shirt size or hour ranges to each deliverable based on complexity and historical team velocity. Include buffer for feedback incorporation and review rounds. Deliverable: effort estimate table with confidence level (high/medium/low).
+1. **Decompose the design scope**: Break the feature into design deliverables -- user flows, wireframes, visual design, prototypes, design system updates, handoff specs. Use the deliverable inventory in the [estimation framework](references/estimation-framework.md) as a checklist. Deliverable: design work breakdown structure.
+2. **Assess complexity factors**: Evaluate each deliverable for novel patterns vs. existing component reuse, number of responsive breakpoints, interaction complexity, accessibility requirements, and expected review cycles. Apply complexity multipliers and review buffers from the [estimation framework](references/estimation-framework.md). Deliverable: complexity assessment per deliverable.
+3. **Estimate effort**: Assign T-shirt size or hour ranges to each deliverable based on complexity and historical team velocity. Include buffer for feedback incorporation and review rounds. Declare a confidence level (high/medium/low) per the framework's confidence criteria. Deliverable: effort estimate table with confidence level.
 4. **Communicate estimate**: Present the estimate to product and engineering with assumptions, risks, and dependencies explicitly stated. Deliverable: shared estimate document.
 
 ## Anti-Patterns

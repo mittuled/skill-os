@@ -35,11 +35,11 @@ Drafts corporate bylaws and establishes the initial board of directors structure
 
 ## Workflow
 
-1. **Governance Assessment**: Review the certificate of incorporation, shareholder agreements, and any investor term sheets to identify governance requirements and constraints. Deliverable: governance requirements summary.
-2. **Bylaws Drafting**: Draft bylaws covering board composition, officer roles, meeting procedures, quorum requirements, voting thresholds, indemnification provisions, and amendment procedures. Ensure consistency with the certificate of incorporation and state law. Deliverable: draft bylaws document.
-3. **Board Structure Definition**: Define the initial board composition including number of seats, designation rights (founder seats, investor seats, independent seats), committee structure, and observer rights. Deliverable: board composition memo.
-4. **Initial Resolutions**: Prepare the initial board resolutions including officer appointments, fiscal year designation, bank account authorization, equity plan adoption, and ratification of pre-incorporation actions. Deliverable: initial board consent resolutions.
-5. **Approval and Filing**: Circulate bylaws and resolutions for board approval. Obtain signatures via written consent or at the organizational meeting. File any required state notices. Deliverable: executed bylaws and resolutions in corporate records.
+1. **Governance Assessment**: Review the certificate of incorporation, shareholder agreements, and any investor term sheets to identify governance requirements and constraints per the governance framework at `references/framework.md`. Map DGCL requirements (Sections 109, 141, 142, 145) to the company's specific situation. Deliverable: governance requirements summary.
+2. **Bylaws Drafting**: Draft bylaws following the required provisions structure in `references/framework.md`. Cover board composition, officer roles, meeting procedures (DGCL 222 notice requirements), quorum (DGCL 141(b) minimum), voting thresholds, indemnification (DGCL 145(a)-(c) and advancement under 145(e)), exculpation (DGCL 102(b)(7)), and amendment procedures (DGCL 109). Deliverable: draft bylaws document.
+3. **Board Structure Definition**: Define the initial board composition using the board composition matrix in `references/framework.md`. Specify seat count, designation rights (founder seats, investor seats, independent seats per stage), committee structure, and observer rights. Deliverable: board composition memo.
+4. **Initial Resolutions**: Prepare the initial board resolutions using the organizational resolutions checklist in `references/framework.md`: officer appointments, fiscal year, bank accounts, equity plan adoption, founder share authorization, ratification of pre-incorporation actions, and D&O protections. Deliverable: initial board consent resolutions.
+5. **Approval and Filing**: Circulate bylaws and resolutions for board approval via written consent (DGCL 141(f)) or organizational meeting. Produce the governance package using template at `assets/bylaws-package-template.md`. File any required state notices. Deliverable: executed bylaws, resolutions, and governance package in corporate records.
 
 ## Anti-Patterns
 

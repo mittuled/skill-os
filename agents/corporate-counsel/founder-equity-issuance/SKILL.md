@@ -35,11 +35,11 @@ Manages the issuance of founder equity including drafting restricted stock purch
 
 ## Workflow
 
-1. **Equity Structure Design**: Confirm the number of shares, share class, par value, vesting schedule (standard 4-year with 1-year cliff), acceleration provisions, and repurchase rights. Deliverable: founder equity term sheet.
-2. **Board Authorization**: Prepare board resolutions authorizing the issuance of shares to each founder at the specified price and terms. Ensure the issuance falls within authorized share limits. Deliverable: board consent resolution.
-3. **Agreement Drafting**: Draft the Restricted Stock Purchase Agreement (RSPA) for each founder covering purchase price, vesting schedule, repurchase rights, transfer restrictions, and representations. Deliverable: executed RSPAs. [GATE]
-4. **Securities Compliance**: Verify the issuance qualifies for a securities exemption (typically Rule 701 or Section 4(a)(2)). Prepare any required state blue sky filings. File Form D if needed. Deliverable: securities exemption memo and filings.
-5. **83(b) Election Coordination**: Notify each founder of the 83(b) election option and coordinate filing within the 30-day deadline. Hand off to the 83b-election-coordinator for tracking. Deliverable: 83(b) election notification and handoff confirmation.
+1. **Equity Structure Design**: Using the vesting terms and multi-founder considerations in `references/framework.md`, confirm the number of shares, share class, par value, vesting schedule (standard 4-year with 1-year cliff), acceleration provisions (single vs. double trigger), and repurchase rights. Document split rationale for multi-founder teams. Deliverable: founder equity term sheet.
+2. **Board Authorization**: Prepare board resolutions per the authorization requirements in `references/framework.md`. Authorize issuance of shares to each founder at the specified price (par value or FMV per 409A valuation). Confirm issuance falls within authorized share limits per Certificate of Incorporation. Deliverable: board consent resolution.
+3. **Agreement Drafting**: Draft the RSPA for each founder using the key terms in `references/framework.md`: purchase price, vesting schedule, repurchase rights at lower of FMV or cost, transfer restrictions (ROFR), Section 83(b) election acknowledgment, and spousal consent in community property states (CA, TX, WA). Deliverable: executed RSPAs. [GATE]
+4. **Securities Compliance**: Verify the issuance qualifies for a securities exemption per the securities law framework in `references/framework.md` (Rule 701 limits: greater of $1M / 15% of assets / 15% of outstanding securities; or Section 4(a)(2) / Reg D 506(b)). Prepare state blue sky filings (CA 25102(f)). File Form D if required. Deliverable: securities exemption memo and filings.
+5. **83(b) Election Coordination**: Notify each founder of the 83(b) election option per the tax considerations in `references/framework.md`. For par value purchases at formation, taxable income is typically negligible. Produce the equity package using template at `assets/founder-equity-package-template.md`. Hand off to 83b-election-coordinator for filing within the 30-day deadline. Deliverable: 83(b) election notification, equity package, and handoff confirmation.
 
 ## Anti-Patterns
 

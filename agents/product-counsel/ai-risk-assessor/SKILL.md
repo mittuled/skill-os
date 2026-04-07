@@ -36,12 +36,13 @@ Assesses the legal and regulatory risks of AI-powered features by evaluating com
 
 ## Workflow
 
-1. **Feature Scoping**: Document the AI feature's purpose, input data, model type, output decisions, and affected user populations. Classify the feature's risk tier under applicable frameworks (EU AI Act risk categories, NIST AI RMF). Deliverable: AI feature risk classification document.
-2. **Regulatory Mapping**: Map the feature against applicable AI regulations and guidance by jurisdiction. Identify required disclosures, prohibited uses, mandatory human oversight requirements, and documentation obligations. Deliverable: regulatory applicability matrix.
-3. **Bias and Fairness Assessment**: Evaluate the feature for potential discriminatory impact across protected classes. Review training data composition, model performance across demographic groups, and output fairness metrics. Identify proxy discrimination risks. Deliverable: bias and fairness risk assessment.
-4. **Transparency and Explainability Review**: Assess whether the feature meets transparency requirements: can users understand why a decision was made, can they contest it, and is the model sufficiently explainable for the regulatory context. Deliverable: transparency gap analysis.
-5. **Mitigation Recommendations**: For each identified risk, recommend specific mitigations: technical controls (bias testing, human-in-the-loop), legal controls (disclosures, consent mechanisms, appeal processes), and operational controls (monitoring, audit trails). Deliverable: risk mitigation plan with implementation priorities.
-6. **Ongoing Monitoring Framework**: Define the ongoing monitoring requirements: model drift detection, fairness metric tracking, regulatory change alerts, and periodic re-assessment triggers. Deliverable: AI risk monitoring plan.
+1. **Feature Scoping**: Document the AI feature's purpose, input data, model type, output decisions, and affected user populations. Classify the feature's risk tier under applicable frameworks (EU AI Act Annex III risk categories, NIST AI RMF). Deliverable: AI feature risk classification document.
+2. **Regulatory Mapping**: Map the feature against applicable AI regulations by jurisdiction — EU AI Act, NIST AI RMF, state-level AI laws (Illinois AI Video Interview Act, Colorado AI Act, NYC Local Law 144), and sector-specific guidance (EEOC, CFPB, FDA). Deliverable: regulatory applicability matrix.
+3. **Bias and Fairness Assessment**: Evaluate the feature for discriminatory impact across protected classes. Review training data composition, model performance across demographic groups, and calculate fairness metrics (demographic parity, equalized odds, calibration). Identify proxy discrimination risks. Deliverable: bias and fairness risk assessment.
+4. **Transparency and Explainability Review**: Assess whether the feature meets transparency requirements using appropriate explainability methods (SHAP, LIME). Verify users can understand decisions, contest them, and that the model is sufficiently explainable for the regulatory context. Deliverable: transparency gap analysis.
+5. **Mitigation Recommendations**: For each risk, recommend mitigations spanning technical controls (bias testing pipelines, human-in-the-loop), legal controls (disclosures, consent, appeal processes), and operational controls (monitoring, audit trails). Deliverable: risk mitigation plan with implementation priorities.
+6. **Scoring and Reporting**: Apply scoring rubric at `references/scoring-rubric.md` to evaluate assessment completeness. Produce report using template at `assets/ai-risk-assessment-report-template.md`. Deliverable: scored AI risk assessment report.
+7. **Ongoing Monitoring Framework**: Define ongoing monitoring: model drift detection, fairness metric tracking, regulatory change alerts, and re-assessment triggers. Deliverable: AI risk monitoring plan.
 
 ## Anti-Patterns
 

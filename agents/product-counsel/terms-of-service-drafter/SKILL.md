@@ -35,12 +35,12 @@ Drafts and maintains the terms of service and related user agreements by transla
 
 ## Workflow
 
-1. **Scope Definition**: Identify all product functionality, user interactions, data practices, and business model elements that the terms must cover. Map each element to the legal protections it requires (liability limitations, IP ownership, acceptable use, dispute resolution). Deliverable: terms scope matrix.
-2. **Jurisdictional Requirements**: Identify mandatory terms and prohibited clauses by jurisdiction. Review consumer protection requirements (cooling-off periods, unfair terms regulations), data protection requirements, and sector-specific mandatory disclosures. Deliverable: jurisdictional requirements checklist.
-3. **Drafting**: Draft the terms in clear, accessible language while maintaining legal enforceability. Structure sections logically: account terms, acceptable use, intellectual property, payment terms, liability, dispute resolution, termination, and modifications. Deliverable: draft terms of service.
-4. **Internal Review**: Route the draft to product, engineering, and business stakeholders to verify accuracy of product descriptions, data practices, and commercial terms. Deliverable: stakeholder-reviewed draft.
-5. **Enforceability Optimization**: Review clickwrap/browsewrap implementation for enforceability. Ensure the acceptance mechanism creates a binding agreement. Design the change notification process for existing users. Deliverable: acceptance mechanism specification and change notification plan.
-6. **Publication and Versioning**: Publish the terms with proper versioning, effective date, and change summary. Archive previous versions. Implement the user notification process for material changes. Deliverable: published terms with version history. [GATE]
+1. **Scope Definition**: Identify all product functionality, user interactions, data practices, and business model elements. Map each to required legal protections per the core sections in `references/tos-drafting-framework.md`. Deliverable: terms scope matrix.
+2. **Jurisdictional Requirements**: Apply the jurisdictional requirements from `references/tos-drafting-framework.md` — US (California ARL, COPPA, state consumer protection), EU (Unfair Contract Terms Directive, Consumer Rights Directive, DSA, GDPR), UK (CRA 2015), Australia (ACL). Deliverable: jurisdictional requirements checklist.
+3. **Drafting**: Draft terms using the structure in `assets/terms-of-service-template.md`: account terms, acceptable use, intellectual property, payment terms (with auto-renewal compliance), liability, dispute resolution, termination, and modifications. Use clear, accessible language. Deliverable: draft terms of service.
+4. **Internal Review**: Route to product, engineering, and business stakeholders. Verify accuracy of product descriptions, data practices, and commercial terms. Deliverable: stakeholder-reviewed draft.
+5. **Enforceability Optimization**: Select acceptance mechanism per the comparison in `references/tos-drafting-framework.md` (clickwrap preferred). Verify the mechanism creates a binding agreement. Design change notification process. Deliverable: acceptance mechanism specification.
+6. **Publication and Versioning**: Publish with versioning, effective date, and change summary. Archive previous versions. Implement user notification for material changes. Deliverable: published terms with version history. [GATE]
 
 ## Anti-Patterns
 

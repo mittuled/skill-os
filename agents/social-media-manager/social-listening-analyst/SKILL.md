@@ -33,7 +33,7 @@ Monitors brand mentions, competitor conversations, and category sentiment across
 2. Set alert thresholds for volume spikes, sentiment shifts, and mentions by high-authority accounts that warrant immediate attention.
 3. Triage incoming mentions daily: categorize as product feedback, support request, competitive mention, partnership opportunity, or brand risk.
 4. Route actionable mentions to the appropriate team: support requests to CS, product feedback to PM, competitive intel to marketing leadership.
-5. Compile a weekly listening digest: sentiment trend, share of voice vs. competitors, top themes, and notable mentions with context.
+5. Compile a weekly listening digest using `assets/social-listening-report-template.md`: sentiment trend, share of voice vs. competitors, top themes, and notable mentions with context. Score brand health using `references/scoring-rubric.md`.
 6. Identify emerging topics or pain points that could inform content strategy, product positioning, or campaign messaging.
 7. Deliver a monthly competitive social intelligence brief: competitor campaign themes, audience reaction, and positioning shifts.
 8. Review and refine monitoring queries quarterly to capture new competitors, product terms, and category language.

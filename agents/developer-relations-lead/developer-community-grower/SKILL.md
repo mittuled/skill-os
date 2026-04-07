@@ -38,11 +38,11 @@ Grows the developer community through events, content, and contribution programm
 
 ## Workflow
 
-1. **Audit current state**: Measure existing community size, activity, contributor count, event attendance, and content output. Deliverable: community baseline metrics report.
-2. **Identify growth channels**: Evaluate which channels have the highest potential (meetups, hackathons, blog programme, ambassador network, open-source contributions, conference talks). Deliverable: channel opportunity matrix.
-3. **Design growth programmes**: For top channels, define programme structure including cadence, content requirements, recognition, and success metrics. Deliverable: programme design documents.
-4. **Build contributor pipeline**: Create a progression path from consumer to contributor to maintainer with clear milestones and rewards at each level. Deliverable: contributor ladder document.
-5. **Execute and measure**: Launch programmes, track participation and output metrics, and iterate based on what produces engaged community members versus one-time participants. Deliverable: monthly community growth dashboard.
+1. **Audit current state**: Measure existing community size, activity, contributor count, event attendance, and content output against the growth model benchmarks in [framework.md](references/framework.md). Deliverable: community baseline metrics report.
+2. **Identify growth channels**: Evaluate which channels have the highest potential using the channel opportunity matrix in the framework (meetups, hackathons, blog programme, ambassador network, open-source contributions, conference talks). Deliverable: scored channel opportunity matrix.
+3. **Design growth programmes**: For top channels, define programme structure using the relevant template in the framework (hackathon ROI formula, ambassador programme structure). Deliverable: programme design documents.
+4. **Build contributor pipeline**: Create a progression path from consumer to contributor to maintainer using the contributor ladder levels and criteria from the framework. Deliverable: contributor ladder document.
+5. **Execute and measure**: Launch programmes, track the success metrics defined in the framework (MAC, contributor conversion rate, event attendance), and iterate based on what produces engaged community members versus one-time participants. Deliverable: monthly community growth dashboard.
 6. **Sustain and automate**: Codify successful programmes into repeatable playbooks and automate where possible (welcome bots, contribution tracking, badge systems). Deliverable: operational playbook with automation specs.
 
 ## Anti-Patterns

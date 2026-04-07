@@ -38,11 +38,11 @@ Synthesises developer feedback from multiple channels into actionable product an
 
 ## Workflow
 
-1. **Collect feedback sources**: Gather developer feedback from all channels (support tickets, community forums, NPS surveys, user interviews, GitHub issues, social media). Deliverable: raw feedback inventory with source and date.
-2. **Normalize and deduplicate**: Standardize feedback format, merge duplicates, and tag with metadata (developer segment, product area, severity, sentiment). Deliverable: normalized feedback database.
-3. **Identify themes**: Cluster feedback into themes using affinity mapping. Quantify each theme by frequency, affected segment size, and sentiment severity. Deliverable: theme map with quantification.
-4. **Assess impact and feasibility**: For each theme, estimate the business impact (retention, activation, expansion) and implementation feasibility (effort, dependencies, risk). Deliverable: impact-feasibility matrix.
-5. **Write synthesis report**: Produce a narrative connecting themes to product strategy with specific, actionable recommendations ranked by priority. Deliverable: developer feedback synthesis report.
+1. **Collect feedback sources**: Gather developer feedback from all channels using the source inventory in [framework.md](references/framework.md) (support tickets, community forums, NPS surveys, user interviews, GitHub issues, social media). Deliverable: raw feedback inventory with source and date.
+2. **Normalize and deduplicate**: Apply the normalization protocol from the framework to standardize feedback format, merge duplicates, and tag each item with required metadata (developer segment, product area, category, sentiment, severity). Deliverable: normalized feedback database.
+3. **Identify themes**: Cluster feedback using the affinity mapping protocol from the framework. Apply segment weighting (Enterprise 3×, SMB 2×, Startup 1.5×). Flag themes appearing in 3+ consecutive cycles as chronic. Deliverable: theme map with quantification.
+4. **Assess impact and feasibility**: Score each theme on the impact-feasibility matrix in the framework and assign to a priority quadrant (Quick Win, Strategic Bet, Backlog Filler, Deprioritize). Deliverable: impact-feasibility matrix.
+5. **Write synthesis report**: Use the recommendation format from the framework to produce actionable recommendations ranked by impact-feasibility score. Connect themes to product strategy. Deliverable: developer feedback synthesis report.
 6. **Present and track**: Share the synthesis with product and engineering stakeholders. Track which recommendations are accepted, rejected, or deferred with rationale. Deliverable: recommendation tracking log.
 
 ## Anti-Patterns

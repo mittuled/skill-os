@@ -35,12 +35,13 @@ Conducts privacy impact assessments for new features and data processing activit
 
 ## Workflow
 
-1. **Data Flow Mapping**: Map the complete data lifecycle for the processing activity: what data is collected, from whom, how it is processed, where it is stored, who it is shared with, and when it is deleted. Deliverable: data flow diagram with processing inventory.
-2. **Legal Basis Assessment**: Determine the legal basis for each processing activity (consent, legitimate interest, contractual necessity, legal obligation). Assess whether the legal basis is appropriate for the data type and processing purpose. Deliverable: legal basis analysis per processing activity.
-3. **Necessity and Proportionality**: Evaluate whether the data collected is necessary for the stated purpose and whether less privacy-invasive alternatives exist. Apply data minimization principles. Deliverable: necessity and proportionality analysis.
-4. **Risk Identification**: Identify privacy risks across dimensions: unauthorized access, function creep, re-identification of anonymized data, cross-border transfer, and data subject rights compliance. Rate each risk by likelihood and severity. Deliverable: privacy risk register.
-5. **Mitigation Design**: For each identified risk, recommend mitigations: technical measures (encryption, pseudonymization, access controls), organizational measures (policies, training, DPO oversight), and legal measures (consent mechanisms, privacy notices, DPAs). Deliverable: mitigation plan with implementation owners.
-6. **DPO/Authority Consultation**: Where required, consult with the Data Protection Officer and, for high-risk processing, consider prior consultation with the supervisory authority. Document the consultation outcome and any conditions imposed. Deliverable: consultation record.
+1. **Data Flow Mapping**: Map the complete data lifecycle: collection points, processing activities, storage locations with retention periods, all third-party recipients, and deletion mechanisms. Link to Records of Processing Activities (ROPA) per GDPR Article 30. Deliverable: data flow diagram with processing inventory.
+2. **Legal Basis Assessment**: Determine legal basis per processing activity per GDPR Article 6. For consent-based processing, verify GDPR requirements (freely given, specific, informed, unambiguous). For legitimate interest, document the balancing test. Assess CCPA sale/sharing opt-out. Deliverable: legal basis analysis per activity.
+3. **Necessity and Proportionality**: Evaluate each data element's necessity for the stated purpose. Systematically evaluate less privacy-invasive alternatives. Apply data minimization, pseudonymization, and anonymization where possible. Deliverable: necessity and proportionality analysis.
+4. **Risk Identification**: Identify risks across all dimensions: unauthorized access, function creep, re-identification, cross-border transfer, data subject rights compliance, and processor chain risks. Rate per ISO 29134 privacy risk framework. Deliverable: privacy risk register.
+5. **Mitigation Design**: For each risk, design mitigations spanning technical (encryption, pseudonymization, k-anonymity, access controls), organizational (policies, training, DPO oversight), and legal measures (consent mechanisms, privacy notices, DPAs). Assign owners and timelines. Deliverable: mitigation plan.
+6. **Scoring and Reporting**: Apply scoring rubric at `references/scoring-rubric.md`. Produce report using template at `assets/privacy-impact-assessment-report-template.md`. Deliverable: scored PIA report.
+7. **DPO/Authority Consultation**: Consult with DPO. For high-risk processing per GDPR Article 35, consider prior consultation with the supervisory authority (Article 36). Document outcome and conditions. Deliverable: consultation record.
 
 ## Anti-Patterns
 

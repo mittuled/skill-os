@@ -36,11 +36,11 @@ Selects, configures, and maintains the marketing technology stack -- marketing a
 
 ## Workflow
 
-1. **Inventory current stack**: Document all marketing tools, their purpose, integration points, cost, contract renewal dates, and utilization level. Identify overlapping capabilities and orphaned tools. Deliverable: martech stack inventory with utilization and cost analysis.
-2. **Identify gaps and requirements**: Map the stack against marketing operational needs -- lead capture, scoring, nurturing, campaign execution, analytics, attribution, and reporting. Flag capability gaps that limit marketing performance. Deliverable: gap analysis with prioritized requirements.
-3. **Evaluate solutions**: For each gap or replacement need, evaluate vendor options against requirements, integration compatibility, total cost of ownership, and team adoption likelihood. Deliverable: vendor evaluation matrix with recommendation.
-4. **Implement and integrate**: Configure the selected platform, build integrations with CRM, data warehouse, and other stack components. Set up data flows, field mappings, and automation rules. Deliverable: configured platform with validated integrations.
-5. **Train and document**: Create operational documentation and train marketing team members on the new tool. Establish support escalation paths and admin access controls. Deliverable: training materials and operational runbook.
+1. **Inventory current stack**: Document all marketing tools using the core stack layer model in [`references/framework.md`](references/framework.md). Apply the stack health audit criteria to identify overlapping capabilities, orphaned tools, and integration failures. Deliverable: martech stack inventory with utilization, cost, and layer coverage analysis.
+2. **Identify gaps and requirements**: Map the stack layers from [`references/framework.md`](references/framework.md) against current marketing operational needs. Flag capability gaps and calculate 3-year TCO for gap-filling options. Deliverable: gap analysis with prioritized requirements.
+3. **Evaluate solutions**: Score vendor options using the vendor evaluation matrix in [`references/framework.md`](references/framework.md). Apply the build vs. buy vs. renew decision criteria. Require composite score ≥ 3.5/5 to advance to recommendation. Deliverable: vendor evaluation matrix with recommendation.
+4. **Implement and integrate**: Configure the selected platform using the integration patterns appropriate to each connection type from [`references/framework.md`](references/framework.md). Produce a data flow diagram and field mapping document before go-live. Deliverable: configured platform with validated integrations.
+5. **Train and document**: Create operational documentation and train marketing team members. Establish support escalation paths and admin access controls. Deliverable: training materials and operational runbook.
 
 ## Anti-Patterns
 

@@ -35,11 +35,11 @@ Designs and calibrates the lead scoring model that combines behavioral and firmo
 
 ## Workflow
 
-1. **Analyze historical conversions**: Pull closed-won and closed-lost data to identify which behavioral (page visits, content downloads, email engagement) and firmographic (company size, industry, title) attributes correlate with conversion. Deliverable: attribute correlation analysis.
-2. **Define scoring dimensions**: Establish two scoring axes -- fit score (firmographic alignment to ICP) and engagement score (behavioral intent signals). Weight each attribute based on conversion correlation. Deliverable: scoring model specification with attribute weights.
-3. **Set MQL threshold**: Define the combined score threshold that triggers MQL status and sales handoff. Back-test the threshold against historical data to validate expected conversion rates. Deliverable: MQL threshold with back-test results.
-4. **Implement in marketing automation**: Configure the scoring model in the marketing automation platform. Set up automatic MQL status assignment, CRM sync, and sales notification workflows. Deliverable: live scoring model with automation rules.
-5. **Calibrate and iterate**: After 30 days of live scoring, compare predicted vs. actual MQL-to-SQL conversion rates. Adjust attribute weights and thresholds based on sales feedback and conversion data. Deliverable: calibration report with model adjustments.
+1. **Analyze historical conversions**: Pull closed-won and closed-lost data to identify which behavioral and firmographic attributes correlate with conversion. Use the two-axis scoring architecture from [`references/framework.md`](references/framework.md) to structure the analysis. Deliverable: attribute correlation analysis.
+2. **Define scoring dimensions**: Build the fit score using the BANT dimensions table and the engagement score using the behavioral signals table in [`references/framework.md`](references/framework.md). Apply decay rules per signal. Deliverable: scoring model specification with attribute weights.
+3. **Set MQL threshold**: Apply the calibration methodology in [`references/framework.md`](references/framework.md) — map historical closed-won leads against the model, set threshold at P80, and validate ≥ 25% MQL-to-SQL conversion. [GATE] — threshold requires sales sign-off before activation. Deliverable: MQL threshold with back-test results.
+4. **Implement in marketing automation**: Configure the scoring model in the marketing automation platform. Set up automatic MQL status assignment, CRM sync, and sales notification workflows. Follow the governance standards in [`references/framework.md`](references/framework.md). Deliverable: live scoring model with automation rules.
+5. **Calibrate and iterate**: Follow the calibration cadence in [`references/framework.md`](references/framework.md). After 30 days, compare actual MQL-to-SQL conversion against target. Adjust weights per governance process. Deliverable: calibration report with model adjustments.
 
 ## Anti-Patterns
 

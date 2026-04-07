@@ -34,11 +34,11 @@ Tests designs across platforms, devices, and screen sizes to verify consistent e
 
 ## Workflow
 
-1. **Define test matrix**: List target platforms, devices, screen sizes, orientations, and input methods (touch, mouse, keyboard, stylus). Include accessibility modes (large text, high contrast, reduced motion). Deliverable: platform test matrix.
-2. **Prepare test artifacts**: Ensure Figma frames exist for each breakpoint and platform variant. Verify that prototypes cover platform-specific interactions (swipe gestures on mobile, hover states on desktop, back navigation on Android). Deliverable: test-ready design artifacts per platform.
-3. **Execute visual comparison**: Review each screen at every breakpoint and platform. Check layout reflow, typography scaling, image cropping, touch target sizing (48dp Android, 44pt iOS), and spacing token application. Deliverable: visual comparison report with annotated screenshots.
-4. **Test interaction parity**: Verify that interaction flows (navigation, modals, toasts, pull-to-refresh) follow platform conventions. Confirm that platform-specific patterns (bottom sheets on mobile, sidebars on desktop) are correctly specified. Deliverable: interaction parity checklist.
-5. **Document deviations**: Record every inconsistency with severity, affected platform, and recommended fix. Distinguish between intentional platform adaptations and unintentional drift. Deliverable: deviation report with fix recommendations.
+1. **Define test matrix**: Determine coverage tiers (Tier 1 must-test, Tier 2 should-test, Tier 3 edge case) using the [platform test matrix](references/platform-test-matrix.md). List target platforms, devices, screen sizes, orientations, input methods, and accessibility modes. Deliverable: platform test matrix for this release.
+2. **Prepare test artifacts**: Ensure Figma frames exist for each breakpoint and platform variant. Verify that prototypes cover platform-specific interactions per the interaction parity table in the [platform test matrix](references/platform-test-matrix.md). Deliverable: test-ready design artifacts per platform.
+3. **Execute visual comparison**: Review each screen at every breakpoint against the visual check dimensions in the [platform test matrix](references/platform-test-matrix.md). Check layout reflow, typography scaling, image cropping, touch target sizing, and spacing token application. Deliverable: visual comparison report with annotated screenshots.
+4. **Test interaction parity**: Verify interaction flows against the platform-specific patterns in the [platform test matrix](references/platform-test-matrix.md). Confirm navigation, modals, bottom sheets, and back gestures follow platform conventions. Deliverable: interaction parity checklist.
+5. **Document deviations**: Record every inconsistency using the deviation severity scale in the [platform test matrix](references/platform-test-matrix.md). Distinguish intentional platform adaptations from unintentional drift. Deliverable: deviation report with fix recommendations.
 
 ## Anti-Patterns
 

@@ -1,5 +1,7 @@
 # Scoring Rubric: Vendor Performance Reviewer
 
+Evaluates vendor performance across SLA adherence, responsiveness, delivery quality, value for money, and relationship collaboration.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Relationship & Collaboration | 10% | 0-10 | Partnership behaviour: roadmap alignment, willingness to co-invest, transparency |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | Zero SLA breaches; proactive communication; deliverables exceed expectations; strong strategic partnership | Renew contract with expanded scope; nominate as preferred vendor |
+| A | 8.0 – 8.9 | Strong | SLAs met 95%+; responsive with minor delays; consistent delivery quality; fair pricing | Renew contract at current terms; explore co-investment opportunities |
+| B | 7.0 – 7.9 | Good | SLAs mostly met; acceptable responsiveness; occasional rework; pricing at market rate | Renew with performance improvement plan for flagged areas |
+| C | 5.0 – 6.9 | Adequate | Notable SLA breaches; reactive communication; moderate defect rate; pricing above market | Issue formal performance notice; set 90-day improvement deadline |
+| D | 3.0 – 4.9 | Weak | Repeated SLA failures; unresponsive to escalations; frequent rework; poor value for money | Initiate vendor replacement evaluation; activate contingency plan |
+| F | 0.0 – 2.9 | Failing | Systematic SLA violations; adversarial relationship; deliverables routinely unacceptable | Terminate contract; execute transition to alternative vendor |
 
 ## Signal Tables
 

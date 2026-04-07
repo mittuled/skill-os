@@ -1,6 +1,10 @@
 ---
 name: analyst-briefing-scheduler
-description: Schedules and prepares analyst briefings that shape how Gartner, Forrester, and peers perceive and position the company.
+description: >
+  Schedules and prepares analyst briefings that shape how Gartner, Forrester, and peers perceive and position the company.
+  Use when a major product launch, strategy shift, or evaluation cycle requires communicating with analysts before market release.
+  Also consider when a new analyst covers the category and needs an introductory briefing.
+  Suggest when quarterly briefing cadences are overdue or the company has not briefed a Tier 1 analyst in 90+ days.
 department: marketing
 agent: analyst-relations-manager
 version: 1.0.0
@@ -10,7 +14,7 @@ related-skills: []
 
 # analyst-briefing-scheduler
 
-## Agent
+## Agent: Analyst Relations Manager
 
 L2 analyst relations manager responsible for analyst briefings, inquiry responses, Magic Quadrant strategy, and peer review platform management.
 
@@ -30,14 +34,14 @@ Schedules and prepares analyst briefings with Gartner, Forrester, and other rele
 
 ## Workflow
 
-1. Identify the briefing objective: product update, strategic narrative shift, evaluation preparation, or relationship building. Map the objective to the specific analysts who influence the category.
-2. Coordinate scheduling with analyst firms through their booking systems. Propose multiple time slots and confirm attendees from the company side.
-3. Research the analyst's recent publications, stated positions, and known biases. Note where the company aligns or diverges from the analyst's current market view.
-4. Draft the briefing deck: company overview, key messages, product differentiation, customer proof points, and roadmap highlights. Tailor content to the analyst's interests and knowledge gaps.
-5. Prepare the internal speakers: brief them on the analyst's background, likely questions, and topics to emphasise or avoid. Conduct a rehearsal for high-stakes briefings.
-6. Confirm logistics: video platform, dial-in details, NDA status, and materials to share before or after the briefing.
-7. Conduct the briefing: lead with the narrative, support with data and customer evidence, leave time for analyst questions, and note follow-up commitments.
-8. Send a follow-up within 48 hours: thank-you note, any promised materials, and a summary of key discussion points for internal stakeholders.
+1. Identify the briefing objective and type (introductory, strategy, product, evaluation, or emergency) using the briefing type table in [`references/framework.md`](references/framework.md). Map the objective to the specific analysts who influence the category based on their tier assignment.
+2. Coordinate scheduling with analyst firms through their booking systems per the firm-specific methods in [`references/framework.md`](references/framework.md). Propose multiple time slots and confirm attendees from the company side. Maintain briefing frequency cadence per analyst tier.
+3. Research the analyst's recent publications, stated positions, and known biases using the Step 1 research protocol in [`references/framework.md`](references/framework.md). Complete the Analyst Profile section of [`assets/analyst-briefing-brief-template.md`](assets/analyst-briefing-brief-template.md).
+4. Draft the briefing deck using the deck construction section in [`references/framework.md`](references/framework.md). Complete the Key Messages and Customer Proof Points sections of the briefing brief template. Limit to 12 slides; every claim must have a source.
+5. Prepare the internal speakers using the speaker preparation timeline in [`references/framework.md`](references/framework.md). Deliver the completed [`assets/analyst-briefing-brief-template.md`](assets/analyst-briefing-brief-template.md) 5 days before the briefing. Conduct dry run for all Tier 1 evaluation briefings.
+6. Confirm logistics: video platform, dial-in details, NDA status, and materials to share before or after the briefing. Complete Section 8 of the briefing brief.
+7. Conduct the briefing: lead with the narrative, support with data and customer evidence, leave time for analyst questions, and record all follow-up commitments in the Anticipated Questions section.
+8. Send a follow-up within 48 hours per the post-briefing protocol in [`references/framework.md`](references/framework.md): thank-you note, any promised materials, and a summary of key discussion points. Update the AR tracker with all fields from the tracker record section.
 
 ## Anti-Patterns
 
@@ -60,4 +64,6 @@ Schedules and prepares analyst briefings with Gartner, Forrester, and other rele
 
 ## Related Skills
 
-*No related skills defined yet.*
+- [`analyst-inquiry-responder`](../analyst-inquiry-responder/SKILL.md) — Briefings generate follow-up inquiries; use this skill to respond to analyst requests arising from briefing discussions.
+- [`analyst-report-monitor`](../analyst-report-monitor/SKILL.md) — Reports published by briefed analysts require monitoring to assess whether briefings influenced the published narrative.
+- [`magic-quadrant-strategy`](../magic-quadrant-strategy/SKILL.md) — Evaluation briefings are a critical component of the Magic Quadrant submission process managed by this skill.

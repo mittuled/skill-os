@@ -31,14 +31,14 @@ Plans and produces company offsites and all-hands events that align teams on str
 ## Workflow
 
 1. Define the offsite objectives with leadership: strategic alignment, team building, planning, celebration, or a combination. Lock the dates and headcount.
-2. Source and evaluate venue options based on accessibility, capacity, AV capabilities, accommodation, and budget. Negotiate contracts and secure the booking.
-3. Design the agenda in collaboration with leadership: balance strategic sessions, workshops, social activities, and free time. Assign session owners and facilitators.
+2. Source and evaluate venue options using the selection criteria in `references/framework.md`. Require a composite score ≥ 3.5/5 to shortlist. Negotiate contracts and secure the booking.
+3. Design the agenda in collaboration with leadership following the 60/40 structure and energy management principles in `references/framework.md`: balance strategic sessions, workshops, social activities, and free time. Assign session owners and facilitators.
 4. Plan logistics: travel arrangements, ground transportation, dietary requirements, accessibility needs, and emergency contacts.
 5. Brief session owners on format expectations, time limits, and required pre-reads. Distribute the agenda and pre-read materials to all attendees at least two weeks before the event.
 6. Coordinate AV setup, room layouts, signage, and branded materials with the venue and design team.
 7. Execute the event: manage the run-of-show, handle real-time schedule adjustments, troubleshoot logistics, and ensure sessions start and end on time.
 8. Collect attendee feedback within 48 hours via a structured survey covering content quality, logistics, and suggestions.
-9. Compile a post-offsite report: key decisions made, action items with owners, feedback summary, budget actuals vs. plan, and recommendations for the next offsite.
+9. Compile a post-offsite report using `assets/offsite-plan-template.md`: key decisions made, action items with owners, feedback summary, budget actuals vs. plan, and recommendations for the next offsite. Use `references/checklist.md` to verify all post-event steps are complete.
 
 ## Anti-Patterns
 

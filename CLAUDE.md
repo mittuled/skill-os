@@ -109,8 +109,12 @@ Agents reference the tool policy via their Agent header: `Tool policy: [allowed-
 - Never batch multiple skills in one commit
 
 ## Active Technologies
+- Markdown + YAML (content project) + None (zero external deps) (003-production-grade-depth)
 
 - Python 3.10+ for executable scripts, Bash for shell helpers
 - Markdown + YAML for skill files and policy files
 - Zero external dependencies — scripts use stdlib only
 - Git-managed filesystem; credentials in platform-native secret stores (never in repo)
+
+## Recent Changes
+- 003-production-grade-depth: Added Markdown + YAML (content project) + None (zero external deps)

@@ -1,5 +1,7 @@
 # Scoring Rubric: Compliance Framework Implementer
 
+Evaluates compliance framework implementation quality across scope definition, control mapping, gap remediation, evidence maturity, and certification readiness.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Certification Readiness | 15% | 0-10 | Outcome of pre-certification internal audit: residual gaps, auditor-readiness |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | 100% controls mapped and validated; automated evidence collection; internal audit passed with zero findings | Schedule external auditor engagement for certification |
+| A | 8.0 – 8.9 | Strong | Controls mapped with minor gaps; evidence mostly automated; internal audit passed with minor findings remediated | Proceed to external audit with remediation timeline for minor items |
+| B | 7.0 – 7.9 | Good | 95%+ controls mapped; gap remediation underway; evidence framework functional but mostly manual | Complete remediation and automate evidence before scheduling external audit |
+| C | 5.0 – 6.9 | Adequate | 80-94% controls mapped; material gaps in remediation; evidence collection is manual and inconsistent | Accelerate remediation; delay certification timeline by one quarter |
+| D | 3.0 – 4.9 | Weak | Under 80% mapped; controls exist on paper but are not operational; no evidence framework | Reset implementation plan; assign dedicated compliance engineering resource |
+| F | 0.0 – 2.9 | Failing | No systematic control mapping; no operational controls; compliance claims are unsubstantiated | Halt and engage external compliance consultancy for full programme build |
 
 ## Signal Tables
 

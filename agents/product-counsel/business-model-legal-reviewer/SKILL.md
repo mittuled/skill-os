@@ -40,6 +40,7 @@ Reviews the business model for legal and regulatory compliance including licensi
 2. **Licensing and Registration Analysis**: Determine whether the business model requires specific licenses, registrations, or permits (money transmitter licenses, broker-dealer registration, insurance producer licenses, professional licenses). Identify jurisdictions where licensing is required. Deliverable: licensing requirements matrix with jurisdiction, license type, cost, and timeline.
 3. **Liability and Consumer Protection Review**: Assess liability exposure inherent in the model including product liability, professional liability, platform liability (Section 230 applicability), consumer protection obligations (warranty, refund rights, disclosure requirements), and indemnification structures with partners. Deliverable: liability assessment memo with risk ratings and mitigation recommendations.
 4. **Compliance Integration**: Translate regulatory requirements into actionable business constraints. Define terms of service requirements, disclosure obligations, compliance monitoring needs, and ongoing reporting obligations. Deliverable: compliance requirements document integrated with the business plan.
+5. **Scoring and Reporting**: Apply scoring rubric at `references/scoring-rubric.md` to evaluate review completeness. Produce report using template at `assets/business-model-legal-review-template.md`. Deliverable: scored business model legal review.
 
 ## Anti-Patterns
 

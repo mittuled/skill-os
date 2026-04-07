@@ -39,11 +39,11 @@ Facilitates structured design reviews to assess quality, design system consisten
 
 ## Workflow
 
-1. **Set review scope and criteria**: Define the review type (exploratory, refinement, or pre-handoff), the specific screens or flows under review, and the evaluation criteria (design system compliance, accessibility, interaction completeness, content quality). Deliverable: review agenda with criteria checklist.
+1. **Set review scope and criteria**: Define the review type (exploratory, refinement, or pre-handoff), the specific screens or flows under review, and the evaluation criteria (design system compliance, accessibility, interaction completeness, content quality). Use the [scoring rubric](references/scoring-rubric.md) to anchor criteria weights. Deliverable: review agenda with criteria checklist.
 2. **Prepare review artifacts**: Ensure the Figma file is up to date, prototypes are linked, and any relevant user research or competitive analysis is referenced. Verify component usage against the design system library. Deliverable: review-ready artifact package.
 3. **Facilitate the review session**: Walk through each screen or flow against the criteria. Capture feedback as actionable items, not opinions. Distinguish between blocking issues (must fix before progression) and suggestions (may address in future iteration). Deliverable: structured feedback log with severity tags.
 4. **Synthesize and assign**: Group feedback by theme (visual consistency, interaction gaps, accessibility, content). Assign each action item to the responsible designer with a clear definition of done. Deliverable: action item register with owners.
-5. **Issue verdict**: Declare the review outcome -- approved, conditionally approved (with required fixes listed), or requires re-review. Communicate the decision to design, product, and engineering. Deliverable: review verdict document.
+5. **Issue verdict**: Declare the review outcome -- approved, conditionally approved (with required fixes listed), or requires re-review. Record the outcome in the [design review report template](assets/design-review-report-template.md) and communicate to design, product, and engineering. Deliverable: review verdict document.
 
 ## Anti-Patterns
 

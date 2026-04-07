@@ -30,14 +30,14 @@ Runs A/B tests on subject lines, send times, and content across all email progra
 
 ## Workflow
 
-1. Audit current email performance across all active sequences: open rate, click-through rate, conversion rate, unsubscribe rate, and revenue attributed per send.
-2. Identify the highest-impact optimisation opportunities by calculating the revenue gap between current and benchmark performance for each sequence.
-3. Formulate a test hypothesis for the top opportunity: specify the variable (subject line, send time, CTA, layout, or copy), the expected lift, and the minimum sample size for statistical significance.
+1. Audit current email performance across all active sequences using the programme performance baseline table in [`assets/email-optimisation-report-template.md`](assets/email-optimisation-report-template.md): open rate, CTR, conversion rate, unsubscribe rate, and revenue per send vs. benchmarks.
+2. Identify the highest-impact optimisation opportunities by calculating the revenue gap between current and benchmark performance for each sequence. Prioritise tests by expected revenue lift.
+3. Formulate a test hypothesis: specify the variable (subject line, send time, CTA, layout, or copy), the expected lift, and the minimum sample size for statistical significance. Document in the test record format from [`assets/email-optimisation-report-template.md`](assets/email-optimisation-report-template.md).
 4. Build the A/B test variant in the email platform. Ensure only one variable differs between control and test to isolate causation.
 5. Launch the test to a randomised segment. Monitor deliverability and rendering during the first send window.
-6. Wait for statistical significance before declaring a winner. Document the confidence level, sample size, and observed lift.
-7. Roll the winning variant into production and update the sequence template. Archive the losing variant with learnings.
-8. Publish a monthly optimisation report: tests run, winners deployed, cumulative lift in conversion and revenue, and the next round of test hypotheses.
+6. Wait for statistical significance (≥ 95% confidence) before declaring a winner. Document the confidence level, sample size, and observed lift in the test record.
+7. Roll the winning variant into production and update the sequence template. Add the learning to the cumulative learnings library in [`assets/email-optimisation-report-template.md`](assets/email-optimisation-report-template.md).
+8. Publish the monthly optimisation report using [`assets/email-optimisation-report-template.md`](assets/email-optimisation-report-template.md). Score the programme quality using [`references/scoring-rubric.md`](references/scoring-rubric.md) before delivery.
 
 ## Anti-Patterns
 

@@ -33,12 +33,12 @@ Audits documentation for technical accuracy against the current product implemen
 
 ## Workflow
 
-1. **Scope the audit**: Define which documentation sections, API versions, and platforms are in scope. Prioritize by traffic, recency of product changes, and known issue reports. Deliverable: audit scope with prioritized section list.
-2. **Test code samples**: Execute every code sample in the scoped documentation against the current product version. Record pass/fail for each. Deliverable: code sample test results.
-3. **Verify API references**: Compare documented endpoint signatures, parameters, response schemas, and error codes against the actual API behaviour. Deliverable: API reference accuracy report.
-4. **Check procedural steps**: Walk through every tutorial and guide step-by-step to verify the instructions produce the stated outcome. Deliverable: procedure verification log.
-5. **Flag inaccuracies**: Log each inaccuracy with the documentation location, expected vs. actual behaviour, severity (misleading vs. broken vs. cosmetic), and suggested fix. Deliverable: inaccuracy log with severity ratings.
-6. **Prioritize and remediate**: Rank inaccuracies by developer impact and assign fixes to writers or engineers. Deliverable: remediation plan with owners and deadlines.
+1. **Scope the audit**: Define which documentation sections, API versions, and platforms are in scope. Prioritize by traffic, recency of product changes, and known issue reports. Reference the five criteria in [references/scoring-rubric.md](references/scoring-rubric.md) to ensure all accuracy dimensions are covered. Deliverable: audit scope with prioritized section list.
+2. **Test code samples**: Execute every code sample in the scoped documentation against the current product version. Record pass/fail for each. Score the Code Sample Correctness criterion against the rubric. Deliverable: code sample test results.
+3. **Verify API references**: Compare documented endpoint signatures, parameters, response schemas, and error codes against the actual API behaviour. Score the API Reference Fidelity criterion. Deliverable: API reference accuracy report.
+4. **Check procedural steps**: Walk through every tutorial and guide step-by-step to verify the instructions produce the stated outcome. Score the Procedure Accuracy criterion. Deliverable: procedure verification log.
+5. **Flag inaccuracies**: Log each inaccuracy with the documentation location, expected vs. actual behaviour, and severity derived from the rubric grade bands. Include content freshness and link integrity findings. Deliverable: inaccuracy log with severity ratings.
+6. **Prioritize and remediate**: Compute composite accuracy score using the rubric. Rank inaccuracies by developer impact and assign fixes to writers or engineers. Deliverable: remediation plan with owners and deadlines.
 
 ## Anti-Patterns
 

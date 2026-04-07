@@ -41,8 +41,8 @@ Reviews new business ideas and product concepts for material legal risks includi
 ## Workflow
 
 1. **Concept Intake**: Review the business idea brief, product concept document, or pitch deck. Identify the target market, data flows, revenue model, and key technology components. Deliverable: structured risk intake summary.
-2. **Legal Risk Scan**: Assess the concept across five dimensions: regulatory compliance (industry-specific licensing, permits), IP risk (freedom to operate, prior art, trademark conflicts), liability exposure (product liability, indemnification obligations), data privacy (GDPR, CCPA, COPPA applicability), and contractual constraints (existing obligations that may conflict). Deliverable: risk assessment matrix rated green/yellow/red per dimension.
-3. **Recommendation**: Provide a go/no-go/conditional-go recommendation with specific conditions that must be met. Deliverable: one-page legal risk memo with the risk matrix and actionable next steps. [GATE]
+2. **Legal Risk Scan**: Score the concept across five dimensions using the scoring rubric at `references/scoring-rubric.md`: regulatory compliance (industry-specific licensing, permits, FINRA/HIPAA/FERPA applicability), IP risk (freedom to operate, prior art, trademark conflicts), liability exposure (product liability, professional responsibility, content liability), data privacy (GDPR, CCPA, COPPA, HIPAA applicability), and contractual constraints (existing obligations that may conflict). Deliverable: risk assessment matrix scored 0-10 per dimension with composite grade.
+3. **Recommendation**: Provide a go/no-go/conditional-go recommendation with specific conditions that must be met. Produce report using template at `assets/legal-risk-memo-template.md`. Deliverable: legal risk memo with the scored risk matrix and actionable next steps. [GATE]
 
 ## Anti-Patterns
 

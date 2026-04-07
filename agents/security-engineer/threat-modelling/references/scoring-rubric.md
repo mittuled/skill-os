@@ -1,5 +1,7 @@
 # Scoring Rubric: Threat Modelling
 
+Evaluates the rigour and completeness of a threat model across decomposition, enumeration, prioritization, mitigation, and attack path validation.
+
 ## Criteria
 
 | Criterion | Weight | Scale | Description |
@@ -11,16 +13,18 @@
 | Attack Tree Validation | 15% | 0-10 | Depth of attack path analysis: multi-step chains verified, mitigations validated against paths |
 | **Total** | **100%** | | |
 
+**Composite Score** = Σ (criterion score × weight)
+
 ## Grade Bands
 
-| Grade | Score Range | Label | Action |
-|-------|-----------|-------|--------|
-| A+ | 90-100 | Excellent | Proceed with confidence |
-| A | 75-89 | Good | Minor concerns only |
-| B | 60-74 | Acceptable | Address flagged items |
-| C | 40-59 | Caution | Significant risks |
-| D | 20-39 | High Risk | Consider alternatives |
-| F | 0-19 | Unacceptable | Do not proceed |
+| Grade | Composite Score | Label | Description | Recommended Action |
+|-------|----------------|-------|-------------|-------------------|
+| A+ | 9.0 – 10.0 | Exceptional | Threat model covers all attack surfaces with validated mitigations and complete attack tree verification | Approve and schedule periodic re-assessment |
+| A | 8.0 – 8.9 | Strong | Comprehensive STRIDE coverage with minor gaps in attack tree depth or residual risk documentation | Approve with follow-up on flagged gaps within next sprint |
+| B | 7.0 – 7.9 | Good | Solid decomposition and enumeration but mitigation specificity or attack path validation needs strengthening | Approve conditionally; remediate mitigation gaps before implementation |
+| C | 5.0 – 6.9 | Adequate | Core threats identified but decomposition is shallow, prioritization inconsistent, or mitigations are generic | Revise threat model; do not proceed to implementation until gaps closed |
+| D | 3.0 – 4.9 | Weak | Significant blind spots in threat coverage; no systematic prioritization; mitigations are copy-paste | Rework from decomposition stage with security engineering support |
+| F | 0.0 – 2.9 | Failing | No meaningful threat analysis; system risks are unknown and unmitigated | Halt and commission a full threat modelling engagement |
 
 ## Signal Tables
 

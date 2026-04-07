@@ -35,10 +35,11 @@ Audits the use of open-source software across the product by reviewing licence c
 
 ## Workflow
 
-1. **Dependency Inventory**: Generate a complete bill of materials for all open-source dependencies including transitive dependencies. Record the licence type, version, and source for each component. Deliverable: software bill of materials (SBOM).
-2. **Licence Classification**: Classify each licence by type (permissive, weak copyleft, strong copyleft, proprietary) and compatibility with the company's distribution model. Flag incompatible or ambiguous licences. Deliverable: licence classification matrix.
-3. **Copyleft Exposure Analysis**: For copyleft-licensed components (GPL, AGPL, LGPL), analyse whether the usage pattern triggers copyleft obligations (static linking, dynamic linking, network interaction). Assess whether the company's proprietary code is at risk of forced disclosure. Deliverable: copyleft exposure analysis.
-4. **Compliance Verification**: Verify that all licence obligations are met: attribution notices, licence text inclusion, source code availability (where required), and modification documentation. Deliverable: compliance checklist with remediation items.
+1. **Dependency Inventory**: Generate a complete SBOM in standard format (SPDX or CycloneDX) for all open-source dependencies including transitive dependencies. Record licence type, version, and source for each component. Deliverable: software bill of materials (SBOM).
+2. **Licence Classification**: Classify each licence by type — permissive (MIT, Apache 2.0, BSD), weak copyleft (LGPL, MPL), strong copyleft (GPL, AGPL), or proprietary — and assess compatibility with the company's distribution model (SaaS, on-premise, embedded). Flag incompatible or ambiguous licences. Deliverable: licence classification matrix.
+3. **Copyleft Exposure Analysis**: For copyleft components, analyse usage patterns — static linking, dynamic linking, process boundary isolation, AGPL network-use trigger for SaaS deployment. Assess proprietary code disclosure risk. Deliverable: copyleft exposure analysis.
+4. **Compliance Verification**: Verify all obligations: attribution notices (NOTICES file, about screen), licence text inclusion, source code availability (GPL), modification documentation. Deliverable: compliance checklist with remediation items.
+5. **Scoring and Reporting**: Apply scoring rubric at `references/scoring-rubric.md` to evaluate audit completeness. Produce report using template at `assets/open-source-audit-report-template.md`. Deliverable: scored open-source audit report.
 
 ## Anti-Patterns
 

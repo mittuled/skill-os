@@ -31,9 +31,9 @@ Plans and publishes the organic social content calendar across all platforms, en
 
 1. Audit the previous period's social performance by platform: engagement rate, click-through rate, follower growth, and attributed traffic. Identify top-performing content types and underperformers.
 2. Align with the marketing calendar to map product launches, events, campaigns, and seasonal moments that require social coverage.
-3. Define the content mix per platform: ratio of educational, promotional, engagement, and community content. Match format to platform norms.
-4. Draft the calendar in the scheduling tool with post copy, creative briefs, hashtags, UTM parameters, and publish dates for the upcoming period.
-5. Route posts requiring legal, product, or executive review through the approval workflow with clear deadlines.
+3. Define the content mix per platform using the 3-2-1 framework in `references/framework.md`: ratio of educational, promotional, engagement, and community content. Match format and posting cadence to platform norms.
+4. Draft the calendar in the scheduling tool using `assets/social-content-calendar-template.md` with post copy, creative briefs, hashtags, UTM parameters, and publish dates for the upcoming period.
+5. Route posts requiring legal, product, or executive review through the approval workflow in `references/framework.md` with clear deadlines.
 6. Schedule approved posts and set up monitoring for each publish window to catch errors or time-sensitive replies.
 7. Review weekly performance against targets. Swap underperforming scheduled content for higher-potential alternatives.
 8. Publish a monthly social performance summary with recommendations for the next period's content mix adjustments.

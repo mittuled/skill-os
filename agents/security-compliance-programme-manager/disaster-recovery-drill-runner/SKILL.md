@@ -35,11 +35,11 @@ Plans and executes disaster recovery drills to validate that backup restoration,
 
 ## Workflow
 
-1. **Drill Planning**: Define the drill scope (full failover vs. partial restoration vs. tabletop exercise), target systems, success criteria (RTO/RPO achievement), participants, and communication plan. Coordinate with engineering to select a drill window that minimizes production risk. Deliverable: drill plan document with scope, timeline, success criteria, and rollback procedures.
-2. **Pre-Drill Validation**: Verify that backup systems are current, failover configurations are up to date, and all participants understand their roles. Confirm that monitoring and alerting will capture drill metrics. Deliverable: pre-drill readiness checklist with sign-off from each responsible team.
-3. **Drill Execution**: Execute the drill according to the plan. Monitor backup restoration times, failover switchover duration, data integrity verification, and communication effectiveness. Document deviations from the plan and any issues encountered in real time. Deliverable: drill execution log with timestamped actions and observations.
-4. **Results Analysis and Reporting**: Compare actual recovery times against RTO/RPO targets. Identify gaps where procedures failed, took longer than expected, or were unclear. Calculate actual vs. documented recovery metrics. Deliverable: DR drill results report with pass/fail per success criterion, gap analysis, and lessons learned.
-5. **Remediation Tracking**: Create remediation items for each identified gap. Update DR procedures to reflect lessons learned. Schedule follow-up testing for any failed recovery scenarios. Deliverable: remediation action items with owners and deadlines, and updated DR procedures.
+1. **Drill Planning**: Define drill scope (full failover, partial restoration, or tabletop), target systems with per-system RTO/RPO targets, participants, communication plan, and rollback procedures. Coordinate drill window with engineering. Deliverable: drill plan document.
+2. **Pre-Drill Validation**: Verify backups current, failover configurations up to date, participants briefed on roles. Confirm monitoring will capture drill metrics (restoration times, failover duration, data integrity). Deliverable: pre-drill readiness checklist with team sign-offs.
+3. **Drill Execution**: Execute per plan. Capture timestamped actions: backup restoration, replica promotion, application reconnection, health check confirmation. Document all deviations and issues in real time. Deliverable: drill execution log.
+4. **Scoring and Reporting**: Apply scoring rubric at `references/scoring-rubric.md` to evaluate drill quality across planning, realism, RTO/RPO achievement, and remediation. Produce report using template at `assets/dr-drill-report-template.md`. Compare actual vs. target metrics per system. Deliverable: scored DR drill results report per SOC 2 A1.3 and ISO 27001 A.17.1.3.
+5. **Remediation Tracking**: Create remediation items for each gap with root cause analysis. Update DR procedures for lessons learned. Schedule follow-up drill to validate fixes. Deliverable: remediation action items with owners and deadlines.
 
 ## Anti-Patterns
 

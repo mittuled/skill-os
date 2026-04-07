@@ -31,14 +31,14 @@ Plans and produces the annual sales kickoff event, equipping the sales organisat
 
 1. Align with sales leadership on SKO objectives: strategy alignment, product training, skills development, recognition, and team building. Lock dates and format.
 2. Secure the venue or virtual platform. For in-person events, negotiate accommodation, AV, and catering. For virtual, select a platform that supports breakout rooms and engagement tools.
-3. Design the agenda with sales leadership: keynotes, product deep-dives, competitive workshops, role-play sessions, recognition ceremonies, and social events. Balance content density with energy management.
-4. Coordinate content owners: product marketing for positioning and battle cards, product for roadmap, enablement for training modules, and leadership for vision and targets.
+3. Design the agenda with sales leadership following the 3-day framework and time allocation targets in `references/framework.md`: keynotes, product deep-dives, competitive workshops, role-play sessions, recognition ceremonies, and social events. Balance content density with energy management.
+4. Coordinate content owners using the content owner coordination matrix in `references/framework.md`: product marketing for positioning and battle cards, product for roadmap, enablement for training modules, and leadership for vision and targets.
 5. Produce session materials: slide decks, workshop handouts, role-play scenarios, and pre-read packets. Distribute pre-reads at least one week before the event.
 6. Brief all speakers on format, time limits, and audience expectations. Schedule rehearsals for keynotes and high-stakes sessions.
 7. Execute the event: manage the run-of-show, coordinate speaker transitions, facilitate workshops, and troubleshoot logistics in real-time.
 8. Capture key content: record sessions for absent team members, photograph recognition moments, and document Q&A themes.
 9. Collect structured feedback from attendees within 48 hours: session ratings, content usefulness, and suggestions for next year.
-10. Deliver the post-SKO package: session recordings, updated playbooks, action items with owners, and the feedback analysis to sales leadership.
+10. Deliver the post-SKO package using `assets/sko-plan-template.md`: session recordings, updated playbooks, action items with owners, and the feedback analysis to sales leadership. Use `references/checklist.md` to verify all post-SKO steps are complete.
 
 ## Anti-Patterns
 

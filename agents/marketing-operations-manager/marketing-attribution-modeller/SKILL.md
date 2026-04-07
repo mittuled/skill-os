@@ -36,12 +36,12 @@ Builds and maintains the multi-touch attribution model that assigns pipeline and
 
 ## Workflow
 
-1. **Audit touchpoint tracking**: Inventory all marketing touchpoints -- paid ads, organic content, email, events, webinars, direct mail, sales-assisted. Verify that each touchpoint captures UTMs, tracking pixels, or CRM activity records. Deliverable: touchpoint tracking audit with gap analysis.
-2. **Select attribution methodology**: Evaluate attribution models (first-touch, last-touch, linear, time-decay, position-based, data-driven) against the company's sales cycle length, touchpoint volume, and data maturity. Recommend the model that best balances accuracy with implementability. Deliverable: attribution methodology recommendation with rationale.
-3. **Implement the model**: Configure the attribution model in the analytics or CRM platform. Map touchpoints to attribution credit rules. Build the data pipeline from ad platforms, marketing automation, and CRM into the attribution engine. Deliverable: live attribution model with data flowing.
-4. **Validate accuracy**: Compare attribution output against known deals where the buyer journey is well-documented. Check for common errors -- double-counting, missing touchpoints, misassigned credit. Deliverable: validation report with accuracy assessment.
-5. **Build attribution reporting**: Create dashboards showing pipeline and revenue attributed by channel, campaign, and content piece. Include time-series views to show attribution trends. Deliverable: attribution dashboard accessible to marketing leadership.
-6. **Establish governance**: Document the attribution methodology, update cadence, and dispute resolution process. Schedule quarterly reviews to recalibrate weights as the marketing mix evolves. Deliverable: attribution governance document.
+1. **Audit touchpoint tracking**: Inventory all marketing touchpoints against the tracking requirements in [`references/framework.md`](references/framework.md). Verify each touchpoint captures UTMs, pixels, or CRM activity records. Flag any channel with < 90% coverage. Deliverable: touchpoint tracking audit with gap analysis.
+2. **Select attribution methodology**: Use the model comparison table and decision tree in [`references/framework.md`](references/framework.md) to select the model that matches the company's sales cycle length and data maturity. Deliverable: attribution methodology recommendation with rationale.
+3. **Implement the model**: Configure the attribution model following the data pipeline architecture in [`references/framework.md`](references/framework.md). Map touchpoints to attribution credit rules. Build integrations from ad platforms, MAP, and CRM into the attribution engine. Deliverable: live attribution model with data flowing.
+4. **Validate accuracy**: Run the accuracy validation checks from [`references/framework.md`](references/framework.md) — touchpoint coverage, double-counting check, missing touchpoint audit, and revenue reconciliation. Deliverable: validation report with accuracy assessment against thresholds.
+5. **Build attribution reporting**: Create dashboards across the reporting dimensions in [`references/framework.md`](references/framework.md) — channel, campaign, content, and stage. Deliverable: attribution dashboard accessible to marketing leadership.
+6. **Establish governance**: Document methodology and implement governance standards from [`references/framework.md`](references/framework.md). Schedule quarterly reviews. Deliverable: attribution governance document.
 
 ## Anti-Patterns
 
