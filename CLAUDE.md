@@ -79,6 +79,34 @@ See `specs/001-enrich-skill-directory/contracts/skill-template.md` for the full 
 
 See `specs/001-enrich-skill-directory/quickstart.md` for the full guide.
 
+## Production-Grade Depth Artifacts
+
+Every enriched skill must have both `references/` and `assets/` subdirectories. Production-grade depth means a practitioner can execute the skill without leaving the repo.
+
+### By skill type
+
+**Assessment skills** (auditor, analyser, reviewer):
+- `references/scoring-rubric.md` — named scoring dimensions, 3-5 levels each, 50-120 lines
+- `assets/<skill-name>-report-template.md` — structured report with sections, placeholders, and example findings, 80-150 lines
+
+**Output skills** (generator, builder, creator, writer):
+- `assets/<output-type>-template.md` — complete document template with realistic placeholder content, 80-150 lines
+- At least one `references/` file — legal basis, style guide, framework, or compliance checklist
+
+**Workflow skills** (orchestrator, runner, coordinator, planner):
+- At least one `references/` file — process framework, signal table, decision tree, or checklist
+- `assets/` file optional but recommended for deliverable templates
+
+### References file standards
+- 50-120 lines with named frameworks (not generic advice)
+- Include concrete examples, thresholds, or decision criteria
+- Name the file for its content: `framework.md`, `signals.md`, `checklist.md`, `scoring-rubric.md`
+
+### Asset template standards
+- 80-150 lines with realistic placeholder content (use `[COMPANY NAME]`, `[DATE]`, `[METRIC]`)
+- Full document structure — headers, tables, sections — not just a skeleton outline
+- Name the file for the output type: `audit-report-template.md`, `nda-template.md`, `campaign-brief-template.md`
+
 ## Validation
 
 ```bash
