@@ -60,7 +60,7 @@ Supporting context exists at three levels, each serving a distinct purpose. **Pe
 
 **Why this priority**: Anthropic's skill-creator demonstrated that the best skills bundle reusable scripts ("If all test cases independently wrote similar helper scripts, that's a strong signal the skill should bundle that script"). The three-tier loading model — metadata always in context, body on trigger, resources on demand — keeps skills lean while enabling unlimited depth. Three levels of context prevent duplication while keeping resources discoverable close to where they're used.
 
-**Independent Test**: For a sample agent (e.g., `general-counsel`), add supporting context at all three levels. Verify: skill-level `references/` in `agents/general-counsel/contract-review/references/` contains a clause taxonomy, agent-level `references/` in `agents/general-counsel/references/` contains a legal methodology doc shared by all the agent's skills, and department-level `references/` in `departments/legal/references/` contains a compliance framework shared by all legal agents.
+**Independent Test**: For a sample agent (e.g., `general-counsel`), add supporting context at all three levels. Verify: skill-level `references/` in `agents/legal/general-counsel/contract-review/references/` contains a clause taxonomy, agent-level `references/` in `agents/legal/general-counsel/references/` contains a legal methodology doc shared by all the agent's skills, and department-level `references/` in `departments/legal/references/` contains a compliance framework shared by all legal agents.
 
 **Acceptance Scenarios**:
 

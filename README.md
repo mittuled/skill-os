@@ -83,7 +83,7 @@ Each `SKILL.md` is self-contained. Load it into your agent's context and the age
 You are an Account Executive. Execute the following skill:
 
 <skill>
-[contents of agents/account-executive/meeting-prep-builder/SKILL.md]
+[contents of agents/sales/account-executive/meeting-prep-builder/SKILL.md]
 </skill>
 
 Context: [your deal context here]

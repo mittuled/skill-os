@@ -175,7 +175,7 @@ Rewrite Engineering skills scoring below 5/5 (generalist checklists → practiti
 
 **Company Tooling Onboarding**
 
-- **FR-001**: A `company-tooling-onboarder` skill MUST exist at `agents/agent-configuration-manager/company-tooling-onboarder/SKILL.md`. It interactively discovers, authenticates, and connects the org's tools via MCP servers or CLI integrations.
+- **FR-001**: A `company-tooling-onboarder` skill MUST exist at `agents/agent-operations/agent-configuration-manager/company-tooling-onboarder/SKILL.md`. It interactively discovers, authenticates, and connects the org's tools via MCP servers or CLI integrations.
 - **FR-002**: The onboarding skill MUST cover standard tool categories: communication (Slack, Teams), source control (GitHub, GitLab), project management (Linear, Jira), observability (Datadog, Grafana), CRM (HubSpot, Salesforce), documentation (Notion, Confluence), finance (QuickBooks, Xero), legal (DocuSign, Ironclad), and design (Figma).
 - **FR-003**: For tools without existing MCP servers, the onboarding skill MUST offer to create a custom wrapper by delegating to the `mcp-server-builder` skill.
 - **FR-003a**: Credentials (API keys, OAuth tokens) MUST be stored in the consuming AI platform's native secret store (environment variables, `.env` files, platform vault). skill-os MUST NOT store secrets in the repo, in `allowed-tools.yaml`, or in any committed file. The onboarding skill configures the platform's secret store during setup and records only tool names, MCP endpoints, and connection status.
@@ -184,18 +184,18 @@ Rewrite Engineering skills scoring below 5/5 (generalist checklists → practiti
 **Tool Policy Management**
 
 - **FR-004**: A structured `allowed-tools.yaml` file MUST exist at repo root defining tool access at four levels: `company-wide` (all agents), `department` (agents in a specific department), `agent` (a specific agent role), and `skill` (a specific skill). Each entry includes `name`, `mcp` (boolean), and optional `scopes` (list of permitted actions). The file MUST include a `schema_version: 1` field at the top; the validation script checks compatibility and warns on unknown schema versions.
-- **FR-005**: A `tool-policy-manager` skill MUST exist at `agents/agent-configuration-manager/tool-policy-manager/SKILL.md` for ongoing governance of `allowed-tools.yaml`.
+- **FR-005**: A `tool-policy-manager` skill MUST exist at `agents/agent-operations/agent-configuration-manager/tool-policy-manager/SKILL.md` for ongoing governance of `allowed-tools.yaml`.
 - **FR-006**: Every agent directory's Agent header MUST include a tool policy reference: `Tool policy: [allowed-tools.yaml](../../allowed-tools.yaml)`. This is added at the agent level, not per-skill — agents inherit their tool permissions.
 - **FR-007**: The validation script MUST validate `allowed-tools.yaml`: proper YAML syntax, referenced departments exist in `departments/`, referenced agents exist in `agents/`.
 
 **MCP Server Builder**
 
-- **FR-008**: An `mcp-server-builder` skill MUST exist at `agents/skill-builder/mcp-server-builder/SKILL.md`. It generates MCP server wrappers from API documentation (OpenAPI, REST docs, or SDK references).
+- **FR-008**: An `mcp-server-builder` skill MUST exist at `agents/agent-operations/skill-builder/mcp-server-builder/SKILL.md`. It generates MCP server wrappers from API documentation (OpenAPI, REST docs, or SDK references).
 - **FR-009**: Generated MCP servers MUST be validated against the source API before the tool is marked as connected.
 
 **Tool Health Checker**
 
-- **FR-010**: A `tool-health-checker` skill MUST exist at `agents/agent-operations-manager/tool-health-checker/SKILL.md`. It verifies connectivity, credential validity, and MCP server responsiveness for all connected tools.
+- **FR-010**: A `tool-health-checker` skill MUST exist at `agents/agent-operations/agent-operations-manager/tool-health-checker/SKILL.md`. It verifies connectivity, credential validity, and MCP server responsiveness for all connected tools.
 - **FR-011**: The health checker MUST produce a structured report: tool name, status (healthy/degraded/unreachable), last checked timestamp, and remediation steps for failures.
 
 **Triggers Frontmatter Field**

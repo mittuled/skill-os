@@ -102,7 +102,7 @@ Then reference it in the Workflow: "Apply the scoring rubric at `references/scor
 Create `examples/` in the skill's subdirectory with input/output pairs:
 
 ```
-agents/devops-infrastructure-engineer/ci-cd-pipeline-builder/
+agents/engineering/devops-infrastructure-engineer/ci-cd-pipeline-builder/
 ├── SKILL.md
 └── examples/
     ├── github-actions-basic/

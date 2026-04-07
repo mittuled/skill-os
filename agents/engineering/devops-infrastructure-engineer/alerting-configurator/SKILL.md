@@ -1,0 +1,58 @@
+---
+name: alerting-configurator
+description: Ensures every critical failure triggers the right alert to the right person at the right time.
+department: engineering
+agent: devops-infrastructure-engineer
+version: 1.0.0
+complexity: medium
+related-skills: []
+---
+
+# alerting-configurator
+
+## Agent
+
+L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
+
+Department ethos: [ideal-engineering.md](../../../../departments/engineering/ideal-engineering.md)
+Tool policy: [allowed-tools.yaml](../../../../allowed-tools.yaml)
+
+## Skill Description
+
+The DevOps / Infrastructure Engineer configures alerts for infrastructure and application health metrics.
+
+## When to Use
+
+- A new service is being deployed and needs alerting before going live.
+- Existing alerts are producing too many false positives or missing real incidents.
+- SLOs have been defined or updated and alerts must reflect the new thresholds.
+- A post-incident review identified missing or misconfigured alerts.
+
+## Workflow
+
+1. Gather the SLOs, SLIs, and critical health metrics for the target service or infrastructure component.
+2. Define alert thresholds based on SLO budgets, historical baselines, and known failure modes.
+3. Configure alert routing: determine which team or on-call rotation receives each alert and via which channel.
+4. Set severity levels (critical, warning, info) with distinct response expectations for each.
+5. Implement alert deduplication and grouping rules to reduce noise.
+6. Add runbook links to every alert so responders have immediate context.
+7. Test each alert by simulating the trigger condition and verifying delivery.
+8. Document the alert configuration in the service's operational documentation.
+   - **Deliverable**: Configured and tested alert rules with routing, severity, runbook links, and documentation.
+
+## Anti-Patterns
+
+- **Alerting on every metric without prioritization.** *Why*: Alert fatigue causes responders to ignore or silence alerts, including critical ones.
+- **Setting static thresholds without historical context.** *Why*: Thresholds that ignore normal variance produce false positives during benign traffic fluctuations.
+- **Creating alerts without runbook links.** *Why*: An alert without context forces the responder to investigate from scratch under pressure, increasing mean time to resolution.
+- **Skipping alert testing.** *Why*: Untested alerts may never fire due to misconfiguration, creating a false sense of coverage.
+
+## Output
+
+**Success**: A fully configured alerting setup with tested rules, correct routing, severity levels, and runbook links for every alert.
+
+**Failure**: A gap analysis listing which metrics lack alerting, which alerts failed testing, and recommended fixes.
+
+## Related Skills
+
+*None defined yet.*

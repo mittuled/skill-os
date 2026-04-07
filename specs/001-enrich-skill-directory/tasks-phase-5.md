@@ -25,92 +25,92 @@
 
 ## Phase 5.1: VP Agent Operations (4 skills)
 
-- [ ] T454 Enrich `agent-workforce-planner` — `agents/vp-agent-operations/agent-workforce-planner/SKILL.md` (complex). 1 commit.
-- [ ] T455 Enrich `agent-performance-framework-designer` — `agents/vp-agent-operations/agent-performance-framework-designer/SKILL.md` (complex). 1 commit.
-- [ ] T456 Enrich `agent-ops-budget-owner` — `agents/vp-agent-operations/agent-ops-budget-owner/SKILL.md` (medium). 1 commit.
-- [ ] T457 Enrich `agent-capability-roadmap-setter` — `agents/vp-agent-operations/agent-capability-roadmap-setter/SKILL.md` (complex). 1 commit.
+- [ ] T454 Enrich `agent-workforce-planner` — `agents/agent-operations/vp-agent-operations/agent-workforce-planner/SKILL.md` (complex). 1 commit.
+- [ ] T455 Enrich `agent-performance-framework-designer` — `agents/agent-operations/vp-agent-operations/agent-performance-framework-designer/SKILL.md` (complex). 1 commit.
+- [ ] T456 Enrich `agent-ops-budget-owner` — `agents/agent-operations/vp-agent-operations/agent-ops-budget-owner/SKILL.md` (medium). 1 commit.
+- [ ] T457 Enrich `agent-capability-roadmap-setter` — `agents/agent-operations/vp-agent-operations/agent-capability-roadmap-setter/SKILL.md` (complex). 1 commit.
 
 ## Phase 5.2: Agent Operations Manager (4 skills)
 
-- [ ] T458 [P] Enrich `agent-lifecycle-manager` — `agents/agent-operations-manager/agent-lifecycle-manager/SKILL.md` (medium). 1 commit.
-- [ ] T459 [P] Enrich `agent-performance-reviewer` — `agents/agent-operations-manager/agent-performance-reviewer/SKILL.md` (medium). 1 commit.
-- [ ] T460 [P] Enrich `agent-incident-responder` — `agents/agent-operations-manager/agent-incident-responder/SKILL.md` (complex). 1 commit.
-- [ ] T461 [P] Enrich `agent-capacity-planner` — `agents/agent-operations-manager/agent-capacity-planner/SKILL.md` (medium). 1 commit.
+- [ ] T458 [P] Enrich `agent-lifecycle-manager` — `agents/agent-operations/agent-operations-manager/agent-lifecycle-manager/SKILL.md` (medium). 1 commit.
+- [ ] T459 [P] Enrich `agent-performance-reviewer` — `agents/agent-operations/agent-operations-manager/agent-performance-reviewer/SKILL.md` (medium). 1 commit.
+- [ ] T460 [P] Enrich `agent-incident-responder` — `agents/agent-operations/agent-operations-manager/agent-incident-responder/SKILL.md` (complex). 1 commit.
+- [ ] T461 [P] Enrich `agent-capacity-planner` — `agents/agent-operations/agent-operations-manager/agent-capacity-planner/SKILL.md` (medium). 1 commit.
 
 ## Phase 5.3: Skill Builder Lead + Skill Builder (3 skills)
 
-- [ ] T462 [P] Enrich `skill-architecture-designer` — `agents/skill-builder-lead/skill-architecture-designer/SKILL.md` (complex). 1 commit.
-- [ ] T463 [P] Enrich `skill-quality-standards-setter` — `agents/skill-builder-lead/skill-quality-standards-setter/SKILL.md` (complex). 1 commit.
-- [ ] T464 [P] Enrich `skill-author` — `agents/skill-builder/skill-author/SKILL.md` (medium). 1 commit.
+- [ ] T462 [P] Enrich `skill-architecture-designer` — `agents/agent-operations/skill-builder-lead/skill-architecture-designer/SKILL.md` (complex). 1 commit.
+- [ ] T463 [P] Enrich `skill-quality-standards-setter` — `agents/agent-operations/skill-builder-lead/skill-quality-standards-setter/SKILL.md` (complex). 1 commit.
+- [ ] T464 [P] Enrich `skill-author` — `agents/agent-operations/skill-builder/skill-author/SKILL.md` (medium). 1 commit.
 
 ## Phase 5.4: Agent Trainer / Skill Optimizer (5 skills)
 
-- [ ] T465 [P] Enrich `prompt-engineer` — `agents/agent-trainer-skill-optimizer/prompt-engineer/SKILL.md` (complex). 1 commit.
-- [ ] T466 [P] Enrich `evaluation-suite-builder` — `agents/agent-trainer-skill-optimizer/evaluation-suite-builder/SKILL.md` (complex). 1 commit.
-- [ ] T467 [P] Enrich `fine-tuning-coordinator` — `agents/agent-trainer-skill-optimizer/fine-tuning-coordinator/SKILL.md` (complex). 1 commit.
-- [ ] T468 [P] Enrich `agent-behaviour-analyst` — `agents/agent-trainer-skill-optimizer/agent-behaviour-analyst/SKILL.md` (medium). 1 commit.
-- [ ] T469 [P] Enrich `skill-performance-benchmarker` — `agents/agent-trainer-skill-optimizer/skill-performance-benchmarker/SKILL.md` (complex). 1 commit.
+- [ ] T465 [P] Enrich `prompt-engineer` — `agents/agent-operations/agent-trainer-skill-optimizer/prompt-engineer/SKILL.md` (complex). 1 commit.
+- [ ] T466 [P] Enrich `evaluation-suite-builder` — `agents/agent-operations/agent-trainer-skill-optimizer/evaluation-suite-builder/SKILL.md` (complex). 1 commit.
+- [ ] T467 [P] Enrich `fine-tuning-coordinator` — `agents/agent-operations/agent-trainer-skill-optimizer/fine-tuning-coordinator/SKILL.md` (complex). 1 commit.
+- [ ] T468 [P] Enrich `agent-behaviour-analyst` — `agents/agent-operations/agent-trainer-skill-optimizer/agent-behaviour-analyst/SKILL.md` (medium). 1 commit.
+- [ ] T469 [P] Enrich `skill-performance-benchmarker` — `agents/agent-operations/agent-trainer-skill-optimizer/skill-performance-benchmarker/SKILL.md` (complex). 1 commit.
 
 ## Phase 5.5: Agent Configuration Manager (7 skills)
 
-- [ ] T470 [P] Enrich `agent-provisioner` — `agents/agent-configuration-manager/agent-provisioner/SKILL.md` (medium). 1 commit.
-- [ ] T471 [P] Enrich `tool-access-controller` — `agents/agent-configuration-manager/tool-access-controller/SKILL.md` (medium). 1 commit.
-- [ ] T472 [P] Enrich `model-routing-configurator` — `agents/agent-configuration-manager/model-routing-configurator/SKILL.md` (complex). 1 commit.
-- [ ] T473 [P] Enrich `context-window-optimizer` — `agents/agent-configuration-manager/context-window-optimizer/SKILL.md` (complex). 1 commit.
-- [ ] T474 [P] Enrich `guardrail-policy-setter` — `agents/agent-configuration-manager/guardrail-policy-setter/SKILL.md` (complex). 1 commit.
-- [ ] T475 [P] Enrich `agent-version-manager` — `agents/agent-configuration-manager/agent-version-manager/SKILL.md` (medium). 1 commit.
-- [ ] T476 [P] Enrich `multi-agent-orchestration-designer` — `agents/agent-configuration-manager/multi-agent-orchestration-designer/SKILL.md` (complex). 1 commit.
+- [ ] T470 [P] Enrich `agent-provisioner` — `agents/agent-operations/agent-configuration-manager/agent-provisioner/SKILL.md` (medium). 1 commit.
+- [ ] T471 [P] Enrich `tool-access-controller` — `agents/agent-operations/agent-configuration-manager/tool-access-controller/SKILL.md` (medium). 1 commit.
+- [ ] T472 [P] Enrich `model-routing-configurator` — `agents/agent-operations/agent-configuration-manager/model-routing-configurator/SKILL.md` (complex). 1 commit.
+- [ ] T473 [P] Enrich `context-window-optimizer` — `agents/agent-operations/agent-configuration-manager/context-window-optimizer/SKILL.md` (complex). 1 commit.
+- [ ] T474 [P] Enrich `guardrail-policy-setter` — `agents/agent-operations/agent-configuration-manager/guardrail-policy-setter/SKILL.md` (complex). 1 commit.
+- [ ] T475 [P] Enrich `agent-version-manager` — `agents/agent-operations/agent-configuration-manager/agent-version-manager/SKILL.md` (medium). 1 commit.
+- [ ] T476 [P] Enrich `multi-agent-orchestration-designer` — `agents/agent-operations/agent-configuration-manager/multi-agent-orchestration-designer/SKILL.md` (complex). 1 commit.
 
 ## Phase 5.6: Head of Customer Success (5 skills)
 
-- [ ] T477 Enrich `cs-strategy-owner` — `agents/head-of-customer-success/cs-strategy-owner/SKILL.md` (complex). 1 commit.
-- [ ] T478 Enrich `churn-prediction-model-owner` — `agents/head-of-customer-success/churn-prediction-model-owner/SKILL.md` (complex). 1 commit.
-- [ ] T479 Enrich `cs-playbook-author` — `agents/head-of-customer-success/cs-playbook-author/SKILL.md` (complex). 1 commit.
-- [ ] T480 Enrich `voice-of-customer-programme-leader` — `agents/head-of-customer-success/voice-of-customer-programme-leader/SKILL.md` (complex). 1 commit.
-- [ ] T481 Enrich `cs-hiring-and-enablement-lead` — `agents/head-of-customer-success/cs-hiring-and-enablement-lead/SKILL.md` (medium). 1 commit.
+- [ ] T477 Enrich `cs-strategy-owner` — `agents/customer-success/head-of-customer-success/cs-strategy-owner/SKILL.md` (complex). 1 commit.
+- [ ] T478 Enrich `churn-prediction-model-owner` — `agents/customer-success/head-of-customer-success/churn-prediction-model-owner/SKILL.md` (complex). 1 commit.
+- [ ] T479 Enrich `cs-playbook-author` — `agents/customer-success/head-of-customer-success/cs-playbook-author/SKILL.md` (complex). 1 commit.
+- [ ] T480 Enrich `voice-of-customer-programme-leader` — `agents/customer-success/head-of-customer-success/voice-of-customer-programme-leader/SKILL.md` (complex). 1 commit.
+- [ ] T481 Enrich `cs-hiring-and-enablement-lead` — `agents/customer-success/head-of-customer-success/cs-hiring-and-enablement-lead/SKILL.md` (medium). 1 commit.
 
 ## Phase 5.7: CS Manager + CSM + UAT + Programs + TAM (16 skills)
 
-- [ ] T482 [P] Enrich `book-of-business-reviewer` — `agents/cs-manager/book-of-business-reviewer/SKILL.md` (medium). 1 commit.
-- [ ] T483 [P] Enrich `escalation-handler` — `agents/cs-manager/escalation-handler/SKILL.md` (complex). 1 commit.
-- [ ] T484 [P] Enrich `cs-team-coach` — `agents/cs-manager/cs-team-coach/SKILL.md` (medium). 1 commit.
-- [ ] T485 [P] Enrich `renewal-forecaster` — `agents/cs-manager/renewal-forecaster/SKILL.md` (medium). 1 commit.
-- [ ] T486 [P] Enrich `onboarding-orchestrator` — `agents/customer-success-manager/onboarding-orchestrator/SKILL.md` (complex). 1 commit.
-- [ ] T487 [P] Enrich `health-score-monitor` — `agents/customer-success-manager/health-score-monitor/SKILL.md` (medium). 1 commit.
-- [ ] T488 [P] Enrich `qbr-presenter` — `agents/customer-success-manager/qbr-presenter/SKILL.md` (complex). 1 commit.
-- [ ] T489 [P] Enrich `expansion-opportunity-identifier` — `agents/customer-success-manager/expansion-opportunity-identifier/SKILL.md` (medium). 1 commit.
+- [ ] T482 [P] Enrich `book-of-business-reviewer` — `agents/customer-success/cs-manager/book-of-business-reviewer/SKILL.md` (medium). 1 commit.
+- [ ] T483 [P] Enrich `escalation-handler` — `agents/customer-success/cs-manager/escalation-handler/SKILL.md` (complex). 1 commit.
+- [ ] T484 [P] Enrich `cs-team-coach` — `agents/customer-success/cs-manager/cs-team-coach/SKILL.md` (medium). 1 commit.
+- [ ] T485 [P] Enrich `renewal-forecaster` — `agents/customer-success/cs-manager/renewal-forecaster/SKILL.md` (medium). 1 commit.
+- [ ] T486 [P] Enrich `onboarding-orchestrator` — `agents/customer-success/customer-success-manager/onboarding-orchestrator/SKILL.md` (complex). 1 commit.
+- [ ] T487 [P] Enrich `health-score-monitor` — `agents/customer-success/customer-success-manager/health-score-monitor/SKILL.md` (medium). 1 commit.
+- [ ] T488 [P] Enrich `qbr-presenter` — `agents/customer-success/customer-success-manager/qbr-presenter/SKILL.md` (complex). 1 commit.
+- [ ] T489 [P] Enrich `expansion-opportunity-identifier` — `agents/customer-success/customer-success-manager/expansion-opportunity-identifier/SKILL.md` (medium). 1 commit.
 - [ ] T490 [P] Enrich `uat-test-coordinator` — `agents/uat-coordinator/uat-test-coordinator/SKILL.md` (medium). 1 commit.
-- [ ] T491 [P] Enrich `customer-education-programme-builder` — `agents/customer-programs-manager/customer-education-programme-builder/SKILL.md` (complex). 1 commit.
-- [ ] T492 [P] Enrich `customer-community-programme-manager` — `agents/customer-programs-manager/customer-community-programme-manager/SKILL.md` (medium). 1 commit.
-- [ ] T493 [P] Enrich `advocacy-programme-runner` — `agents/customer-programs-manager/advocacy-programme-runner/SKILL.md` (medium). 1 commit.
-- [ ] T494 [P] Enrich `customer-feedback-loop-closer` — `agents/customer-programs-manager/customer-feedback-loop-closer/SKILL.md` (medium). 1 commit.
-- [ ] T495 [P] Enrich `technical-health-assessor` — `agents/technical-account-manager/technical-health-assessor/SKILL.md` (complex). 1 commit.
-- [ ] T496 [P] Enrich `integration-troubleshooter` — `agents/technical-account-manager/integration-troubleshooter/SKILL.md` (complex). 1 commit.
-- [ ] T497 [P] Enrich `custom-solution-architect` — `agents/technical-account-manager/custom-solution-architect/SKILL.md` (complex). 1 commit.
+- [ ] T491 [P] Enrich `customer-education-programme-builder` — `agents/customer-success/customer-programs-manager/customer-education-programme-builder/SKILL.md` (complex). 1 commit.
+- [ ] T492 [P] Enrich `customer-community-programme-manager` — `agents/customer-success/customer-programs-manager/customer-community-programme-manager/SKILL.md` (medium). 1 commit.
+- [ ] T493 [P] Enrich `advocacy-programme-runner` — `agents/customer-success/customer-programs-manager/advocacy-programme-runner/SKILL.md` (medium). 1 commit.
+- [ ] T494 [P] Enrich `customer-feedback-loop-closer` — `agents/customer-success/customer-programs-manager/customer-feedback-loop-closer/SKILL.md` (medium). 1 commit.
+- [ ] T495 [P] Enrich `technical-health-assessor` — `agents/customer-success/technical-account-manager/technical-health-assessor/SKILL.md` (complex). 1 commit.
+- [ ] T496 [P] Enrich `integration-troubleshooter` — `agents/customer-success/technical-account-manager/integration-troubleshooter/SKILL.md` (complex). 1 commit.
+- [ ] T497 [P] Enrich `custom-solution-architect` — `agents/customer-success/technical-account-manager/custom-solution-architect/SKILL.md` (complex). 1 commit.
 
 ## Phase 5.8: Customer Support (9 skills)
 
-- [ ] T498 [P] Enrich `support-workflow-designer` — `agents/support-manager/support-workflow-designer/SKILL.md` (complex). 1 commit.
-- [ ] T499 [P] Enrich `sla-monitor` — `agents/support-manager/sla-monitor/SKILL.md` (medium). 1 commit.
-- [ ] T500 [P] Enrich `support-quality-auditor` — `agents/support-manager/support-quality-auditor/SKILL.md` (medium). 1 commit.
-- [ ] T501 [P] Enrich `knowledge-base-curator` — `agents/support-manager/knowledge-base-curator/SKILL.md` (medium). 1 commit.
-- [ ] T502 [P] Enrich `ticket-triager` — `agents/support-agent/ticket-triager/SKILL.md` (medium). 1 commit.
-- [ ] T503 [P] Enrich `issue-resolver` — `agents/support-agent/issue-resolver/SKILL.md` (medium). 1 commit.
-- [ ] T504 [P] Enrich `escalation-router` — `agents/support-agent/escalation-router/SKILL.md` (simple). 1 commit.
-- [ ] T505 [P] Enrich `customer-communicator` — `agents/support-agent/customer-communicator/SKILL.md` (medium). 1 commit.
-- [ ] T506 [P] Enrich `known-issue-documenter` — `agents/support-agent/known-issue-documenter/SKILL.md` (simple). 1 commit.
+- [ ] T498 [P] Enrich `support-workflow-designer` — `agents/customer-support/support-manager/support-workflow-designer/SKILL.md` (complex). 1 commit.
+- [ ] T499 [P] Enrich `sla-monitor` — `agents/customer-support/support-manager/sla-monitor/SKILL.md` (medium). 1 commit.
+- [ ] T500 [P] Enrich `support-quality-auditor` — `agents/customer-support/support-manager/support-quality-auditor/SKILL.md` (medium). 1 commit.
+- [ ] T501 [P] Enrich `knowledge-base-curator` — `agents/customer-support/support-manager/knowledge-base-curator/SKILL.md` (medium). 1 commit.
+- [ ] T502 [P] Enrich `ticket-triager` — `agents/customer-support/support-agent/ticket-triager/SKILL.md` (medium). 1 commit.
+- [ ] T503 [P] Enrich `issue-resolver` — `agents/customer-support/support-agent/issue-resolver/SKILL.md` (medium). 1 commit.
+- [ ] T504 [P] Enrich `escalation-router` — `agents/customer-support/support-agent/escalation-router/SKILL.md` (simple). 1 commit.
+- [ ] T505 [P] Enrich `customer-communicator` — `agents/customer-support/support-agent/customer-communicator/SKILL.md` (medium). 1 commit.
+- [ ] T506 [P] Enrich `known-issue-documenter` — `agents/customer-support/support-agent/known-issue-documenter/SKILL.md` (simple). 1 commit.
 
 ## Phase 5.9: Technical Operations (9 skills)
 
-- [ ] T507 [P] Enrich `it-asset-manager` — `agents/it-operations-manager/it-asset-manager/SKILL.md` (medium). 1 commit.
-- [ ] T508 [P] Enrich `identity-access-administrator` — `agents/it-operations-manager/identity-access-administrator/SKILL.md` (medium). 1 commit.
-- [ ] T509 [P] Enrich `it-policy-enforcer` — `agents/it-operations-manager/it-policy-enforcer/SKILL.md` (medium). 1 commit.
-- [ ] T510 [P] Enrich `it-vendor-relationship-manager` — `agents/it-operations-manager/it-vendor-relationship-manager/SKILL.md` (medium). 1 commit.
-- [ ] T511 [P] Enrich `helpdesk-responder` — `agents/it-support-specialist/helpdesk-responder/SKILL.md` (simple). 1 commit.
-- [ ] T512 [P] Enrich `vendor-contract-manager` — `agents/vendor-management-procurement/vendor-contract-manager/SKILL.md` (complex). 1 commit.
-- [ ] T513 [P] Enrich `vendor-risk-assessor` — `agents/vendor-management-procurement/vendor-risk-assessor/SKILL.md` (complex). 1 commit.
-- [ ] T514 [P] Enrich `procurement-process-runner` — `agents/vendor-management-procurement/procurement-process-runner/SKILL.md` (medium). 1 commit.
-- [ ] T515 [P] Enrich `vendor-performance-reviewer` — `agents/vendor-management-procurement/vendor-performance-reviewer/SKILL.md` (medium). 1 commit.
+- [ ] T507 [P] Enrich `it-asset-manager` — `agents/technical-operations/it-operations-manager/it-asset-manager/SKILL.md` (medium). 1 commit.
+- [ ] T508 [P] Enrich `identity-access-administrator` — `agents/technical-operations/it-operations-manager/identity-access-administrator/SKILL.md` (medium). 1 commit.
+- [ ] T509 [P] Enrich `it-policy-enforcer` — `agents/technical-operations/it-operations-manager/it-policy-enforcer/SKILL.md` (medium). 1 commit.
+- [ ] T510 [P] Enrich `it-vendor-relationship-manager` — `agents/technical-operations/it-operations-manager/it-vendor-relationship-manager/SKILL.md` (medium). 1 commit.
+- [ ] T511 [P] Enrich `helpdesk-responder` — `agents/technical-operations/it-support-specialist/helpdesk-responder/SKILL.md` (simple). 1 commit.
+- [ ] T512 [P] Enrich `vendor-contract-manager` — `agents/technical-operations/vendor-management-procurement/vendor-contract-manager/SKILL.md` (complex). 1 commit.
+- [ ] T513 [P] Enrich `vendor-risk-assessor` — `agents/technical-operations/vendor-management-procurement/vendor-risk-assessor/SKILL.md` (complex). 1 commit.
+- [ ] T514 [P] Enrich `procurement-process-runner` — `agents/technical-operations/vendor-management-procurement/procurement-process-runner/SKILL.md` (medium). 1 commit.
+- [ ] T515 [P] Enrich `vendor-performance-reviewer` — `agents/technical-operations/vendor-management-procurement/vendor-performance-reviewer/SKILL.md` (medium). 1 commit.
 
 ## Phase 5.10: Revenue Operations (6 skills)
 
@@ -123,26 +123,26 @@
 
 ## Phase 5.11: Applied Research (5 skills)
 
-- [ ] T522 [P] Enrich `research-agenda-setter` — `agents/applied-research-lead/research-agenda-setter/SKILL.md` (complex). 1 commit.
-- [ ] T523 [P] Enrich `paper-reviewer` — `agents/applied-research-lead/paper-reviewer/SKILL.md` (medium). 1 commit.
-- [ ] T524 [P] Enrich `prototype-researcher` — `agents/applied-research-lead/prototype-researcher/SKILL.md` (complex). 1 commit.
-- [ ] T525 [P] Enrich `research-to-product-translator` — `agents/applied-research-lead/research-to-product-translator/SKILL.md` (complex). 1 commit.
-- [ ] T526 [P] Enrich `research-infrastructure-contributor` — `agents/applied-research-lead/research-infrastructure-contributor/SKILL.md` (medium). 1 commit.
+- [ ] T522 [P] Enrich `research-agenda-setter` — `agents/applied-research/applied-research-lead/research-agenda-setter/SKILL.md` (complex). 1 commit.
+- [ ] T523 [P] Enrich `paper-reviewer` — `agents/applied-research/applied-research-lead/paper-reviewer/SKILL.md` (medium). 1 commit.
+- [ ] T524 [P] Enrich `prototype-researcher` — `agents/applied-research/applied-research-lead/prototype-researcher/SKILL.md` (complex). 1 commit.
+- [ ] T525 [P] Enrich `research-to-product-translator` — `agents/applied-research/applied-research-lead/research-to-product-translator/SKILL.md` (complex). 1 commit.
+- [ ] T526 [P] Enrich `research-infrastructure-contributor` — `agents/applied-research/applied-research-lead/research-infrastructure-contributor/SKILL.md` (medium). 1 commit.
 
 ## Phase 5.12: Account Management (5 skills)
 
-- [ ] T527 [P] Enrich `account-strategy-reviewer` — `agents/account-management-lead/account-strategy-reviewer/SKILL.md` (complex). 1 commit.
-- [ ] T528 [P] Enrich `upsell-cross-sell-playbook-author` — `agents/account-management-lead/upsell-cross-sell-playbook-author/SKILL.md` (complex). 1 commit.
-- [ ] T529 [P] Enrich `account-risk-escalation-handler` — `agents/account-management-lead/account-risk-escalation-handler/SKILL.md` (complex). 1 commit.
-- [ ] T530 [P] Enrich `account-plan-owner` — `agents/account-manager/account-plan-owner/SKILL.md` (medium). 1 commit.
-- [ ] T531 [P] Enrich `renewal-negotiator` — `agents/account-manager/renewal-negotiator/SKILL.md` (complex). 1 commit.
+- [ ] T527 [P] Enrich `account-strategy-reviewer` — `agents/account-management/account-management-lead/account-strategy-reviewer/SKILL.md` (complex). 1 commit.
+- [ ] T528 [P] Enrich `upsell-cross-sell-playbook-author` — `agents/account-management/account-management-lead/upsell-cross-sell-playbook-author/SKILL.md` (complex). 1 commit.
+- [ ] T529 [P] Enrich `account-risk-escalation-handler` — `agents/account-management/account-management-lead/account-risk-escalation-handler/SKILL.md` (complex). 1 commit.
+- [ ] T530 [P] Enrich `account-plan-owner` — `agents/account-management/account-manager/account-plan-owner/SKILL.md` (medium). 1 commit.
+- [ ] T531 [P] Enrich `renewal-negotiator` — `agents/account-management/account-manager/renewal-negotiator/SKILL.md` (complex). 1 commit.
 
 ## Phase 5.13: Implementation (4 skills)
 
-- [ ] T532 [P] Enrich `implementation-methodology-owner` — `agents/implementation-lead/implementation-methodology-owner/SKILL.md` (complex). 1 commit.
-- [ ] T533 [P] Enrich `implementation-capacity-planner` — `agents/implementation-lead/implementation-capacity-planner/SKILL.md` (medium). 1 commit.
-- [ ] T534 [P] Enrich `customer-environment-configurator` — `agents/implementation-engineer/customer-environment-configurator/SKILL.md` (medium). 1 commit.
-- [ ] T535 [P] Enrich `data-migration-executor` — `agents/implementation-engineer/data-migration-executor/SKILL.md` (complex). 1 commit.
+- [ ] T532 [P] Enrich `implementation-methodology-owner` — `agents/implementation/implementation-lead/implementation-methodology-owner/SKILL.md` (complex). 1 commit.
+- [ ] T533 [P] Enrich `implementation-capacity-planner` — `agents/implementation/implementation-lead/implementation-capacity-planner/SKILL.md` (medium). 1 commit.
+- [ ] T534 [P] Enrich `customer-environment-configurator` — `agents/implementation/implementation-engineer/customer-environment-configurator/SKILL.md` (medium). 1 commit.
+- [ ] T535 [P] Enrich `data-migration-executor` — `agents/implementation/implementation-engineer/data-migration-executor/SKILL.md` (complex). 1 commit.
 
 ---
 

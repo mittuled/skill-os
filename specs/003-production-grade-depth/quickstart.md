@@ -12,7 +12,7 @@
 
 ```bash
 # Example: deepening threat-modelling (security-engineer)
-SKILL_DIR="agents/security-engineer/threat-modelling"
+SKILL_DIR="agents/engineering/security-engineer/threat-modelling"
 ```
 
 1. **Read the current SKILL.md** and identify:
@@ -49,7 +49,7 @@ SKILL_DIR="agents/security-engineer/threat-modelling"
 
 ```bash
 # Example: deepening prd-author (product-manager)
-SKILL_DIR="agents/product-manager/prd-author"
+SKILL_DIR="agents/product/product-manager/prd-author"
 ```
 
 1. **Read the current SKILL.md** and identify:
@@ -77,7 +77,7 @@ SKILL_DIR="agents/product-manager/prd-author"
 
 ```bash
 # Example: deepening stakeholder-alignment-driver (vp-product)
-SKILL_DIR="agents/vp-product/stakeholder-alignment-driver"
+SKILL_DIR="agents/product/vp-product/stakeholder-alignment-driver"
 ```
 
 1. **Read the current SKILL.md** and identify:

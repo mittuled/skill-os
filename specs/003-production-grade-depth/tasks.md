@@ -29,16 +29,16 @@
 
 ### New Sales Skills
 
-- [x] T004 [P] [US2] Create `agents/sales-development-rep/prospect-analyst-orchestrator/` — SKILL.md (complex) + `references/scoring-rubric.md` (multi-agent prospect scoring) + `assets/prospect-report-template.md`. 1 commit.
-- [x] T005 [P] [US2] Create `agents/sales-development-rep/company-researcher/` — SKILL.md (medium) + `references/framework.md` (8-dimension firmographic analysis) + `assets/company-profile-template.md`. 1 commit.
-- [x] T006 [P] [US2] Create `agents/sales-development-rep/lead-qualifier/` — SKILL.md (complex) + `references/scoring-rubric.md` (BANT + MEDDIC scoring with signal tables) + `assets/qualification-report-template.md`. 1 commit.
-- [x] T007 [P] [US2] Create `agents/sales-development-rep/decision-maker-mapper/` — SKILL.md (medium) + `references/framework.md` (buying committee theory, org chart mapping) + `assets/stakeholder-map-template.md`. 1 commit.
-- [x] T008 [P] [US2] Create `agents/sales-development-rep/cold-outreach-builder/` — SKILL.md (complex) + `references/framework.md` (AIDA, PAS, BAB frameworks, cadence science) + `assets/outreach-sequence-template.md`. 1 commit.
-- [x] T009 [P] [US2] Create `agents/sales-development-rep/follow-up-sequence-builder/` — SKILL.md (medium) + `references/framework.md` (5 scenario types with cadence matrix) + `assets/follow-up-sequence-template.md`. 1 commit.
-- [x] T010 [P] [US2] Create `agents/account-executive/meeting-prep-builder/` — SKILL.md (medium) + `references/framework.md` (11-section brief structure) + `assets/meeting-brief-template.md`. 1 commit.
-- [x] T011 [P] [US2] Create `agents/account-executive/sales-proposal-builder/` — SKILL.md (complex) + `references/framework.md` (11-section proposal with ROI math) + `assets/sales-proposal-template.md`. 1 commit.
-- [x] T012 [P] [US2] Create `agents/sales-manager/icp-builder/` — SKILL.md (complex) + `references/scoring-rubric.md` (6-dimension ICP with 100-point scoring) + `assets/icp-profile-template.md`. 1 commit.
-- [x] T013 [P] [US2] Create `agents/sales-manager/sales-competitive-intel/` — SKILL.md (medium) + `references/framework.md` (battle card methodology, switching costs) + `assets/battle-card-template.md`. 1 commit.
+- [x] T004 [P] [US2] Create `agents/sales/sales-development-rep/prospect-analyst-orchestrator/` — SKILL.md (complex) + `references/scoring-rubric.md` (multi-agent prospect scoring) + `assets/prospect-report-template.md`. 1 commit.
+- [x] T005 [P] [US2] Create `agents/sales/sales-development-rep/company-researcher/` — SKILL.md (medium) + `references/framework.md` (8-dimension firmographic analysis) + `assets/company-profile-template.md`. 1 commit.
+- [x] T006 [P] [US2] Create `agents/sales/sales-development-rep/lead-qualifier/` — SKILL.md (complex) + `references/scoring-rubric.md` (BANT + MEDDIC scoring with signal tables) + `assets/qualification-report-template.md`. 1 commit.
+- [x] T007 [P] [US2] Create `agents/sales/sales-development-rep/decision-maker-mapper/` — SKILL.md (medium) + `references/framework.md` (buying committee theory, org chart mapping) + `assets/stakeholder-map-template.md`. 1 commit.
+- [x] T008 [P] [US2] Create `agents/sales/sales-development-rep/cold-outreach-builder/` — SKILL.md (complex) + `references/framework.md` (AIDA, PAS, BAB frameworks, cadence science) + `assets/outreach-sequence-template.md`. 1 commit.
+- [x] T009 [P] [US2] Create `agents/sales/sales-development-rep/follow-up-sequence-builder/` — SKILL.md (medium) + `references/framework.md` (5 scenario types with cadence matrix) + `assets/follow-up-sequence-template.md`. 1 commit.
+- [x] T010 [P] [US2] Create `agents/sales/account-executive/meeting-prep-builder/` — SKILL.md (medium) + `references/framework.md` (11-section brief structure) + `assets/meeting-brief-template.md`. 1 commit.
+- [x] T011 [P] [US2] Create `agents/sales/account-executive/sales-proposal-builder/` — SKILL.md (complex) + `references/framework.md` (11-section proposal with ROI math) + `assets/sales-proposal-template.md`. 1 commit.
+- [x] T012 [P] [US2] Create `agents/sales/sales-manager/icp-builder/` — SKILL.md (complex) + `references/scoring-rubric.md` (6-dimension ICP with 100-point scoring) + `assets/icp-profile-template.md`. 1 commit.
+- [x] T013 [P] [US2] Create `agents/sales/sales-manager/sales-competitive-intel/` — SKILL.md (medium) + `references/framework.md` (battle card methodology, switching costs) + `assets/battle-card-template.md`. 1 commit.
 
 ---
 
@@ -50,18 +50,18 @@
 
 ### New Legal Skills
 
-- [x] T014 [P] [US2] Create `agents/corporate-counsel/contract-review-orchestrator/` — SKILL.md (complex) + `references/scoring-rubric.md` (contract safety score, clause taxonomy) + `assets/contract-review-report-template.md`. 1 commit.
-- [x] T015 [P] [US2] Create `agents/corporate-counsel/contract-risk-analyst/` — SKILL.md (complex) + `references/scoring-rubric.md` (clause-by-clause risk scoring) + `references/risk-categories.md` + `assets/risk-analysis-report-template.md`. 1 commit.
-- [x] T016 [P] [US2] Create `agents/corporate-counsel/contract-comparator/` — SKILL.md (medium) + `references/framework.md` (side-by-side diff methodology, favorability analysis) + `assets/comparison-report-template.md`. 1 commit.
-- [x] T017 [P] [US2] Create `agents/corporate-counsel/plain-english-translator/` — SKILL.md (simple) + `references/framework.md` (readability scoring, 8th-grade target, legalese patterns) + `assets/plain-english-output-template.md`. 1 commit.
-- [x] T018 [P] [US2] Create `agents/corporate-counsel/negotiation-strategist/` — SKILL.md (complex) + `references/framework.md` (counter-proposal strategies, concession planning) + `assets/negotiation-strategy-template.md`. 1 commit.
-- [x] T019 [P] [US2] Create `agents/corporate-counsel/missing-protections-finder/` — SKILL.md (medium) + `references/checklist.md` (contract-type-specific protection checklists, universal protections) + `assets/protections-gap-report-template.md`. 1 commit.
-- [x] T020 [P] [US2] Create `agents/corporate-counsel/nda-generator/` — SKILL.md (medium) + `references/framework.md` (4 NDA variants, standard clauses) + `assets/nda-template.md` (with plain English annotations). 1 commit.
-- [x] T021 [P] [US2] Create `agents/product-counsel/terms-of-service-generator/` — SKILL.md (complex) + `references/checklist.md` (GDPR/CCPA compliance checklist) + `assets/terms-of-service-template.md`. 1 commit.
-- [x] T022 [P] [US2] Create `agents/product-counsel/privacy-policy-generator/` — SKILL.md (complex) + `references/checklist.md` (data collection detection, regulatory requirements) + `assets/privacy-policy-template.md`. 1 commit.
-- [x] T023 [P] [US2] Create `agents/corporate-counsel/business-agreement-generator/` — SKILL.md (complex) + `references/framework.md` (10 agreement types, 15-section structure) + `assets/business-agreement-template.md`. 1 commit.
-- [x] T024 [P] [US2] Create `agents/security-compliance-programme-manager/compliance-auditor/` — SKILL.md (complex) + `references/checklist.md` (57 checks across SOC 2, HIPAA, GDPR, CCPA, ISO 27001, PCI DSS, SOX) + `assets/compliance-audit-report-template.md`. 1 commit.
-- [x] T025 [P] [US2] Create `agents/corporate-counsel/freelancer-contract-reviewer/` — SKILL.md (medium) + `references/framework.md` (14 freelancer-specific analysis lenses, IRS 20-factor test) + `assets/freelancer-review-report-template.md`. 1 commit.
+- [x] T014 [P] [US2] Create `agents/legal/corporate-counsel/contract-review-orchestrator/` — SKILL.md (complex) + `references/scoring-rubric.md` (contract safety score, clause taxonomy) + `assets/contract-review-report-template.md`. 1 commit.
+- [x] T015 [P] [US2] Create `agents/legal/corporate-counsel/contract-risk-analyst/` — SKILL.md (complex) + `references/scoring-rubric.md` (clause-by-clause risk scoring) + `references/risk-categories.md` + `assets/risk-analysis-report-template.md`. 1 commit.
+- [x] T016 [P] [US2] Create `agents/legal/corporate-counsel/contract-comparator/` — SKILL.md (medium) + `references/framework.md` (side-by-side diff methodology, favorability analysis) + `assets/comparison-report-template.md`. 1 commit.
+- [x] T017 [P] [US2] Create `agents/legal/corporate-counsel/plain-english-translator/` — SKILL.md (simple) + `references/framework.md` (readability scoring, 8th-grade target, legalese patterns) + `assets/plain-english-output-template.md`. 1 commit.
+- [x] T018 [P] [US2] Create `agents/legal/corporate-counsel/negotiation-strategist/` — SKILL.md (complex) + `references/framework.md` (counter-proposal strategies, concession planning) + `assets/negotiation-strategy-template.md`. 1 commit.
+- [x] T019 [P] [US2] Create `agents/legal/corporate-counsel/missing-protections-finder/` — SKILL.md (medium) + `references/checklist.md` (contract-type-specific protection checklists, universal protections) + `assets/protections-gap-report-template.md`. 1 commit.
+- [x] T020 [P] [US2] Create `agents/legal/corporate-counsel/nda-generator/` — SKILL.md (medium) + `references/framework.md` (4 NDA variants, standard clauses) + `assets/nda-template.md` (with plain English annotations). 1 commit.
+- [x] T021 [P] [US2] Create `agents/legal/product-counsel/terms-of-service-generator/` — SKILL.md (complex) + `references/checklist.md` (GDPR/CCPA compliance checklist) + `assets/terms-of-service-template.md`. 1 commit.
+- [x] T022 [P] [US2] Create `agents/legal/product-counsel/privacy-policy-generator/` — SKILL.md (complex) + `references/checklist.md` (data collection detection, regulatory requirements) + `assets/privacy-policy-template.md`. 1 commit.
+- [x] T023 [P] [US2] Create `agents/legal/corporate-counsel/business-agreement-generator/` — SKILL.md (complex) + `references/framework.md` (10 agreement types, 15-section structure) + `assets/business-agreement-template.md`. 1 commit.
+- [x] T024 [P] [US2] Create `agents/legal/security-compliance-programme-manager/compliance-auditor/` — SKILL.md (complex) + `references/checklist.md` (57 checks across SOC 2, HIPAA, GDPR, CCPA, ISO 27001, PCI DSS, SOX) + `assets/compliance-audit-report-template.md`. 1 commit.
+- [x] T025 [P] [US2] Create `agents/legal/corporate-counsel/freelancer-contract-reviewer/` — SKILL.md (medium) + `references/framework.md` (14 freelancer-specific analysis lenses, IRS 20-factor test) + `assets/freelancer-review-report-template.md`. 1 commit.
 
 ---
 
@@ -106,13 +106,13 @@
 
 ### Phase 6b: New Marketing Skills (US2)
 
-- [x] T038 [P] [US2] Create `agents/vp-marketing/marketing-audit-orchestrator/` — done (refs + assets). 1 commit.
-- [x] T039 [P] [US2] Create `agents/content-marketer/copywriting-analyst/` — done (refs + assets). 1 commit.
-- [x] T040 [P] [US2] Create `agents/demand-gen-manager/ad-campaign-builder/` — done (refs + assets). 1 commit.
-- [ ] T041 [P] [US2] Create `agents/demand-gen-manager/funnel-optimizer/` — not yet created.
-- [ ] T042 [P] [US2] Create `agents/demand-gen-manager/landing-page-auditor/` — not yet created.
-- [ ] T043 [P] [US2] Create `agents/marketing-operations-manager/seo-auditor/` — not yet created.
-- [ ] T044 [P] [US2] Create `agents/brand-designer/brand-voice-analyst/` — not yet created.
+- [x] T038 [P] [US2] Create `agents/marketing/vp-marketing/marketing-audit-orchestrator/` — done (refs + assets). 1 commit.
+- [x] T039 [P] [US2] Create `agents/marketing/content-marketer/copywriting-analyst/` — done (refs + assets). 1 commit.
+- [x] T040 [P] [US2] Create `agents/marketing/demand-gen-manager/ad-campaign-builder/` — done (refs + assets). 1 commit.
+- [ ] T041 [P] [US2] Create `agents/marketing/demand-gen-manager/funnel-optimizer/` — not yet created.
+- [ ] T042 [P] [US2] Create `agents/marketing/demand-gen-manager/landing-page-auditor/` — not yet created.
+- [ ] T043 [P] [US2] Create `agents/marketing/marketing-operations-manager/seo-auditor/` — not yet created.
+- [ ] T044 [P] [US2] Create `agents/design/brand-designer/brand-voice-analyst/` — not yet created.
 
 ### Phase 6c: Deepen Existing Marketing Skills (US1)
 
@@ -294,11 +294,11 @@
 
 ```bash
 # All 10 new Sales skills can be created in parallel:
-Agent 1: "Create prospect-analyst-orchestrator at agents/sales-development-rep/prospect-analyst-orchestrator/"
-Agent 2: "Create company-researcher at agents/sales-development-rep/company-researcher/"
-Agent 3: "Create lead-qualifier at agents/sales-development-rep/lead-qualifier/"
-Agent 4: "Create decision-maker-mapper at agents/sales-development-rep/decision-maker-mapper/"
-Agent 5: "Create cold-outreach-builder at agents/sales-development-rep/cold-outreach-builder/"
+Agent 1: "Create prospect-analyst-orchestrator at agents/sales/sales-development-rep/prospect-analyst-orchestrator/"
+Agent 2: "Create company-researcher at agents/sales/sales-development-rep/company-researcher/"
+Agent 3: "Create lead-qualifier at agents/sales/sales-development-rep/lead-qualifier/"
+Agent 4: "Create decision-maker-mapper at agents/sales/sales-development-rep/decision-maker-mapper/"
+Agent 5: "Create cold-outreach-builder at agents/sales/sales-development-rep/cold-outreach-builder/"
 # ... (all 10 in parallel, different directories)
 ```
 
