@@ -31,7 +31,8 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 | Departments | 13 | **15** |
 | Total skills (original registry) | ~584 | ~584 (preserved) |
 | New skills (marketing additions) | 0 | **19** |
-| Grand total skills | ~584 | **~603** |
+| New skills (003-production-grade-depth) | 0 | **29** |
+| Grand total skills | ~584 | **~632** |
 
 ---
 
@@ -148,7 +149,7 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 **Skills (2):** `session-analysis`, `iteration-design-p`
 
 ### Brand Designer · L2 · `1x`
-**Skills (5):** `brand-foundation`, `positioning-crafter-brand`, `launch-narrative-brand`, `company-name-selection`, `brand-identity-v1`
+**Skills (6):** `brand-foundation`, `positioning-crafter-brand`, `launch-narrative-brand`, `company-name-selection`, `brand-identity-v1`, `brand-voice-analyst`
 
 ### UX Research Lead · L2 · `1x` *(moved from Product)*
 **Reports to:** Head of Design
@@ -211,13 +212,13 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 
 ### VP Marketing · L1 · `1x`
 **Reports to:** CBO
-**Skills (3):** `gtm-planner-marketing`, `demand-gen-planner`, `gtm-activation-marketing`
+**Skills (4):** `gtm-planner-marketing`, `demand-gen-planner`, `gtm-activation-marketing`, `marketing-audit-orchestrator`
 
 ### Demand Gen Manager · L2 · `1x`
-**Skills (3):** `channel-signal-analyst`, `content-engine-builder-marketing`, `roadmap-timing-input`
+**Skills (6):** `channel-signal-analyst`, `content-engine-builder-marketing`, `roadmap-timing-input`, `ad-campaign-builder`, `funnel-optimizer`, `landing-page-auditor`
 
 ### Content Marketer · L3 · `Nx`
-**Skills (1):** `content-marketing-operations`
+**Skills (2):** `content-marketing-operations`, `copywriting-analyst`
 
 ---
 
@@ -242,12 +243,13 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 **Owns:** Martech stack, lead scoring, campaign analytics, attribution modelling, email deliverability, marketing data hygiene
 **Why this was missing:** Without Marketing Ops, there's no infrastructure connecting demand gen to the CRM, no lead scoring to help Sales prioritise, and no attribution to know which channels actually work. RevOps owns the revenue-side tooling; Marketing Ops owns the marketing-side tooling. They meet at the lead handoff.
 
-**New skills (5):**
+**Skills (6):**
 - `martech-stack-manager` — Selects, configures, and maintains marketing automation, email, analytics, and ad platforms [AOS]
 - `lead-scoring-model-builder` — Designs and calibrates the lead scoring model that determines MQL→SQL handoff [GL→S Ph14P]
 - `campaign-analytics-reporter` — Produces the weekly campaign performance report with spend, leads, and CAC by channel [AOS]
 - `marketing-attribution-modeller` — Builds and maintains the multi-touch attribution model [GL→S Ph14P, AOS]
 - `email-deliverability-manager` — Manages sender reputation, list hygiene, and deliverability across all marketing email [AOS]
+- `seo-auditor` — Audits website SEO health and produces prioritised recommendations for organic search improvement [AOS]
 
 ---
 
@@ -314,13 +316,13 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 - `pricing-finaliser-sales` — Validates final pricing is sellable [Ph14P]
 
 ### Sales Manager · L2 · `1x`
-**Skills (4):** `sales-playbook-builder`, `objection-handler-updater-sales`, `gtm-activation-sales`, `first-sales-process-builder`
+**Skills (6):** `sales-playbook-builder`, `objection-handler-updater-sales`, `gtm-activation-sales`, `first-sales-process-builder`, `icp-builder`, `sales-competitive-intel`
 
 ### Account Executive · L3 · `Nx`
-**Skills (3):** `sales-signal-synthesizer`, `sales-signal-collector`, `expansion-motion-sales`
+**Skills (5):** `sales-signal-synthesizer`, `sales-signal-collector`, `expansion-motion-sales`, `meeting-prep-builder`, `sales-proposal-builder`
 
 ### Sales Development Rep (SDR) · L3 · `Nx`
-**Skills (1):** `cohort-selector-sales`
+**Skills (7):** `cohort-selector-sales`, `prospect-analyst-orchestrator`, `company-researcher`, `lead-qualifier`, `decision-maker-mapper`, `cold-outreach-builder`, `follow-up-sequence-builder`
 
 ### Business Development · L2 · `1x`
 **Skills (2):** `partner-activation-planner`, `partner-activation-executor`
@@ -455,13 +457,13 @@ Skills are being enriched from a 3-section format to a 9-section executable form
 **Skills (4):** `legal-idea-reviewer`, `ip-assignment`, `stock-plan-setup`, co-owns `entity-type-decision`
 
 ### Corporate Counsel · L2 · `1x`
-**Skills (8):** `compliance-scanner`, `risk-register-legal`, `third-party-tos-reviewer`, `entity-formation`, `bylaws-and-board-setup`, `founder-equity-issuance`, `83b-election-coordinator`, `legal-template-library-builder`
+**Skills (17):** `compliance-scanner`, `risk-register-legal`, `third-party-tos-reviewer`, `entity-formation`, `bylaws-and-board-setup`, `founder-equity-issuance`, `83b-election-coordinator`, `legal-template-library-builder`, `contract-review-orchestrator`, `contract-risk-analyst`, `contract-comparator`, `plain-english-translator`, `negotiation-strategist`, `missing-protections-finder`, `nda-generator`, `business-agreement-generator`, `freelancer-contract-reviewer`
 
 ### Product Counsel · L2 · `1x`
-**Skills (7):** `business-model-legal-reviewer`, `positioning-legal-reviewer`, `pricing-legal-reviewer`, `prd-nfr-compliance`, `security-reviewer-legal`, `security-auditor-legal`, `compliance-ga-reviewer-legal`
+**Skills (9):** `business-model-legal-reviewer`, `positioning-legal-reviewer`, `pricing-legal-reviewer`, `prd-nfr-compliance`, `security-reviewer-legal`, `security-auditor-legal`, `compliance-ga-reviewer-legal`, `terms-of-service-generator`, `privacy-policy-generator`
 
 ### Security & Compliance Programme Manager · L2 · `1x`
-**Skills (5):** `soc2-programme-manager`, `security-awareness-training-runner`, `disaster-recovery-drill-runner`, `gdpr-ccpa-compliance-manager`, `penetration-test-programme-manager`
+**Skills (6):** `soc2-programme-manager`, `security-awareness-training-runner`, `disaster-recovery-drill-runner`, `gdpr-ccpa-compliance-manager`, `penetration-test-programme-manager`, `compliance-auditor`
 
 ---
 
@@ -588,7 +590,9 @@ Every skill from the `master-agent-skills-registry.md` is assigned to exactly on
 - **Reassignment** — skills moved between agents within the same domain (e.g., operational Engineering skills → DevOps)
 - **Reframing** — People & Org skills renamed for Agent Ops context, but the underlying capability is preserved
 
-## New skills added (19)
+## New skills added (19 in v3, 29 in 003-production-grade-depth)
+
+### v3 additions (19)
 
 | Skill | Owner | Source |
 |---|---|---|
@@ -611,6 +615,40 @@ Every skill from the `master-agent-skills-registry.md` is assigned to exactly on
 | `retention-email-designer` | Lifecycle Marketing | GL→S Ph16P, AOS |
 | `transactional-email-designer` | Lifecycle Marketing | GL→S Ph14P |
 | `email-performance-optimiser` | Lifecycle Marketing | AOS |
+
+### 003-production-grade-depth additions (29)
+
+| Skill | Owner |
+|---|---|
+| `prospect-analyst-orchestrator` | Sales Development Rep |
+| `company-researcher` | Sales Development Rep |
+| `lead-qualifier` | Sales Development Rep |
+| `decision-maker-mapper` | Sales Development Rep |
+| `cold-outreach-builder` | Sales Development Rep |
+| `follow-up-sequence-builder` | Sales Development Rep |
+| `meeting-prep-builder` | Account Executive |
+| `sales-proposal-builder` | Account Executive |
+| `icp-builder` | Sales Manager |
+| `sales-competitive-intel` | Sales Manager |
+| `contract-review-orchestrator` | Corporate Counsel |
+| `contract-risk-analyst` | Corporate Counsel |
+| `contract-comparator` | Corporate Counsel |
+| `plain-english-translator` | Corporate Counsel |
+| `negotiation-strategist` | Corporate Counsel |
+| `missing-protections-finder` | Corporate Counsel |
+| `nda-generator` | Corporate Counsel |
+| `business-agreement-generator` | Corporate Counsel |
+| `freelancer-contract-reviewer` | Corporate Counsel |
+| `terms-of-service-generator` | Product Counsel |
+| `privacy-policy-generator` | Product Counsel |
+| `compliance-auditor` | Security & Compliance Programme Manager |
+| `marketing-audit-orchestrator` | VP Marketing |
+| `copywriting-analyst` | Content Marketer |
+| `ad-campaign-builder` | Demand Gen Manager |
+| `funnel-optimizer` | Demand Gen Manager |
+| `landing-page-auditor` | Demand Gen Manager |
+| `seo-auditor` | Marketing Operations Manager |
+| `brand-voice-analyst` | Brand Designer |
 
 ---
 
