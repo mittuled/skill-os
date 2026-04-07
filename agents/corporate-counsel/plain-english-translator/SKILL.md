@@ -13,7 +13,7 @@ complexity: simple
 related-skills:
   - ../contract-review-orchestrator/SKILL.md
   - ../contract-risk-analyst/SKILL.md
-  - ../../general-counsel/missing-protections-finder/SKILL.md
+  - ../missing-protections-finder/SKILL.md
 triggers:
   - "translate to plain english"
   - "explain this clause"
@@ -42,21 +42,21 @@ Translates complex legal language into plain English at an 8th-grade reading lev
 
 ## Workflow
 
-1. **Identify Legalese Patterns**: Scan the contract text for legalese patterns: defined terms with expanded scope, nested conditional structures, double negatives, archaic language (hereinafter, whereas, notwithstanding), and passive voice constructions. Catalog each pattern with its location. Deliverable: annotated pattern inventory. See [framework.md](references/framework.md) for common patterns.
+1. **Identify Legalese Patterns**: Scan the contract text for legalese patterns: defined terms with expanded scope, nested conditionals, double negatives, archaic language (hereinafter, whereas, notwithstanding), and passive voice. Catalog each with its location. Deliverable: annotated pattern inventory. See [framework.md](references/framework.md) for common patterns.
 
-2. **Rewrite in Plain English**: Translate each clause into plain English targeting Flesch-Kincaid Grade Level 8 or below. Break long sentences into shorter ones. Replace legal jargon with everyday equivalents. Preserve legal meaning — flag any clause where simplification would change the legal effect and keep the original language with an explanatory note. Deliverable: plain-English clause translations.
+2. **Rewrite in Plain English**: Translate each clause targeting Flesch-Kincaid Grade Level 8 or below. Break long sentences. Replace jargon with everyday equivalents. Preserve legal meaning — flag any clause where simplification would change legal effect and keep the original with an explanatory note. Deliverable: plain-English clause translations.
 
-3. **Annotate Legal Significance**: Tag each translated clause with its legal significance: binding obligation (you must do this), right (you can do this), limitation (you cannot do this), or risk (this could happen to you). Highlight the key takeaway for each clause in one sentence. Deliverable: annotated translations with significance flags.
+3. **Annotate Legal Significance**: Tag each translated clause: binding obligation, right, limitation, or risk. Add one-sentence key takeaway per clause. Deliverable: annotated translations with significance flags.
 
-4. **Produce Plain-English Summary**: Assemble the output using the template (see [plain-english-output-template.md](assets/plain-english-output-template.md)). Include contract title, parties, plain-English summary table, overall summary, and a glossary of legal terms that could not be simplified without losing meaning. Deliverable: plain-English summary document.
+4. **Produce Plain-English Summary**: Assemble output using [plain-english-output-template.md](assets/plain-english-output-template.md). Include contract title, parties, summary table, overall summary, and glossary of terms that could not be simplified without losing meaning. Deliverable: plain-English summary document.
 
 ## Anti-Patterns
 
-- **Oversimplification that changes meaning**: Translating "indemnify and hold harmless" as "protect" without conveying that this creates a financial obligation to pay for losses. *Why*: a translation that changes legal meaning is worse than no translation — it creates false confidence and may lead stakeholders to agree to terms they do not understand.
+- **Oversimplification that changes meaning**: Translating "indemnify and hold harmless" as "protect" without conveying the financial obligation. *Why*: a translation that changes legal meaning is worse than none — it creates false confidence.
 
-- **Translating without significance flags**: Providing plain-English text without indicating whether each clause is an obligation, right, limitation, or risk. *Why*: stakeholders need to know not just what a clause says but what it means for them — a clause that "sounds fine" in plain English may still impose a significant obligation.
+- **Translating without significance flags**: Providing plain-English text without indicating obligation, right, limitation, or risk. *Why*: a clause that "sounds fine" in plain English may still impose a significant obligation.
 
-- **Ignoring defined terms**: Translating clause text at face value without checking how defined terms expand the scope. *Why*: "Confidential Information" might be defined to include all information ever shared, making a seemingly narrow confidentiality clause extremely broad.
+- **Ignoring defined terms**: Translating clause text at face value without checking how defined terms expand scope. *Why*: "Confidential Information" may be defined to include all information ever shared, making a narrow clause extremely broad.
 
 ## Output
 
@@ -68,4 +68,4 @@ Translates complex legal language into plain English at an 8th-grade reading lev
 
 - [`contract-review-orchestrator`](../contract-review-orchestrator/SKILL.md) — Produces review reports that may need plain-English translation for non-legal stakeholders.
 - [`contract-risk-analyst`](../contract-risk-analyst/SKILL.md) — Risk findings can be translated into plain English to help business teams understand specific risks.
-- [`missing-protections-finder`](../../general-counsel/missing-protections-finder/SKILL.md) — Gap analysis results may need plain-English explanation for stakeholders deciding whether to accept the gaps.
+- [`missing-protections-finder`](../missing-protections-finder/SKILL.md) — Gap analysis results may need plain-English explanation for stakeholders deciding whether to accept the gaps.
