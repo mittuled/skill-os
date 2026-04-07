@@ -140,7 +140,7 @@ Agent: PMM Analyst / Content Strategist (`pmm-analyst-content-strategist`) — L
 - [ ] T110 Run `python scripts/validate.py agents/vp-product/ agents/product-manager/ agents/product-operations-analyst/ agents/pmm-product-marketing-manager/ agents/pmm-analyst-content-strategist/` — fix any errors. 1 commit per fix.
 - [ ] T111 Add cross-references between related Product skills — update `related-skills` frontmatter and Related Skills sections bidirectionally (FR-015). 1 commit per skill updated.
 - [ ] T112 Update `status.md` — mark Product department as complete (82/82 enriched, ethos profile done). 1 commit.
-- [ ] T113 Update `restructured-org-chart-v3.md` — reflect new `<skill>/SKILL.md` paths for all Product agents. 1 commit.
+- [ ] T113 Update `AGENTS.md` — reflect new `<skill>/SKILL.md` paths for all Product agents. 1 commit.
 
 **Checkpoint**: Product complete. Review before Phase 2:
 - Do word limits work in practice?

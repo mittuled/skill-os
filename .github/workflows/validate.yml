@@ -1,0 +1,33 @@
+name: Validate Skills
+
+on:
+  pull_request:
+    paths:
+      - 'agents/**'
+      - 'departments/**'
+      - 'scripts/validate.py'
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run skill validation
+        run: python3 scripts/validate.py
+
+      - name: Check for uncommitted changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Uncommitted changes found. Commit all files before opening a PR."
+            git status
+            exit 1
+          fi

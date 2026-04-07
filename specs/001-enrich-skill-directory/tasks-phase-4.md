@@ -189,7 +189,7 @@
 - [ ] T441 Run `python scripts/validate.py` for all Phase 4 agents — fix errors. 1 commit per fix.
 - [ ] T442 Add cross-references: Sales ↔ Product ↔ Marketing, Legal ↔ Product, Finance ↔ Sales, Data & Growth ↔ Product ↔ Engineering. 1 commit per skill updated.
 - [ ] T443 Update `status.md` — mark Data & Growth (39), Finance (32), Legal (24), Sales (17) complete. 1 commit.
-- [ ] T444 Update `restructured-org-chart-v3.md` — reflect new paths. 1 commit.
+- [ ] T444 Update `AGENTS.md` — reflect new paths. 1 commit.
 
 **Checkpoint**: Phase 4 complete. 390/472 skills enriched (83%).
 

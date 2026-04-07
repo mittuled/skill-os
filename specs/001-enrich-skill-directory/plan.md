@@ -60,7 +60,7 @@ specs/001-enrich-skill-directory/
 skill-os/
 ├── ETHOS.md                          # Operating philosophy (FR-020)
 ├── CLAUDE.md                         # Dev guidance (updated)
-├── restructured-org-chart-v3.md      # Canonical org chart (FR-021)
+├── AGENTS.md      # Canonical org chart (FR-021)
 ├── status.md                         # Enrichment progress tracker
 │
 ├── departments/                      # Department-level context
@@ -126,7 +126,7 @@ No constitutional violations — all principles pass under v2.0.0.
 3. **`_shared/` directory** — Global shared context directory
 4. **`scripts/validate.py`** — Validation script checking frontmatter, word limits, cross-references, ethos references
 5. **Updated CLAUDE.md** — Reflect new directory structure and enrichment workflow
-6. **Updated `restructured-org-chart-v3.md`** — Add note about enrichment and new file paths
+6. **Updated `AGENTS.md`** — Add note about enrichment and new file paths
 
 **No web research needed** — this phase is structural scaffolding.
 

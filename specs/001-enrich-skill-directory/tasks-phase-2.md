@@ -183,7 +183,7 @@
 - [ ] T214 Run `python scripts/validate.py` for all Marketing + Design agents — fix errors. 1 commit per fix.
 - [ ] T215 Add cross-references: Marketing ↔ Product, Design ↔ Product, Marketing ↔ Design (bidirectional). 1 commit per skill updated.
 - [ ] T216 Update `status.md` — mark Marketing (54/54) and Design (42/42) complete. 1 commit.
-- [ ] T217 Update `restructured-org-chart-v3.md` — reflect new paths for Marketing + Design agents. 1 commit.
+- [ ] T217 Update `AGENTS.md` — reflect new paths for Marketing + Design agents. 1 commit.
 
 **Checkpoint**: Marketing + Design complete. 178/472 skills enriched (38%).
 

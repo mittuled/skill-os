@@ -45,7 +45,7 @@ Skills are scoped to an agent role (e.g. `account-executive`, `sr-backend-develo
 | Implementation | 2 | 4 |
 | **Total** | **80** | **528** |
 
-Full org chart: [`restructured-org-chart-v3.md`](restructured-org-chart-v3.md)
+Full org chart: [`AGENTS.md`](AGENTS.md)
 
 ---
 

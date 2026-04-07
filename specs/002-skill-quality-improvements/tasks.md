@@ -34,7 +34,7 @@
 - [x] T010 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/discover-tools.py`. 1 commit.
 - [x] T011 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/connect-mcp.py`. 1 commit.
 - [x] T012 [US1] Write `agents/agent-configuration-manager/company-tooling-onboarder/scripts/configure-secrets.py`. 1 commit.
-- [x] T013 [US1] Update `restructured-org-chart-v3.md` — add `company-tooling-onboarder` to Agent Configuration Manager's skill list. 1 commit.
+- [x] T013 [US1] Update `AGENTS.md` — add `company-tooling-onboarder` to Agent Configuration Manager's skill list. 1 commit.
 
 ---
 
@@ -49,7 +49,7 @@
 - [x] T016 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/scripts/validate-policy.py`. 1 commit.
 - [x] T017 [US2] Write `agents/agent-configuration-manager/tool-policy-manager/assets/allowed-tools-template.yaml`. 1 commit.
 - [x] T018 [US2] Add tool policy reference to all 80 agent directories. Done.
-- [x] T019 [US2] Update `restructured-org-chart-v3.md` — add `tool-policy-manager` to Agent Configuration Manager's skill list. 1 commit.
+- [x] T019 [US2] Update `AGENTS.md` — add `tool-policy-manager` to Agent Configuration Manager's skill list. 1 commit.
 
 ---
 
@@ -64,7 +64,7 @@
 - [x] T022 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/parse-openapi.py`. 1 commit.
 - [x] T023 [US3] Write `agents/skill-builder/mcp-server-builder/scripts/scaffold-mcp.py`. 1 commit.
 - [x] T024 [US3] Write `agents/skill-builder/mcp-server-builder/references/mcp-protocol.md`. 1 commit.
-- [x] T025 [US3] Update `restructured-org-chart-v3.md` — add `mcp-server-builder` to Skill Builder's skill list. 1 commit.
+- [x] T025 [US3] Update `AGENTS.md` — add `mcp-server-builder` to Skill Builder's skill list. 1 commit.
 
 ---
 
@@ -78,7 +78,7 @@
 - [x] T027 [US4] Write `agents/agent-operations-manager/tool-health-checker/SKILL.md`. 1 commit.
 - [x] T028 [US4] Write `agents/agent-operations-manager/tool-health-checker/scripts/check-health.py`. 1 commit.
 - [x] T029 [US4] Write `agents/agent-operations-manager/tool-health-checker/assets/health-report-template.md`. 1 commit.
-- [x] T030 [US4] Update `restructured-org-chart-v3.md` — add `tool-health-checker` to Agent Operations Manager's skill list. 1 commit.
+- [x] T030 [US4] Update `AGENTS.md` — add `tool-health-checker` to Agent Operations Manager's skill list. 1 commit.
 
 ---
 

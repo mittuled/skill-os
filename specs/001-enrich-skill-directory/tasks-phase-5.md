@@ -151,7 +151,7 @@
 - [ ] T536 Run `python scripts/validate.py` on entire repo — fix ALL errors across all 472 skills. 1 commit per fix.
 - [ ] T537 Add remaining cross-references: CS ↔ Sales ↔ Account Management, Agent Ops ↔ Engineering, Support ↔ CS, RevOps ↔ Sales ↔ Finance, Implementation ↔ CS ↔ Engineering. 1 commit per skill updated.
 - [ ] T538 Update `status.md` — mark all 8 departments complete (472/472). 1 commit.
-- [ ] T539 Update `restructured-org-chart-v3.md` — reflect new paths for all Phase 5 agents. 1 commit.
+- [ ] T539 Update `AGENTS.md` — reflect new paths for all Phase 5 agents. 1 commit.
 
 **Checkpoint**: All 472 skills enriched. 100% complete.
 

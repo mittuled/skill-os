@@ -159,7 +159,7 @@
 - [ ] T320 Run `python scripts/validate.py` for all Engineering agents — fix errors. 1 commit per fix.
 - [ ] T321 Add cross-references: intra-Engineering (DevOps ↔ Security ↔ Platform ↔ QA), Engineering ↔ Product (handoffs), Engineering ↔ Design (handoffs). 1 commit per skill updated.
 - [ ] T322 Update `status.md` — mark Engineering (100/100) complete. 1 commit.
-- [ ] T323 Update `restructured-org-chart-v3.md` — reflect new paths for Engineering agents. 1 commit.
+- [ ] T323 Update `AGENTS.md` — reflect new paths for Engineering agents. 1 commit.
 
 **Checkpoint**: Engineering complete. 278/472 skills enriched (59%).
 

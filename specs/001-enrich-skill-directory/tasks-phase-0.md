@@ -31,7 +31,7 @@
 - [x] T020 Create `_shared/assets/` directory at repo root
 - [x] T021 Write `scripts/validate.py` — validation script per FR-023. Must check: valid YAML frontmatter, all 7 required fields populated, `name` matches directory name, `description` 50–1024 chars in third-person, body word count within limit for complexity class (hard error), all referenced files exist, all cross-reference paths resolve, cross-references are bidirectional (warning), ethos profile reference is valid. Support single-file mode (`python scripts/validate.py agents/product-manager/backlog-groomer/SKILL.md`) and full-repo mode (`python scripts/validate.py`). 1 commit.
 - [x] T022 Update `CLAUDE.md` — reflect enriched skill format (constitution v2.0.0), new directory structure (`departments/`, `_shared/`, skill subdirectories), enrichment workflow from quickstart.md, and word limit enforcement. 1 commit.
-- [x] T023 Update `restructured-org-chart-v3.md` — add enrichment status section noting new file path convention (`agents/<agent>/<skill>/SKILL.md`), link to status.md for progress tracking. 1 commit.
+- [x] T023 Update `AGENTS.md` — add enrichment status section noting new file path convention (`agents/<agent>/<skill>/SKILL.md`), link to status.md for progress tracking. 1 commit.
 
 **Checkpoint**: Foundation ready. All directories exist, validation script works, ETHOS.md written. Phase 1 can begin.
 

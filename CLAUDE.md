@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 `skill-os` is the world's most comprehensive open-source directory of AI work agent skills. It maps 86 agent roles across 15 departments to 600+ skills — each enriched with executable workflows, anti-patterns, output templates, and cross-references. See `ETHOS.md` for the operating philosophy.
 
-The primary reference document is `restructured-org-chart-v3.md` (canonical org chart). The constitution is at `.specify/memory/constitution.md` (v2.0.0).
+The primary reference document is `AGENTS.md` (canonical org chart). The constitution is at `.specify/memory/constitution.md` (v2.0.0).
 
 ## Directory Structure
 
@@ -14,7 +14,7 @@ The primary reference document is `restructured-org-chart-v3.md` (canonical org 
 skill-os/
 ├── ETHOS.md                      # Operating philosophy
 ├── CLAUDE.md                     # This file
-├── restructured-org-chart-v3.md  # Canonical org chart
+├── AGENTS.md  # Canonical org chart
 ├── status.md                     # Enrichment progress tracker
 ├── allowed-tools.yaml            # Tool policy: 4-level access control
 ├── departments/                  # Department ethos profiles + shared context

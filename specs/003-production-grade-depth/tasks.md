@@ -250,7 +250,7 @@
 
 **Purpose**: Org chart updates, status tracking, validation, final quality check.
 
-- [ ] T117 Update `restructured-org-chart-v3.md` — add all 29 new skills to their respective agent skill lists, update total skill count to 528. 1 commit.
+- [ ] T117 Update `AGENTS.md` — add all 29 new skills to their respective agent skill lists, update total skill count to 528. 1 commit.
 - [ ] T118 Update `status.md` — reflect 528 total skills, production-grade depth status per department. 1 commit.
 - [ ] T119 Run full repo validation: `python3 scripts/validate.py` — confirm 0 errors across all 528 skills. Fix any errors. 1 commit per fix.
 - [ ] T120 Spot-check 10 skills (2 per key department: Sales, Legal, Marketing, Product, Engineering) against zubair equivalents. Document comparison results. Confirm SC-003 (match or exceed on depth). 1 commit.

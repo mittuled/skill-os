@@ -265,7 +265,7 @@ For each department (in phasing order):
 2. **Create new skills** (if any): Build 29 new skills at production-grade depth
 3. **Deepen existing skills**: Process all existing skills using cluster research
 4. **Upgrade 002 rubrics**: If department has existing rubrics from 002, upgrade them
-5. **Update org chart**: Add new skills to `restructured-org-chart-v3.md`
+5. **Update org chart**: Add new skills to `AGENTS.md`
 6. **Update status.md**: Reflect new skill counts and depth status
 7. **Validate**: Run validation across entire department
 

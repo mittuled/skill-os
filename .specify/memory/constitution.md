@@ -63,7 +63,7 @@ provides. Compound skills dilute role clarity and make org chart metrics unrelia
 
 ### III. Org Chart Consistency
 
-The org chart at `restructured-org-chart-v3.md` MUST be kept in strict sync with the
+The org chart at `AGENTS.md` MUST be kept in strict sync with the
 filesystem at all times:
 
 - Every agent directory under `agents/` MUST appear in the org chart.
@@ -98,7 +98,7 @@ new skill is:
 
 1. Commit the skill subdirectory (`agents/<agent>/<skill>/SKILL.md` and any
    supporting context files)
-2. Commit the org chart update (`restructured-org-chart-v3.md`)
+2. Commit the org chart update (`AGENTS.md`)
 
 A logical unit is one skill migration, one ethos profile, or one supporting context
 addition. Bundling multiple skills or mixing skills with org chart changes in a single
@@ -198,7 +198,7 @@ enforcement depends on the agent runtime.
 - Agent descriptions in skill files MUST accurately reflect the current org chart
   definition. If an agent's definition changes, all skill files for that agent MUST
   be updated in the same change batch.
-- The summary table at the top of `restructured-org-chart-v3.md` MUST include:
+- The summary table at the top of `AGENTS.md` MUST include:
   total roles, total skills, department count, and last-updated date.
 
 ## Amendment Procedure

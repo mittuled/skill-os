@@ -205,7 +205,7 @@ Each skill can be tested against real prompts to verify it produces the expected
 **Project-Level**
 
 - **FR-020**: The repository MUST include an `ETHOS.md` at the root that captures the operating philosophy of the Skill OS — the principles that apply to every department and every skill. Format: plain markdown, 300–500 words, containing a Philosophy section (2-3 sentences on the core belief), Principles section (5-7 opinionated principles with rationale), and a Decision Priorities section (ordered list of what to prioritize in tradeoffs). This is the soul of the organization, not operational instructions. Inspired by gstack's ETHOS.md, it answers: what does this organization believe about how work should be done?
-- **FR-021**: The org chart (`restructured-org-chart-v3.md`) MUST remain the canonical source for agent roles, departments, and skill assignments. Enriched skill files add depth but do not replace the org chart as the authority on organizational structure.
+- **FR-021**: The org chart (`AGENTS.md`) MUST remain the canonical source for agent roles, departments, and skill assignments. Enriched skill files add depth but do not replace the org chart as the authority on organizational structure.
 - **FR-022**: The enriched format MUST be backward-compatible — existing one-sentence skill files remain valid during incremental migration. Unenriched skills retain their current format with a `version: 0.1.0` tag indicating they await enrichment.
 
 **Migration**
