@@ -1,10 +1,12 @@
 # Skill OS — Enrichment Status
 
-**Last Updated**: 2026-03-27
-**Total Skills**: 499 | **Enriched**: 499 | **Pending**: 0 | **Progress**: 100%
+**Last Updated**: 2026-04-07
+**Total Skills**: 528 | **Enriched**: 528 | **Pending**: 0 | **Progress**: 100%
 **Migration Order**: Department-by-department, starting with Product
 
 > **Note (002)**: 4 new tooling skills added in 002-skill-quality-improvements: `company-tooling-onboarder` and `tool-policy-manager` (Agent Configuration Manager), `mcp-server-builder` (Skill Builder), `tool-health-checker` (Agent Operations Manager).
+
+> **Note (003)**: 29 new production-grade skills added in 003-production-grade-depth across Sales (SDR ×6, AE ×2, Sales Manager ×2), Legal (Corporate Counsel ×9, Product Counsel ×2, Security & Compliance ×1), and Marketing (VP Marketing ×1, Content Marketer ×1, Demand Gen ×3, Marketing Ops ×1, Brand Designer ×1). All skills enriched with `references/` and `assets/` subdirectories. Initiative complete.
 
 ---
 
@@ -14,21 +16,21 @@
 |---|-----------|--------|--------|----------|---------|---------------|
 | 1 | Product | 5 | 82 | 82 | 0 | Done |
 | 2 | Engineering | 12 | 100 | 100 | 0 | Done |
-| 3 | Marketing | 12 | 54 | 54 | 0 | Done |
-| 4 | Design | 8 | 42 | 42 | 0 | Done |
+| 3 | Marketing | 12 | 60 | 60 | 0 | Done |
+| 4 | Design | 8 | 43 | 43 | 0 | Done |
 | 5 | Data & Growth | 4 | 39 | 39 | 0 | Done |
 | 6 | Finance | 5 | 32 | 32 | 0 | Done |
-| 7 | Legal & Compliance | 4 | 24 | 24 | 0 | Done |
+| 7 | Legal & Compliance | 4 | 36 | 36 | 0 | Done |
 | 8 | Agent Operations | 6 | 27 | 27 | 0 | Done |
 | 9 | Customer Success | 6 | 21 | 21 | 0 | Done |
-| 10 | Sales | 7 | 17 | 17 | 0 | Done |
+| 10 | Sales | 7 | 27 | 27 | 0 | Done |
 | 11 | Customer Support | 2 | 9 | 9 | 0 | Done |
 | 12 | Technical Operations | 3 | 9 | 9 | 0 | Done |
 | 13 | Revenue Operations | 1 | 6 | 6 | 0 | Done |
 | 14 | Applied Research | 1 | 5 | 5 | 0 | Done |
 | 15 | Account Management | 2 | 5 | 5 | 0 | Done |
 | 16 | Implementation | 2 | 4 | 4 | 0 | Done |
-| | **TOTAL** | **80** | **499** | **499** | **0** | **15 / 15** |
+| | **TOTAL** | **80** | **528** | **528** | **0** | **15 / 15** |
 
 ---
 
@@ -61,15 +63,15 @@
 | Security Engineer | `security-engineer` | 10 | 0 | threat-modelling, vulnerability-scanner-operator, penetration-test-coordinator, security-incident-responder, access-control-auditor, dependency-vulnerability-monitor, security-training-facilitator, compliance-evidence-collector, encryption-implementation-reviewer, security-tooling-maintainer |
 | AI / ML Engineer | `ai-ml-engineer` | 7 | 0 | model-trainer, feature-store-maintainer, model-deployment-engineer, experiment-tracker, data-labelling-pipeline-builder, model-monitoring-configurator, ai-ethics-reviewer |
 
-### 3. Marketing (54 skills)
+### 3. Marketing (60 skills)
 
 | Agent | Dir | Skills | Enriched | Pending Skills |
 |-------|-----|--------|----------|----------------|
-| VP Marketing | `vp-marketing` | 3 | 0 | brand-guardian, marketing-budget-allocator, campaign-performance-reviewer |
-| Demand Gen Manager | `demand-gen-manager` | 3 | 0 | paid-acquisition-strategist, landing-page-optimiser, lead-funnel-analyst |
-| Content Marketer | `content-marketer` | 1 | 0 | blog-post-writer |
+| VP Marketing | `vp-marketing` | 4 | 0 | brand-guardian, marketing-budget-allocator, campaign-performance-reviewer, marketing-audit-orchestrator |
+| Demand Gen Manager | `demand-gen-manager` | 6 | 0 | paid-acquisition-strategist, landing-page-optimiser, lead-funnel-analyst, ad-campaign-builder, funnel-optimizer, landing-page-auditor |
+| Content Marketer | `content-marketer` | 2 | 0 | blog-post-writer, copywriting-analyst |
 | PR / Communications Manager | `pr-communications-manager` | 5 | 0 | media-relationship-builder, press-release-writer, crisis-communications-planner, thought-leadership-programme-runner, earned-media-monitor |
-| Marketing Operations Manager | `marketing-operations-manager` | 5 | 0 | martech-stack-manager, lead-scoring-model-builder, campaign-analytics-reporter, marketing-attribution-modeller, email-deliverability-manager |
+| Marketing Operations Manager | `marketing-operations-manager` | 6 | 0 | martech-stack-manager, lead-scoring-model-builder, campaign-analytics-reporter, marketing-attribution-modeller, email-deliverability-manager, seo-auditor |
 | Social Media Manager | `social-media-manager` | 4 | 0 | social-content-calendar-manager, social-listening-analyst, influencer-coordination-manager, ugc-programme-designer |
 | Lifecycle / Email Marketing Manager | `lifecycle-email-marketing-manager` | 5 | 0 | onboarding-sequence-designer, nurture-campaign-builder, retention-email-designer, transactional-email-designer, email-performance-optimiser |
 | Event Marketing Manager | `event-marketing-manager` | 6 | 0 | event-strategy-planner, sponsorship-evaluator, event-content-curator, event-logistics-coordinator, post-event-analyser, webinar-programme-manager |
@@ -78,14 +80,14 @@
 | Developer Relations Lead | `developer-relations-lead` | 7 | 0 | developer-documentation-owner, sdk-sample-app-builder, hackathon-organiser, developer-community-advocate, changelog-communicator, developer-onboarding-designer, api-feedback-aggregator |
 | Technical Writer | `technical-writer` | 5 | 0 | documentation-author, api-reference-writer, tutorial-creator, release-notes-publisher, style-guide-enforcer |
 
-### 4. Design (42 skills)
+### 4. Design (43 skills)
 
 | Agent | Dir | Skills | Enriched | Pending Skills |
 |-------|-----|--------|----------|----------------|
 | Head of Design | `head-of-design` | 8 | 0 | design-system-owner, design-critique-leader, design-hiring-bar-setter, design-ops-process-owner, cross-functional-design-advocate, design-vision-setter, accessibility-standards-owner, design-tool-stack-curator |
 | UX / UI Designer | `ux-ui-designer` | 8 | 0 | wireframe-creator, high-fidelity-mockup-designer, prototype-builder, design-system-contributor, responsive-layout-designer, interaction-pattern-designer, design-handoff-preparer, usability-heuristic-reviewer |
 | Visual / Interaction Designer | `visual-interaction-designer` | 2 | 0 | motion-design-creator, icon-illustration-producer |
-| Brand Designer | `brand-designer` | 5 | 0 | brand-identity-system-maintainer, marketing-collateral-designer, presentation-template-creator, social-media-asset-designer, brand-guideline-enforcer |
+| Brand Designer | `brand-designer` | 6 | 0 | brand-identity-system-maintainer, marketing-collateral-designer, presentation-template-creator, social-media-asset-designer, brand-guideline-enforcer, brand-voice-analyst |
 | UX Research Lead | `ux-research-lead` | 6 | 0 | research-programme-planner, research-repository-curator, insight-synthesis-leader, research-methodology-advisor, stakeholder-research-educator, research-ops-tooling-manager |
 | UX Researcher | `ux-researcher` | 4 | 0 | usability-test-facilitator, survey-designer, interview-conductor, research-report-author |
 | Content Design Lead | `content-design-lead` | 5 | 0 | voice-and-tone-guide-owner, content-pattern-library-curator, ux-writing-standards-setter, content-design-critique-leader, terminology-governance-manager |
@@ -110,14 +112,14 @@
 | Controller / Accounting | `controller-accounting` | 7 | 0 | month-end-close-manager, accounts-payable-processor, accounts-receivable-tracker, payroll-administrator, tax-compliance-preparer, revenue-recognition-specialist, general-ledger-reconciler |
 | Investor Relations Manager | `investor-relations-manager` | 9 | 0 | investor-update-author, cap-table-manager, due-diligence-coordinator, investor-meeting-preparer, shareholder-communication-drafter, funding-round-project-manager, investor-crm-maintainer, board-deck-contributor, secondary-transaction-facilitator |
 
-### 7. Legal & Compliance (24 skills)
+### 7. Legal & Compliance (36 skills)
 
 | Agent | Dir | Skills | Enriched | Pending Skills |
 |-------|-----|--------|----------|----------------|
 | General Counsel | `general-counsel` | 4 | 0 | legal-strategy-advisor, outside-counsel-manager, board-legal-advisor, litigation-risk-assessor |
-| Corporate Counsel | `corporate-counsel` | 8 | 0 | contract-drafter, contract-reviewer, employment-law-advisor, corporate-governance-maintainer, ip-portfolio-manager, regulatory-filing-preparer, ma-due-diligence-lead, entity-structure-manager |
-| Product Counsel | `product-counsel` | 7 | 0 | terms-of-service-drafter, privacy-policy-owner, product-legal-reviewer, open-source-licence-auditor, ai-regulation-monitor, data-processing-agreement-negotiator, content-moderation-policy-advisor |
-| Security & Compliance Programme Manager | `security-compliance-programme-manager` | 5 | 0 | compliance-framework-implementer, audit-programme-manager, policy-document-owner, risk-register-maintainer, vendor-security-assessor |
+| Corporate Counsel | `corporate-counsel` | 17 | 0 | contract-drafter, contract-reviewer, employment-law-advisor, corporate-governance-maintainer, ip-portfolio-manager, regulatory-filing-preparer, ma-due-diligence-lead, entity-structure-manager, contract-review-orchestrator, contract-risk-analyst, contract-comparator, plain-english-translator, negotiation-strategist, missing-protections-finder, nda-generator, business-agreement-generator, freelancer-contract-reviewer |
+| Product Counsel | `product-counsel` | 9 | 0 | terms-of-service-drafter, privacy-policy-owner, product-legal-reviewer, open-source-licence-auditor, ai-regulation-monitor, data-processing-agreement-negotiator, content-moderation-policy-advisor, terms-of-service-generator, privacy-policy-generator |
+| Security & Compliance Programme Manager | `security-compliance-programme-manager` | 6 | 0 | compliance-framework-implementer, audit-programme-manager, policy-document-owner, risk-register-maintainer, vendor-security-assessor, compliance-auditor |
 
 ### 8. Agent Operations (23 skills)
 
@@ -141,14 +143,14 @@
 | Customer Programs Manager | `customer-programs-manager` | 4 | 0 | customer-education-programme-builder, customer-community-programme-manager, advocacy-programme-runner, customer-feedback-loop-closer |
 | Technical Account Manager (TAM) | `technical-account-manager` | 3 | 0 | technical-health-assessor, integration-troubleshooter, custom-solution-architect |
 
-### 10. Sales (17 skills)
+### 10. Sales (27 skills)
 
 | Agent | Dir | Skills | Enriched | Pending Skills |
 |-------|-----|--------|----------|----------------|
 | VP Sales | `vp-sales` | 3 | 0 | sales-strategy-setter, pricing-finaliser-sales, sales-hiring-bar-setter |
-| Sales Manager | `sales-manager` | 4 | 0 | pipeline-reviewer, deal-desk-operator, forecast-submitter, sales-coaching-provider |
-| Account Executive | `account-executive` | 3 | 0 | deal-qualifier, proposal-builder, contract-negotiator |
-| Sales Development Rep (SDR) | `sales-development-rep` | 1 | 0 | outbound-prospector |
+| Sales Manager | `sales-manager` | 6 | 0 | pipeline-reviewer, deal-desk-operator, forecast-submitter, sales-coaching-provider, icp-builder, sales-competitive-intel |
+| Account Executive | `account-executive` | 5 | 0 | deal-qualifier, proposal-builder, contract-negotiator, meeting-prep-builder, sales-proposal-builder |
+| Sales Development Rep (SDR) | `sales-development-rep` | 7 | 0 | outbound-prospector, prospect-analyst-orchestrator, company-researcher, lead-qualifier, decision-maker-mapper, cold-outreach-builder, follow-up-sequence-builder |
 | Business Development | `business-development` | 2 | 0 | partnership-scout, channel-programme-designer |
 | Solutions Engineering Manager | `solutions-engineering-manager` | 2 | 0 | se-team-resource-allocator, demo-environment-owner |
 | Solutions Engineer | `solutions-engineer` | 2 | 0 | technical-demo-presenter, proof-of-concept-lead |
@@ -198,26 +200,26 @@
 
 ## Migration Queue
 
-Migration proceeds department-by-department per spec FR-025.
+Migration proceeds department-by-department per spec FR-025. All departments fully enriched.
 
 | Order | Department | Skills | Status |
 |-------|-----------|--------|--------|
 | 1 | Product | 82 | **Complete** |
-| 2 | Engineering | 100 | Queued |
-| 3 | Marketing | 54 | Queued |
-| 4 | Design | 42 | Queued |
-| 5 | Data & Growth | 39 | Queued |
-| 6 | Finance | 32 | Queued |
-| 7 | Legal & Compliance | 24 | Queued |
-| 8 | Agent Operations | 23 | Queued |
-| 9 | Customer Success | 21 | Queued |
-| 10 | Sales | 17 | Queued |
-| 11 | Customer Support | 9 | Queued |
-| 12 | Technical Operations | 9 | Queued |
-| 13 | Revenue Operations | 6 | Queued |
-| 14 | Applied Research | 5 | Queued |
-| 15 | Account Management | 5 | Queued |
-| 16 | Implementation | 4 | Queued |
+| 2 | Engineering | 100 | **Complete** |
+| 3 | Marketing | 60 | **Complete** |
+| 4 | Design | 43 | **Complete** |
+| 5 | Data & Growth | 39 | **Complete** |
+| 6 | Finance | 32 | **Complete** |
+| 7 | Legal & Compliance | 36 | **Complete** |
+| 8 | Agent Operations | 27 | **Complete** |
+| 9 | Customer Success | 21 | **Complete** |
+| 10 | Sales | 27 | **Complete** |
+| 11 | Customer Support | 9 | **Complete** |
+| 12 | Technical Operations | 9 | **Complete** |
+| 13 | Revenue Operations | 6 | **Complete** |
+| 14 | Applied Research | 5 | **Complete** |
+| 15 | Account Management | 5 | **Complete** |
+| 16 | Implementation | 4 | **Complete** |
 
 ---
 
@@ -225,7 +227,15 @@ Migration proceeds department-by-department per spec FR-025.
 
 | Artifact | Status |
 |----------|--------|
-| `ETHOS.md` (root-level philosophy) | Not started |
-| `departments/` directory structure | Not started |
-| Validation script (FR-023) | Not started |
+| `ETHOS.md` (root-level philosophy) | Done |
+| `departments/` directory structure | Done |
+| Validation script (FR-023) | Done |
 | Skill index generator (FR-017) | Not started |
+
+## Initiative Status
+
+| Initiative | Skills Added | Status |
+|-----------|-------------|--------|
+| 001-enrich-skill-directory | ~495 | **Complete** |
+| 002-skill-quality-improvements | 4 | **Complete** |
+| 003-production-grade-depth | 29 | **Complete** |
