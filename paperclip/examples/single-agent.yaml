@@ -1,0 +1,75 @@
+# Skill OS × Paperclip — Single Agent Example
+#
+# The simplest possible config: one PM agent grounded in the requirements-extractor skill.
+# Use this as your starting point before moving to multi-agent configs.
+#
+# Prerequisites:
+#   1. Skill OS cloned at ../skill-os (relative to your Paperclip company root)
+#   2. Claude Code CLI installed and authenticated
+#   3. Paperclip running locally or in your hosted environment
+#
+# To use this config:
+#   1. Create a new agent in Paperclip with role "pm"
+#   2. Copy the adapterConfig below into the agent's configuration
+#   3. Adjust paths to match your local Skill OS clone location
+#   4. Create a Paperclip issue labeled "prd" and assign it to this agent
+#   5. Trigger a heartbeat — the agent will follow the requirements-extractor workflow
+
+agents:
+  - name: "Alex (PM)"
+    role: pm
+    title: "Product Manager"
+    capabilities: |
+      Writes product requirements documents, user stories, and acceptance criteria.
+      Grounded in Skill OS requirements-extractor workflow — produces structured
+      requirements with clear acceptance criteria and edge cases.
+    budgetMonthlyCents: 5000   # $50/month — adjust based on task volume
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/your/company-repo"   # ← update this
+
+      model: claude-sonnet-4-6
+
+      # instructionsFilePath: Points at the Skill OS requirements-extractor SKILL.md
+      # The file is read at dispatch time and appended to Claude's system prompt.
+      # Update the path prefix to match where you cloned Skill OS.
+      instructionsFilePath: "/path/to/skill-os/agents/product/product-manager/requirements-extractor/SKILL.md"
+
+      # promptTemplate: Injected before the skill instructions at each heartbeat.
+      # {{agent.title}}, {{company.name}}, {{issue.title}}, {{issue.id}} are Paperclip variables.
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+
+        Current task: {{issue.title}} ({{issue.identifier}})
+        Priority: {{issue.priority}}
+        Status: {{issue.status}}
+
+        Before executing your skill workflow:
+        1. Fetch full task context: GET /api/issues/{{issue.id}}/heartbeat-context
+        2. Review the goal ancestry to understand the strategic context
+        3. Then follow the workflow steps in your skill instructions exactly
+
+        When you reach a step marked [GATE]:
+        1. Complete all work up to that point
+        2. Post your current output as an issue comment
+        3. Create an approval request: POST /api/approvals with subject "Gate: [step description]"
+        4. Set issue status to "blocked"
+        5. Stop — do not proceed until approval is granted
+
+      maxTurnsPerRun: 20
+      timeoutSec: 300
+      dangerouslySkipPermissions: true   # Required for Claude Code in automated mode
+
+    # For the single-task override pattern (FR-007 level 3):
+    # Temporarily PATCH this agent's adapterConfig.instructionsFilePath via the
+    # Paperclip API before dispatching a one-off task:
+    #   PATCH /api/agents/{agentId}
+    #   { "adapterConfig": { "instructionsFilePath": "/path/to/other-skill/SKILL.md" } }
+    # Reset it after the task completes.
+
+# --- How to extend this to label-based routing ---
+# Once you have multiple task types, create Paperclip issue labels:
+#   "prd", "user-story", "experiment", "sprint-planning"
+# Then update instructionsFilePath per task type, or use the
+# full skill-routing-table.yaml for automatic label matching.
