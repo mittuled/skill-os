@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../monthly-variance-analyser/SKILL.md
   - ../annual-budget-builder/SKILL.md
+triggers:
+  - "revenue forecast"
+  - "financial forecast"
+  - "revenue-forecaster"
+  - "update forecast"
 ---
 
 # rolling-forecast-updater
