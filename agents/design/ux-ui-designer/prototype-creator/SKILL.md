@@ -12,10 +12,10 @@ version: 1.0.0
 complexity: medium
 related-skills: []
 triggers:
-  - "build a prototype"
-  - "create a clickable demo"
-  - "make an interactive mockup"
-  - "prototype this for testing"
+  - "prototype"
+  - "prototype-builder"
+  - "interactive prototype"
+  - "build prototype"
 ---
 
 # prototype-creator
