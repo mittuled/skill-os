@@ -17,11 +17,10 @@ related-skills:
   - ../../../marketing/marketing-operations-manager/campaign-analytics-reporter/SKILL.md
   - ../../../marketing/demand-gen-manager/channel-signal-analyst/SKILL.md
 triggers:
-  - "build a paid campaign"
-  - "plan Google Ads structure"
-  - "multi-platform ad strategy"
-  - "allocate paid media budget"
-  - "design retargeting sequence"
+  - "ad campaign"
+  - "paid campaign"
+  - "build campaign"
+  - "demand gen campaign"
 ---
 
 # ad-campaign-builder
