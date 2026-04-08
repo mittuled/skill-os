@@ -1,6 +1,47 @@
 # Skill OS — Skills Index
 
-527 skills across 80 agents and 16 departments. Generated 2026-04-08.
+527 skills across 80 agents and 16 departments.
+
+**Quick search**: Use Ctrl+F to find a skill by name or keyword.
+**Common aliases**: If you don't find what you're looking for, check the table below — intuitive names often differ from slug names.
+
+---
+
+## Common Search Terms → Skill
+
+| If you search for… | Use this skill |
+|--------------------|---------------|
+| `prd-author`, `prd writer`, `product requirements` | [requirements-extractor](agents/product/product-manager/requirements-extractor/SKILL.md) |
+| `user-story-writer`, `story writer` | [story-writer](agents/product/product-manager/story-writer/SKILL.md) |
+| `experiment-designer`, `A/B experiment` | [demand-validator](agents/product/product-manager/demand-validator/SKILL.md) |
+| `sprint-planning-facilitator`, `sprint planning` | [sprint-planner](agents/product/product-manager/sprint-planner/SKILL.md) |
+| `release-note-drafter`, `changelog writer` | [launch-checklist-runner](agents/product/product-manager/launch-checklist-runner/SKILL.md) |
+| `roadmap-owner`, `roadmap strategy` | [prd-assembler](agents/product/vp-product/prd-assembler/SKILL.md) |
+| `system-design-author`, `system design` | [architecture-designer](agents/engineering/tech-architect/architecture-designer/SKILL.md) |
+| `adr-writer`, `architecture decision record` | [architecture-designer](agents/engineering/tech-architect/architecture-designer/SKILL.md) |
+| `api-contract-designer`, `API design`, `data model` | [api-contract-definer](agents/engineering/tech-architect/api-contract-definer/SKILL.md) |
+| `code-reviewer`, `PR review` | [secure-code-reviewer](agents/engineering/security-engineer/secure-code-reviewer/SKILL.md) |
+| `vulnerability-scanner-operator`, `pen test` | [penetration-tester](agents/engineering/security-engineer/penetration-tester/SKILL.md) |
+| `ci-pipeline-builder`, `CI pipeline`, `CD pipeline` | [ci-cd-pipeline-builder](agents/engineering/devops-infrastructure-engineer/ci-cd-pipeline-builder/SKILL.md) |
+| `infrastructure-as-code-author`, `IaC`, `cloud setup` | [cloud-foundation-setup](agents/engineering/devops-infrastructure-engineer/cloud-foundation-setup/SKILL.md) |
+| `monitoring-alert-configurator`, `alerts`, `observability` | [alerting-configurator](agents/engineering/devops-infrastructure-engineer/alerting-configurator/SKILL.md) |
+| `cost-optimiser`, `cloud costs` | [infrastructure-cost-optimiser](agents/engineering/devops-infrastructure-engineer/infrastructure-cost-optimiser/SKILL.md) |
+| `test-plan-author`, `test planning` | [integration-test-runner](agents/engineering/qa-test-engineer/integration-test-runner/SKILL.md) |
+| `automated-test-writer`, `unit tests` | [unit-test-runner](agents/engineering/qa-test-engineer/unit-test-runner/SKILL.md) |
+| `release-sign-off-tester`, `release validation` | [staging-validator](agents/engineering/qa-test-engineer/staging-validator/SKILL.md) |
+| `wireframe-creator`, `wireframing` | [wireframe-builder](agents/design/ux-ui-designer/wireframe-builder/SKILL.md) |
+| `usability-heuristic-reviewer`, `UX review`, `usability` | [ux-flow-designer](agents/design/ux-ui-designer/ux-flow-designer/SKILL.md) |
+| `prototype-builder`, `prototyping` | [prototype-creator](agents/design/ux-ui-designer/prototype-creator/SKILL.md) |
+| `interview-conductor`, `user research`, `user interviews` | [user-feedback-synthesiser](agents/design/ux-researcher/user-feedback-synthesiser/SKILL.md) |
+| `blog-post-writer`, `content writing` | [content-marketing-operations](agents/marketing/content-marketer/content-marketing-operations/SKILL.md) |
+| `revenue-forecaster`, `financial forecast` | [rolling-forecast-updater](agents/finance/fpa-analyst/rolling-forecast-updater/SKILL.md) |
+| `unit-economics-tracker`, `unit economics` | [unit-economics-monitor](agents/finance/fpa-analyst/unit-economics-monitor/SKILL.md) |
+| `investor-update-author`, `investor update` | [monthly-investor-update](agents/finance/investor-relations-manager/monthly-investor-update/SKILL.md) |
+| `sql-query-author`, `SQL`, `data query` | [funnel-analyser](agents/data-growth/data-analyst/funnel-analyser/SKILL.md) |
+| `dashboard-builder`, `analytics dashboard` | [metrics-dashboard-builder](agents/data-growth/data-analyst/metrics-dashboard-builder/SKILL.md) |
+| `ab-test-statistician`, `A/B test analysis` | [signal-synthesiser-data](agents/data-growth/data-analyst/signal-synthesiser-data/SKILL.md) |
+| `deal-qualifier`, `deal review`, `sales qualification` | [sales-proposal-builder](agents/sales/account-executive/sales-proposal-builder/SKILL.md) |
+| `health-score-monitor`, `customer health` | [cs-health-monitor](agents/customer-success/cs-manager/cs-health-monitor/SKILL.md) |
 
 ---
 
