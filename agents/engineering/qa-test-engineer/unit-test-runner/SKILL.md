@@ -6,6 +6,11 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "unit tests"
+  - "automated tests"
+  - "write tests"
+  - "test coverage"
 ---
 
 # unit-test-runner
