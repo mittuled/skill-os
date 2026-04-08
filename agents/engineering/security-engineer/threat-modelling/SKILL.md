@@ -15,6 +15,11 @@ related-skills:
   - ../threat-model-sketch/SKILL.md
   - ../security-architecture-reviewer/SKILL.md
   - ../penetration-tester/SKILL.md
+triggers:
+  - "threat model"
+  - "STRIDE analysis"
+  - "security threats"
+  - "model attack surface"
 ---
 
 # threat-modelling

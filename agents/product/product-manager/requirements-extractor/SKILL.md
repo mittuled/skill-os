@@ -12,10 +12,11 @@ version: 1.0.0
 complexity: medium
 related-skills: []
 triggers:
-  - "extract requirements from these notes"
-  - "turn interview notes into requirements"
-  - "what are the requirements for this feature"
-  - "structure these feature requests"
+  - "write PRD"
+  - "product requirements"
+  - "prd-author"
+  - "requirements doc"
+  - "feature spec"
 ---
 
 # requirements-extractor
