@@ -6,6 +6,11 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "release sign-off"
+  - "release validation"
+  - "staging validation"
+  - "pre-release check"
 ---
 
 # staging-validator
