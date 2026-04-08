@@ -11,6 +11,11 @@ related-skills:
   - market-sizer
   - roadmap-placer
   - backlog-populator
+triggers:
+  - "experiment design"
+  - "validate demand"
+  - "experiment-designer"
+  - "product experiment"
 ---
 
 # demand-validator
