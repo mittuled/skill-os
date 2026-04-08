@@ -6,6 +6,11 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "test plan"
+  - "integration tests"
+  - "write test plan"
+  - "QA planning"
 ---
 
 # integration-test-runner
