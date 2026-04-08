@@ -11,6 +11,11 @@ agent: cs-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "customer health"
+  - "health-score-monitor"
+  - "CS health score"
+  - "churn risk"
 ---
 
 # cs-health-monitor
