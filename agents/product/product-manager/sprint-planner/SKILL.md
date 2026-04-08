@@ -13,10 +13,10 @@ version: 1.0.0
 complexity: medium
 related-skills: []
 triggers:
-  - "plan the next sprint"
-  - "what should we pull into this sprint"
-  - "build a sprint plan"
-  - "balance the sprint workload"
+  - "sprint planning"
+  - "plan sprint"
+  - "sprint-planning-facilitator"
+  - "capacity planning"
 ---
 
 # sprint-planner
