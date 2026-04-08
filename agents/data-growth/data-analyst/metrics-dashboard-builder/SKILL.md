@@ -11,6 +11,11 @@ related-skills:
   - goal-framer-data
   - alerting-configurator-data
   - metrics-dashboard-growth
+triggers:
+  - "analytics dashboard"
+  - "dashboard-builder"
+  - "build dashboard"
+  - "metrics dashboard"
 ---
 
 # metrics-dashboard-builder
