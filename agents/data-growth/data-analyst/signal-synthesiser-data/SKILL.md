@@ -10,6 +10,11 @@ related-skills:
   - signal-synthesiser-data-p
   - metrics-dashboard-builder
   - funnel-analyser
+triggers:
+  - "A/B test"
+  - "ab-test-statistician"
+  - "experiment analysis"
+  - "analytics review"
 ---
 
 # signal-synthesiser-data
