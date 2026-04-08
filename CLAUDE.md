@@ -138,6 +138,8 @@ Agents reference the tool policy via their Agent header: `Tool policy: [allowed-
 
 ## Active Technologies
 - Markdown + YAML (content project) + None (zero external deps) (003-production-grade-depth)
+- Markdown + YAML (configuration project, zero code) + None (static files only) (004-skill-os-paperclip-integration)
+- Git-managed filesystem — same as the rest of Skill OS (004-skill-os-paperclip-integration)
 
 - Python 3.10+ for executable scripts, Bash for shell helpers
 - Markdown + YAML for skill files and policy files

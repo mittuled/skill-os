@@ -119,6 +119,18 @@ Full spec: [`specs/001-enrich-skill-directory/contracts/skill-template.md`](spec
 
 ---
 
+## Integrations
+
+### Paperclip
+
+Connect Skill OS's 528 skills to [Paperclip](https://github.com/paperclipai/paperclip), the open-source AI agent orchestration platform.
+
+Set `instructionsFilePath` in your Paperclip agent's `adapterConfig` to any `SKILL.md` path — the agent will follow that skill's workflow for every task it receives.
+
+See [`paperclip/QUICKSTART.md`](paperclip/QUICKSTART.md) for setup, routing tables, [GATE] handling, and progressive loading guidance.
+
+---
+
 ## Validation
 
 ```bash
