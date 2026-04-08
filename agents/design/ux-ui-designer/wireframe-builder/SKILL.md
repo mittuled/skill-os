@@ -12,10 +12,10 @@ version: 1.0.0
 complexity: simple
 related-skills: []
 triggers:
-  - "wireframe this screen"
-  - "sketch the layout"
-  - "create a lo-fi mockup"
-  - "build wireframes for this feature"
+  - "wireframe"
+  - "wireframe-creator"
+  - "create wireframes"
+  - "UI wireframe"
 ---
 
 # wireframe-builder
