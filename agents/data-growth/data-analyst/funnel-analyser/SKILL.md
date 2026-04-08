@@ -11,6 +11,12 @@ related-skills:
   - metrics-dashboard-builder
   - funnel-analyser-growth
   - statistical-significance-tracker
+triggers:
+  - "SQL query"
+  - "sql-query-author"
+  - "data analysis"
+  - "funnel analysis"
+  - "query data"
 ---
 
 # funnel-analyser
