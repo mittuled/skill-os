@@ -13,6 +13,11 @@ complexity: simple
 related-skills:
   - ../board-materials-coordinator/SKILL.md
   - ../../../finance/fpa-analyst/saas-metrics-reporter/SKILL.md
+triggers:
+  - "investor update"
+  - "investor-update-author"
+  - "monthly update investors"
+  - "LP update"
 ---
 
 # monthly-investor-update
