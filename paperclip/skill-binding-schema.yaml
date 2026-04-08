@@ -1,0 +1,75 @@
+# Skill OS × Paperclip — Skill Binding Schema
+# Version: 1.0
+#
+# This file defines the structure for skill-routing-table.yaml and
+# any custom operator binding configs.
+#
+# Usage:
+#   1. Copy skill-routing-table.yaml as your starting point
+#   2. Add/remove bindings to match your Paperclip company labels
+#   3. Point each binding's skill_path at a SKILL.md in your Skill OS clone
+#
+# Validation:
+#   Run: python3 scripts/validate.py  (from Skill OS root)
+#   Then: ls <skill_path> for each binding to confirm the file exists
+
+schema_version: "1.0"
+
+# --- Top-level fields ---
+
+# version (required): Schema version of this config file
+# Type: string
+# Example: "1.0"
+version: "1.0"
+
+# skill_os_root (required): Path to the root of your Skill OS clone
+# Type: string (absolute or relative to this config file)
+# Example: "./skill-os" or "/home/user/skill-os"
+skill_os_root: "./skill-os"
+
+# default_fallback (optional): Global fallback ethos file when no binding matches
+# Type: string (path relative to skill_os_root) or null
+# Example: "departments/engineering/ideal-engineering.md"
+default_fallback: null
+
+# bindings (required): List of SkillBinding objects
+bindings:
+
+  # --- SkillBinding fields ---
+
+  - # role (required): Paperclip agent role enum value
+    # Type: string
+    # Allowed values: ceo | cto | cmo | cfo | engineer | designer | pm | qa | devops | researcher | general
+    role: pm
+
+    # label (required): The IssueLabel.name value that triggers this binding
+    # Type: string (kebab-case recommended, no whitespace)
+    # How to create: Paperclip UI → Settings → Labels → New Label
+    # Matching: exact string match against issue label names at dispatch time
+    label: prd
+
+    # skill_path (required): Path to SKILL.md, relative to skill_os_root
+    # Type: string
+    # Must resolve to an existing file — verify with: ls <skill_os_root>/<skill_path>
+    skill_path: agents/product/product-manager/prd-author/SKILL.md
+
+    # skill_version (optional): Pin to a specific version of the skill
+    # Type: string or null
+    # Options:
+    #   null           → always use latest (HEAD) — suitable for development
+    #   "a1b2c3d"      → pin to a specific git commit SHA — recommended for production
+    #   "v1.0.0"       → pin to a semver release tag (if you tag Skill OS releases)
+    # Note: Skill OS does not enforce semver; git SHAs are the most reliable version pin
+    skill_version: null
+
+    # fallback_ethos (optional): Department ethos profile used when this skill can't load
+    # Type: string (path relative to skill_os_root) or null
+    fallback_ethos: departments/product/ideal-product.md
+
+    # model_override (optional): Override the Claude model for this specific skill
+    # Type: string or null
+    # Recommended:
+    #   null                  → inherit from agent adapterConfig.model
+    #   "claude-sonnet-4-6"   → L1/L2 skills (simple/medium complexity)
+    #   "claude-opus-4-6"     → L3 skills (complex — threat-modelling, system-design, contract-review)
+    model_override: null
