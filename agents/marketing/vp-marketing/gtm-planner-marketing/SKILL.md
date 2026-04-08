@@ -13,10 +13,10 @@ related-skills:
   - ../gtm-activation-marketing/SKILL.md
   - ../demand-gen-planner/SKILL.md
 triggers:
-  - "build the go-to-market plan"
-  - "plan the GTM strategy"
-  - "how should we launch this to market"
-  - "create a marketing launch plan"
+  - "GTM strategy"
+  - "go-to-market plan"
+  - "gtm-planner"
+  - "launch strategy"
 ---
 
 # gtm-planner-marketing
