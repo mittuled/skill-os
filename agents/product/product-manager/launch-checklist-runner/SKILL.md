@@ -12,10 +12,10 @@ version: 1.0.0
 complexity: medium
 related-skills: []
 triggers:
-  - "run the launch checklist"
-  - "are we ready to launch"
-  - "go through the go-live checklist"
-  - "verify launch readiness"
+  - "release notes"
+  - "launch checklist"
+  - "release-note-drafter"
+  - "go-live checklist"
 ---
 
 # launch-checklist-runner
