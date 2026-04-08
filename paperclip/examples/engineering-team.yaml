@@ -1,0 +1,128 @@
+# Skill OS × Paperclip — Engineering Team Example
+#
+# A 5-person engineering team: CTO + 3 engineers (backend, security, devops) + QA.
+# Each agent is grounded in a Skill OS skill matching their primary responsibility.
+#
+# Prerequisites:
+#   - Skill OS cloned at ../skill-os
+#   - All instructionsFilePath values adjusted to your actual Skill OS path
+#
+# Issue labels to create in Paperclip for this team:
+#   cto:      system-design, adr, architecture-review
+#   engineer: backend-api, code-review, threat-model, ci-pipeline
+#   qa:       test-plan, automated-tests, release-sign-off
+
+agents:
+
+  - name: "Jordan (CTO)"
+    role: cto
+    title: "Chief Technology Officer"
+    capabilities: |
+      Owns system architecture, ADRs, and technology decisions.
+      Grounded in Skill OS architecture-designer skill.
+    budgetMonthlyCents: 10000   # $100/month — complex architecture decisions
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-opus-4-6    # L3 skill — use strongest model
+      instructionsFilePath: "/path/to/skill-os/agents/engineering/tech-architect/architecture-designer/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+
+        When you reach a step marked [GATE]:
+        Post your output as an issue comment, create a Paperclip approval request,
+        set issue status to "blocked", and stop until approved.
+      maxTurnsPerRun: 30
+
+  - name: "Sam (Backend Engineer)"
+    role: engineer
+    title: "Senior Backend Engineer"
+    capabilities: |
+      Implements backend APIs, services, and data models.
+      Grounded in Skill OS builder skill for sr-backend-developer.
+    budgetMonthlyCents: 5000
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-sonnet-4-6
+      instructionsFilePath: "/path/to/skill-os/agents/engineering/sr-backend-developer/builder/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+      maxTurnsPerRun: 25
+
+  - name: "Riley (Security Engineer)"
+    role: engineer
+    title: "Security Engineer"
+    capabilities: |
+      Threat modelling, vulnerability assessment, secure code review.
+      Grounded in Skill OS threat-modelling skill.
+    budgetMonthlyCents: 8000   # Higher budget — complex security analysis
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-opus-4-6    # threat-modelling is L3 complex
+      instructionsFilePath: "/path/to/skill-os/agents/engineering/security-engineer/threat-modelling/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the STRIDE threat modelling workflow in your skill instructions.
+
+        When you reach a step marked [GATE]:
+        Post your threat model draft as an issue comment, create an approval request,
+        set issue status to "blocked", and stop until the security lead approves.
+      maxTurnsPerRun: 40
+
+  - name: "Casey (DevOps Engineer)"
+    role: devops
+    title: "DevOps / Infrastructure Engineer"
+    capabilities: |
+      CI/CD pipelines, infrastructure as code, monitoring configuration.
+      Grounded in Skill OS ci-cd-pipeline-builder skill.
+    budgetMonthlyCents: 5000
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-sonnet-4-6
+      instructionsFilePath: "/path/to/skill-os/agents/engineering/devops-infrastructure-engineer/ci-cd-pipeline-builder/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+      maxTurnsPerRun: 20
+
+  - name: "Morgan (QA Engineer)"
+    role: qa
+    title: "QA / Test Engineer"
+    capabilities: |
+      Test planning, integration testing, release validation.
+      Grounded in Skill OS integration-test-runner skill.
+    budgetMonthlyCents: 4000
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-sonnet-4-6
+      instructionsFilePath: "/path/to/skill-os/agents/engineering/qa-test-engineer/integration-test-runner/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+      maxTurnsPerRun: 20

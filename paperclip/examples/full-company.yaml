@@ -1,0 +1,186 @@
+# Skill OS × Paperclip — Full-Company Example
+#
+# A 7-agent company spanning all major Paperclip roles.
+# Covers executive leadership, product, engineering, design, and go-to-market.
+#
+# Use this as a starting point for a full-company Paperclip setup.
+# Strip out agents you don't need, add role instances for larger teams.
+#
+# Prerequisites:
+#   - Skill OS cloned at ../skill-os
+#   - All instructionsFilePath values adjusted to your actual Skill OS path
+#
+# Issue labels to create in Paperclip for this team:
+#   ceo:      roadmap, strategy
+#   cto:      system-design, adr, architecture-review
+#   cmo:      gtm, content, campaign, press-release
+#   cfo:      forecast, unit-economics, investor-update
+#   pm:       prd, user-story, experiment, sprint-planning
+#   engineer: backend-api, code-review, threat-model
+#   designer: wireframe, usability-review, user-research
+
+agents:
+
+  - name: "Alex (CEO)"
+    role: ceo
+    title: "Chief Executive Officer"
+    capabilities: |
+      Sets company direction, owns roadmap strategy, approves major initiatives.
+      Grounded in Skill OS prd-assembler skill for vp-product.
+    budgetMonthlyCents: 15000   # $150/month — complex strategic decisions
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-opus-4-6    # Strategic L3 skill — use strongest model
+      instructionsFilePath: "/path/to/skill-os/agents/product/vp-product/prd-assembler/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Review the goal hierarchy for strategic alignment before proceeding.
+        Then follow the workflow in your skill instructions.
+
+        When you reach a step marked [GATE]:
+        Post your output as an issue comment, create a Paperclip approval request,
+        set issue status to "blocked", and stop until approved.
+      maxTurnsPerRun: 30
+
+  - name: "Jordan (CTO)"
+    role: cto
+    title: "Chief Technology Officer"
+    capabilities: |
+      Owns system architecture, ADRs, and technology decisions.
+      Grounded in Skill OS architecture-designer skill.
+    budgetMonthlyCents: 10000   # $100/month — complex architecture decisions
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-opus-4-6    # L3 skill — use strongest model
+      instructionsFilePath: "/path/to/skill-os/agents/engineering/tech-architect/architecture-designer/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+
+        When you reach a step marked [GATE]:
+        Post your output as an issue comment, create a Paperclip approval request,
+        set issue status to "blocked", and stop until approved.
+      maxTurnsPerRun: 30
+
+  - name: "Dana (CMO)"
+    role: cmo
+    title: "Chief Marketing Officer"
+    capabilities: |
+      Owns go-to-market strategy, content, campaigns, and PR.
+      Grounded in Skill OS gtm-planner-marketing skill.
+    budgetMonthlyCents: 8000   # $80/month — strategic GTM planning
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-opus-4-6    # gtm-planner-marketing is L3 complex
+      instructionsFilePath: "/path/to/skill-os/agents/marketing/vp-marketing/gtm-planner-marketing/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+
+        When you reach a step marked [GATE]:
+        Post your output as an issue comment, create a Paperclip approval request,
+        set issue status to "blocked", and stop until approved.
+      maxTurnsPerRun: 25
+
+  - name: "Taylor (CFO)"
+    role: cfo
+    title: "Chief Financial Officer"
+    capabilities: |
+      Financial planning, unit economics tracking, investor reporting.
+      Grounded in Skill OS unit-economics-monitor skill.
+    budgetMonthlyCents: 6000   # $60/month — financial analysis tasks
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-sonnet-4-6
+      instructionsFilePath: "/path/to/skill-os/agents/finance/fpa-analyst/unit-economics-monitor/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+      maxTurnsPerRun: 20
+
+  - name: "Sam (Product Manager)"
+    role: pm
+    title: "Product Manager"
+    capabilities: |
+      Writes PRDs, user stories, and sprint plans.
+      Grounded in Skill OS requirements-extractor skill.
+    budgetMonthlyCents: 5000   # $50/month — medium-volume PM tasks
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-sonnet-4-6
+      instructionsFilePath: "/path/to/skill-os/agents/product/product-manager/requirements-extractor/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+
+        When you reach a step marked [GATE]:
+        Post your output as an issue comment, create a Paperclip approval request,
+        set issue status to "blocked", and stop until approved.
+      maxTurnsPerRun: 20
+
+  - name: "Riley (Engineer)"
+    role: engineer
+    title: "Senior Backend Engineer"
+    capabilities: |
+      Implements backend APIs, services, and data models.
+      Grounded in Skill OS builder skill for sr-backend-developer.
+    budgetMonthlyCents: 5000
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-sonnet-4-6
+      instructionsFilePath: "/path/to/skill-os/agents/engineering/sr-backend-developer/builder/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+      maxTurnsPerRun: 25
+
+  - name: "Morgan (Designer)"
+    role: designer
+    title: "UX/UI Designer"
+    capabilities: |
+      Creates wireframes, prototypes, and UX flows.
+      Grounded in Skill OS wireframe-builder skill.
+    budgetMonthlyCents: 4000
+
+    adapterType: claude_local
+    adapterConfig:
+      cwd: "/path/to/company-repo"
+      model: claude-sonnet-4-6
+      instructionsFilePath: "/path/to/skill-os/agents/design/ux-ui-designer/wireframe-builder/SKILL.md"
+      promptTemplate: |
+        You are {{agent.title}} at {{company.name}}.
+        Task: {{issue.title}} ({{issue.identifier}}) | Priority: {{issue.priority}}
+
+        Fetch full context: GET /api/issues/{{issue.id}}/heartbeat-context
+        Then follow the workflow in your skill instructions.
+      maxTurnsPerRun: 20
