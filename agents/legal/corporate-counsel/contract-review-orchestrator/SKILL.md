@@ -17,10 +17,10 @@ related-skills:
   - ../../../legal/general-counsel/negotiation-strategist/SKILL.md
   - ../plain-english-translator/SKILL.md
 triggers:
-  - "review this contract"
-  - "new contract received"
-  - "contract analysis needed"
-  - "vendor agreement review"
+  - "contract review"
+  - "review contract"
+  - "legal review"
+  - "contract analysis"
 ---
 
 # contract-review-orchestrator
