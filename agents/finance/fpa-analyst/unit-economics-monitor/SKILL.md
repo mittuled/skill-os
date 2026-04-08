@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../../../finance/cfo-vp-finance/unit-econ-viability-gate/SKILL.md
   - ../saas-metrics-reporter/SKILL.md
+triggers:
+  - "unit economics"
+  - "LTV CAC"
+  - "unit-economics-tracker"
+  - "monitor unit economics"
 ---
 
 # unit-economics-monitor
