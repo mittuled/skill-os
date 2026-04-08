@@ -11,6 +11,11 @@ related-skills:
   - ../instrumentation-implementer/SKILL.md
   - ../third-party-integrator/SKILL.md
   - ../../../engineering/database-expert/data-model-designer/SKILL.md
+triggers:
+  - "build backend API"
+  - "implement service"
+  - "create endpoint"
+  - "backend implementation"
 ---
 
 # builder
