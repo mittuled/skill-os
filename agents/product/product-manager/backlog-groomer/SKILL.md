@@ -12,10 +12,10 @@ related-skills:
   - story-writer
   - dependency-mapper-review
 triggers:
-  - "groom the backlog"
-  - "refine upcoming stories"
-  - "clean up the backlog"
-  - "prioritize backlog items"
+  - "backlog grooming"
+  - "groom backlog"
+  - "backlog refinement"
+  - "prioritise backlog"
 ---
 
 # backlog-groomer
