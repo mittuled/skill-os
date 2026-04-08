@@ -6,6 +6,11 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "cloud costs"
+  - "cost optimisation"
+  - "reduce AWS bill"
+  - "infrastructure savings"
 ---
 
 # infrastructure-cost-optimiser
