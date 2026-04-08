@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../marketing/demand-gen-manager/content-engine-builder-marketing/SKILL.md
   - ../../../marketing/pr-communications-manager/thought-leadership-programme-runner/SKILL.md
+triggers:
+  - "blog post"
+  - "content writing"
+  - "blog-post-writer"
+  - "write content"
+  - "content strategy"
 ---
 
 # content-marketing-operations
