@@ -11,6 +11,11 @@ agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "UX flow"
+  - "usability review"
+  - "usability-heuristic-reviewer"
+  - "user flow design"
 ---
 
 # ux-flow-designer
