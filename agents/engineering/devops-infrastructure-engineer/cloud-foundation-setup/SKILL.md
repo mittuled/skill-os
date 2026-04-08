@@ -6,6 +6,11 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "cloud infrastructure"
+  - "IaC"
+  - "terraform setup"
+  - "infrastructure as code"
 ---
 
 # cloud-foundation-setup
