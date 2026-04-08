@@ -14,10 +14,10 @@ related-skills:
   - ../architecture-designer/SKILL.md
   - ../technical-feasibility-check/SKILL.md
 triggers:
-  - "define the API contract"
-  - "design the API endpoints"
-  - "what should the API look like"
-  - "create the API spec"
+  - "define API contract"
+  - "data model"
+  - "API schema"
+  - "design data model"
 ---
 
 # api-contract-definer
