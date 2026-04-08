@@ -1,7 +1,7 @@
 # Skill OS — Enrichment Status
 
 **Last Updated**: 2026-04-07
-**Total Skills**: 528 | **Enriched**: 528 | **Pending**: 0 | **Progress**: 100%
+**Total Skills**: 527 | **Enriched**: 527 | **Pending**: 0 | **Progress**: 100%
 **Migration Order**: Department-by-department, starting with Product
 
 > **Note (002)**: 4 new tooling skills added in 002-skill-quality-improvements: `company-tooling-onboarder` and `tool-policy-manager` (Agent Configuration Manager), `mcp-server-builder` (Skill Builder), `tool-health-checker` (Agent Operations Manager).

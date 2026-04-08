@@ -2,7 +2,7 @@
 
 The world's most comprehensive open-source directory of AI work agent skills.
 
-**528 skills · 86 agent roles · 15 departments · production-grade depth**
+**527 skills · 86 agent roles · 15 departments · production-grade depth**
 
 Every skill ships with executable workflows, scoring rubrics, output templates, anti-patterns, and cross-references — written at the depth of the best human practitioners, not generic AI advice.
 
