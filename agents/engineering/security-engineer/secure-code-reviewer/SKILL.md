@@ -13,6 +13,11 @@ complexity: medium
 related-skills:
   - ../penetration-tester/SKILL.md
   - ../security-requirements-extractor/SKILL.md
+triggers:
+  - "code review"
+  - "review PR"
+  - "security review"
+  - "audit code"
 ---
 
 # secure-code-reviewer
