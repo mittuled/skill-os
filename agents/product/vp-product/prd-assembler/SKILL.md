@@ -12,11 +12,10 @@ version: 1.0.0
 complexity: complex
 related-skills: []
 triggers:
-  - "write the PRD"
-  - "assemble a product requirements doc"
-  - "create a spec for this feature"
-  - "put together the PRD"
-  - "draft the product spec"
+  - "product roadmap"
+  - "roadmap strategy"
+  - "roadmap-owner"
+  - "strategic roadmap"
 ---
 
 # prd-assembler
