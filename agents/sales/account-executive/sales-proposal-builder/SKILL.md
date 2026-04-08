@@ -17,10 +17,11 @@ related-skills:
   - ../../../sales/vp-sales/company-researcher/SKILL.md
   - ../../sdr/lead-qualifier/SKILL.md
 triggers:
-  - "build sales proposal"
-  - "proposal needed"
-  - "pricing request received"
-  - "deal at proposal stage"
+  - "deal review"
+  - "deal-qualifier"
+  - "sales proposal"
+  - "qualify deal"
+  - "review deal"
 ---
 
 # sales-proposal-builder
