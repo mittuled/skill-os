@@ -6,6 +6,11 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitoring alerts"
+  - "set up alerts"
+  - "observability"
+  - "configure monitoring"
 ---
 
 # alerting-configurator
