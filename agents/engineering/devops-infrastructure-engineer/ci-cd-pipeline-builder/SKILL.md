@@ -7,10 +7,10 @@ version: 1.0.0
 complexity: complex
 related-skills: []
 triggers:
+  - "CI pipeline"
+  - "CD pipeline"
+  - "build pipeline"
   - "set up CI/CD"
-  - "build the deployment pipeline"
-  - "configure continuous integration"
-  - "automate the build and deploy process"
 ---
 
 # ci-cd-pipeline-builder
