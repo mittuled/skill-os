@@ -15,10 +15,10 @@ related-skills:
   - ../../../legal/corporate-counsel/missing-protections-finder/SKILL.md
   - ../../../legal/product-counsel/terms-of-service-generator/SKILL.md
 triggers:
+  - "NDA"
   - "generate NDA"
-  - "need an NDA"
-  - "mutual NDA required"
-  - "confidentiality agreement"
+  - "non-disclosure agreement"
+  - "draft NDA"
 ---
 
 # nda-generator
