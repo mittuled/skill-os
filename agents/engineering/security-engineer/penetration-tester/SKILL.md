@@ -14,6 +14,11 @@ related-skills:
   - ../threat-modelling/SKILL.md
   - ../secure-code-reviewer/SKILL.md
   - ../security-architecture-reviewer/SKILL.md
+triggers:
+  - "pen test"
+  - "vulnerability scan"
+  - "find vulnerabilities"
+  - "security testing"
 ---
 
 # penetration-tester
