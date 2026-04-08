@@ -11,6 +11,11 @@ agent: ux-researcher
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "user research"
+  - "user interviews"
+  - "interview-conductor"
+  - "synthesise feedback"
 ---
 
 # user-feedback-synthesiser
