@@ -1,0 +1,266 @@
+# Skill OS × Paperclip — Default Skill Routing Table
+# Version: 1.0
+#
+# Maps Paperclip issue labels to Skill OS skill paths.
+# Covers the 40 most common task types across all major Paperclip roles.
+#
+# HOW TO USE:
+#   1. Create the labels listed here in your Paperclip company (Settings → Labels)
+#   2. Update skill_os_root to match your local Skill OS clone path
+#   3. When creating a task, apply the relevant label
+#   4. Set the matched agent's instructionsFilePath to the corresponding skill_path
+#
+# VALIDATION:
+#   Verify all skill_path values resolve to existing files:
+#     cd <skill_os_root>
+#     python3 scripts/validate.py
+#   Then spot-check a few paths:
+#     ls agents/product/product-manager/requirements-extractor/SKILL.md
+#
+# VERSIONING (production best practice):
+#   Pin skill_version to a git SHA for stable production configs:
+#     skill_version: "a1b2c3d"   # git rev-parse --short HEAD
+#   Omit or set to null for always-latest (development).
+#
+# MATCHING LOGIC:
+#   role + IssueLabel.name → first matching binding wins
+#   If no match: fallback_ethos is used (or nothing if null)
+
+version: "1.0"
+skill_os_root: "./skill-os"    # ← update to your Skill OS clone path
+default_fallback: null
+
+bindings:
+
+  # ─── PM (Product Manager) ──────────────────────────────────────────────────
+
+  - role: pm
+    label: prd
+    skill_path: agents/product/product-manager/requirements-extractor/SKILL.md
+    fallback_ethos: departments/product/ideal-product.md
+    skill_version: null
+
+  - role: pm
+    label: user-story
+    skill_path: agents/product/product-manager/story-writer/SKILL.md
+    skill_version: null
+
+  - role: pm
+    label: experiment
+    skill_path: agents/product/product-manager/demand-validator/SKILL.md
+    skill_version: null
+
+  - role: pm
+    label: sprint-planning
+    skill_path: agents/product/product-manager/sprint-planner/SKILL.md
+    skill_version: null
+
+  - role: pm
+    label: backlog-grooming
+    skill_path: agents/product/product-manager/backlog-groomer/SKILL.md
+    skill_version: null
+
+  - role: pm
+    label: release-notes
+    skill_path: agents/product/product-manager/launch-checklist-runner/SKILL.md
+    skill_version: null
+
+  - role: pm
+    label: analytics-review
+    skill_path: agents/data-growth/data-analyst/signal-synthesiser-data/SKILL.md
+    skill_version: null
+
+  # ─── Engineer (Backend / General) ──────────────────────────────────────────
+
+  - role: engineer
+    label: backend-api
+    skill_path: agents/engineering/sr-backend-developer/builder/SKILL.md
+    fallback_ethos: departments/engineering/ideal-engineering.md
+    skill_version: null
+
+  - role: engineer
+    label: threat-model
+    skill_path: agents/engineering/security-engineer/threat-modelling/SKILL.md
+    model_override: claude-opus-4-6   # L3 complex skill
+    skill_version: null
+
+  - role: engineer
+    label: code-review
+    skill_path: agents/engineering/security-engineer/secure-code-reviewer/SKILL.md
+    skill_version: null
+
+  - role: engineer
+    label: adr
+    skill_path: agents/engineering/tech-architect/architecture-designer/SKILL.md
+    fallback_ethos: departments/engineering/ideal-engineering.md
+    skill_version: null
+
+  - role: engineer
+    label: system-design
+    skill_path: agents/engineering/tech-architect/architecture-designer/SKILL.md
+    model_override: claude-opus-4-6   # L3 complex skill
+    skill_version: null
+
+  - role: engineer
+    label: data-model
+    skill_path: agents/engineering/tech-architect/api-contract-definer/SKILL.md
+    skill_version: null
+
+  - role: engineer
+    label: vulnerability-scan
+    skill_path: agents/engineering/security-engineer/penetration-tester/SKILL.md
+    skill_version: null
+
+  # ─── DevOps ────────────────────────────────────────────────────────────────
+
+  - role: devops
+    label: ci-pipeline
+    skill_path: agents/engineering/devops-infrastructure-engineer/ci-cd-pipeline-builder/SKILL.md
+    fallback_ethos: departments/engineering/ideal-engineering.md
+    skill_version: null
+
+  - role: devops
+    label: cd-pipeline
+    skill_path: agents/engineering/devops-infrastructure-engineer/ci-cd-pipeline-builder/SKILL.md
+    skill_version: null
+
+  - role: devops
+    label: infrastructure
+    skill_path: agents/engineering/devops-infrastructure-engineer/cloud-foundation-setup/SKILL.md
+    skill_version: null
+
+  - role: devops
+    label: monitoring
+    skill_path: agents/engineering/devops-infrastructure-engineer/alerting-configurator/SKILL.md
+    skill_version: null
+
+  - role: devops
+    label: cost-optimisation
+    skill_path: agents/engineering/devops-infrastructure-engineer/infrastructure-cost-optimiser/SKILL.md
+    skill_version: null
+
+  # ─── QA ────────────────────────────────────────────────────────────────────
+
+  - role: qa
+    label: test-plan
+    skill_path: agents/engineering/qa-test-engineer/integration-test-runner/SKILL.md
+    fallback_ethos: departments/engineering/ideal-engineering.md
+    skill_version: null
+
+  - role: qa
+    label: automated-tests
+    skill_path: agents/engineering/qa-test-engineer/unit-test-runner/SKILL.md
+    skill_version: null
+
+  - role: qa
+    label: release-sign-off
+    skill_path: agents/engineering/qa-test-engineer/staging-validator/SKILL.md
+    skill_version: null
+
+  # ─── Designer ──────────────────────────────────────────────────────────────
+
+  - role: designer
+    label: wireframe
+    skill_path: agents/design/ux-ui-designer/wireframe-builder/SKILL.md
+    fallback_ethos: departments/design/ideal-design.md
+    skill_version: null
+
+  - role: designer
+    label: usability-review
+    skill_path: agents/design/ux-ui-designer/ux-flow-designer/SKILL.md
+    skill_version: null
+
+  - role: designer
+    label: prototype
+    skill_path: agents/design/ux-ui-designer/prototype-creator/SKILL.md
+    skill_version: null
+
+  - role: designer
+    label: user-research
+    skill_path: agents/design/ux-researcher/user-feedback-synthesiser/SKILL.md
+    skill_version: null
+
+  # ─── CMO (Marketing) ───────────────────────────────────────────────────────
+
+  - role: cmo
+    label: gtm
+    skill_path: agents/marketing/vp-marketing/gtm-planner-marketing/SKILL.md
+    fallback_ethos: departments/marketing/ideal-marketing.md
+    model_override: claude-opus-4-6
+    skill_version: null
+
+  - role: cmo
+    label: content
+    skill_path: agents/marketing/content-marketer/content-marketing-operations/SKILL.md
+    skill_version: null
+
+  - role: cmo
+    label: campaign
+    skill_path: agents/marketing/demand-gen-manager/ad-campaign-builder/SKILL.md
+    skill_version: null
+
+  - role: cmo
+    label: press-release
+    skill_path: agents/marketing/pr-communications-manager/press-release-writer/SKILL.md
+    skill_version: null
+
+  # ─── CFO (Finance) ─────────────────────────────────────────────────────────
+
+  - role: cfo
+    label: forecast
+    skill_path: agents/finance/fpa-analyst/rolling-forecast-updater/SKILL.md
+    fallback_ethos: departments/finance/ideal-finance.md
+    skill_version: null
+
+  - role: cfo
+    label: unit-economics
+    skill_path: agents/finance/fpa-analyst/unit-economics-monitor/SKILL.md
+    skill_version: null
+
+  - role: cfo
+    label: investor-update
+    skill_path: agents/finance/investor-relations-manager/monthly-investor-update/SKILL.md
+    skill_version: null
+
+  # ─── Researcher ────────────────────────────────────────────────────────────
+
+  - role: researcher
+    label: data-analysis
+    skill_path: agents/data-growth/data-analyst/funnel-analyser/SKILL.md
+    fallback_ethos: departments/data-growth/ideal-data-growth.md
+    skill_version: null
+
+  - role: researcher
+    label: dashboard
+    skill_path: agents/data-growth/data-analyst/metrics-dashboard-builder/SKILL.md
+    skill_version: null
+
+  - role: researcher
+    label: ab-test
+    skill_path: agents/data-growth/data-analyst/signal-synthesiser-data/SKILL.md
+    skill_version: null
+
+  # ─── General (Sales, Legal, CS, Support, etc.) ─────────────────────────────
+
+  - role: general
+    label: deal-review
+    skill_path: agents/sales/account-executive/sales-proposal-builder/SKILL.md
+    fallback_ethos: departments/sales/ideal-sales.md
+    skill_version: null
+
+  - role: general
+    label: contract-review
+    skill_path: agents/legal/corporate-counsel/contract-review-orchestrator/SKILL.md
+    model_override: claude-opus-4-6   # L3 complex skill
+    skill_version: null
+
+  - role: general
+    label: nda
+    skill_path: agents/legal/corporate-counsel/nda-generator/SKILL.md
+    skill_version: null
+
+  - role: general
+    label: customer-health
+    skill_path: agents/customer-success/cs-manager/cs-health-monitor/SKILL.md
+    fallback_ethos: departments/customer-success/ideal-customer-success.md
+    skill_version: null
