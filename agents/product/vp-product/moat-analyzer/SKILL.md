@@ -12,6 +12,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "analyse competitive moat"
+  - "moat analysis"
+  - "competitive moat"
+  - "defensibility analysis"
+  - "product moat"
 ---
 
 # moat-analyzer
