@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../technical-feasibility-check/SKILL.md
   - ../architecture-designer/SKILL.md
+triggers:
+  - "review design feasibility"
+  - "feasibility review"
+  - "design viability check"
+  - "technical feasibility of design"
+  - "design feasibility assessment"
 ---
 
 # design-feasibility-reviewer
