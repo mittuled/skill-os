@@ -6,6 +6,12 @@ agent: event-marketing-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "manage conference presence"
+  - "plan conference booth"
+  - "event sponsorship logistics"
+  - "conference attendance plan"
+  - "trade show presence"
 ---
 
 # conference-presence-manager
