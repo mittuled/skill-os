@@ -6,6 +6,12 @@ agent: event-marketing-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "produce sales kickoff"
+  - "plan SKO event"
+  - "sales kickoff agenda"
+  - "run sales kickoff"
+  - "SKO logistics"
 ---
 
 # sales-kickoff-producer
