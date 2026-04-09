@@ -6,6 +6,12 @@ agent: event-marketing-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan event calendar"
+  - "build events roadmap"
+  - "annual event schedule"
+  - "prioritize event calendar"
+  - "events planning calendar"
 ---
 
 # event-calendar-planner
