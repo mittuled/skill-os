@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/iteration-prioritiser-f/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/backlog-groomer-eng/SKILL.md
+triggers:
+  - "prioritize engineering iteration"
+  - "engineering sprint priority"
+  - "iteration scope priority"
+  - "rank eng iteration"
+  - "engineering prioritization"
 ---
 
 # iteration-prioritiser-p-eng
