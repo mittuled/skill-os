@@ -15,6 +15,12 @@ related-skills:
   - ../../../sales/vp-sales/pricing-finaliser-sales/SKILL.md
   - ../../../sales/account-executive/sales-signal-synthesizer/SKILL.md
   - ../../account-executive/sales-signal-collector/SKILL.md
+triggers:
+  - "update objection handler"
+  - "refresh objection handling"
+  - "add sales objection"
+  - "objection handling update"
+  - "objection handler"
 ---
 
 # objection-handler-updater-sales
