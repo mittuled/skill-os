@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../martech-stack-manager/SKILL.md
   - ../campaign-analytics-reporter/SKILL.md
+triggers:
+  - "fix email deliverability"
+  - "improve email inbox rate"
+  - "email deliverability audit"
+  - "reduce email bounce rate"
+  - "email sender reputation"
 ---
 
 # email-deliverability-manager
