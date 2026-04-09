@@ -14,6 +14,12 @@ complexity: medium
 related-skills:
   - ../architecture-designer/SKILL.md
   - ../technical-feasibility-check/SKILL.md
+triggers:
+  - "analyze technical moat"
+  - "tech competitive advantage"
+  - "technical moat analysis"
+  - "defensibility analysis"
+  - "technical differentiation"
 ---
 
 # moat-analyzer-tech
