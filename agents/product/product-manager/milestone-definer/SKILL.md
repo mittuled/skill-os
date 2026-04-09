@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "define milestones"
+  - "set milestones"
+  - "milestone planning"
+  - "project milestones"
+  - "milestone definition"
 ---
 
 # milestone-definer
