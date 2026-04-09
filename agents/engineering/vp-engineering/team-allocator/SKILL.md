@@ -13,6 +13,12 @@ related-skills:
   - ../../../engineering/vp-engineering/effort-estimator-eng/SKILL.md
   - ../../../engineering/vp-engineering/phase-planner-eng/SKILL.md
   - ../velocity-monitor/SKILL.md
+triggers:
+  - "allocate team"
+  - "team allocation"
+  - "assign engineers"
+  - "resource allocation"
+  - "engineering staffing"
 ---
 
 # team-allocator
