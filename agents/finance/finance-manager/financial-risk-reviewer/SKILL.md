@@ -14,6 +14,12 @@ complexity: medium
 related-skills:
   - ../business-model-sketcher-finance/SKILL.md
   - ../../../finance/fpa-analyst/rolling-forecast-updater/SKILL.md
+triggers:
+  - "review financial risks"
+  - "financial risk assessment"
+  - "assess financial risk"
+  - "identify financial risks"
+  - "financial risk review"
 ---
 
 # financial-risk-reviewer
