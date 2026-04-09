@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../technical-feasibility-for-sales/SKILL.md
   - ../../../sales/solutions-engineering-manager/solutions-playbook-builder/SKILL.md
+triggers:
+  - "run proof of concept"
+  - "execute POC"
+  - "proof of concept"
+  - "POC runner"
+  - "build POC for deal"
 ---
 
 # proof-of-concept-runner
