@@ -11,6 +11,12 @@ agent: ux-research-lead
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "validate prototype usability"
+  - "usability test prototype"
+  - "prototype ux validation"
+  - "test prototype"
+  - "usability validation"
 ---
 
 # prototype-usability-validator
