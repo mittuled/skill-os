@@ -11,6 +11,12 @@ agent: vp-agent-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "create employee handbook"
+  - "write company handbook"
+  - "employee handbook v1"
+  - "company policies doc"
+  - "staff handbook"
 ---
 
 # employee-handbook-v1
