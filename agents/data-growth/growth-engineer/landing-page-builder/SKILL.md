@@ -13,6 +13,12 @@ complexity: simple
 related-skills:
   - ../growth-loop-activator/SKILL.md
   - ../instrumentation-implementer-growth/SKILL.md
+triggers:
+  - "build landing page"
+  - "create landing page"
+  - "launch landing page"
+  - "develop conversion page"
+  - "landing page development"
 ---
 
 # landing-page-builder
