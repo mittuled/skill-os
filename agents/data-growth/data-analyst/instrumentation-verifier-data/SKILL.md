@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-implementer-data
   - instrumentation-verifier-prod-data
   - instrumentation-spec-data
+triggers:
+  - "verify data instrumentation"
+  - "QA analytics tracking data"
+  - "validate event data"
+  - "check data event firing"
+  - "instrumentation QA data"
 ---
 
 # instrumentation-verifier-data
