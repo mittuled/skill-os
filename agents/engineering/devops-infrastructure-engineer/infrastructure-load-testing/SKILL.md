@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../infrastructure-scaling-executor/SKILL.md
   - ../performance-monitor/SKILL.md
+triggers:
+  - "load test infrastructure"
+  - "infrastructure stress test"
+  - "load testing"
+  - "capacity stress test"
+  - "infra load test"
 ---
 
 # infrastructure-load-testing
