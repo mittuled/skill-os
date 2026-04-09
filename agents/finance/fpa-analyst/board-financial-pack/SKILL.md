@@ -14,6 +14,12 @@ related-skills:
   - ../monthly-variance-analyser/SKILL.md
   - ../../../finance/investor-relations-manager/board-materials-coordinator/SKILL.md
   - ../saas-metrics-reporter/SKILL.md
+triggers:
+  - "build board financial pack"
+  - "board finance slides"
+  - "board financial report"
+  - "prepare board financials"
+  - "board pack financials"
 ---
 
 # board-financial-pack
