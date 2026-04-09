@@ -10,6 +10,12 @@ related-skills:
   - pricing-finaliser-growth
   - growth-model-designer
   - distribution-viability-check
+triggers:
+  - "define pricing strategy"
+  - "growth pricing plan"
+  - "pricing model design"
+  - "monetization strategy growth"
+  - "pricing approach growth"
 ---
 
 # pricing-strategy-growth
