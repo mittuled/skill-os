@@ -10,6 +10,12 @@ related-skills:
   - ../instrumentation-planner-eng/SKILL.md
   - ../builder/SKILL.md
   - ../third-party-integrator/SKILL.md
+triggers:
+  - "implement instrumentation"
+  - "add observability"
+  - "instrument code"
+  - "add telemetry"
+  - "observability implementation"
 ---
 
 # instrumentation-implementer
