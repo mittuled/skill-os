@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "cs onboarding playbook"
+  - "customer success playbook"
+  - "onboarding playbook"
+  - "cs playbook"
+  - "customer onboarding guide"
 ---
 
 # cs-onboarding-playbook
