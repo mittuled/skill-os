@@ -11,6 +11,12 @@ agent: head-of-design
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "audit accessibility"
+  - "design accessibility audit"
+  - "a11y audit"
+  - "accessibility review design"
+  - "wcag audit"
 ---
 
 # accessibility-auditor-design
