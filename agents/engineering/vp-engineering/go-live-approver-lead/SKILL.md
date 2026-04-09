@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/go-live-approver-eng/SKILL.md
   - ../../../engineering/vp-engineering/risk-register-builder-eng/SKILL.md
+triggers:
+  - "approve go-live as lead"
+  - "VP go-live sign-off"
+  - "exec launch approval"
+  - "final go-live approval"
+  - "lead release sign-off"
 ---
 
 # go-live-approver-lead
