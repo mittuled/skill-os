@@ -11,6 +11,12 @@ agent: ux-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "jtbd to user stories"
+  - "convert jtbd to stories"
+  - "jobs to stories"
+  - "jtbd stories"
+  - "user stories from jtbd"
 ---
 
 # jtbd-to-stories-uxr
