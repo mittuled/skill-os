@@ -10,6 +10,12 @@ agent: revenue-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "operationalise revenue model"
+  - "implement revenue model"
+  - "revenue model setup"
+  - "build RevOps model"
+  - "revenue model ops"
 ---
 
 # revenue-model-operationaliser
