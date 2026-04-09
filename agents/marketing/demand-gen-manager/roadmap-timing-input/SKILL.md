@@ -13,6 +13,12 @@ complexity: simple
 related-skills:
   - ../../../marketing/vp-marketing/gtm-activation-marketing/SKILL.md
   - ../content-engine-builder-marketing/SKILL.md
+triggers:
+  - "align launch with campaign"
+  - "roadmap timing input"
+  - "marketing launch window"
+  - "schedule product release"
+  - "campaign calendar alignment"
 ---
 
 # roadmap-timing-input
