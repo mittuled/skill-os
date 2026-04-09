@@ -10,6 +10,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "frame product goals"
+  - "goal framing"
+  - "define product goals"
+  - "product goal setting"
+  - "frame goals"
 ---
 
 # goal-framer
