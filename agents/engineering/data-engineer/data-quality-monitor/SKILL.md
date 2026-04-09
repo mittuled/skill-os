@@ -14,6 +14,12 @@ related-skills:
   - ../pipeline-builder/SKILL.md
   - ../data-pipeline-designer/SKILL.md
   - ../pipeline-reliability-tester/SKILL.md
+triggers:
+  - "monitor data quality"
+  - "data quality check"
+  - "data validation"
+  - "track data quality"
+  - "data health monitoring"
 ---
 
 # data-quality-monitor
