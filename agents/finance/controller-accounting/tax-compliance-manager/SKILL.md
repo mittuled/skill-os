@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../payroll-processor/SKILL.md
   - ../financial-audit-preparer/SKILL.md
+triggers:
+  - "manage tax compliance"
+  - "file tax returns"
+  - "tax compliance"
+  - "handle tax filings"
+  - "tax obligations"
 ---
 
 # tax-compliance-manager
