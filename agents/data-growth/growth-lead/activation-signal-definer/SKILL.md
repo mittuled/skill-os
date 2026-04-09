@@ -10,6 +10,12 @@ related-skills:
   - activation-moment-validator
   - growth-model-designer
   - retention-model-hypothesiser
+triggers:
+  - "define activation signal"
+  - "set activation criteria"
+  - "activation metric definition"
+  - "identify activation moment"
+  - "activation event definition"
 ---
 
 # activation-signal-definer
