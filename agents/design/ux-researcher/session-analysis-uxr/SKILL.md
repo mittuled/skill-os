@@ -11,6 +11,12 @@ agent: ux-researcher
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "analyse research session"
+  - "session analysis uxr"
+  - "research session review"
+  - "analyse user session"
+  - "session findings"
 ---
 
 # session-analysis-uxr
