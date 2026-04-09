@@ -11,6 +11,12 @@ agent: cs-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "extract a case study"
+  - "create customer case study"
+  - "write success story"
+  - "document customer win"
+  - "case study"
 ---
 
 # case-study-extractor-cs
