@@ -10,6 +10,12 @@ related-skills:
   - north-star-metric-reviewer-data
   - metrics-dashboard-builder
   - instrumentation-spec-data
+triggers:
+  - "configure data alerts"
+  - "set up metric alerts"
+  - "alerting rules data"
+  - "threshold alert setup"
+  - "anomaly alert configuration"
 ---
 
 # alerting-configurator-data
