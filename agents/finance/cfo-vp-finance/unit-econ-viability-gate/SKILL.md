@@ -14,6 +14,12 @@ related-skills:
   - ../../../finance/fpa-analyst/unit-economics-monitor/SKILL.md
   - ../../../finance/finance-manager/business-model-sketcher-finance/SKILL.md
   - ../pricing-finaliser-finance/SKILL.md
+triggers:
+  - "check unit economics"
+  - "unit econ gate"
+  - "is this unit economics viable"
+  - "validate unit economics"
+  - "LTV CAC check"
 ---
 
 # unit-econ-viability-gate
