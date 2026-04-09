@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../finance/cfo-vp-finance/pricing-finaliser-finance/SKILL.md
   - ../unit-economics-monitor/SKILL.md
+triggers:
+  - "run pricing review"
+  - "review our pricing"
+  - "pricing analysis"
+  - "pricing model review"
+  - "evaluate pricing strategy"
 ---
 
 # pricing-review-runner
