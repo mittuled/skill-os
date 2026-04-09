@@ -10,6 +10,12 @@ agent: revenue-operations
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "assess revenue tooling"
+  - "revenue tool readiness"
+  - "evaluate RevOps stack"
+  - "audit revenue tools"
+  - "tooling gap analysis"
 ---
 
 # revenue-tooling-readiness
