@@ -11,6 +11,12 @@ agent: cs-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "select a customer cohort"
+  - "pick cohort for cs"
+  - "identify cohort"
+  - "cohort selection"
+  - "segment customers for outreach"
 ---
 
 # cohort-selector-cs
