@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../monthly-close-runner/SKILL.md
   - ../tax-compliance-manager/SKILL.md
+triggers:
+  - "process payroll"
+  - "run payroll"
+  - "payroll processing"
+  - "pay employees"
+  - "payroll run"
 ---
 
 # payroll-processor
