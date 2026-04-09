@@ -14,6 +14,12 @@ related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/phase-scope-adjuster-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/go-live-approver-eng/SKILL.md
   - ../../vp-engineering/inter-phase-retrospective/SKILL.md
+triggers:
+  - "review between phases"
+  - "inter-phase review"
+  - "phase gate review"
+  - "phase transition review"
+  - "milestone review"
 ---
 
 # inter-phase-reviewer-eng
