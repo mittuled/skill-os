@@ -12,6 +12,12 @@ complexity: simple
 related-skills:
   - ../../../engineering/vp-engineering/phase-planner-eng/SKILL.md
   - ../../../engineering/vp-engineering/velocity-monitor/SKILL.md
+triggers:
+  - "define milestones"
+  - "engineering milestones"
+  - "set project milestones"
+  - "milestone planning"
+  - "milestone definition"
 ---
 
 # milestone-definer-eng
