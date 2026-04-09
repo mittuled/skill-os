@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "pmm pre-brief"
+  - "brief pmm team"
+  - "pre-launch pmm briefing"
+  - "pmm briefing"
+  - "pmm launch brief"
 ---
 
 # pmm-pre-briefer-pmm
