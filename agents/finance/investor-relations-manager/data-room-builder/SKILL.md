@@ -14,6 +14,12 @@ related-skills:
   - ../data-room-v1-builder/SKILL.md
   - ../fundraising-process-manager/SKILL.md
   - ../data-room-manager/SKILL.md
+triggers:
+  - "build data room"
+  - "create investor data room"
+  - "set up data room"
+  - "data room creation"
+  - "investor due diligence room"
 ---
 
 # data-room-builder
