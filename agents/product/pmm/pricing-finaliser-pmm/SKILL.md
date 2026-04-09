@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "finalise pricing"
+  - "confirm pricing"
+  - "pricing sign-off pmm"
+  - "approve pricing"
+  - "lock pricing"
 ---
 
 # pricing-finaliser-pmm
