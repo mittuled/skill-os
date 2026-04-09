@@ -7,11 +7,6 @@ agent: product-manager
 version: 1.0.0
 complexity: complex
 related-skills:
-  - demand-validator
-  - user-researcher
-  - requirements-extractor
-  - jtbd-to-stories
-  - market-sizer
 triggers:
   - "plan customer discovery"
   - "set up user interviews"

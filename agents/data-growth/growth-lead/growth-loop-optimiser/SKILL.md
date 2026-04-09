@@ -7,10 +7,6 @@ agent: growth-lead
 version: 1.0.0
 complexity: complex
 related-skills:
-  - growth-model-designer
-  - growth-loop-activator
-  - activation-moment-validator
-  - funnel-analyser-growth
 triggers:
   - "optimise growth loop"
   - "improve growth flywheel"

@@ -7,8 +7,6 @@ agent: growth-lead
 version: 1.0.0
 complexity: simple
 related-skills:
-  - pricing-strategy-growth
-  - growth-model-designer
 triggers:
   - "finalise growth pricing"
   - "lock pricing growth"

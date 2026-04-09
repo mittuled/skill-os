@@ -7,10 +7,6 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
-  - dependency-resolver
-  - sprint-planner
-  - backlog-groomer
-  - phase-planner
 triggers:
   - "map dependencies review"
   - "review dependencies"

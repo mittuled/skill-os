@@ -7,10 +7,6 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
-  - backlog-populator
-  - sprint-planner
-  - story-writer
-  - dependency-mapper-review
 triggers:
   - "backlog grooming"
   - "groom backlog"

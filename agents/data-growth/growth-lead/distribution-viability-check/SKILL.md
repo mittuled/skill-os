@@ -7,9 +7,6 @@ agent: growth-lead
 version: 1.0.0
 complexity: medium
 related-skills:
-  - growth-model-designer
-  - demand-gen-planner-growth
-  - search-demand-validator
 triggers:
   - "check distribution viability"
   - "assess distribution channels"

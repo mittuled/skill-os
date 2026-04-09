@@ -14,8 +14,6 @@ complexity: medium
 related-skills:
   - ../contract-review-orchestrator/SKILL.md
   - ../contract-risk-analyst/SKILL.md
-  - ../../../legal/general-counsel/negotiation-strategist/SKILL.md
-  - ../../../legal/general-counsel/missing-protections-finder/SKILL.md
   - ../negotiation-strategist/SKILL.md
 triggers:
   - "compare these contracts"

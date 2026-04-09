@@ -7,10 +7,6 @@ agent: growth-lead
 version: 1.0.0
 complexity: complex
 related-skills:
-  - activation-signal-definer
-  - activation-moment-validator
-  - growth-model-designer
-  - growth-loop-optimiser
 triggers:
   - "hypothesise retention model"
   - "build retention hypothesis"

@@ -7,9 +7,6 @@ agent: data-analyst
 version: 1.0.0
 complexity: medium
 related-skills:
-  - funnel-analyser
-  - metrics-dashboard-builder
-  - adoption-tracker
 triggers:
   - "track feature adoption"
   - "adoption rate analysis"

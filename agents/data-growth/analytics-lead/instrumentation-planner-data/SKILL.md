@@ -7,9 +7,6 @@ agent: analytics-lead
 version: 1.0.0
 complexity: medium
 related-skills:
-  - instrumentation-spec-data
-  - instrumentation-implementer-data
-  - effort-estimator-data
 triggers:
   - "plan the instrumentation rollout"
   - "how should we implement tracking"

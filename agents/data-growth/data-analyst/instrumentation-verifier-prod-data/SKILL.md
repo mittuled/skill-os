@@ -7,9 +7,6 @@ agent: data-analyst
 version: 1.0.0
 complexity: simple
 related-skills:
-  - instrumentation-verifier-data
-  - instrumentation-implementer-data
-  - alerting-configurator-data
 triggers:
   - "verify production data tracking"
   - "production instrumentation QA"

@@ -7,10 +7,6 @@ agent: data-analyst
 version: 1.0.0
 complexity: medium
 related-skills:
-  - signal-synthesiser-data
-  - funnel-analyser
-  - adoption-tracker-data
-  - signal-synthesiser
 triggers:
   - "synthesise data signals"
   - "compile analytics signals"

@@ -13,9 +13,7 @@ version: 1.0.0
 complexity: complex
 related-skills:
   - ../contract-review-orchestrator/SKILL.md
-  - ../../../legal/general-counsel/missing-protections-finder/SKILL.md
   - ../contract-comparator/SKILL.md
-  - ../../../legal/general-counsel/negotiation-strategist/SKILL.md
   - ../missing-protections-finder/SKILL.md
   - ../negotiation-strategist/SKILL.md
   - ../plain-english-translator/SKILL.md

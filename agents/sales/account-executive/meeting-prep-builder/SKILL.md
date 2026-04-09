@@ -11,8 +11,6 @@ agent: account-executive
 version: 1.0.0
 complexity: medium
 related-skills:
-  - ../../../sales/vp-sales/company-researcher/SKILL.md
-  - ../../../sales/vp-sales/decision-maker-mapper/SKILL.md
   - ../../../sales/sales-manager/sales-competitive-intel/SKILL.md
   - ../sales-proposal-builder/SKILL.md
 triggers:

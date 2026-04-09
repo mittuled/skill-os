@@ -7,9 +7,6 @@ agent: growth-lead
 version: 1.0.0
 complexity: medium
 related-skills:
-  - activation-moment-validator
-  - growth-model-designer
-  - retention-model-hypothesiser
 triggers:
   - "define activation signal"
   - "set activation criteria"

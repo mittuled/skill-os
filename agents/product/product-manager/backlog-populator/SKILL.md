@@ -7,10 +7,6 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
-  - backlog-groomer
-  - requirements-extractor
-  - jtbd-to-stories
-  - roadmap-placer
 triggers:
   - "populate backlog"
   - "add to backlog"

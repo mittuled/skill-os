@@ -7,9 +7,6 @@ agent: growth-lead
 version: 1.0.0
 complexity: medium
 related-skills:
-  - activation-signal-definer
-  - retention-model-hypothesiser
-  - funnel-analyser-growth
 triggers:
   - "validate activation moment"
   - "verify aha moment"

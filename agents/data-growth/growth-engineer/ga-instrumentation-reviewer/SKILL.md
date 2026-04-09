@@ -7,9 +7,6 @@ agent: growth-engineer
 version: 1.0.0
 complexity: simple
 related-skills:
-  - instrumentation-spec-growth
-  - instrumentation-verifier-growth
-  - instrumentation-clarity-reviewer
 triggers:
   - "review GA instrumentation"
   - "audit Google Analytics setup"

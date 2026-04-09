@@ -7,10 +7,6 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
-  - customer-discovery-planner
-  - market-sizer
-  - roadmap-placer
-  - backlog-populator
 triggers:
   - "experiment design"
   - "validate demand"

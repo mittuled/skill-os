@@ -12,9 +12,7 @@ version: 1.0.0
 complexity: complex
 related-skills:
   - ../contract-risk-analyst/SKILL.md
-  - ../../../legal/general-counsel/missing-protections-finder/SKILL.md
   - ../contract-comparator/SKILL.md
-  - ../../../legal/general-counsel/negotiation-strategist/SKILL.md
   - ../plain-english-translator/SKILL.md
   - ../../product-counsel/privacy-policy-generator/SKILL.md
   - ../../product-counsel/terms-of-service-generator/SKILL.md

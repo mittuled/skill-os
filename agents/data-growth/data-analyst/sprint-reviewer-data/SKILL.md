@@ -7,9 +7,6 @@ agent: data-analyst
 version: 1.0.0
 complexity: simple
 related-skills:
-  - instrumentation-verifier-data
-  - metrics-dashboard-builder
-  - sprint-reviewer
 triggers:
   - "review data sprint"
   - "analytics sprint review"

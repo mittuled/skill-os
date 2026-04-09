@@ -7,9 +7,6 @@ agent: growth-engineer
 version: 1.0.0
 complexity: simple
 related-skills:
-  - instrumentation-implementer-growth
-  - instrumentation-verifier-prod-growth
-  - instrumentation-spec-growth
 triggers:
   - "verify growth instrumentation"
   - "QA growth tracking"

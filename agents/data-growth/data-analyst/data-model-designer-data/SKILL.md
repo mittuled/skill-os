@@ -7,9 +7,6 @@ agent: data-analyst
 version: 1.0.0
 complexity: complex
 related-skills:
-  - instrumentation-spec-data
-  - instrumentation-implementer-data
-  - metrics-dashboard-builder
 triggers:
   - "design data model"
   - "build data schema"

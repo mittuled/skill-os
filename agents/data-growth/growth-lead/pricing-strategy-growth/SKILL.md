@@ -7,9 +7,6 @@ agent: growth-lead
 version: 1.0.0
 complexity: medium
 related-skills:
-  - pricing-finaliser-growth
-  - growth-model-designer
-  - distribution-viability-check
 triggers:
   - "define pricing strategy"
   - "growth pricing plan"

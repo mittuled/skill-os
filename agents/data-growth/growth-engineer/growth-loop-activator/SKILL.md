@@ -7,10 +7,6 @@ agent: growth-engineer
 version: 1.0.0
 complexity: complex
 related-skills:
-  - growth-loop-optimiser
-  - growth-model-designer
-  - instrumentation-implementer-growth
-  - funnel-analyser-growth
   - ../landing-page-builder/SKILL.md
   - ../referral-engine-builder/SKILL.md
   - ../notification-pipeline-builder/SKILL.md

@@ -7,9 +7,6 @@ agent: growth-engineer
 version: 1.0.0
 complexity: medium
 related-skills:
-  - instrumentation-spec-growth
-  - instrumentation-verifier-growth
-  - instrumentation-implementer-data
   - ../landing-page-builder/SKILL.md
 triggers:
   - "implement growth tracking"

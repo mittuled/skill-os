@@ -7,9 +7,6 @@ agent: data-analyst
 version: 1.0.0
 complexity: medium
 related-skills:
-  - instrumentation-spec-data
-  - instrumentation-planner-data
-  - instrumentation-verifier-data
 triggers:
   - "implement data tracking"
   - "add analytics events data"

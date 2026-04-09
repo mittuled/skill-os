@@ -14,7 +14,6 @@ complexity: complex
 related-skills:
   - ../meeting-prep-builder/SKILL.md
   - ../../../sales/sales-manager/sales-competitive-intel/SKILL.md
-  - ../../../sales/vp-sales/company-researcher/SKILL.md
 triggers:
   - "deal review"
   - "deal-qualifier"

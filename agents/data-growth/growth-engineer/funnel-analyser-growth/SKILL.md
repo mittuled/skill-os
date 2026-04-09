@@ -7,10 +7,6 @@ agent: growth-engineer
 version: 1.0.0
 complexity: medium
 related-skills:
-  - funnel-analyser
-  - growth-loop-optimiser
-  - activation-moment-validator
-  - metrics-dashboard-growth
   - ../paywall-builder/SKILL.md
   - ../onboarding-engineer/SKILL.md
 triggers:

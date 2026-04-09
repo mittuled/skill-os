@@ -7,9 +7,6 @@ agent: analytics-lead
 version: 1.0.0
 complexity: medium
 related-skills:
-  - goal-framer-data
-  - alerting-configurator-data
-  - north-star-metric-reviewer
 triggers:
   - "review the north star metric"
   - "is our north star still valid"

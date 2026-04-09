@@ -7,9 +7,6 @@ agent: analytics-lead
 version: 1.0.0
 complexity: medium
 related-skills:
-  - instrumentation-spec-data
-  - instrumentation-planner-data
-  - instrumentation-spec-growth
 triggers:
   - "review instrumentation clarity"
   - "audit tracking clarity"

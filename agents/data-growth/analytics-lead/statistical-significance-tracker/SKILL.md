@@ -7,9 +7,6 @@ agent: analytics-lead
 version: 1.0.0
 complexity: complex
 related-skills:
-  - goal-framer-data
-  - funnel-analyser
-  - funnel-analyser-growth
 triggers:
   - "track statistical significance"
   - "check A/B test significance"
