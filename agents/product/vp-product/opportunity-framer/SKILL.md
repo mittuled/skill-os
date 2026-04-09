@@ -10,6 +10,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "frame opportunity"
+  - "opportunity framing"
+  - "product opportunity"
+  - "define opportunity"
+  - "opportunity analysis"
 ---
 
 # opportunity-framer
