@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-verifier-data
   - metrics-dashboard-builder
   - sprint-reviewer
+triggers:
+  - "review data sprint"
+  - "analytics sprint review"
+  - "data team sprint retrospective"
+  - "sprint output review data"
+  - "data sprint retrospective"
 ---
 
 # sprint-reviewer-data
