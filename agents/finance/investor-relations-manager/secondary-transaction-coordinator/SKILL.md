@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../cap-table-manager/SKILL.md
   - ../secondary-market-manager/SKILL.md
+triggers:
+  - "coordinate secondary transaction"
+  - "run secondary deal"
+  - "secondary transaction"
+  - "close secondary sale"
+  - "secondary equity transfer"
 ---
 
 # secondary-transaction-coordinator
