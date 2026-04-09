@@ -11,6 +11,12 @@ agent: head-of-design
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "inter-phase review"
+  - "design phase review"
+  - "review between phases"
+  - "design handoff review"
+  - "phase transition review"
 ---
 
 # inter-phase-design-reviewer
