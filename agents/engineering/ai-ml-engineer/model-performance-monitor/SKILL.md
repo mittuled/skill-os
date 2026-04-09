@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../mlops-pipeline-builder/SKILL.md
   - ../model-evaluation-runner/SKILL.md
+triggers:
+  - "monitor model performance"
+  - "model drift detection"
+  - "ML monitoring"
+  - "track model metrics"
+  - "model health check"
 ---
 
 # model-performance-monitor
