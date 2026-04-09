@@ -11,6 +11,12 @@ agent: ux-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "map jobs to be done"
+  - "jtbd mapping"
+  - "jobs to be done"
+  - "map user jobs"
+  - "jtbd analysis"
 ---
 
 # jtbd-mapper
