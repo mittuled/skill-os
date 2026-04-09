@@ -9,6 +9,12 @@ complexity: medium
 related-skills:
   - north-star-metric-reviewer-data
   - goal-framer
+triggers:
+  - "frame analytics goals"
+  - "define data success metrics"
+  - "set measurement goals"
+  - "goal framework data"
+  - "analytics goal alignment"
 ---
 
 # goal-framer-data
