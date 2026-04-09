@@ -6,6 +6,12 @@ agent: lifecycle-email-marketing-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "design transactional emails"
+  - "build transactional email templates"
+  - "order confirmation email"
+  - "system notification email"
+  - "transactional email audit"
 ---
 
 # transactional-email-designer
