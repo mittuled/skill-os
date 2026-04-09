@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../finance/fpa-analyst/monthly-variance-analyser/SKILL.md
   - ../north-star-metric-reviewer-finance/SKILL.md
+triggers:
+  - "monitor revenue impact"
+  - "track revenue changes"
+  - "revenue impact analysis"
+  - "watch revenue metrics"
+  - "revenue monitoring"
 ---
 
 # revenue-impact-monitor
