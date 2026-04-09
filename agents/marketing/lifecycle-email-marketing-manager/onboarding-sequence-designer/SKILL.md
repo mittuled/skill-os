@@ -6,6 +6,12 @@ agent: lifecycle-email-marketing-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design onboarding email sequence"
+  - "build user onboarding emails"
+  - "new user email flow"
+  - "activation email sequence"
+  - "onboarding drip design"
 ---
 
 # onboarding-sequence-designer
