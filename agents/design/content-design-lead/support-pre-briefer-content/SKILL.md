@@ -11,6 +11,12 @@ agent: content-design-lead
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "brief support content"
+  - "support pre-brief"
+  - "support team briefing"
+  - "content support brief"
+  - "pre-launch support brief"
 ---
 
 # support-pre-briefer-content
