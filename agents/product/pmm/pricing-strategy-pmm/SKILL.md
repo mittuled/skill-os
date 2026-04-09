@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "pricing strategy"
+  - "pmm pricing"
+  - "set pricing strategy"
+  - "develop pricing"
+  - "pricing framework"
 ---
 
 # pricing-strategy-pmm
