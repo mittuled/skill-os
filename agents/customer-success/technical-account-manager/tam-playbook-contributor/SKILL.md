@@ -11,6 +11,12 @@ agent: technical-account-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "contribute to TAM playbook"
+  - "update tam playbook"
+  - "tam playbook"
+  - "technical account playbook"
+  - "add to tam playbook"
 ---
 
 # tam-playbook-contributor
