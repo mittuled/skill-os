@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "build launch narrative"
+  - "launch story"
+  - "product launch narrative"
+  - "narrative for launch"
+  - "launch messaging"
 ---
 
 # launch-narrative-builder
