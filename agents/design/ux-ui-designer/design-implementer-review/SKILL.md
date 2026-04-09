@@ -11,6 +11,12 @@ agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review design implementation"
+  - "design implementation check"
+  - "design dev review"
+  - "implementation design review"
+  - "design qa"
 ---
 
 # design-implementer-review
