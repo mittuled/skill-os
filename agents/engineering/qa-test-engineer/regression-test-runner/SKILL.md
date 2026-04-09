@@ -6,6 +6,12 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run regression tests"
+  - "regression testing"
+  - "execute regression suite"
+  - "regression test run"
+  - "regression check"
 ---
 
 # regression-test-runner
