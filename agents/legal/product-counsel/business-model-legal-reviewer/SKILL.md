@@ -15,6 +15,12 @@ related-skills:
   - ../../../legal/general-counsel/legal-idea-reviewer/SKILL.md
   - ../pricing-legal-reviewer/SKILL.md
   - ../positioning-legal-reviewer/SKILL.md
+triggers:
+  - "review business model legally"
+  - "legal review of business model"
+  - "business model legal check"
+  - "legal business model audit"
+  - "validate business model legal"
 ---
 
 # business-model-legal-reviewer
