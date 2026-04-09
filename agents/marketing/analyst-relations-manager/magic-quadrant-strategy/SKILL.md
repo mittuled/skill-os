@@ -10,6 +10,12 @@ agent: analyst-relations-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "Gartner Magic Quadrant strategy"
+  - "MQ positioning plan"
+  - "analyst quadrant submission"
+  - "improve Magic Quadrant rank"
+  - "AR MQ preparation"
 ---
 
 # magic-quadrant-strategy
