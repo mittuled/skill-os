@@ -6,6 +6,12 @@ agent: event-marketing-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "produce user conference"
+  - "plan customer conference"
+  - "user summit logistics"
+  - "annual user event"
+  - "customer conference agenda"
 ---
 
 # user-conference-producer
