@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../security-compliance-enabler/SKILL.md
   - ../security-requirements-extractor/SKILL.md
+triggers:
+  - "review compliance for GA"
+  - "GA compliance check"
+  - "compliance review"
+  - "pre-GA compliance audit"
+  - "GA readiness compliance"
 ---
 
 # compliance-ga-reviewer-eng
