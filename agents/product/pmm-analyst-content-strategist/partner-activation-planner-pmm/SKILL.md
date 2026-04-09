@@ -11,6 +11,12 @@ agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "partner activation plan"
+  - "activate partners"
+  - "partner launch plan"
+  - "partner enablement"
+  - "channel activation"
 ---
 
 # partner-activation-planner-pmm
