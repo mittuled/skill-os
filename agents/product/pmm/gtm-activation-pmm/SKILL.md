@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "activate gtm"
+  - "gtm execution"
+  - "launch activation"
+  - "go-to-market activation"
+  - "gtm launch"
 ---
 
 # gtm-activation-pmm
