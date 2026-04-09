@@ -12,6 +12,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "set scope boundaries"
+  - "define scope"
+  - "scope setting"
+  - "establish scope"
+  - "scope boundary"
 ---
 
 # scope-boundary-setter
