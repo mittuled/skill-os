@@ -11,6 +11,12 @@ related-skills:
   - funnel-analyser
   - adoption-tracker-data
   - signal-synthesiser
+triggers:
+  - "synthesise data signals"
+  - "compile analytics signals"
+  - "synthesize product data"
+  - "data signal summary"
+  - "insight synthesis data"
 ---
 
 # signal-synthesiser-data-p
