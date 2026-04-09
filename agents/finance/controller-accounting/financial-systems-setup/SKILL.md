@@ -14,6 +14,12 @@ related-skills:
   - ../monthly-close-runner/SKILL.md
   - ../accounts-payable-manager/SKILL.md
   - ../financial-audit-preparer/SKILL.md
+triggers:
+  - "set up financial systems"
+  - "configure accounting software"
+  - "finance systems setup"
+  - "implement ERP"
+  - "accounting system setup"
 ---
 
 # financial-systems-setup
