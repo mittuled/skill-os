@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-spec-growth
   - instrumentation-implementer-growth
   - instrumentation-planner-data
+triggers:
+  - "plan growth instrumentation"
+  - "growth tracking plan"
+  - "analytics plan growth"
+  - "instrumentation strategy growth"
+  - "event tracking roadmap growth"
 ---
 
 # instrumentation-planner-growth
