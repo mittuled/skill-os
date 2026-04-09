@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../compliance-framework-implementer/SKILL.md
   - ../audit-programme-manager/SKILL.md
+triggers:
+  - "own policy document"
+  - "manage security policy"
+  - "policy document review"
+  - "update policy docs"
+  - "security policy owner"
 ---
 
 # policy-document-owner
