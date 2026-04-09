@@ -10,6 +10,12 @@ related-skills:
   - ../accessibility-checker-eng/SKILL.md
   - ../design-implementer/SKILL.md
   - ../cross-platform-tester/SKILL.md
+triggers:
+  - "audit accessibility"
+  - "a11y audit"
+  - "accessibility check"
+  - "WCAG audit"
+  - "accessibility review"
 ---
 
 # accessibility-auditor
