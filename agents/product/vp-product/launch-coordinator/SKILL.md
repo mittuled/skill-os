@@ -12,6 +12,12 @@ agent: vp-product
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "coordinate launch"
+  - "launch coordination"
+  - "manage launch"
+  - "product launch plan"
+  - "orchestrate launch"
 ---
 
 # launch-coordinator
