@@ -6,6 +6,12 @@ agent: social-media-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitor social mentions"
+  - "social listening report"
+  - "brand sentiment analysis"
+  - "track social conversation"
+  - "social media monitoring"
 ---
 
 # social-listening-analyst
