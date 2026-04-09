@@ -11,6 +11,12 @@ agent: content-designer-ux-writer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "create training materials"
+  - "training content"
+  - "onboarding materials"
+  - "user training docs"
+  - "training guide"
 ---
 
 # training-material-creator-content
