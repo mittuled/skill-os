@@ -11,6 +11,12 @@ agent: vp-agent-operations
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "plan org scale"
+  - "org growth planning"
+  - "scale org structure"
+  - "headcount scale plan"
+  - "organisational scaling"
 ---
 
 # org-scale-planner
