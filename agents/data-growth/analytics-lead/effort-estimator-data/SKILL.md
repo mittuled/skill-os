@@ -9,6 +9,12 @@ complexity: simple
 related-skills:
   - instrumentation-planner-data
   - instrumentation-spec-data
+triggers:
+  - "estimate analytics effort"
+  - "data project estimation"
+  - "analytics work estimation"
+  - "scope data initiative"
+  - "effort sizing data"
 ---
 
 # effort-estimator-data
