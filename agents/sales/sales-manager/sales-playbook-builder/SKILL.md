@@ -21,6 +21,12 @@ related-skills:
   - ../../sales-development-rep/company-researcher/SKILL.md
   - ../../sales-development-rep/prospect-analyst-orchestrator/SKILL.md
   - ../../sales-development-rep/decision-maker-mapper/SKILL.md
+triggers:
+  - "build sales playbook"
+  - "create sales playbook"
+  - "sales playbook"
+  - "write sales playbook"
+  - "compile sales playbook"
 ---
 
 # sales-playbook-builder
