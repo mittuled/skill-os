@@ -11,6 +11,12 @@ related-skills:
   - growth-loop-activator
   - activation-moment-validator
   - funnel-analyser-growth
+triggers:
+  - "optimise growth loop"
+  - "improve growth flywheel"
+  - "growth loop tuning"
+  - "refine viral loop"
+  - "growth loop performance"
 ---
 
 # growth-loop-optimiser
