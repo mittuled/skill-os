@@ -10,6 +10,12 @@ agent: it-support-specialist
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "run IT helpdesk"
+  - "resolve IT tickets"
+  - "IT issue triage"
+  - "helpdesk support"
+  - "employee IT support"
 ---
 
 # it-helpdesk-operator
