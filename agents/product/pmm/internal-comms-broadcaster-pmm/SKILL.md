@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "broadcast internal comms pmm"
+  - "pmm internal announcement"
+  - "internal messaging pmm"
+  - "communicate to team pmm"
+  - "internal launch comms"
 ---
 
 # internal-comms-broadcaster-pmm
