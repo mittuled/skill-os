@@ -11,6 +11,12 @@ agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "assess agent cost-effectiveness"
+  - "justify compute budget"
+  - "agent ROI evaluation"
+  - "compute spend vs output"
+  - "overspending agents"
 ---
 
 # 409a-valuation-commissioner
