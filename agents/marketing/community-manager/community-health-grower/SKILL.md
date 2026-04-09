@@ -10,6 +10,12 @@ agent: community-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "grow community health"
+  - "improve community engagement"
+  - "community health metrics"
+  - "community vitality review"
+  - "boost community activity"
 ---
 
 # community-health-grower
