@@ -14,6 +14,12 @@ related-skills:
   - ../model-evaluation-runner/SKILL.md
   - ../ml-architecture-designer/SKILL.md
   - ../mlops-pipeline-builder/SKILL.md
+triggers:
+  - "train model"
+  - "ML training run"
+  - "fine-tune model"
+  - "model training"
+  - "run training job"
 ---
 
 # model-trainer
