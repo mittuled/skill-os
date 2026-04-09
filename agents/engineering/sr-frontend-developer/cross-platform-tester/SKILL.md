@@ -9,6 +9,12 @@ complexity: medium
 related-skills:
   - ../accessibility-auditor/SKILL.md
   - ../design-implementer/SKILL.md
+triggers:
+  - "test cross-platform"
+  - "cross-browser testing"
+  - "cross-platform compatibility"
+  - "multi-browser test"
+  - "device compatibility test"
 ---
 
 # cross-platform-tester
