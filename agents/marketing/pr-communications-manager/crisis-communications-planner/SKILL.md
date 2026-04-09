@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../press-release-writer/SKILL.md
   - ../earned-media-monitor/SKILL.md
+triggers:
+  - "plan crisis communications"
+  - "crisis comms playbook"
+  - "prepare for PR crisis"
+  - "crisis response plan"
+  - "reputational risk comms"
 ---
 
 # crisis-communications-planner
