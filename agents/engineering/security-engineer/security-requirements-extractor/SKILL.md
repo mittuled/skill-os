@@ -16,6 +16,12 @@ related-skills:
   - ../security-compliance-enabler/SKILL.md
   - ../secure-code-reviewer/SKILL.md
   - ../compliance-ga-reviewer-eng/SKILL.md
+triggers:
+  - "extract security requirements"
+  - "security requirements"
+  - "security spec extraction"
+  - "define security needs"
+  - "security requirement gathering"
 ---
 
 # security-requirements-extractor
