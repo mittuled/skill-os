@@ -11,6 +11,12 @@ agent: brand-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "brand foundation"
+  - "define brand"
+  - "brand setup"
+  - "brand system"
+  - "establish brand"
 ---
 
 # brand-foundation
