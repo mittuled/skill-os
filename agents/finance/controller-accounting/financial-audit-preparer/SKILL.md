@@ -14,6 +14,12 @@ related-skills:
   - ../monthly-close-runner/SKILL.md
   - ../financial-systems-setup/SKILL.md
   - ../tax-compliance-manager/SKILL.md
+triggers:
+  - "prepare for audit"
+  - "audit preparation"
+  - "get audit ready"
+  - "financial audit prep"
+  - "external audit readiness"
 ---
 
 # financial-audit-preparer
