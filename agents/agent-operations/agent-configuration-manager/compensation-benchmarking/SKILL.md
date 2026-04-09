@@ -11,6 +11,12 @@ agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "benchmark agent models"
+  - "compare compute costs"
+  - "model cost benchmarking"
+  - "agent compensation review"
+  - "compute cost comparison"
 ---
 
 # compensation-benchmarking
