@@ -11,6 +11,12 @@ agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "create training materials"
+  - "cs training content"
+  - "build training docs"
+  - "training material cs"
+  - "onboarding training cs"
 ---
 
 # training-material-creator-cs
