@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../terms-of-service-drafter/SKILL.md
   - ../product-legal-reviewer/SKILL.md
+triggers:
+  - "advise on content moderation"
+  - "content moderation policy"
+  - "content moderation advice"
+  - "legal content moderation"
+  - "user content rules"
 ---
 
 # content-moderation-advisor
