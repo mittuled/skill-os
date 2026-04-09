@@ -11,6 +11,12 @@ agent: skill-builder-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build recruiting pipeline"
+  - "set up hiring pipeline"
+  - "recruiting workflow"
+  - "talent pipeline setup"
+  - "candidate pipeline"
 ---
 
 # recruiting-pipeline-builder
