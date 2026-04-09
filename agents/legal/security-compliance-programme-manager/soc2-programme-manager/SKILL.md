@@ -18,6 +18,12 @@ related-skills:
   - ../audit-programme-manager/SKILL.md
   - ../security-awareness-training-runner/SKILL.md
   - ../disaster-recovery-drill-runner/SKILL.md
+triggers:
+  - "manage SOC 2 programme"
+  - "SOC 2 compliance"
+  - "SOC2 audit prep"
+  - "SOC 2 readiness"
+  - "SOC2 programme management"
 ---
 
 # soc2-programme-manager
