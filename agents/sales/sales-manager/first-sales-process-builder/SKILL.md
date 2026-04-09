@@ -14,6 +14,12 @@ related-skills:
   - ../sales-playbook-builder/SKILL.md
   - ../gtm-activation-sales/SKILL.md
   - ../../../sales/vp-sales/opportunity-framer-sales/SKILL.md
+triggers:
+  - "build first sales process"
+  - "create sales process"
+  - "define sales workflow"
+  - "first sales process"
+  - "initial sales process"
 ---
 
 # first-sales-process-builder
