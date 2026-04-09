@@ -14,6 +14,12 @@ related-skills:
   - ../pipeline-builder/SKILL.md
   - ../data-quality-monitor/SKILL.md
   - ../pipeline-scale-planner/SKILL.md
+triggers:
+  - "test pipeline reliability"
+  - "pipeline testing"
+  - "data pipeline QA"
+  - "pipeline resilience test"
+  - "test data pipeline"
 ---
 
 # pipeline-reliability-tester
