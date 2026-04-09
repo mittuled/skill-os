@@ -11,6 +11,12 @@ agent: head-of-design
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "check accessibility"
+  - "design a11y check"
+  - "accessibility check"
+  - "wcag compliance check"
+  - "a11y check"
 ---
 
 # accessibility-checker-design
