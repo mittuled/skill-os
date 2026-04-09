@@ -10,6 +10,12 @@ agent: analyst-relations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitor analyst reports"
+  - "track analyst coverage"
+  - "analyst mention tracking"
+  - "AR intelligence report"
+  - "analyst landscape review"
 ---
 
 # analyst-report-monitor
