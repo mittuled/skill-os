@@ -15,6 +15,12 @@ related-skills:
   - ../sales-playbook-builder/SKILL.md
   - ../../../sales/sales-development-rep/cohort-selector-sales/SKILL.md
   - ../../business-development/partner-activation-executor/SKILL.md
+triggers:
+  - "activate GTM sales"
+  - "gtm activation"
+  - "go-to-market activation"
+  - "launch gtm sales"
+  - "sales gtm launch"
 ---
 
 # gtm-activation-sales
