@@ -10,6 +10,12 @@ agent: technical-writer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design API documentation"
+  - "create API reference docs"
+  - "API docs structure"
+  - "build API docs site"
+  - "developer reference design"
 ---
 
 # api-documentation-designer
