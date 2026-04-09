@@ -10,6 +10,12 @@ agent: product-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "conduct user research pm"
+  - "user research pm"
+  - "research users pm"
+  - "pm user research"
+  - "customer research"
 ---
 
 # user-researcher
