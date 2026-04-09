@@ -12,6 +12,12 @@ agent: technical-account-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "identify technical expansion"
+  - "find upsell opportunities"
+  - "technical expansion"
+  - "expansion opportunity tam"
+  - "technical upsell"
 ---
 
 # technical-expansion-identifier
