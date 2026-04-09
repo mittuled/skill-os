@@ -14,6 +14,12 @@ related-skills:
   - ../solutions-playbook-builder/SKILL.md
   - ../../../sales/account-executive/sales-signal-synthesizer/SKILL.md
   - ../../../sales/solutions-engineer/technical-feasibility-for-sales/SKILL.md
+triggers:
+  - "extract buyer signals"
+  - "technical buyer signals"
+  - "buyer signal extraction"
+  - "identify technical buyer"
+  - "technical buyer intent"
 ---
 
 # technical-buyer-signal-extractor
