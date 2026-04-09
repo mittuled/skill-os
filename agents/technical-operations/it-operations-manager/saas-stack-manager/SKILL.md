@@ -10,6 +10,12 @@ agent: it-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage SaaS stack"
+  - "evaluate new SaaS tools"
+  - "SaaS tool audit"
+  - "software renewal management"
+  - "consolidate SaaS subscriptions"
 ---
 
 # saas-stack-manager
