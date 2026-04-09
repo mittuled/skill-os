@@ -15,6 +15,12 @@ related-skills:
   - ../privacy-impact-assessor/SKILL.md
   - ../content-moderation-advisor/SKILL.md
   - ../open-source-auditor/SKILL.md
+triggers:
+  - "review product legally"
+  - "product legal review"
+  - "legal product audit"
+  - "product compliance review"
+  - "legal sign-off on product"
 ---
 
 # product-legal-reviewer
