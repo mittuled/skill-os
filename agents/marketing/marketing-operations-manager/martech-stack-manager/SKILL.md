@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../email-deliverability-manager/SKILL.md
   - ../marketing-attribution-modeller/SKILL.md
+triggers:
+  - "manage martech stack"
+  - "audit marketing tools"
+  - "evaluate martech vendors"
+  - "martech consolidation"
+  - "marketing tool assessment"
 ---
 
 # martech-stack-manager
