@@ -14,6 +14,12 @@ related-skills:
   - ../monthly-investor-update/SKILL.md
   - ../board-materials-coordinator/SKILL.md
   - ../investor-pipeline-manager/SKILL.md
+triggers:
+  - "draft investor update"
+  - "write investor comms"
+  - "investor communication"
+  - "investor update email"
+  - "investor newsletter"
 ---
 
 # investor-comms-drafter
