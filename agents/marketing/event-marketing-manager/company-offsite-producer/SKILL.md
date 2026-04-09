@@ -6,6 +6,12 @@ agent: event-marketing-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "plan company offsite"
+  - "produce team retreat"
+  - "company retreat logistics"
+  - "all-hands offsite"
+  - "team offsite planning"
 ---
 
 # company-offsite-producer
