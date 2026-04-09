@@ -11,6 +11,12 @@ agent: uat-coordinator-cs
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "coordinate UAT"
+  - "run UAT"
+  - "user acceptance testing"
+  - "UAT plan"
+  - "manage uat session"
 ---
 
 # uat-coordinator-cs
