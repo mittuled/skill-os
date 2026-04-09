@@ -14,6 +14,12 @@ related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/backlog-groomer-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/dependency-mapper/SKILL.md
   - ../../vp-engineering/backlog-populator-eng/SKILL.md
+triggers:
+  - "translate spec to tasks"
+  - "spec to engineering tasks"
+  - "break down spec"
+  - "spec translation"
+  - "engineering spec breakdown"
 ---
 
 # spec-translator-eng
