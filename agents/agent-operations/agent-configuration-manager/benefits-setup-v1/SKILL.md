@@ -11,6 +11,12 @@ agent: agent-configuration-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "set up agent benefits"
+  - "initial tool provisioning"
+  - "configure agent access"
+  - "agent benefits setup"
+  - "first-time tool setup"
 ---
 
 # benefits-setup-v1
