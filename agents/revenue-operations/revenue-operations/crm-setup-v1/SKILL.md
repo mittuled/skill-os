@@ -10,6 +10,12 @@ agent: revenue-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "set up CRM"
+  - "configure CRM pipeline"
+  - "CRM initial setup"
+  - "define pipeline stages"
+  - "build deal tracking"
 ---
 
 # crm-setup-v1
