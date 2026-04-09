@@ -14,7 +14,6 @@ related-skills:
   - ../icp-builder/SKILL.md
   - ../../../sales/account-executive/meeting-prep-builder/SKILL.md
   - ../../../sales/account-executive/sales-proposal-builder/SKILL.md
-  - ../../../sales/vp-sales/prospect-analyst-orchestrator/SKILL.md
 triggers:
   - "competitive analysis needed"
   - "update battle cards"

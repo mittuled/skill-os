@@ -12,8 +12,6 @@ version: 1.0.0
 complexity: complex
 related-skills:
   - ../../sdr/lead-qualifier/SKILL.md
-  - ../../../sales/vp-sales/prospect-analyst-orchestrator/SKILL.md
-  - ../../../sales/vp-sales/company-researcher/SKILL.md
   - ../sales-competitive-intel/SKILL.md
 triggers:
   - "define ICP"
