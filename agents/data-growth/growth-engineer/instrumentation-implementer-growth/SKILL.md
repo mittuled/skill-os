@@ -11,6 +11,12 @@ related-skills:
   - instrumentation-verifier-growth
   - instrumentation-implementer-data
   - ../landing-page-builder/SKILL.md
+triggers:
+  - "implement growth tracking"
+  - "add analytics events growth"
+  - "instrument growth features"
+  - "code tracking events"
+  - "growth event implementation"
 ---
 
 # instrumentation-implementer-growth
