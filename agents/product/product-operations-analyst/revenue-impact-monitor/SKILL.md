@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitor revenue impact"
+  - "track revenue impact"
+  - "revenue monitoring"
+  - "revenue effect tracking"
+  - "measure revenue impact"
 ---
 
 # revenue-impact-monitor
