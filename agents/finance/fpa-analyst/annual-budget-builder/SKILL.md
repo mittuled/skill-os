@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../rolling-forecast-updater/SKILL.md
   - ../../../finance/cfo-vp-finance/financial-model-v1/SKILL.md
+triggers:
+  - "build annual budget"
+  - "create annual budget"
+  - "annual budget"
+  - "set department budgets"
+  - "fiscal year budget"
 ---
 
 # annual-budget-builder
