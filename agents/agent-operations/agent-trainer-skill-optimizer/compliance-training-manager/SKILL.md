@@ -11,6 +11,12 @@ agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage compliance training"
+  - "run compliance programme"
+  - "compliance training setup"
+  - "mandatory training tracker"
+  - "compliance learning plan"
 ---
 
 # compliance-training-manager
