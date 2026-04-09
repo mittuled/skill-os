@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "size the market"
+  - "market sizing"
+  - "tam analysis"
+  - "market size estimation"
+  - "addressable market"
 ---
 
 # market-sizer
