@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "prd executive summary"
+  - "summarise prd"
+  - "prd summary"
+  - "executive summary prd"
+  - "write prd overview"
 ---
 
 # prd-executive-summary
