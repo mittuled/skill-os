@@ -10,6 +10,12 @@ agent: implementation-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "extract implementation requirements"
+  - "gather technical requirements"
+  - "capture customer requirements"
+  - "requirements extraction"
+  - "define onboarding requirements"
 ---
 
 # implementation-requirements-extractor
