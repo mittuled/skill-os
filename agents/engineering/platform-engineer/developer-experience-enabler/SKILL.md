@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../golden-path-definer/SKILL.md
   - ../platform-capability-gap-detector/SKILL.md
+triggers:
+  - "improve developer experience"
+  - "DX enablement"
+  - "developer tooling"
+  - "enhance dev experience"
+  - "developer productivity"
 ---
 
 # developer-experience-enabler
