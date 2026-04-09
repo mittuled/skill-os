@@ -11,6 +11,12 @@ agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build tech skills programme"
+  - "technical training plan"
+  - "engineering upskilling"
+  - "technical learning path"
+  - "developer skills programme"
 ---
 
 # technical-skills-programme
