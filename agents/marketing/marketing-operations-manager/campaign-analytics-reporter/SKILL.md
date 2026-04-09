@@ -19,6 +19,12 @@ related-skills:
   - ../../demand-gen-manager/ad-campaign-builder/SKILL.md
   - ../../demand-gen-manager/landing-page-auditor/SKILL.md
   - ../../demand-gen-manager/funnel-optimizer/SKILL.md
+triggers:
+  - "report campaign analytics"
+  - "campaign performance report"
+  - "marketing analytics report"
+  - "summarize campaign results"
+  - "campaign ROI report"
 ---
 
 # campaign-analytics-reporter
