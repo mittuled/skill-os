@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../performance-monitor/SKILL.md
   - ../production-readiness-reviewer/SKILL.md
+triggers:
+  - "draft runbook"
+  - "write runbook"
+  - "operational runbook"
+  - "create ops runbook"
+  - "runbook documentation"
 ---
 
 # runbook-drafter
