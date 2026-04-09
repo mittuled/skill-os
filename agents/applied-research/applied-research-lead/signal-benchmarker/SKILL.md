@@ -10,6 +10,12 @@ agent: applied-research-lead
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "benchmark signals"
+  - "compare market signals"
+  - "signal benchmarking"
+  - "track leading indicators"
+  - "signal performance review"
 ---
 
 # signal-benchmarker
