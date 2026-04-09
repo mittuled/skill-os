@@ -12,6 +12,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "gate 12 evaluation"
+  - "evaluate gate 12"
+  - "gate review 12"
+  - "launch gate check"
+  - "phase gate evaluation"
 ---
 
 # gate-12-evaluator
