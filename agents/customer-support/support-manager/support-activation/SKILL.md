@@ -10,6 +10,12 @@ agent: support-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "activate support"
+  - "support activation"
+  - "launch support function"
+  - "set up support team"
+  - "support team activation"
 ---
 
 # support-activation
