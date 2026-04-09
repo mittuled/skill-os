@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../marketing/vp-marketing/demand-gen-planner/SKILL.md
   - ../marketing-attribution-modeller/SKILL.md
+triggers:
+  - "build lead scoring model"
+  - "define lead score"
+  - "score marketing leads"
+  - "lead qualification model"
+  - "MQL scoring setup"
 ---
 
 # lead-scoring-model-builder
