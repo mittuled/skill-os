@@ -10,6 +10,12 @@ agent: vendor-management-procurement
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "review vendor performance"
+  - "vendor scorecard"
+  - "vendor QBR"
+  - "assess vendor delivery"
+  - "evaluate supplier performance"
 ---
 
 # vendor-performance-reviewer
