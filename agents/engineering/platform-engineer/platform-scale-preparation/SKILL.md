@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../platform-roadmap-aligner/SKILL.md
   - ../../../engineering/devops-infrastructure-engineer/infrastructure-scaling-executor/SKILL.md
+triggers:
+  - "prepare platform for scale"
+  - "platform scaling"
+  - "scale platform"
+  - "platform capacity prep"
+  - "platform growth planning"
 ---
 
 # platform-scale-preparation
