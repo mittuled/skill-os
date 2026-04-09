@@ -13,6 +13,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "narrate product pitch"
+  - "product pitch"
+  - "write pitch narrative"
+  - "pitch story"
+  - "product pitch deck"
 ---
 
 # pitch-narrator
