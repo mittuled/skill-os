@@ -10,6 +10,12 @@ related-skills:
   - ../builder/SKILL.md
   - ../security-reviewer/SKILL.md
   - ../instrumentation-implementer/SKILL.md
+triggers:
+  - "integrate third party API"
+  - "third-party integration"
+  - "external API integration"
+  - "API integration"
+  - "vendor integration"
 ---
 
 # third-party-integrator
