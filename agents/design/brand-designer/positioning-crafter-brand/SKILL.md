@@ -11,6 +11,12 @@ agent: brand-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "brand positioning"
+  - "craft brand position"
+  - "brand market position"
+  - "position the brand"
+  - "brand differentiation"
 ---
 
 # positioning-crafter-brand
