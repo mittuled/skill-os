@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "synthesise signals"
+  - "signal synthesis"
+  - "aggregate signals"
+  - "combine product signals"
+  - "signal analysis"
 ---
 
 # signal-synthesiser
