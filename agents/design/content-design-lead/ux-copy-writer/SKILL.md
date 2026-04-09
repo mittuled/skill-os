@@ -11,6 +11,12 @@ agent: content-design-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "write ux copy"
+  - "ux copywriting"
+  - "ui copy"
+  - "interface copy"
+  - "write ui text"
 ---
 
 # ux-copy-writer
