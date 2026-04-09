@@ -14,6 +14,12 @@ related-skills:
   - ../onboarding-engineer/SKILL.md
   - ../growth-loop-activator/SKILL.md
   - ../referral-engine-builder/SKILL.md
+triggers:
+  - "build notification pipeline"
+  - "set up push notifications"
+  - "create notification system"
+  - "notification infrastructure"
+  - "messaging pipeline setup"
 ---
 
 # notification-pipeline-builder
