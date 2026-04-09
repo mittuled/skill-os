@@ -14,6 +14,12 @@ related-skills:
   - ../ai-feasibility-assessor/SKILL.md
   - ../mlops-pipeline-builder/SKILL.md
   - ../model-trainer/SKILL.md
+triggers:
+  - "design ML architecture"
+  - "ML system design"
+  - "model architecture"
+  - "machine learning architecture"
+  - "ML pipeline design"
 ---
 
 # ml-architecture-designer
