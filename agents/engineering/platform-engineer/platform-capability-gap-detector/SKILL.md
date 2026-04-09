@@ -14,6 +14,12 @@ related-skills:
   - ../platform-roadmap-aligner/SKILL.md
   - ../golden-path-definer/SKILL.md
   - ../developer-experience-enabler/SKILL.md
+triggers:
+  - "detect platform gaps"
+  - "platform gap analysis"
+  - "platform capability audit"
+  - "identify platform gaps"
+  - "platform capability gaps"
 ---
 
 # platform-capability-gap-detector
