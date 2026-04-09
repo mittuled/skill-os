@@ -10,6 +10,12 @@ agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build content engine"
+  - "content strategy engine"
+  - "pmm content system"
+  - "content pipeline"
+  - "content engine"
 ---
 
 # content-engine-builder-pmm
