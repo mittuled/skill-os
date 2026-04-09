@@ -11,6 +11,12 @@ agent: customer-success-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "synthesise user feedback"
+  - "synthesize feedback cs"
+  - "summarize customer feedback"
+  - "user feedback synthesis"
+  - "feedback analysis cs"
 ---
 
 # user-feedback-synthesiser-cs
