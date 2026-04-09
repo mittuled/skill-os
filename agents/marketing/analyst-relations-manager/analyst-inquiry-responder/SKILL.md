@@ -10,6 +10,12 @@ agent: analyst-relations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "respond to analyst inquiry"
+  - "handle analyst RFI"
+  - "analyst inquiry response"
+  - "draft analyst reply"
+  - "answer analyst questions"
 ---
 
 # analyst-inquiry-responder
