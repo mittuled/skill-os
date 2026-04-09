@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "monitor competitive response"
+  - "track competitor moves"
+  - "competitive intelligence pmm"
+  - "competitor monitoring"
+  - "competitive watch"
 ---
 
 # competitive-response-monitor-pmm
