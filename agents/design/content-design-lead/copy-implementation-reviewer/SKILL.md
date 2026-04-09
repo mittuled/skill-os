@@ -11,6 +11,12 @@ agent: content-design-lead
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "review copy implementation"
+  - "copy review"
+  - "implementation copy check"
+  - "vet copy"
+  - "copy qa"
 ---
 
 # copy-implementation-reviewer
