@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../data-room-manager/SKILL.md
   - ../fundraising-process-manager/SKILL.md
+triggers:
+  - "coordinate due diligence"
+  - "manage DD process"
+  - "due diligence coordination"
+  - "run investor diligence"
+  - "due diligence"
 ---
 
 # due-diligence-coordinator
