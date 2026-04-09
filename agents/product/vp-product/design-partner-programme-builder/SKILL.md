@@ -12,6 +12,12 @@ agent: vp-product
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "build design partner program"
+  - "design partner programme"
+  - "partner program setup"
+  - "design partners"
+  - "create partner program"
 ---
 
 # design-partner-programme-builder
