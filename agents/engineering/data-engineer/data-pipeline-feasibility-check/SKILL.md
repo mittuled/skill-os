@@ -12,6 +12,12 @@ version: 1.0.0
 complexity: simple
 related-skills:
   - ../data-pipeline-designer/SKILL.md
+triggers:
+  - "check pipeline feasibility"
+  - "data pipeline viability"
+  - "can we build this pipeline"
+  - "pipeline feasibility"
+  - "data ingestion feasibility"
 ---
 
 # data-pipeline-feasibility-check
