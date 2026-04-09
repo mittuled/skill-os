@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../growth-loop-activator/SKILL.md
   - ../notification-pipeline-builder/SKILL.md
+triggers:
+  - "build referral engine"
+  - "create referral program"
+  - "implement referral system"
+  - "referral loop setup"
+  - "viral referral engine"
 ---
 
 # referral-engine-builder
