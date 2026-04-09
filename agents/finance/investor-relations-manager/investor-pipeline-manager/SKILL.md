@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../fundraising-process-manager/SKILL.md
   - ../investor-comms-drafter/SKILL.md
+triggers:
+  - "manage investor pipeline"
+  - "track investor outreach"
+  - "investor pipeline"
+  - "investor CRM"
+  - "fundraising pipeline"
 ---
 
 # investor-pipeline-manager
