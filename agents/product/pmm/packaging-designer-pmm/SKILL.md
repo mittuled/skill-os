@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design product packaging"
+  - "pmm packaging"
+  - "package the product"
+  - "offer packaging"
+  - "product packaging strategy"
 ---
 
 # packaging-designer-pmm
