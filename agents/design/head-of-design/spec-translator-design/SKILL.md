@@ -11,6 +11,12 @@ agent: head-of-design
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "translate design spec"
+  - "design spec translation"
+  - "interpret design spec"
+  - "spec to design"
+  - "read design spec"
 ---
 
 # spec-translator-design
