@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../progressive-rollout-executor/SKILL.md
   - ../rollout-configurator/SKILL.md
+triggers:
+  - "plan rollback"
+  - "rollback strategy"
+  - "deployment rollback plan"
+  - "revert deployment plan"
+  - "rollback runbook"
 ---
 
 # rollback-planner
