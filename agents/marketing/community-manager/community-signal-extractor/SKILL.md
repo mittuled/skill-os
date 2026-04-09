@@ -10,6 +10,12 @@ agent: community-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "extract community signals"
+  - "mine community insights"
+  - "community feedback synthesis"
+  - "community intelligence report"
+  - "forum signal extraction"
 ---
 
 # community-signal-extractor
