@@ -11,6 +11,12 @@ agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build first hire process"
+  - "first employee onboarding"
+  - "initial hire workflow"
+  - "first hire checklist"
+  - "hire first employee"
 ---
 
 # first-hire-process-builder
