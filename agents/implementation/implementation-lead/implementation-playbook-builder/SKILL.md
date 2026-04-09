@@ -10,6 +10,12 @@ agent: implementation-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build implementation playbook"
+  - "create onboarding playbook"
+  - "document implementation process"
+  - "implementation process guide"
+  - "playbook for implementations"
 ---
 
 # implementation-playbook-builder
