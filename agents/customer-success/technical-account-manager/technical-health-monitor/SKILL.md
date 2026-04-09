@@ -11,6 +11,12 @@ agent: technical-account-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitor technical health"
+  - "technical health check"
+  - "account technical health"
+  - "health monitoring tam"
+  - "technical account health"
 ---
 
 # technical-health-monitor
