@@ -6,6 +6,12 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan environment parity"
+  - "dev prod parity"
+  - "environment consistency"
+  - "staging parity"
+  - "environment alignment"
 ---
 
 # environment-parity-planner
