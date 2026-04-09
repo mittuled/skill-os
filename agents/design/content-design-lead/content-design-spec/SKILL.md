@@ -11,6 +11,12 @@ agent: content-design-lead
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "content design spec"
+  - "content spec"
+  - "write content spec"
+  - "content design document"
+  - "content guidelines"
 ---
 
 # content-design-spec
