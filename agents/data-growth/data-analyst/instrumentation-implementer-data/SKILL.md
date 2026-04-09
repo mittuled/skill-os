@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-spec-data
   - instrumentation-planner-data
   - instrumentation-verifier-data
+triggers:
+  - "implement data tracking"
+  - "add analytics events data"
+  - "instrument data layer"
+  - "code analytics events"
+  - "data event implementation"
 ---
 
 # instrumentation-implementer-data
