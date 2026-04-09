@@ -15,6 +15,12 @@ related-skills:
   - ../../vp-engineering/go-live-approver-lead/SKILL.md
   - ../internal-demo-runner-eng/SKILL.md
   - ../inter-phase-reviewer-eng/SKILL.md
+triggers:
+  - "approve go-live"
+  - "go-live approval"
+  - "launch sign-off"
+  - "pre-launch approval"
+  - "release approval"
 ---
 
 # go-live-approver-eng
