@@ -12,6 +12,12 @@ agent: product-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "build risk register"
+  - "risk register"
+  - "identify risks"
+  - "project risk log"
+  - "risk management"
 ---
 
 # risk-register-builder
