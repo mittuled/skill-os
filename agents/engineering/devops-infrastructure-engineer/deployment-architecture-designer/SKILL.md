@@ -6,6 +6,12 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "design deployment architecture"
+  - "deployment design"
+  - "cloud architecture design"
+  - "hosting architecture"
+  - "deployment topology"
 ---
 
 # deployment-architecture-designer
