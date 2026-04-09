@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../monthly-close-runner/SKILL.md
   - ../../../finance/fpa-analyst/saas-metrics-reporter/SKILL.md
+triggers:
+  - "manage accounts receivable"
+  - "collect outstanding invoices"
+  - "AR management"
+  - "chase payments"
+  - "accounts receivable"
 ---
 
 # accounts-receivable-manager
