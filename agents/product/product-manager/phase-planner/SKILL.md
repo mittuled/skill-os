@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan phases"
+  - "phase planning"
+  - "project phases"
+  - "define phases"
+  - "phased roadmap"
 ---
 
 # phase-planner
