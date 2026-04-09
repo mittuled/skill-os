@@ -10,6 +10,12 @@ agent: account-management-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build AM sales playbook"
+  - "account management playbook"
+  - "sales plays for accounts"
+  - "document AM motions"
+  - "playbook for account managers"
 ---
 
 # sales-playbook-am
