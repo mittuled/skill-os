@@ -6,6 +6,12 @@ agent: social-media-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build social content calendar"
+  - "plan social posts"
+  - "social media schedule"
+  - "content calendar social"
+  - "schedule social content"
 ---
 
 # social-content-calendar-manager
