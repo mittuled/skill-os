@@ -13,6 +13,12 @@ complexity: simple
 related-skills:
   - ../business-model-legal-reviewer/SKILL.md
   - ../positioning-legal-reviewer/SKILL.md
+triggers:
+  - "review pricing legally"
+  - "pricing legal compliance"
+  - "legal pricing review"
+  - "pricing model legal check"
+  - "validate pricing legally"
 ---
 
 # pricing-legal-reviewer
