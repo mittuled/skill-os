@@ -11,6 +11,12 @@ agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "grant tool access"
+  - "set up MCP connections"
+  - "manage API keys"
+  - "provision agent tools"
+  - "tool access errors"
 ---
 
 # benefits-programme-administrator
