@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "sales playbook"
+  - "build sales messaging"
+  - "sales playbook content"
+  - "messaging for sales"
+  - "sales enablement messaging"
 ---
 
 # sales-playbook-messaging
