@@ -11,6 +11,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitor competitive response"
+  - "track competitive moves"
+  - "competitive watch vp"
+  - "competitor monitoring vp"
+  - "competitive intelligence"
 ---
 
 # competitive-response-monitor
