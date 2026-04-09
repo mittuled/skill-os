@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-verifier-growth
   - instrumentation-implementer-growth
   - metrics-dashboard-growth
+triggers:
+  - "verify production instrumentation"
+  - "check prod tracking growth"
+  - "validate live event data growth"
+  - "production event verification"
+  - "QA tracking in production"
 ---
 
 # instrumentation-verifier-prod-growth
