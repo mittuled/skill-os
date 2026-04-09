@@ -10,6 +10,12 @@ agent: technical-writer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "extract documentation requirements"
+  - "gather docs requirements"
+  - "define documentation scope"
+  - "documentation needs analysis"
+  - "docs requirements gathering"
 ---
 
 # documentation-requirements-extractor
