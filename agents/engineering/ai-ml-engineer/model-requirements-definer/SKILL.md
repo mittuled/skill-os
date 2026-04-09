@@ -15,6 +15,12 @@ related-skills:
   - ../ai-feasibility-assessor/SKILL.md
   - ../model-evaluation-runner/SKILL.md
   - ../model-trainer/SKILL.md
+triggers:
+  - "define model requirements"
+  - "ML requirements"
+  - "model specs"
+  - "set ML requirements"
+  - "model requirement gathering"
 ---
 
 # model-requirements-definer
