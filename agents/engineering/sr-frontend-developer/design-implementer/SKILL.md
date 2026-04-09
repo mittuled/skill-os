@@ -11,6 +11,12 @@ related-skills:
   - ../accessibility-checker-eng/SKILL.md
   - ../cross-platform-tester/SKILL.md
   - ../accessibility-auditor/SKILL.md
+triggers:
+  - "implement design"
+  - "convert design to code"
+  - "design to code"
+  - "frontend design implementation"
+  - "build UI from design"
 ---
 
 # design-implementer
