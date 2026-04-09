@@ -9,6 +9,12 @@ complexity: medium
 related-skills:
   - ../builder/SKILL.md
   - ../third-party-integrator/SKILL.md
+triggers:
+  - "security review"
+  - "review for security issues"
+  - "code security review"
+  - "backend security check"
+  - "security vulnerability review"
 ---
 
 # security-reviewer
