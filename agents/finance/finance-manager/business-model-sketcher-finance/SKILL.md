@@ -14,6 +14,12 @@ complexity: medium
 related-skills:
   - ../../../finance/cfo-vp-finance/unit-econ-viability-gate/SKILL.md
   - ../financial-risk-reviewer/SKILL.md
+triggers:
+  - "sketch business model"
+  - "model the business"
+  - "business model design"
+  - "draft business model"
+  - "business model canvas"
 ---
 
 # business-model-sketcher-finance
