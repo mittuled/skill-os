@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../compliance-framework-implementer/SKILL.md
   - ../vendor-security-assessor/SKILL.md
+triggers:
+  - "maintain risk register"
+  - "update risk register"
+  - "risk register"
+  - "track risks"
+  - "risk log management"
 ---
 
 # risk-register-maintainer
