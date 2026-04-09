@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../privacy-impact-assessor/SKILL.md
   - ../../../legal/security-compliance-programme-manager/vendor-security-assessor/SKILL.md
+triggers:
+  - "negotiate DPA"
+  - "data processing agreement"
+  - "DPA negotiation"
+  - "draft DPA"
+  - "data processing contract"
 ---
 
 # data-processing-agreement-negotiator
