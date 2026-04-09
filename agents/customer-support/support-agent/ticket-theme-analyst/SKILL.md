@@ -10,6 +10,12 @@ agent: support-agent
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "analyze ticket themes"
+  - "find ticket patterns"
+  - "ticket theme analysis"
+  - "support ticket trends"
+  - "recurring ticket issues"
 ---
 
 # ticket-theme-analyst
