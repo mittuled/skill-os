@@ -10,6 +10,12 @@ related-skills:
   - activation-signal-definer
   - retention-model-hypothesiser
   - funnel-analyser-growth
+triggers:
+  - "validate activation moment"
+  - "verify aha moment"
+  - "confirm activation signal"
+  - "activation moment review"
+  - "aha moment validation"
 ---
 
 # activation-moment-validator
