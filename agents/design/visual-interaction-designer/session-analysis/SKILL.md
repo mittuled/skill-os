@@ -11,6 +11,12 @@ agent: visual-interaction-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "analyse design session"
+  - "session analysis design"
+  - "design session review"
+  - "interaction session analysis"
+  - "session findings design"
 ---
 
 # session-analysis
