@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../rollout-configurator/SKILL.md
   - ../rollback-planner/SKILL.md
+triggers:
+  - "execute progressive rollout"
+  - "canary deployment"
+  - "gradual rollout"
+  - "progressive release"
+  - "staged rollout"
 ---
 
 # progressive-rollout-executor
