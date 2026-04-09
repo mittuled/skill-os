@@ -11,6 +11,12 @@ agent: ux-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run user research"
+  - "conduct user research"
+  - "user research"
+  - "research users"
+  - "user study"
 ---
 
 # user-researcher-uxr
