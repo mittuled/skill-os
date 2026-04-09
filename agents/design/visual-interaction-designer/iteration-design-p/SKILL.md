@@ -11,6 +11,12 @@ agent: visual-interaction-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design iteration"
+  - "iterate on design"
+  - "design refinement"
+  - "refine design"
+  - "design improvement"
 ---
 
 # iteration-design-p
