@@ -10,6 +10,12 @@ agent: content-designer-ux-writer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "write in-app announcement"
+  - "in-app message"
+  - "app announcement copy"
+  - "feature announcement"
+  - "in-product message"
 ---
 
 # in-app-announcement-writer-content
