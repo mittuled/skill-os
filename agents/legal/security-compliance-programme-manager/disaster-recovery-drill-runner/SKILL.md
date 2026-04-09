@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../soc2-programme-manager/SKILL.md
   - ../security-awareness-training-runner/SKILL.md
+triggers:
+  - "run DR drill"
+  - "disaster recovery test"
+  - "DR exercise"
+  - "business continuity drill"
+  - "disaster recovery drill"
 ---
 
 # disaster-recovery-drill-runner
