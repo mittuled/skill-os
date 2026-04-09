@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../data-pipeline-designer/SKILL.md
   - ../pipeline-builder/SKILL.md
+triggers:
+  - "design warehouse schema"
+  - "data warehouse design"
+  - "schema design"
+  - "data modeling"
+  - "warehouse schema"
 ---
 
 # data-warehouse-schema-designer
