@@ -14,6 +14,12 @@ related-skills:
   - ../compliance-framework-implementer/SKILL.md
   - ../soc2-programme-manager/SKILL.md
   - ../policy-document-owner/SKILL.md
+triggers:
+  - "manage audit programme"
+  - "run compliance audit"
+  - "audit programme management"
+  - "schedule audit activities"
+  - "compliance audit manager"
 ---
 
 # audit-programme-manager
