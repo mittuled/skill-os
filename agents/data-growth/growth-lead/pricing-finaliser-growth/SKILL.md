@@ -9,6 +9,12 @@ complexity: simple
 related-skills:
   - pricing-strategy-growth
   - growth-model-designer
+triggers:
+  - "finalise growth pricing"
+  - "lock pricing growth"
+  - "confirm pricing tiers"
+  - "finalize pricing model"
+  - "pricing sign-off growth"
 ---
 
 # pricing-finaliser-growth
