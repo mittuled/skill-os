@@ -16,6 +16,12 @@ related-skills:
   - ../martech-stack-manager/SKILL.md
   - ../lead-scoring-model-builder/SKILL.md
   - ../../demand-gen-manager/funnel-optimizer/SKILL.md
+triggers:
+  - "build attribution model"
+  - "marketing attribution setup"
+  - "multi-touch attribution"
+  - "measure marketing ROI"
+  - "attribution modeling"
 ---
 
 # marketing-attribution-modeller
