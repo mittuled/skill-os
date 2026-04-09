@@ -11,6 +11,12 @@ agent: customer-success-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build early adopter success"
+  - "early adopter program"
+  - "early adopter success"
+  - "support early adopters"
+  - "early customer success"
 ---
 
 # early-adopter-success-builder-cs
