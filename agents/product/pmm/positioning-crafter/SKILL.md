@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "craft positioning"
+  - "product positioning"
+  - "position the product"
+  - "market positioning"
+  - "positioning statement"
 ---
 
 # positioning-crafter
