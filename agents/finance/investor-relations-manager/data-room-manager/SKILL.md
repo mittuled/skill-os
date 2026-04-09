@@ -14,6 +14,12 @@ related-skills:
   - ../data-room-builder/SKILL.md
   - ../fundraising-process-manager/SKILL.md
   - ../due-diligence-coordinator/SKILL.md
+triggers:
+  - "manage data room"
+  - "update data room"
+  - "data room management"
+  - "maintain investor data room"
+  - "data room upkeep"
 ---
 
 # data-room-manager
