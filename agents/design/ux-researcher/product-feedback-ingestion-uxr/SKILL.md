@@ -11,6 +11,12 @@ agent: ux-researcher
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "ingest product feedback"
+  - "process user feedback"
+  - "feedback ingestion uxr"
+  - "collect product feedback"
+  - "feedback analysis"
 ---
 
 # product-feedback-ingestion-uxr
