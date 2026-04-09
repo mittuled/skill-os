@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review rollout config"
+  - "rollout configuration review"
+  - "check rollout settings"
+  - "rollout review"
+  - "rollout config check"
 ---
 
 # rollout-configurator-review
