@@ -10,6 +10,12 @@ agent: applied-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "synthesise market research"
+  - "market research summary"
+  - "consolidate research"
+  - "market insights synthesis"
+  - "research synthesis"
 ---
 
 # market-research-synthesiser
