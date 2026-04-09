@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../security-baseline-setup/SKILL.md
   - ../threat-modelling/SKILL.md
+triggers:
+  - "set up security monitoring"
+  - "continuous security monitoring"
+  - "security event monitoring"
+  - "SIEM setup"
+  - "ongoing security monitoring"
 ---
 
 # continuous-security-monitoring
