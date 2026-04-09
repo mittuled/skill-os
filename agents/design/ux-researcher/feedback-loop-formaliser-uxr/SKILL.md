@@ -11,6 +11,12 @@ agent: ux-researcher
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "formalise feedback loop"
+  - "feedback loop uxr"
+  - "research feedback process"
+  - "set up feedback loop"
+  - "feedback system"
 ---
 
 # feedback-loop-formaliser-uxr
