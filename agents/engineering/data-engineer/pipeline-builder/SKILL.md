@@ -15,6 +15,12 @@ related-skills:
   - ../pipeline-reliability-tester/SKILL.md
   - ../data-quality-monitor/SKILL.md
   - ../data-warehouse-schema-designer/SKILL.md
+triggers:
+  - "build data pipeline"
+  - "implement pipeline"
+  - "create ETL pipeline"
+  - "data pipeline build"
+  - "pipeline implementation"
 ---
 
 # pipeline-builder
