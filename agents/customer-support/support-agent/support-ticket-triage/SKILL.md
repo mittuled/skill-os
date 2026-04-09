@@ -10,6 +10,12 @@ agent: support-agent
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "triage support ticket"
+  - "ticket triage"
+  - "prioritize tickets"
+  - "sort support queue"
+  - "triage incoming tickets"
 ---
 
 # support-ticket-triage
