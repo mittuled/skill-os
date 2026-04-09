@@ -1,6 +1,6 @@
 ---
 name: conference-presence-manager
-description: Maximises pipeline from every conference dollar by orchestrating booth, sponsorship, and speaking into a unified lead-generation machine.
+description: Maximises pipeline from every conference dollar by orchestrating booth, sponsorship, and speaking into a unified lead-generation machine. Use when asked to conference presence manager. Suggest when relevant.
 department: marketing
 agent: event-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # conference-presence-manager
 
-## Agent
+## Agent: Social Media Manager
 
 L2 event marketing manager responsible for conference presence, sales kickoffs, user conferences, company offsites, and virtual events.
 

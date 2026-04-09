@@ -1,6 +1,6 @@
 ---
 name: webinar-and-virtual-event-manager
-description: Runs a webinar programme that generates qualified pipeline at a fraction of in-person event costs.
+description: Runs a webinar programme that generates qualified pipeline at a fraction of in-person event costs. Use when asked to webinar and virtual event manager. Suggest when relevant.
 department: marketing
 agent: event-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # webinar-and-virtual-event-manager
 
-## Agent
+## Agent: Social Media Manager
 
 L2 event marketing manager responsible for conference presence, sales kickoffs, user conferences, company offsites, and virtual events.
 

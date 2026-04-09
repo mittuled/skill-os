@@ -1,6 +1,6 @@
 ---
 name: deployment-automation
-description: Eliminates manual deployment steps so releases are fast, repeatable, and free from human error.
+description: Eliminates manual deployment steps so releases are fast, repeatable, and free from human error. Use when asked to deployment automation. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -15,7 +15,7 @@ triggers:
 
 # deployment-automation
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

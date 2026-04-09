@@ -1,6 +1,6 @@
 ---
 name: github-org-setup
-description: Configures the GitHub organization so teams ship code securely with the right access and branch protections.
+description: Configures the GitHub organization so teams ship code securely with the right access and branch protections. Use when asked to github org setup. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # github-org-setup
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

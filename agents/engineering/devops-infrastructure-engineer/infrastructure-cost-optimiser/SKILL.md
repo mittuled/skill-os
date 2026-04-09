@@ -1,6 +1,6 @@
 ---
 name: infrastructure-cost-optimiser
-description: Finds and eliminates wasted cloud spend without sacrificing reliability or performance.
+description: Finds and eliminates wasted cloud spend without sacrificing reliability or performance. Use when asked to infrastructure cost optimiser. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -15,7 +15,7 @@ triggers:
 
 # infrastructure-cost-optimiser
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

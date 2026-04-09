@@ -1,6 +1,6 @@
 ---
 name: incident-response-planner
-description: Prepares the team to handle production failures fast by defining clear procedures and escalation paths.
+description: Prepares the team to handle production failures fast by defining clear procedures and escalation paths. Use when asked to incident response planner. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -15,7 +15,7 @@ triggers:
 
 # incident-response-planner
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

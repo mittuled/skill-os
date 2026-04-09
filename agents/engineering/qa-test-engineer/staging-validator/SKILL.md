@@ -1,6 +1,6 @@
 ---
 name: staging-validator
-description: Blocks broken releases by validating the full system in staging before production promotion.
+description: Blocks broken releases by validating the full system in staging before production promotion. Use when asked to staging validator. Suggest when relevant.
 department: engineering
 agent: qa-test-engineer
 version: 1.0.0
@@ -15,7 +15,7 @@ triggers:
 
 # staging-validator
 
-## Agent
+## Agent: Social Media Manager
 
 L2 QA and test engineer responsible for unit, integration, regression, performance, and security testing. Validates instrumentation and staging before production deployment.
 

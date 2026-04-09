@@ -1,6 +1,6 @@
 ---
 name: onboarding-sequence-designer
-description: Designs post-signup email sequences that drive users to the activation moment and reduce time-to-value.
+description: Designs post-signup email sequences that drive users to the activation moment and reduce time-to-value. Use when asked to onboarding sequence designer. Suggest when relevant.
 department: marketing
 agent: lifecycle-email-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # onboarding-sequence-designer
 
-## Agent
+## Agent: Social Media Manager
 
 L2 lifecycle and email marketing manager responsible for onboarding sequences, nurture campaigns, retention emails, re-engagement, and transactional email design.
 

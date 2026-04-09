@@ -1,6 +1,6 @@
 ---
 name: cloud-foundation-setup
-description: Lays the secure, well-structured cloud foundation that every service and team will build on.
+description: Lays the secure, well-structured cloud foundation that every service and team will build on. Use when asked to cloud foundation setup. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -15,7 +15,7 @@ triggers:
 
 # cloud-foundation-setup
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

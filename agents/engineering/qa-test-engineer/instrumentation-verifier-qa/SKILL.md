@@ -1,6 +1,6 @@
 ---
 name: instrumentation-verifier-qa
-description: Prevents broken instrumentation from reaching staging by validating logging, metrics, and tracing in QA.
+description: Prevents broken instrumentation from reaching staging by validating logging, metrics, and tracing in QA. Use when asked to instrumentation verifier qa. Suggest when relevant.
 department: engineering
 agent: qa-test-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # instrumentation-verifier-qa
 
-## Agent
+## Agent: Social Media Manager
 
 L2 QA and test engineer responsible for unit, integration, regression, performance, and security testing. Validates instrumentation and staging before production deployment.
 

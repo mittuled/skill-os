@@ -1,6 +1,6 @@
 ---
 name: regression-test-runner
-description: Prevents shipped features from breaking by running the full regression suite against every change set.
+description: Prevents shipped features from breaking by running the full regression suite against every change set. Use when asked to regression test runner. Suggest when relevant.
 department: engineering
 agent: qa-test-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # regression-test-runner
 
-## Agent
+## Agent: Social Media Manager
 
 L2 QA and test engineer responsible for unit, integration, regression, performance, and security testing. Validates instrumentation and staging before production deployment.
 

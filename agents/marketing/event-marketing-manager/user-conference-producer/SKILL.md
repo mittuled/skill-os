@@ -1,6 +1,6 @@
 ---
 name: user-conference-producer
-description: Produces the flagship user conference that deepens customer loyalty, generates expansion pipeline, and attracts new prospects.
+description: Produces the flagship user conference that deepens customer loyalty, generates expansion pipeline, and attracts new prospects. Use when asked to user conference producer. Suggest when relevant.
 department: marketing
 agent: event-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # user-conference-producer
 
-## Agent
+## Agent: Social Media Manager
 
 L2 event marketing manager responsible for conference presence, sales kickoffs, user conferences, company offsites, and virtual events.
 

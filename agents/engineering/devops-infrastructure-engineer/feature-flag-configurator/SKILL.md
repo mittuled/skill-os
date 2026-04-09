@@ -1,6 +1,6 @@
 ---
 name: feature-flag-configurator
-description: Enables controlled rollout and instant rollback by configuring feature flags for every risky change.
+description: Enables controlled rollout and instant rollback by configuring feature flags for every risky change. Use when asked to feature flag configurator. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # feature-flag-configurator
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

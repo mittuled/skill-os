@@ -1,6 +1,6 @@
 ---
 name: influencer-coordination-manager
-description: Builds and runs an influencer programme that drives measurable pipeline, not vanity reach.
+description: Builds and runs an influencer programme that drives measurable pipeline, not vanity reach. Use when asked to influencer coordination manager. Suggest when relevant.
 department: marketing
 agent: social-media-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # influencer-coordination-manager
 
-## Agent
+## Agent: Social Media Manager
 
 L2 social media manager responsible for organic social content, social listening, influencer coordination, and user-generated content programmes.
 

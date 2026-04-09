@@ -1,6 +1,6 @@
 ---
 name: retention-email-designer
-description: Creates churn-prevention email sequences triggered by usage signals that save revenue before customers leave.
+description: Creates churn-prevention email sequences triggered by usage signals that save revenue before customers leave. Use when asked to retention email designer. Suggest when relevant.
 department: marketing
 agent: lifecycle-email-marketing-manager
 version: 1.0.0
@@ -10,7 +10,7 @@ related-skills: []
 
 # retention-email-designer
 
-## Agent
+## Agent: Social Media Manager
 
 L2 lifecycle and email marketing manager responsible for onboarding sequences, nurture campaigns, retention emails, re-engagement, and transactional email design.
 

@@ -1,6 +1,6 @@
 ---
 name: email-performance-optimiser
-description: Runs systematic A/B tests across email programmes to maximise conversion rates and revenue per send.
+description: Runs systematic A/B tests across email programmes to maximise conversion rates and revenue per send. Use when asked to email performance optimiser. Suggest when relevant.
 department: marketing
 agent: lifecycle-email-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # email-performance-optimiser
 
-## Agent
+## Agent: Social Media Manager
 
 L2 lifecycle and email marketing manager responsible for onboarding sequences, nurture campaigns, retention emails, re-engagement, and transactional email design.
 

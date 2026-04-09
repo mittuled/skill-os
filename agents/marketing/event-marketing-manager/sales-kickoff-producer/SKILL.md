@@ -1,6 +1,6 @@
 ---
 name: sales-kickoff-producer
-description: Produces a sales kickoff that sends reps into the year with updated playbooks, competitive intel, and quota confidence.
+description: Produces a sales kickoff that sends reps into the year with updated playbooks, competitive intel, and quota confidence. Use when asked to sales kickoff producer. Suggest when relevant.
 department: marketing
 agent: event-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # sales-kickoff-producer
 
-## Agent
+## Agent: Social Media Manager
 
 L2 event marketing manager responsible for conference presence, sales kickoffs, user conferences, company offsites, and virtual events.
 

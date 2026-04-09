@@ -1,6 +1,6 @@
 ---
 name: company-offsite-producer
-description: Produces company offsites that align teams on strategy and build the cross-functional relationships that make remote work function.
+description: Produces company offsites that align teams on strategy and build the cross-functional relationships that make remote work function. Use when asked to company offsite producer. Suggest when relevant.
 department: marketing
 agent: event-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # company-offsite-producer
 
-## Agent
+## Agent: Social Media Manager
 
 L2 event marketing manager responsible for conference presence, sales kickoffs, user conferences, company offsites, and virtual events.
 

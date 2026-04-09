@@ -1,6 +1,6 @@
 ---
 name: social-content-calendar-manager
-description: Runs a repeatable social content engine that compounds brand presence and drives measurable engagement.
+description: Runs a repeatable social content engine that compounds brand presence and drives measurable engagement. Use when asked to social content calendar manager. Suggest when relevant.
 department: marketing
 agent: social-media-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # social-content-calendar-manager
 
-## Agent
+## Agent: Social Media Manager
 
 L2 social media manager responsible for organic social content, social listening, influencer coordination, and user-generated content programmes.
 

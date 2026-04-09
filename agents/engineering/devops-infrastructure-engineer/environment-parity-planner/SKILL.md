@@ -1,6 +1,6 @@
 ---
 name: environment-parity-planner
-description: Keeps dev, staging, and production environments aligned so that what works in one works in all.
+description: Keeps dev, staging, and production environments aligned so that what works in one works in all. Use when asked to environment parity planner. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # environment-parity-planner
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

@@ -1,6 +1,6 @@
 ---
 name: security-auditor
-description: Finds vulnerabilities in code and configuration before attackers do, protecting the product and its users.
+description: Finds vulnerabilities in code and configuration before attackers do, protecting the product and its users. Use when asked to security auditor. Suggest when relevant.
 department: engineering
 agent: qa-test-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # security-auditor
 
-## Agent
+## Agent: Social Media Manager
 
 L2 QA and test engineer responsible for unit, integration, regression, performance, and security testing. Validates instrumentation and staging before production deployment.
 

@@ -9,7 +9,7 @@ description: >
 department: legal
 agent: general-counsel
 version: 1.0.0
-complexity: simple
+complexity: medium
 related-skills:
   - ../../../legal/product-counsel/business-model-legal-reviewer/SKILL.md
   - ../../../legal/corporate-counsel/compliance-scanner/SKILL.md

@@ -1,6 +1,6 @@
 ---
 name: ci-cd-pipeline-builder
-description: Builds reliable CI/CD pipelines that turn every commit into a deployable, tested artifact.
+description: Builds reliable CI/CD pipelines that turn every commit into a deployable, tested artifact. Use when asked to ci cd pipeline builder. Suggest when relevant.
 department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
@@ -15,7 +15,7 @@ triggers:
 
 # ci-cd-pipeline-builder
 
-## Agent
+## Agent: Social Media Manager
 
 L2 DevOps and infrastructure engineer responsible for CI/CD pipelines, deployment automation, cloud infrastructure, monitoring, alerting, incident response, and rollout management.
 

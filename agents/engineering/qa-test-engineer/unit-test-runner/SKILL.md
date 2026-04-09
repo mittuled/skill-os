@@ -1,6 +1,6 @@
 ---
 name: unit-test-runner
-description: Catches logic errors at the smallest testable scope, giving engineers fast feedback on every change.
+description: Catches logic errors at the smallest testable scope, giving engineers fast feedback on every change. Use when asked to unit test runner. Suggest when relevant.
 department: engineering
 agent: qa-test-engineer
 version: 1.0.0
@@ -15,7 +15,7 @@ triggers:
 
 # unit-test-runner
 
-## Agent
+## Agent: Social Media Manager
 
 L2 QA and test engineer responsible for unit, integration, regression, performance, and security testing. Validates instrumentation and staging before production deployment.
 

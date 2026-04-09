@@ -1,6 +1,6 @@
 ---
 name: nurture-campaign-builder
-description: Builds MQL nurture sequences that warm leads toward sales-readiness with the right content at the right time.
+description: Builds MQL nurture sequences that warm leads toward sales-readiness with the right content at the right time. Use when asked to nurture campaign builder. Suggest when relevant.
 department: marketing
 agent: lifecycle-email-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # nurture-campaign-builder
 
-## Agent
+## Agent: Social Media Manager
 
 L2 lifecycle and email marketing manager responsible for onboarding sequences, nurture campaigns, retention emails, re-engagement, and transactional email design.
 

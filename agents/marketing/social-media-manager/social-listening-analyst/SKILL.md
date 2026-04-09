@@ -1,6 +1,6 @@
 ---
 name: social-listening-analyst
-description: Turns social chatter into actionable product and competitive intelligence that shapes strategy.
+description: Turns social chatter into actionable product and competitive intelligence that shapes strategy. Use when asked to social listening analyst. Suggest when relevant.
 department: marketing
 agent: social-media-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # social-listening-analyst
 
-## Agent
+## Agent: Social Media Manager
 
 L2 social media manager responsible for organic social content, social listening, influencer coordination, and user-generated content programmes.
 

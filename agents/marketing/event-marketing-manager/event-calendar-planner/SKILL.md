@@ -1,6 +1,6 @@
 ---
 name: event-calendar-planner
-description: Plans the annual event calendar that allocates budget to the events most likely to generate pipeline.
+description: Plans the annual event calendar that allocates budget to the events most likely to generate pipeline. Use when asked to event calendar planner. Suggest when relevant.
 department: marketing
 agent: event-marketing-manager
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # event-calendar-planner
 
-## Agent
+## Agent: Social Media Manager
 
 L2 event marketing manager responsible for conference presence, sales kickoffs, user conferences, company offsites, and virtual events.
 

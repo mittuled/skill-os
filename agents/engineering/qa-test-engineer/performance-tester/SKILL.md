@@ -1,6 +1,6 @@
 ---
 name: performance-tester
-description: Guards the performance budget by catching latency regressions and throughput bottlenecks before release.
+description: Guards the performance budget by catching latency regressions and throughput bottlenecks before release. Use when asked to performance tester. Suggest when relevant.
 department: engineering
 agent: qa-test-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # performance-tester
 
-## Agent
+## Agent: Social Media Manager
 
 L2 QA and test engineer responsible for unit, integration, regression, performance, and security testing. Validates instrumentation and staging before production deployment.
 

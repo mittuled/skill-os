@@ -1,6 +1,6 @@
 ---
 name: instrumentation-verifier-prod
-description: Catches silent instrumentation failures in production before they corrupt dashboards and alerts.
+description: Catches silent instrumentation failures in production before they corrupt dashboards and alerts. Use when asked to instrumentation verifier prod. Suggest when relevant.
 department: engineering
 agent: qa-test-engineer
 version: 1.0.0
@@ -16,7 +16,7 @@ triggers:
 
 # instrumentation-verifier-prod
 
-## Agent
+## Agent: Social Media Manager
 
 L2 QA and test engineer responsible for unit, integration, regression, performance, and security testing. Validates instrumentation and staging before production deployment.
 
