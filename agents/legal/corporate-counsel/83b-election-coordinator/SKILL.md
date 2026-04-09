@@ -14,6 +14,12 @@ related-skills:
   - ../founder-equity-issuance/SKILL.md
   - ../entity-formation/SKILL.md
   - ../../general-counsel/stock-plan-setup/SKILL.md
+triggers:
+  - "file 83b election"
+  - "83b election"
+  - "submit 83(b) form"
+  - "83b tax election"
+  - "founder 83b filing"
 ---
 
 # 83b-election-coordinator
