@@ -11,6 +11,12 @@ agent: ux-ui-designer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "populate design backlog"
+  - "design backlog"
+  - "add to design backlog"
+  - "fill design backlog"
+  - "design task backlog"
 ---
 
 # backlog-populator-design
