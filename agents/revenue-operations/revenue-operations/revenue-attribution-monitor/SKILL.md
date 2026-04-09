@@ -10,6 +10,12 @@ agent: revenue-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitor revenue attribution"
+  - "track attribution model"
+  - "revenue attribution report"
+  - "audit lead attribution"
+  - "attribution analysis"
 ---
 
 # revenue-attribution-monitor
