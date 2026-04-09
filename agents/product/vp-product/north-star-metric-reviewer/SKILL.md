@@ -11,6 +11,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review north star metric"
+  - "north star review"
+  - "nsm review"
+  - "evaluate north star"
+  - "north star metric"
 ---
 
 # north-star-metric-reviewer
