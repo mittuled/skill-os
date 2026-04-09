@@ -10,6 +10,12 @@ agent: revenue-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "analyze revenue funnel"
+  - "funnel conversion analysis"
+  - "diagnose funnel drop-off"
+  - "pipeline stage analysis"
+  - "revenue funnel report"
 ---
 
 # revenue-funnel-analyst
