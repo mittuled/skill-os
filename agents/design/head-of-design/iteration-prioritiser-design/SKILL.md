@@ -11,6 +11,12 @@ agent: head-of-design
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "prioritise design iterations"
+  - "design iteration priority"
+  - "rank design changes"
+  - "prioritise design work"
+  - "design backlog prioritisation"
 ---
 
 # iteration-prioritiser-design
