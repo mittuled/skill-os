@@ -17,6 +17,12 @@ related-skills:
   - ../safe-note-setup/SKILL.md
   - ../secondary-transaction-coordinator/SKILL.md
   - ../secondary-market-manager/SKILL.md
+triggers:
+  - "manage cap table"
+  - "update cap table"
+  - "cap table management"
+  - "equity ownership table"
+  - "track equity"
 ---
 
 # cap-table-manager
