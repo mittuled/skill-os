@@ -6,6 +6,12 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "configure feature flags"
+  - "feature flag setup"
+  - "feature toggles"
+  - "launch darkly setup"
+  - "feature flag config"
 ---
 
 # feature-flag-configurator
