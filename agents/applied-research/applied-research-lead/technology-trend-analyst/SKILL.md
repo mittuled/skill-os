@@ -10,6 +10,12 @@ agent: applied-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "analyse tech trends"
+  - "technology trend report"
+  - "emerging tech analysis"
+  - "tech landscape scan"
+  - "technology forecasting"
 ---
 
 # technology-trend-analyst
