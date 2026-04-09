@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/vp-engineering/velocity-monitor/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/inter-phase-reviewer-eng/SKILL.md
+triggers:
+  - "run phase retrospective"
+  - "inter-phase retro"
+  - "phase retrospective"
+  - "post-phase retro"
+  - "cross-phase retrospective"
 ---
 
 # inter-phase-retrospective
