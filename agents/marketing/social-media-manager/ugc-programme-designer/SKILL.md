@@ -1,6 +1,6 @@
 ---
 name: ugc-programme-designer
-description: Designs UGC programmes that turn customers into credible advocates generating authentic social proof at scale.
+description: Designs UGC programmes that turn customers into credible advocates generating authentic social proof at scale. Use when asked to build a user-generated content strategy. Suggest when organic advocacy would accelerate growth.
 department: marketing
 agent: social-media-manager
 version: 1.0.0
