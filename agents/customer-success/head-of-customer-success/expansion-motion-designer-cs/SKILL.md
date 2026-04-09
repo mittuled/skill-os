@@ -11,6 +11,12 @@ agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design expansion motion"
+  - "expansion motion cs"
+  - "upsell strategy cs"
+  - "create expansion playbook"
+  - "expansion revenue cs"
 ---
 
 # expansion-motion-designer-cs
