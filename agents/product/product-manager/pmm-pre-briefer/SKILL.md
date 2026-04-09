@@ -10,6 +10,12 @@ agent: product-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "pre-brief pmm"
+  - "pmm briefing pm"
+  - "brief pmm team pm"
+  - "prepare pmm brief"
+  - "pm pmm handoff"
 ---
 
 # pmm-pre-briefer
