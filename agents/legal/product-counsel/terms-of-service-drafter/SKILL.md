@@ -14,6 +14,12 @@ related-skills:
   - ../content-moderation-advisor/SKILL.md
   - ../privacy-impact-assessor/SKILL.md
   - ../privacy-policy-generator/SKILL.md
+triggers:
+  - "draft terms of service"
+  - "write ToS"
+  - "terms of service"
+  - "create user agreement"
+  - "ToS drafting"
 ---
 
 # terms-of-service-drafter
