@@ -11,6 +11,12 @@ agent: cs-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "cs release readiness"
+  - "prepare cs for release"
+  - "release readiness check"
+  - "is cs ready for launch"
+  - "support readiness review"
 ---
 
 # cs-release-readiness
