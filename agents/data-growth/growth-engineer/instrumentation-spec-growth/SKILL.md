@@ -11,6 +11,12 @@ related-skills:
   - instrumentation-implementer-growth
   - instrumentation-clarity-reviewer
   - growth-model-designer
+triggers:
+  - "write growth instrumentation spec"
+  - "growth tracking specification"
+  - "define growth events spec"
+  - "analytics spec growth"
+  - "growth event taxonomy"
 ---
 
 # instrumentation-spec-growth
