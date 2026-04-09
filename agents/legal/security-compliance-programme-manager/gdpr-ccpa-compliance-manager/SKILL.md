@@ -16,6 +16,12 @@ related-skills:
   - ../../../legal/corporate-counsel/compliance-scanner/SKILL.md
   - ../compliance-auditor/SKILL.md
   - ../security-awareness-training-runner/SKILL.md
+triggers:
+  - "manage GDPR compliance"
+  - "CCPA compliance"
+  - "GDPR CCPA manager"
+  - "data privacy compliance"
+  - "privacy regulation compliance"
 ---
 
 # gdpr-ccpa-compliance-manager
