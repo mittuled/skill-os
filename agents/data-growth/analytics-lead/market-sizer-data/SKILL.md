@@ -9,6 +9,12 @@ complexity: medium
 related-skills:
   - search-demand-validator
   - market-sizer
+triggers:
+  - "size the market"
+  - "market sizing analysis"
+  - "TAM SAM SOM estimate"
+  - "calculate market opportunity"
+  - "addressable market sizing"
 ---
 
 # market-sizer-data
