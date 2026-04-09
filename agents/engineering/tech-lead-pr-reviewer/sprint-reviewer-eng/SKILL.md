@@ -13,6 +13,12 @@ related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/backlog-groomer-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/go-live-approver-eng/SKILL.md
   - ../internal-demo-runner-eng/SKILL.md
+triggers:
+  - "review sprint"
+  - "sprint review"
+  - "sprint retrospective"
+  - "sprint analysis"
+  - "end-of-sprint review"
 ---
 
 # sprint-reviewer-eng
