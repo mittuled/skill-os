@@ -10,6 +10,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "coordinate uat"
+  - "user acceptance testing"
+  - "uat planning"
+  - "run uat"
+  - "acceptance testing"
 ---
 
 # uat-coordinator
