@@ -10,6 +10,12 @@ agent: vendor-management-procurement
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "assess vendor risk"
+  - "vendor risk review"
+  - "supplier risk assessment"
+  - "third-party risk"
+  - "vendor due diligence"
 ---
 
 # vendor-risk-assessor
