@@ -10,6 +10,12 @@ agent: community-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build early community"
+  - "seed founding members"
+  - "launch community from scratch"
+  - "bootstrap community"
+  - "early adopter community"
 ---
 
 # early-community-builder
