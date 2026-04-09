@@ -6,6 +6,12 @@ agent: social-media-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage influencer program"
+  - "coordinate influencer outreach"
+  - "influencer campaign setup"
+  - "partner with influencers"
+  - "influencer brief"
 ---
 
 # influencer-coordination-manager
