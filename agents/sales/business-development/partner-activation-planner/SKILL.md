@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../partner-activation-executor/SKILL.md
   - ../../../sales/vp-sales/opportunity-framer-sales/SKILL.md
+triggers:
+  - "plan partner activation"
+  - "partner activation plan"
+  - "design partner launch"
+  - "partner go-live plan"
+  - "partner activation strategy"
 ---
 
 # partner-activation-planner
