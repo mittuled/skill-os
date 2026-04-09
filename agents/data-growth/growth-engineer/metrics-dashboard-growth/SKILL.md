@@ -11,6 +11,12 @@ related-skills:
   - growth-model-designer
   - funnel-analyser-growth
   - statistical-significance-tracker
+triggers:
+  - "build growth metrics dashboard"
+  - "create growth KPI dashboard"
+  - "growth dashboard setup"
+  - "visualize growth metrics"
+  - "growth reporting dashboard"
 ---
 
 # metrics-dashboard-growth
