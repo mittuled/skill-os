@@ -18,6 +18,12 @@ related-skills:
   - ../lead-qualifier/SKILL.md
   - ../prospect-analyst-orchestrator/SKILL.md
   - ../decision-maker-mapper/SKILL.md
+triggers:
+  - "select prospect cohort"
+  - "cohort selection sales"
+  - "pick outreach cohort"
+  - "sales cohort"
+  - "segment prospects"
 ---
 
 # cohort-selector-sales
