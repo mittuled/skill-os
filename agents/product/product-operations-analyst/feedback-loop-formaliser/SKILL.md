@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "formalise feedback loop"
+  - "feedback loop product"
+  - "set up feedback loop"
+  - "feedback process"
+  - "feedback system product"
 ---
 
 # feedback-loop-formaliser
