@@ -10,6 +10,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review third-party integration"
+  - "integration review"
+  - "third-party review"
+  - "vendor integration review"
+  - "integration check"
 ---
 
 # third-party-integrator-review
