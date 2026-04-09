@@ -14,6 +14,12 @@ related-skills:
   - ../rolling-forecast-updater/SKILL.md
   - ../board-financial-pack/SKILL.md
   - ../../finance-manager/revenue-impact-monitor/SKILL.md
+triggers:
+  - "analyse monthly variance"
+  - "budget vs actual"
+  - "monthly variance analysis"
+  - "explain budget variance"
+  - "variance report"
 ---
 
 # monthly-variance-analyser
