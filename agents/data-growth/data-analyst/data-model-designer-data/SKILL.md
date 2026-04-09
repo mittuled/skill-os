@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-spec-data
   - instrumentation-implementer-data
   - metrics-dashboard-builder
+triggers:
+  - "design data model"
+  - "build data schema"
+  - "data architecture design"
+  - "create data model"
+  - "analytics data modeling"
 ---
 
 # data-model-designer-data
