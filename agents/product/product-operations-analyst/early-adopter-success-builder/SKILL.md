@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "early adopter success"
+  - "build early adopter program"
+  - "early adopter enablement"
+  - "early adopter plan"
+  - "design partner success"
 ---
 
 # early-adopter-success-builder
