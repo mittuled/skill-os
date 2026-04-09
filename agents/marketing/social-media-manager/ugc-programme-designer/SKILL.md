@@ -6,6 +6,12 @@ agent: social-media-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design UGC program"
+  - "user-generated content strategy"
+  - "build UGC campaign"
+  - "launch UGC initiative"
+  - "community content program"
 ---
 
 # ugc-programme-designer
