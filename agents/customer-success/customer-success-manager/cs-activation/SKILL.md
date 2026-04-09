@@ -11,6 +11,12 @@ agent: customer-success-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "activate customer success"
+  - "cs activation"
+  - "onboard new customer"
+  - "customer activation plan"
+  - "kickoff CS engagement"
 ---
 
 # cs-activation
