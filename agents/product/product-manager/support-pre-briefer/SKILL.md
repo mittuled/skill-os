@@ -9,6 +9,12 @@ agent: product-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "pre-brief support"
+  - "support team brief"
+  - "support launch prep"
+  - "brief support pm"
+  - "support readiness pm"
 ---
 
 # support-pre-briefer
