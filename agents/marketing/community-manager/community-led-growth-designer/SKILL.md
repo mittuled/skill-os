@@ -10,6 +10,12 @@ agent: community-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design community-led growth"
+  - "community growth loops"
+  - "CLG strategy design"
+  - "community flywheel design"
+  - "community-led acquisition"
 ---
 
 # community-led-growth-designer
