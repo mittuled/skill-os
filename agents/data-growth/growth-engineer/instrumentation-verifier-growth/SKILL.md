@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-implementer-growth
   - instrumentation-verifier-prod-growth
   - instrumentation-spec-growth
+triggers:
+  - "verify growth instrumentation"
+  - "QA growth tracking"
+  - "validate analytics events"
+  - "check event firing growth"
+  - "instrumentation QA growth"
 ---
 
 # instrumentation-verifier-growth
