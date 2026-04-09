@@ -14,6 +14,12 @@ complexity: simple
 related-skills:
   - ../revenue-impact-monitor/SKILL.md
   - ../../../finance/fpa-analyst/saas-metrics-reporter/SKILL.md
+triggers:
+  - "review north star metric"
+  - "validate key metric"
+  - "north star metric check"
+  - "review primary KPI"
+  - "metric alignment review"
 ---
 
 # north-star-metric-reviewer-finance
