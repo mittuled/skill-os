@@ -10,6 +10,12 @@ agent: analyst-relations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "schedule analyst briefing"
+  - "book analyst meeting"
+  - "plan analyst briefings"
+  - "AR briefing calendar"
+  - "analyst outreach schedule"
 ---
 
 # analyst-briefing-scheduler
