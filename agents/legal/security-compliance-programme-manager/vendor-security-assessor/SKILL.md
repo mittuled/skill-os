@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../risk-register-maintainer/SKILL.md
   - ../../../legal/product-counsel/data-processing-agreement-negotiator/SKILL.md
+triggers:
+  - "assess vendor security"
+  - "vendor security review"
+  - "third-party security assessment"
+  - "vendor risk review"
+  - "supplier security audit"
 ---
 
 # vendor-security-assessor
