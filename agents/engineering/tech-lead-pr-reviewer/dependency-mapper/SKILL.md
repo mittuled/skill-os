@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/dependency-resolver/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/spec-translator-eng/SKILL.md
+triggers:
+  - "map dependencies"
+  - "dependency mapping"
+  - "task dependency map"
+  - "identify dependencies"
+  - "dependency graph"
 ---
 
 # dependency-mapper
