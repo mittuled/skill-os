@@ -16,6 +16,12 @@ related-skills:
   - ../data-pipeline-feasibility-check/SKILL.md
   - ../pipeline-scale-planner/SKILL.md
   - ../data-quality-monitor/SKILL.md
+triggers:
+  - "design data pipeline"
+  - "data pipeline architecture"
+  - "ETL pipeline design"
+  - "data flow design"
+  - "pipeline architecture"
 ---
 
 # data-pipeline-designer
