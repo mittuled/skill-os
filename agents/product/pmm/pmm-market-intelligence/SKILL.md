@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "market intelligence"
+  - "pmm research"
+  - "gather market intelligence"
+  - "competitive research"
+  - "market analysis pmm"
 ---
 
 # pmm-market-intelligence
