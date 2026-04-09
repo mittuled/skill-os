@@ -9,6 +9,12 @@ complexity: medium
 related-skills:
   - market-sizer-data
   - demand-validator
+triggers:
+  - "validate search demand"
+  - "check keyword search volume"
+  - "SEO demand validation"
+  - "organic search opportunity"
+  - "search demand analysis"
 ---
 
 # search-demand-validator
