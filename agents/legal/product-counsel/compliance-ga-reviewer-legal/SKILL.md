@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../prd-nfr-compliance/SKILL.md
   - ../../../legal/corporate-counsel/compliance-scanner/SKILL.md
+triggers:
+  - "review GA compliance"
+  - "general availability legal review"
+  - "GA legal compliance check"
+  - "legal GA review"
+  - "compliance review for GA"
 ---
 
 # compliance-ga-reviewer-legal
