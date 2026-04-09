@@ -10,6 +10,12 @@ agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "general availability announcement"
+  - "ga announcement"
+  - "product ga"
+  - "write ga release"
+  - "announce ga"
 ---
 
 # ga-announcement
