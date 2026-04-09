@@ -11,6 +11,12 @@ agent: ux-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design ux flow"
+  - "ux flow design"
+  - "user flow design"
+  - "map ux flow"
+  - "flow design research"
 ---
 
 # ux-flow-designer-uxr
