@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../legal/corporate-counsel/founder-equity-issuance/SKILL.md
   - ../../../legal/corporate-counsel/83b-election-coordinator/SKILL.md
+triggers:
+  - "set up stock plan"
+  - "create equity plan"
+  - "stock option plan"
+  - "employee equity plan"
+  - "ESOP setup"
 ---
 
 # stock-plan-setup
