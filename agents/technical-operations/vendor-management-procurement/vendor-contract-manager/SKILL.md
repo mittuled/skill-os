@@ -10,6 +10,12 @@ agent: vendor-management-procurement
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage vendor contracts"
+  - "vendor contract review"
+  - "negotiate vendor terms"
+  - "contract renewal management"
+  - "vendor agreement tracking"
 ---
 
 # vendor-contract-manager
