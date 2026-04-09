@@ -14,6 +14,12 @@ related-skills:
   - ../press-release-writer/SKILL.md
   - ../earned-media-monitor/SKILL.md
   - ../thought-leadership-programme-runner/SKILL.md
+triggers:
+  - "build media relationships"
+  - "journalist outreach program"
+  - "media contact strategy"
+  - "cultivate press contacts"
+  - "PR relationship building"
 ---
 
 # media-relationship-builder
