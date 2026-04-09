@@ -16,6 +16,12 @@ related-skills:
   - ../../vp-engineering/architecture-reviewer/SKILL.md
   - ../api-contract-definer/SKILL.md
   - ../moat-analyzer-tech/SKILL.md
+triggers:
+  - "check technical feasibility"
+  - "technical feasibility"
+  - "can we build this"
+  - "tech feasibility assessment"
+  - "feasibility analysis"
 ---
 
 # technical-feasibility-check
