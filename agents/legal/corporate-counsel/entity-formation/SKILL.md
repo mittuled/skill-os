@@ -15,6 +15,12 @@ related-skills:
   - ../founder-equity-issuance/SKILL.md
   - ../../general-counsel/entity-type-decision/SKILL.md
   - ../83b-election-coordinator/SKILL.md
+triggers:
+  - "form a company"
+  - "incorporate the business"
+  - "entity formation"
+  - "register the company"
+  - "company incorporation"
 ---
 
 # entity-formation
