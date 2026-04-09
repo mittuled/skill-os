@@ -12,6 +12,12 @@ complexity: simple
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/sprint-reviewer-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/go-live-approver-eng/SKILL.md
+triggers:
+  - "run internal demo"
+  - "internal demo"
+  - "demo to team"
+  - "engineering demo"
+  - "sprint demo"
 ---
 
 # internal-demo-runner-eng
