@@ -12,6 +12,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "translate spec"
+  - "spec translation"
+  - "interpret specification"
+  - "read the spec"
+  - "spec to stories"
 ---
 
 # spec-translator
