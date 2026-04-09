@@ -11,6 +11,12 @@ agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "cross-platform design test"
+  - "test design cross-platform"
+  - "multi-platform design check"
+  - "design platform testing"
+  - "cross-device design"
 ---
 
 # cross-platform-tester-design
