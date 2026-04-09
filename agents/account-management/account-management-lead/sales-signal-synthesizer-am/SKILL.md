@@ -10,6 +10,12 @@ agent: account-management-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "synthesize account signals"
+  - "analyze AM sales signals"
+  - "aggregate usage signals"
+  - "signal synthesis AM"
+  - "account health signals"
 ---
 
 # sales-signal-synthesizer-am
