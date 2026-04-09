@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../../../finance/fpa-analyst/fundraising-model-builder/SKILL.md
   - ../../../finance/fpa-analyst/annual-budget-builder/SKILL.md
+triggers:
+  - "build financial model"
+  - "create financial projections"
+  - "financial model"
+  - "model our financials"
+  - "build a forecast model"
 ---
 
 # financial-model-v1
