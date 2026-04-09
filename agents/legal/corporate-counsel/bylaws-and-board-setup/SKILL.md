@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../entity-formation/SKILL.md
   - ../compliance-scanner/SKILL.md
+triggers:
+  - "set up bylaws"
+  - "draft company bylaws"
+  - "bylaws and board setup"
+  - "corporate bylaws"
+  - "board constitution"
 ---
 
 # bylaws-and-board-setup
