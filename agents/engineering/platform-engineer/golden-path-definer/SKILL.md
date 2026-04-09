@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../developer-experience-enabler/SKILL.md
   - ../platform-capability-gap-detector/SKILL.md
+triggers:
+  - "define golden path"
+  - "golden path setup"
+  - "paved road for developers"
+  - "platform golden path"
+  - "standard dev path"
 ---
 
 # golden-path-definer
