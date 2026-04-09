@@ -15,6 +15,12 @@ related-skills:
   - ../ai-risk-assessor/SKILL.md
   - ../product-legal-reviewer/SKILL.md
   - ../terms-of-service-drafter/SKILL.md
+triggers:
+  - "assess privacy impact"
+  - "privacy impact assessment"
+  - "PIA review"
+  - "data privacy review"
+  - "DPIA"
 ---
 
 # privacy-impact-assessor
