@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/dependency-mapper/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/phase-scope-adjuster-eng/SKILL.md
+triggers:
+  - "resolve dependencies"
+  - "dependency resolution"
+  - "unblock dependencies"
+  - "fix dependency issues"
+  - "dependency conflict resolution"
 ---
 
 # dependency-resolver
