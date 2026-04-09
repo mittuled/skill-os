@@ -10,6 +10,12 @@ related-skills:
   - growth-model-designer
   - distribution-viability-check
   - search-demand-validator
+triggers:
+  - "plan demand gen growth"
+  - "growth demand generation plan"
+  - "demand acquisition strategy"
+  - "build growth demand plan"
+  - "growth pipeline planning"
 ---
 
 # demand-gen-planner-growth
