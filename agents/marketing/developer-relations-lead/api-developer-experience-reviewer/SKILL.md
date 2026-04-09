@@ -10,6 +10,12 @@ agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review API developer experience"
+  - "audit API DX"
+  - "developer experience review"
+  - "API usability audit"
+  - "DX improvement review"
 ---
 
 # api-developer-experience-reviewer
