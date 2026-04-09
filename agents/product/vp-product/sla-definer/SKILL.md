@@ -12,6 +12,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "define sla"
+  - "sla definition"
+  - "service level agreement"
+  - "set slas"
+  - "sla setting"
 ---
 
 # sla-definer
