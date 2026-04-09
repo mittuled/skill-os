@@ -6,6 +6,12 @@ agent: lifecycle-email-marketing-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "optimize email performance"
+  - "improve email open rates"
+  - "email A/B test"
+  - "email campaign optimization"
+  - "email metrics review"
 ---
 
 # email-performance-optimiser
