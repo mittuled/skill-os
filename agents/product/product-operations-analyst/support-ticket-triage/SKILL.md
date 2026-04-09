@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "triage support tickets"
+  - "support triage"
+  - "ticket triage"
+  - "prioritise tickets"
+  - "support queue triage"
 ---
 
 # support-ticket-triage
