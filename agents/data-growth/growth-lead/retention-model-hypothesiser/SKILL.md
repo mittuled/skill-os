@@ -11,6 +11,12 @@ related-skills:
   - activation-moment-validator
   - growth-model-designer
   - growth-loop-optimiser
+triggers:
+  - "hypothesise retention model"
+  - "build retention hypothesis"
+  - "retention driver analysis"
+  - "retention model ideation"
+  - "churn model hypotheses"
 ---
 
 # retention-model-hypothesiser
