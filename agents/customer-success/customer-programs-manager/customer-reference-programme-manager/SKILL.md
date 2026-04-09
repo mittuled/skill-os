@@ -11,6 +11,12 @@ agent: customer-programs-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage reference programme"
+  - "customer reference program"
+  - "reference programme"
+  - "find customer references"
+  - "reference customers"
 ---
 
 # customer-reference-programme-manager
