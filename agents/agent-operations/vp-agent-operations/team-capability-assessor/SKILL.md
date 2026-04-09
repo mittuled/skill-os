@@ -11,6 +11,12 @@ agent: vp-agent-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "assess team capability"
+  - "evaluate team skills"
+  - "team capability audit"
+  - "team strength assessment"
+  - "capability gap review"
 ---
 
 # team-capability-assessor
