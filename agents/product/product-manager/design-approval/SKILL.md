@@ -10,6 +10,12 @@ agent: product-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "approve design"
+  - "design sign-off"
+  - "design approval"
+  - "sign off design"
+  - "review and approve design"
 ---
 
 # design-approval
