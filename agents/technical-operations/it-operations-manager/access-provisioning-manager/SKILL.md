@@ -10,6 +10,12 @@ agent: it-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "provision user access"
+  - "manage access requests"
+  - "onboard employee access"
+  - "grant system access"
+  - "access provisioning"
 ---
 
 # access-provisioning-manager
