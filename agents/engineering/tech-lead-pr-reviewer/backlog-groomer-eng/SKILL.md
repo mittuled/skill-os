@@ -15,6 +15,12 @@ related-skills:
   - ../../vp-engineering/backlog-populator-eng/SKILL.md
   - ../iteration-prioritiser-f/SKILL.md
   - ../iteration-prioritiser-p-eng/SKILL.md
+triggers:
+  - "groom backlog"
+  - "backlog grooming"
+  - "backlog refinement"
+  - "prioritize backlog"
+  - "engineering backlog review"
 ---
 
 # backlog-groomer-eng
