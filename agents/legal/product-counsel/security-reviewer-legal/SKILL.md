@@ -14,6 +14,12 @@ complexity: medium
 related-skills:
   - ../security-auditor-legal/SKILL.md
   - ../../../legal/security-compliance-programme-manager/soc2-programme-manager/SKILL.md
+triggers:
+  - "legal security review"
+  - "review security controls"
+  - "security legal assessment"
+  - "legal review of security"
+  - "security policy legal check"
 ---
 
 # security-reviewer-legal
