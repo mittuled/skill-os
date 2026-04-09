@@ -10,6 +10,12 @@ agent: product-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "run internal demo"
+  - "demo the product"
+  - "internal product demo"
+  - "product demo"
+  - "present product demo"
 ---
 
 # internal-demo-runner
