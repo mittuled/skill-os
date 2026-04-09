@@ -11,6 +11,12 @@ agent: head-of-design
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "design demo"
+  - "demo the design"
+  - "internal design demo"
+  - "present design"
+  - "design showcase"
 ---
 
 # internal-demo-design
