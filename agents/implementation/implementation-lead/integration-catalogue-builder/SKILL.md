@@ -10,6 +10,12 @@ agent: implementation-lead
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "build integration catalogue"
+  - "document integrations"
+  - "create integration inventory"
+  - "catalogue integrations"
+  - "integration library"
 ---
 
 # integration-catalogue-builder
