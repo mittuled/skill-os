@@ -11,6 +11,12 @@ agent: customer-success-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "extract cs signals"
+  - "identify churn signals"
+  - "cs health signals"
+  - "find expansion signals"
+  - "customer success signals"
 ---
 
 # cs-signal-extractor
