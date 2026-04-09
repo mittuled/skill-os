@@ -13,6 +13,12 @@ related-skills:
   - metrics-dashboard-growth
   - ../paywall-builder/SKILL.md
   - ../onboarding-engineer/SKILL.md
+triggers:
+  - "analyse growth funnel"
+  - "growth funnel analysis"
+  - "identify funnel drop-off growth"
+  - "conversion funnel review"
+  - "growth conversion analysis"
 ---
 
 # funnel-analyser-growth
