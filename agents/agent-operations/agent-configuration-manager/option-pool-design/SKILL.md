@@ -11,6 +11,12 @@ agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design option pool"
+  - "option pool sizing"
+  - "create option pool"
+  - "equity option pool"
+  - "option pool structure"
 ---
 
 # option-pool-design
