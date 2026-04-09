@@ -10,6 +10,12 @@ agent: support-agent
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "brief team on readiness"
+  - "support readiness brief"
+  - "readiness briefing"
+  - "prepare support brief"
+  - "support briefing"
 ---
 
 # support-readiness-briefer-support
