@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../partner-activation-planner/SKILL.md
   - ../../../sales/sales-manager/gtm-activation-sales/SKILL.md
+triggers:
+  - "execute partner activation"
+  - "activate partner"
+  - "run partner activation"
+  - "partner launch execution"
+  - "partner activation"
 ---
 
 # partner-activation-executor
