@@ -11,6 +11,12 @@ agent: skill-builder-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "execute scale hiring"
+  - "run bulk hiring"
+  - "scale recruitment"
+  - "high-volume hiring"
+  - "execute hiring sprint"
 ---
 
 # scale-hiring-executor
