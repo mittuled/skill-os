@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/vp-engineering/go-live-approver-lead/SKILL.md
   - ../../../engineering/vp-engineering/scope-boundary-setter-eng/SKILL.md
+triggers:
+  - "build risk register"
+  - "engineering risk register"
+  - "risk tracking setup"
+  - "create risk log"
+  - "risk register"
 ---
 
 # risk-register-builder-eng
