@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../media-relationship-builder/SKILL.md
   - ../../../marketing/content-marketer/content-marketing-operations/SKILL.md
+triggers:
+  - "run thought leadership program"
+  - "executive thought leadership"
+  - "build thought leadership plan"
+  - "place thought leadership pieces"
+  - "speaker program management"
 ---
 
 # thought-leadership-programme-runner
