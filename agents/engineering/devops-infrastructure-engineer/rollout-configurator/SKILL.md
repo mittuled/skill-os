@@ -14,6 +14,12 @@ related-skills:
   - ../progressive-rollout-executor/SKILL.md
   - ../rollback-planner/SKILL.md
   - ../../tech-lead-pr-reviewer/ga-rollout-executor-planner/SKILL.md
+triggers:
+  - "configure rollout"
+  - "rollout configuration"
+  - "deployment rollout setup"
+  - "release rollout config"
+  - "rollout strategy setup"
 ---
 
 # rollout-configurator
