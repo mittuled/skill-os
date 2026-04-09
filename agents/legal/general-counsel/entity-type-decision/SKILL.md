@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../legal/corporate-counsel/entity-formation/SKILL.md
   - ../ip-assignment/SKILL.md
+triggers:
+  - "choose entity type"
+  - "LLC vs C-Corp decision"
+  - "entity type selection"
+  - "which legal structure"
+  - "company structure decision"
 ---
 
 # entity-type-decision
