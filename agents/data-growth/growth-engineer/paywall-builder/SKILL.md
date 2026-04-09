@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../onboarding-engineer/SKILL.md
   - ../funnel-analyser-growth/SKILL.md
+triggers:
+  - "build paywall"
+  - "implement paywall"
+  - "design paywall flow"
+  - "create subscription gate"
+  - "monetization paywall"
 ---
 
 # paywall-builder
