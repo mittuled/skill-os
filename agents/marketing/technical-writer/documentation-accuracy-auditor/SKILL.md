@@ -10,6 +10,12 @@ agent: technical-writer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "audit documentation accuracy"
+  - "review docs for errors"
+  - "documentation accuracy check"
+  - "fact-check documentation"
+  - "docs quality audit"
 ---
 
 # documentation-accuracy-auditor
