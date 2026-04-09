@@ -11,6 +11,12 @@ agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage equity programme"
+  - "agent equity allocation"
+  - "equity pool management"
+  - "configure equity access"
+  - "equity programme setup"
 ---
 
 # equity-programme-manager
