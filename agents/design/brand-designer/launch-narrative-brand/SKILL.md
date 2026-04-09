@@ -11,6 +11,12 @@ agent: brand-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "brand launch narrative"
+  - "launch story brand"
+  - "brand story"
+  - "brand narrative"
+  - "launch messaging brand"
 ---
 
 # launch-narrative-brand
