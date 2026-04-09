@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "set performance budget"
+  - "performance budget"
+  - "define performance targets"
+  - "perf budget"
+  - "performance constraints"
 ---
 
 # performance-budget-setter
