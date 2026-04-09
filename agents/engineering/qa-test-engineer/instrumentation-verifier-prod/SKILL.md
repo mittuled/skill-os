@@ -6,6 +6,12 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "verify prod instrumentation"
+  - "production instrumentation check"
+  - "verify analytics in prod"
+  - "prod tracking validation"
+  - "instrumentation audit prod"
 ---
 
 # instrumentation-verifier-prod
