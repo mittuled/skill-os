@@ -16,6 +16,12 @@ related-skills:
   - ../../investor-relations-manager/monthly-investor-update/SKILL.md
   - ../../finance-manager/north-star-metric-reviewer-finance/SKILL.md
   - ../../controller-accounting/accounts-receivable-manager/SKILL.md
+triggers:
+  - "report SaaS metrics"
+  - "SaaS metrics dashboard"
+  - "MRR ARR reporting"
+  - "SaaS KPI report"
+  - "report recurring revenue metrics"
 ---
 
 # saas-metrics-reporter
