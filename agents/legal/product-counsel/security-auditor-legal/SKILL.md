@@ -14,6 +14,12 @@ complexity: medium
 related-skills:
   - ../security-reviewer-legal/SKILL.md
   - ../../../legal/security-compliance-programme-manager/penetration-test-programme-manager/SKILL.md
+triggers:
+  - "audit security legally"
+  - "security legal audit"
+  - "legal security review"
+  - "security compliance audit"
+  - "review security posture legally"
 ---
 
 # security-auditor-legal
