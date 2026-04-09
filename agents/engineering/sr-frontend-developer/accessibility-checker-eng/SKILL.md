@@ -10,6 +10,12 @@ related-skills:
   - ../accessibility-auditor/SKILL.md
   - ../design-implementer/SKILL.md
   - ../component-mapper-eng/SKILL.md
+triggers:
+  - "check accessibility"
+  - "a11y check"
+  - "accessibility verification"
+  - "WCAG compliance check"
+  - "frontend accessibility check"
 ---
 
 # accessibility-checker-eng
