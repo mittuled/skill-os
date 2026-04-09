@@ -11,6 +11,12 @@ agent: customer-programs-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run NPS programme"
+  - "manage NPS survey"
+  - "NPS program"
+  - "net promoter score"
+  - "analyze NPS results"
 ---
 
 # nps-programme-manager
