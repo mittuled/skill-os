@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../data-pipeline-designer/SKILL.md
   - ../pipeline-reliability-tester/SKILL.md
+triggers:
+  - "plan pipeline scaling"
+  - "scale data pipeline"
+  - "pipeline capacity planning"
+  - "pipeline scale strategy"
+  - "data pipeline scalability"
 ---
 
 # pipeline-scale-planner
