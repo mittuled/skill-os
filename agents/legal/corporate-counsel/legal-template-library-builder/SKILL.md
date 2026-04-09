@@ -14,6 +14,12 @@ related-skills:
   - ../third-party-tos-reviewer/SKILL.md
   - ../compliance-scanner/SKILL.md
   - ../../general-counsel/ip-assignment/SKILL.md
+triggers:
+  - "build legal template library"
+  - "create contract templates"
+  - "legal template library"
+  - "standard legal docs"
+  - "legal template repository"
 ---
 
 # legal-template-library-builder
