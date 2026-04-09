@@ -9,6 +9,12 @@ complexity: complex
 related-skills:
   - ../../../engineering/sr-backend-developer/builder/SKILL.md
   - ../../../engineering/sr-backend-developer/instrumentation-planner-eng/SKILL.md
+triggers:
+  - "design data model"
+  - "database schema design"
+  - "data modeling"
+  - "ER diagram"
+  - "relational schema design"
 ---
 
 # data-model-designer
