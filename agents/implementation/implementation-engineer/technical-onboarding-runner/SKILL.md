@@ -10,6 +10,12 @@ agent: implementation-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run technical onboarding"
+  - "execute customer onboarding"
+  - "onboard new customer"
+  - "deploy customer environment"
+  - "technical onboarding setup"
 ---
 
 # technical-onboarding-runner
