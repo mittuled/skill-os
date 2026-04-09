@@ -6,6 +6,12 @@ agent: lifecycle-email-marketing-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build nurture campaign"
+  - "create lead nurture sequence"
+  - "design drip campaign"
+  - "nurture email series"
+  - "MQL nurture program"
 ---
 
 # nurture-campaign-builder
