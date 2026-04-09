@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../../../finance/cfo-vp-finance/financial-model-v1/SKILL.md
   - ../../../finance/cfo-vp-finance/pitch-narrator-finance/SKILL.md
+triggers:
+  - "build fundraising model"
+  - "model fundraise"
+  - "fundraising financial model"
+  - "create investor model"
+  - "fundraise projections"
 ---
 
 # fundraising-model-builder
