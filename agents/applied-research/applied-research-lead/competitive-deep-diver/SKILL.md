@@ -10,6 +10,12 @@ agent: applied-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "competitive deep dive"
+  - "analyse competitors"
+  - "deep competitor research"
+  - "competitive intelligence"
+  - "competitor analysis"
 ---
 
 # competitive-deep-diver
