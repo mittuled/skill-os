@@ -11,6 +11,12 @@ agent: content-design-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build help centre"
+  - "help center content"
+  - "create help docs"
+  - "help centre"
+  - "support content"
 ---
 
 # help-centre-builder
