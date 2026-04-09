@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../platform-capability-gap-detector/SKILL.md
   - ../platform-scale-preparation/SKILL.md
+triggers:
+  - "align platform roadmap"
+  - "platform roadmap planning"
+  - "platform strategy alignment"
+  - "roadmap sync"
+  - "platform roadmap review"
 ---
 
 # platform-roadmap-aligner
