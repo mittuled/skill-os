@@ -15,6 +15,12 @@ related-skills:
   - ../monthly-investor-update/SKILL.md
   - ../investor-comms-drafter/SKILL.md
   - ../board-meeting-preparer/SKILL.md
+triggers:
+  - "coordinate board materials"
+  - "prepare board documents"
+  - "board materials"
+  - "compile board pack"
+  - "board meeting materials"
 ---
 
 # board-materials-coordinator
