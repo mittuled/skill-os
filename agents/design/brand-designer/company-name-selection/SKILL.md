@@ -11,6 +11,12 @@ agent: brand-designer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "name the company"
+  - "company naming"
+  - "select company name"
+  - "choose brand name"
+  - "company name"
 ---
 
 # company-name-selection
