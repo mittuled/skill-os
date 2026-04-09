@@ -10,6 +10,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "sketch business model"
+  - "business model"
+  - "draft business model"
+  - "business model canvas"
+  - "model the business"
 ---
 
 # business-model-sketcher
