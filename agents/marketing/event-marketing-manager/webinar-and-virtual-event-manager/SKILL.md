@@ -6,6 +6,12 @@ agent: event-marketing-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run webinar"
+  - "plan virtual event"
+  - "host online event"
+  - "webinar logistics"
+  - "virtual event setup"
 ---
 
 # webinar-and-virtual-event-manager
