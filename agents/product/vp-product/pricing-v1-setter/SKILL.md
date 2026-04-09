@@ -12,6 +12,12 @@ agent: vp-product
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "set v1 pricing"
+  - "initial pricing"
+  - "pricing v1"
+  - "first pricing"
+  - "launch pricing"
 ---
 
 # pricing-v1-setter
