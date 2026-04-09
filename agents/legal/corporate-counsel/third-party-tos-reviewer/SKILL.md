@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../risk-register-legal/SKILL.md
   - ../compliance-scanner/SKILL.md
+  - ../legal-template-library-builder/SKILL.md
 triggers:
   - "review this vendor contract"
   - "check the terms of service"

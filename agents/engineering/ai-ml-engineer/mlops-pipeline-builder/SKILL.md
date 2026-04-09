@@ -14,6 +14,7 @@ related-skills:
   - ../ml-architecture-designer/SKILL.md
   - ../model-evaluation-runner/SKILL.md
   - ../model-trainer/SKILL.md
+  - ../model-performance-monitor/SKILL.md
 ---
 
 # mlops-pipeline-builder

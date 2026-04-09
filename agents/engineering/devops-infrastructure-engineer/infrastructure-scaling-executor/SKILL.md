@@ -13,6 +13,8 @@ complexity: medium
 related-skills:
   - ../infrastructure-load-testing/SKILL.md
   - ../performance-monitor/SKILL.md
+  - ../infrastructure-requirements-extractor/SKILL.md
+  - ../../platform-engineer/platform-scale-preparation/SKILL.md
 ---
 
 # infrastructure-scaling-executor

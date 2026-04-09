@@ -13,6 +13,9 @@ complexity: medium
 related-skills:
   - ../83b-election-coordinator/SKILL.md
   - ../entity-formation/SKILL.md
+  - ../../general-counsel/ip-assignment/SKILL.md
+  - ../../general-counsel/stock-plan-setup/SKILL.md
+  - ../../../finance/investor-relations-manager/cap-table-manager/SKILL.md
 ---
 
 # founder-equity-issuance

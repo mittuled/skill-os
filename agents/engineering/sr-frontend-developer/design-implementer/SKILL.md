@@ -10,6 +10,7 @@ related-skills:
   - ../component-mapper-eng/SKILL.md
   - ../accessibility-checker-eng/SKILL.md
   - ../cross-platform-tester/SKILL.md
+  - ../accessibility-auditor/SKILL.md
 ---
 
 # design-implementer

@@ -13,6 +13,7 @@ complexity: complex
 related-skills:
   - ../architecture-designer/SKILL.md
   - ../technical-feasibility-check/SKILL.md
+  - ../tech-scaffolder/SKILL.md
 triggers:
   - "define API contract"
   - "data model"

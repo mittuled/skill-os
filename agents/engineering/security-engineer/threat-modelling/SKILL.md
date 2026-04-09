@@ -15,6 +15,7 @@ related-skills:
   - ../threat-model-sketch/SKILL.md
   - ../security-architecture-reviewer/SKILL.md
   - ../penetration-tester/SKILL.md
+  - ../continuous-security-monitoring/SKILL.md
 triggers:
   - "threat model"
   - "STRIDE analysis"

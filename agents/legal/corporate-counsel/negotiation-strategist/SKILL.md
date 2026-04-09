@@ -15,6 +15,8 @@ related-skills:
   - ../../../legal/corporate-counsel/contract-risk-analyst/SKILL.md
   - ../../../legal/corporate-counsel/missing-protections-finder/SKILL.md
   - ../../../legal/corporate-counsel/contract-comparator/SKILL.md
+  - ../freelancer-contract-reviewer/SKILL.md
+  - ../business-agreement-generator/SKILL.md
 triggers:
   - "negotiate contract terms"
   - "counter-proposal needed"

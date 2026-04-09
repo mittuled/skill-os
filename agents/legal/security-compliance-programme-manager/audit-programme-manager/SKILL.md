@@ -13,6 +13,7 @@ complexity: complex
 related-skills:
   - ../compliance-framework-implementer/SKILL.md
   - ../soc2-programme-manager/SKILL.md
+  - ../policy-document-owner/SKILL.md
 ---
 
 # audit-programme-manager

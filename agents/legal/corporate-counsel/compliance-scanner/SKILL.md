@@ -13,6 +13,14 @@ complexity: medium
 related-skills:
   - ../risk-register-legal/SKILL.md
   - ../third-party-tos-reviewer/SKILL.md
+  - ../../product-counsel/compliance-ga-reviewer-legal/SKILL.md
+  - ../../product-counsel/prd-nfr-compliance/SKILL.md
+  - ../../product-counsel/terms-of-service-generator/SKILL.md
+  - ../../security-compliance-programme-manager/gdpr-ccpa-compliance-manager/SKILL.md
+  - ../../general-counsel/legal-idea-reviewer/SKILL.md
+  - ../bylaws-and-board-setup/SKILL.md
+  - ../missing-protections-finder/SKILL.md
+  - ../legal-template-library-builder/SKILL.md
 triggers:
   - "scan for compliance risks"
   - "what regulations apply to us"

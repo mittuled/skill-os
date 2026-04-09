@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../monthly-variance-analyser/SKILL.md
   - ../../../finance/investor-relations-manager/board-materials-coordinator/SKILL.md
+  - ../saas-metrics-reporter/SKILL.md
 ---
 
 # board-financial-pack

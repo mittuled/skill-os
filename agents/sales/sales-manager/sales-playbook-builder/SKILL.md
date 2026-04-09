@@ -13,8 +13,14 @@ complexity: complex
 related-skills:
   - ../first-sales-process-builder/SKILL.md
   - ../objection-handler-updater-sales/SKILL.md
+  - ../gtm-activation-sales/SKILL.md
   - ../../../sales/vp-sales/opportunity-framer-sales/SKILL.md
   - ../../../sales/solutions-engineering-manager/solutions-playbook-builder/SKILL.md
+  - ../../sales-development-rep/cold-outreach-builder/SKILL.md
+  - ../../sales-development-rep/lead-qualifier/SKILL.md
+  - ../../sales-development-rep/company-researcher/SKILL.md
+  - ../../sales-development-rep/prospect-analyst-orchestrator/SKILL.md
+  - ../../sales-development-rep/decision-maker-mapper/SKILL.md
 ---
 
 # sales-playbook-builder

@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../notification-pipeline-builder/SKILL.md
   - ../funnel-analyser-growth/SKILL.md
+  - ../paywall-builder/SKILL.md
 ---
 
 # onboarding-engineer

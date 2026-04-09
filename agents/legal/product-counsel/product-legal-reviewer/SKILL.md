@@ -13,6 +13,8 @@ complexity: medium
 related-skills:
   - ../ai-risk-assessor/SKILL.md
   - ../privacy-impact-assessor/SKILL.md
+  - ../content-moderation-advisor/SKILL.md
+  - ../open-source-auditor/SKILL.md
 ---
 
 # product-legal-reviewer

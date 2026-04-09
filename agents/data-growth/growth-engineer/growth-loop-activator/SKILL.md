@@ -11,6 +11,9 @@ related-skills:
   - growth-model-designer
   - instrumentation-implementer-growth
   - funnel-analyser-growth
+  - ../landing-page-builder/SKILL.md
+  - ../referral-engine-builder/SKILL.md
+  - ../notification-pipeline-builder/SKILL.md
 ---
 
 # growth-loop-activator

@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../data-room-builder/SKILL.md
   - ../../../finance/cfo-vp-finance/pitch-narrator-finance/SKILL.md
+  - ../cap-table-manager/SKILL.md
+  - ../investor-pipeline-manager/SKILL.md
+  - ../data-room-v1-builder/SKILL.md
+  - ../due-diligence-coordinator/SKILL.md
+  - ../data-room-manager/SKILL.md
+  - ../secondary-market-manager/SKILL.md
 ---
 
 # fundraising-process-manager

@@ -13,6 +13,8 @@ complexity: complex
 related-skills:
   - ../data-processing-agreement-negotiator/SKILL.md
   - ../ai-risk-assessor/SKILL.md
+  - ../product-legal-reviewer/SKILL.md
+  - ../terms-of-service-drafter/SKILL.md
 ---
 
 # privacy-impact-assessor

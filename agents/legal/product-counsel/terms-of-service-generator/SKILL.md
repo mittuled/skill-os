@@ -14,6 +14,7 @@ related-skills:
   - ../../../legal/product-counsel/privacy-policy-generator/SKILL.md
   - ../../../legal/corporate-counsel/contract-review-orchestrator/SKILL.md
   - ../../../legal/corporate-counsel/compliance-scanner/SKILL.md
+  - ../../corporate-counsel/nda-generator/SKILL.md
 triggers:
   - "generate terms of service"
   - "ToS needed"

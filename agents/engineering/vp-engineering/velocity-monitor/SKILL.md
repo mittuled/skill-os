@@ -12,6 +12,7 @@ complexity: medium
 related-skills:
   - ../../../engineering/vp-engineering/inter-phase-retrospective/SKILL.md
   - ../../../engineering/vp-engineering/team-allocator/SKILL.md
+  - ../milestone-definer-eng/SKILL.md
 triggers:
   - "check team velocity"
   - "how is engineering throughput"

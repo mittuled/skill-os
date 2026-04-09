@@ -14,6 +14,7 @@ related-skills:
   - ../../../legal/corporate-counsel/contract-review-orchestrator/SKILL.md
   - ../soc2-programme-manager/SKILL.md
   - ../gdpr-ccpa-compliance-manager/SKILL.md
+  - ../../product-counsel/privacy-policy-generator/SKILL.md
 triggers:
   - "compliance audit needed"
   - "SOC 2 preparation"

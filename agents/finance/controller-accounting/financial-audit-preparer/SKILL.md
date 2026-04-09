@@ -13,6 +13,7 @@ complexity: complex
 related-skills:
   - ../monthly-close-runner/SKILL.md
   - ../financial-systems-setup/SKILL.md
+  - ../tax-compliance-manager/SKILL.md
 ---
 
 # financial-audit-preparer

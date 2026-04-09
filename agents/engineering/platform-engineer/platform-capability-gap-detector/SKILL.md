@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../platform-roadmap-aligner/SKILL.md
   - ../golden-path-definer/SKILL.md
+  - ../developer-experience-enabler/SKILL.md
 ---
 
 # platform-capability-gap-detector

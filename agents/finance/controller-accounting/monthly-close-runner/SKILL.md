@@ -13,6 +13,9 @@ complexity: complex
 related-skills:
   - ../accounts-payable-manager/SKILL.md
   - ../accounts-receivable-manager/SKILL.md
+  - ../payroll-processor/SKILL.md
+  - ../financial-audit-preparer/SKILL.md
+  - ../financial-systems-setup/SKILL.md
 ---
 
 # monthly-close-runner

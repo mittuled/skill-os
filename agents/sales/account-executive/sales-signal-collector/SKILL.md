@@ -13,6 +13,11 @@ complexity: simple
 related-skills:
   - ../sales-signal-synthesizer/SKILL.md
   - ../../../sales/sales-manager/objection-handler-updater-sales/SKILL.md
+  - ../../../sales/sales-development-rep/follow-up-sequence-builder/SKILL.md
+  - ../expansion-motion-sales/SKILL.md
+  - ../../sales-development-rep/cohort-selector-sales/SKILL.md
+  - ../../sales-development-rep/cold-outreach-builder/SKILL.md
+  - ../../sales-development-rep/decision-maker-mapper/SKILL.md
 triggers:
   - "log signals from this call"
   - "capture deal intelligence"

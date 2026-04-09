@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../marketing-attribution-modeller/SKILL.md
   - ../../../marketing/demand-gen-manager/channel-signal-analyst/SKILL.md
+  - ../../vp-marketing/marketing-audit-orchestrator/SKILL.md
+  - ../email-deliverability-manager/SKILL.md
+  - ../seo-auditor/SKILL.md
+  - ../../demand-gen-manager/ad-campaign-builder/SKILL.md
+  - ../../demand-gen-manager/landing-page-auditor/SKILL.md
+  - ../../demand-gen-manager/funnel-optimizer/SKILL.md
 ---
 
 # campaign-analytics-reporter

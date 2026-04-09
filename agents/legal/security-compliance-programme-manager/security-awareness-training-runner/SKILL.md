@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../soc2-programme-manager/SKILL.md
   - ../gdpr-ccpa-compliance-manager/SKILL.md
+  - ../disaster-recovery-drill-runner/SKILL.md
 ---
 
 # security-awareness-training-runner

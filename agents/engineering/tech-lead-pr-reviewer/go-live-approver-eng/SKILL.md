@@ -12,6 +12,9 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/ga-rollout-executor-planner/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/sprint-reviewer-eng/SKILL.md
+  - ../../vp-engineering/go-live-approver-lead/SKILL.md
+  - ../internal-demo-runner-eng/SKILL.md
+  - ../inter-phase-reviewer-eng/SKILL.md
 ---
 
 # go-live-approver-eng

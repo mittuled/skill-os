@@ -13,6 +13,9 @@ complexity: complex
 related-skills:
   - ../campaign-analytics-reporter/SKILL.md
   - ../../../marketing/demand-gen-manager/channel-signal-analyst/SKILL.md
+  - ../martech-stack-manager/SKILL.md
+  - ../lead-scoring-model-builder/SKILL.md
+  - ../../demand-gen-manager/funnel-optimizer/SKILL.md
 ---
 
 # marketing-attribution-modeller

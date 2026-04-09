@@ -16,6 +16,8 @@ related-skills:
   - ../../../marketing/demand-gen-manager/landing-page-auditor/SKILL.md
   - ../../../marketing/marketing-operations-manager/campaign-analytics-reporter/SKILL.md
   - ../../../marketing/marketing-operations-manager/marketing-attribution-modeller/SKILL.md
+  - ../../vp-marketing/marketing-audit-orchestrator/SKILL.md
+  - ../../marketing-operations-manager/seo-auditor/SKILL.md
 triggers:
   - "optimise the funnel"
   - "diagnose conversion drop-off"

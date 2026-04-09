@@ -15,6 +15,8 @@ related-skills:
   - ../../../legal/corporate-counsel/contract-risk-analyst/SKILL.md
   - ../../../legal/corporate-counsel/negotiation-strategist/SKILL.md
   - ../../../legal/corporate-counsel/compliance-scanner/SKILL.md
+  - ../plain-english-translator/SKILL.md
+  - ../nda-generator/SKILL.md
 triggers:
   - "check missing protections"
   - "contract gap analysis"

@@ -13,6 +13,9 @@ complexity: medium
 related-skills:
   - ../unit-economics-monitor/SKILL.md
   - ../board-financial-pack/SKILL.md
+  - ../../investor-relations-manager/monthly-investor-update/SKILL.md
+  - ../../finance-manager/north-star-metric-reviewer-finance/SKILL.md
+  - ../../controller-accounting/accounts-receivable-manager/SKILL.md
 ---
 
 # saas-metrics-reporter

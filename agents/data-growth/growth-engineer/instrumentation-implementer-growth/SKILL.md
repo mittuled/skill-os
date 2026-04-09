@@ -10,6 +10,7 @@ related-skills:
   - instrumentation-spec-growth
   - instrumentation-verifier-growth
   - instrumentation-implementer-data
+  - ../landing-page-builder/SKILL.md
 ---
 
 # instrumentation-implementer-growth

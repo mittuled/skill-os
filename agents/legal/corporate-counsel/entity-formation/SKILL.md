@@ -13,6 +13,8 @@ complexity: medium
 related-skills:
   - ../bylaws-and-board-setup/SKILL.md
   - ../founder-equity-issuance/SKILL.md
+  - ../../general-counsel/entity-type-decision/SKILL.md
+  - ../83b-election-coordinator/SKILL.md
 ---
 
 # entity-formation

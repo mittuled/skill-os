@@ -12,6 +12,7 @@ complexity: simple
 related-skills:
   - ../media-relationship-builder/SKILL.md
   - ../earned-media-monitor/SKILL.md
+  - ../crisis-communications-planner/SKILL.md
 triggers:
   - "press release"
   - "write press release"

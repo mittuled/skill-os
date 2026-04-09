@@ -18,6 +18,8 @@ related-skills:
   - ../../../design/brand-designer/brand-foundation/SKILL.md
   - ../../../design/brand-designer/positioning-crafter-brand/SKILL.md
   - ../../../marketing/demand-gen-manager/landing-page-auditor/SKILL.md
+  - ../../../marketing/vp-marketing/marketing-audit-orchestrator/SKILL.md
+  - ../../../marketing/content-marketer/copywriting-analyst/SKILL.md
 triggers:
   - "audit brand voice"
   - "check content consistency"

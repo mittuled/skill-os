@@ -13,6 +13,7 @@ complexity: complex
 related-skills:
   - ../cap-table-manager/SKILL.md
   - ../fundraising-process-manager/SKILL.md
+  - ../secondary-transaction-coordinator/SKILL.md
 ---
 
 # secondary-market-manager

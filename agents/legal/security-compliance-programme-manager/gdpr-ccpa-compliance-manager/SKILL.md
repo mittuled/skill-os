@@ -14,6 +14,8 @@ complexity: complex
 related-skills:
   - ../soc2-programme-manager/SKILL.md
   - ../../../legal/corporate-counsel/compliance-scanner/SKILL.md
+  - ../compliance-auditor/SKILL.md
+  - ../security-awareness-training-runner/SKILL.md
 ---
 
 # gdpr-ccpa-compliance-manager

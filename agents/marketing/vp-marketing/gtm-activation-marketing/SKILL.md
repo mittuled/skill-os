@@ -12,6 +12,7 @@ complexity: complex
 related-skills:
   - ../gtm-planner-marketing/SKILL.md
   - ../demand-gen-planner/SKILL.md
+  - ../../demand-gen-manager/roadmap-timing-input/SKILL.md
 triggers:
   - "activate the GTM plan"
   - "coordinate the launch across channels"

@@ -12,6 +12,9 @@ complexity: medium
 related-skills:
   - ../../../marketing/vp-marketing/demand-gen-planner/SKILL.md
   - ../../../marketing/marketing-operations-manager/campaign-analytics-reporter/SKILL.md
+  - ../../marketing-operations-manager/marketing-attribution-modeller/SKILL.md
+  - ../content-engine-builder-marketing/SKILL.md
+  - ../ad-campaign-builder/SKILL.md
 triggers:
   - "analyse channel performance"
   - "which channels are working"

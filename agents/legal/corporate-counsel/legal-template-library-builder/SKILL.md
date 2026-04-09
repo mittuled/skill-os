@@ -13,6 +13,7 @@ complexity: simple
 related-skills:
   - ../third-party-tos-reviewer/SKILL.md
   - ../compliance-scanner/SKILL.md
+  - ../../general-counsel/ip-assignment/SKILL.md
 ---
 
 # legal-template-library-builder

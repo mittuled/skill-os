@@ -9,6 +9,7 @@ complexity: medium
 related-skills:
   - ../instrumentation-planner-eng/SKILL.md
   - ../builder/SKILL.md
+  - ../third-party-integrator/SKILL.md
 ---
 
 # instrumentation-implementer

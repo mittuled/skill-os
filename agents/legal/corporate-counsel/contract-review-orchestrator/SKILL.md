@@ -16,6 +16,14 @@ related-skills:
   - ../contract-comparator/SKILL.md
   - ../../../legal/general-counsel/negotiation-strategist/SKILL.md
   - ../plain-english-translator/SKILL.md
+  - ../../product-counsel/privacy-policy-generator/SKILL.md
+  - ../../product-counsel/terms-of-service-generator/SKILL.md
+  - ../../security-compliance-programme-manager/compliance-auditor/SKILL.md
+  - ../freelancer-contract-reviewer/SKILL.md
+  - ../missing-protections-finder/SKILL.md
+  - ../negotiation-strategist/SKILL.md
+  - ../business-agreement-generator/SKILL.md
+  - ../nda-generator/SKILL.md
 triggers:
   - "contract review"
   - "review contract"

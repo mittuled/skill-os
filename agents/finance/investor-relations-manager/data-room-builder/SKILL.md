@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../data-room-v1-builder/SKILL.md
   - ../fundraising-process-manager/SKILL.md
+  - ../data-room-manager/SKILL.md
 ---
 
 # data-room-builder

@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../security-architecture-reviewer/SKILL.md
   - ../continuous-security-monitoring/SKILL.md
+  - ../security-compliance-enabler/SKILL.md
 ---
 
 # security-baseline-setup

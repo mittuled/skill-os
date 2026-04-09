@@ -14,6 +14,8 @@ complexity: complex
 related-skills:
   - ../audit-programme-manager/SKILL.md
   - ../policy-document-owner/SKILL.md
+  - ../../product-counsel/open-source-auditor/SKILL.md
+  - ../risk-register-maintainer/SKILL.md
 ---
 
 # compliance-framework-implementer

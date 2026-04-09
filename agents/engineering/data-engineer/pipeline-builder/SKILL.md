@@ -14,6 +14,7 @@ related-skills:
   - ../data-pipeline-designer/SKILL.md
   - ../pipeline-reliability-tester/SKILL.md
   - ../data-quality-monitor/SKILL.md
+  - ../data-warehouse-schema-designer/SKILL.md
 ---
 
 # pipeline-builder

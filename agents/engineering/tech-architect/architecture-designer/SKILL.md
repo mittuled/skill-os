@@ -13,6 +13,10 @@ complexity: complex
 related-skills:
   - ../api-contract-definer/SKILL.md
   - ../technical-feasibility-check/SKILL.md
+  - ../../vp-engineering/architecture-reviewer/SKILL.md
+  - ../design-feasibility-reviewer/SKILL.md
+  - ../tech-scaffolder/SKILL.md
+  - ../moat-analyzer-tech/SKILL.md
 triggers:
   - "system design"
   - "architecture decision"

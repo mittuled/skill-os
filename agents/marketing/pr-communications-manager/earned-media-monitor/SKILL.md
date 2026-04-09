@@ -13,6 +13,7 @@ complexity: simple
 related-skills:
   - ../crisis-communications-planner/SKILL.md
   - ../media-relationship-builder/SKILL.md
+  - ../press-release-writer/SKILL.md
 ---
 
 # earned-media-monitor

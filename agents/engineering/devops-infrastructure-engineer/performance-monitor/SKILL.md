@@ -13,6 +13,8 @@ complexity: medium
 related-skills:
   - ../infrastructure-scaling-executor/SKILL.md
   - ../runbook-drafter/SKILL.md
+  - ../production-readiness-reviewer/SKILL.md
+  - ../infrastructure-load-testing/SKILL.md
 ---
 
 # performance-monitor

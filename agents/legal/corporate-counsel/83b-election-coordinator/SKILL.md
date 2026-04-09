@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../founder-equity-issuance/SKILL.md
   - ../entity-formation/SKILL.md
+  - ../../general-counsel/stock-plan-setup/SKILL.md
 ---
 
 # 83b-election-coordinator

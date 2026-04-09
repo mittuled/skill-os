@@ -16,6 +16,9 @@ related-skills:
   - ../../../legal/general-counsel/missing-protections-finder/SKILL.md
   - ../contract-comparator/SKILL.md
   - ../../../legal/general-counsel/negotiation-strategist/SKILL.md
+  - ../missing-protections-finder/SKILL.md
+  - ../negotiation-strategist/SKILL.md
+  - ../plain-english-translator/SKILL.md
 triggers:
   - "analyze contract risks"
   - "clause-by-clause review"

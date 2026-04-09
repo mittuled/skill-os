@@ -12,6 +12,7 @@ complexity: simple
 related-skills:
   - ../../../engineering/vp-engineering/spec-intake-review/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/phase-scope-adjuster-eng/SKILL.md
+  - ../risk-register-builder-eng/SKILL.md
 ---
 
 # scope-boundary-setter-eng

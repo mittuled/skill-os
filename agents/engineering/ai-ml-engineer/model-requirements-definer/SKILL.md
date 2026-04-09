@@ -14,6 +14,7 @@ complexity: simple
 related-skills:
   - ../ai-feasibility-assessor/SKILL.md
   - ../model-evaluation-runner/SKILL.md
+  - ../model-trainer/SKILL.md
 ---
 
 # model-requirements-definer

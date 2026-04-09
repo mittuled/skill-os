@@ -13,6 +13,7 @@ related-skills:
   - ../model-requirements-definer/SKILL.md
   - ../model-evaluation-runner/SKILL.md
   - ../ml-architecture-designer/SKILL.md
+  - ../mlops-pipeline-builder/SKILL.md
 ---
 
 # model-trainer

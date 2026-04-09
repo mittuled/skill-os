@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../../../legal/corporate-counsel/founder-equity-issuance/SKILL.md
   - ../../../legal/corporate-counsel/legal-template-library-builder/SKILL.md
+  - ../entity-type-decision/SKILL.md
 triggers:
   - "set up IP assignment agreements"
   - "make sure IP is assigned to the company"

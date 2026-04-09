@@ -14,6 +14,7 @@ complexity: medium
 related-skills:
   - ../../../legal/general-counsel/legal-idea-reviewer/SKILL.md
   - ../pricing-legal-reviewer/SKILL.md
+  - ../positioning-legal-reviewer/SKILL.md
 ---
 
 # business-model-legal-reviewer

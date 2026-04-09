@@ -14,6 +14,7 @@ related-skills:
   - ../model-trainer/SKILL.md
   - ../mlops-pipeline-builder/SKILL.md
   - ../model-requirements-definer/SKILL.md
+  - ../model-performance-monitor/SKILL.md
 ---
 
 # model-evaluation-runner

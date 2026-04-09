@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../onboarding-engineer/SKILL.md
   - ../growth-loop-activator/SKILL.md
+  - ../referral-engine-builder/SKILL.md
 ---
 
 # notification-pipeline-builder

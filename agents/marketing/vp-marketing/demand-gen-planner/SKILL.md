@@ -12,6 +12,8 @@ complexity: complex
 related-skills:
   - ../../../marketing/demand-gen-manager/channel-signal-analyst/SKILL.md
   - ../../../marketing/marketing-operations-manager/lead-scoring-model-builder/SKILL.md
+  - ../gtm-planner-marketing/SKILL.md
+  - ../gtm-activation-marketing/SKILL.md
 triggers:
   - "plan demand generation"
   - "set pipeline targets for the quarter"

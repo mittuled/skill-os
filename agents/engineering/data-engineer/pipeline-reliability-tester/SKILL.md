@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../pipeline-builder/SKILL.md
   - ../data-quality-monitor/SKILL.md
+  - ../pipeline-scale-planner/SKILL.md
 ---
 
 # pipeline-reliability-tester

@@ -16,6 +16,9 @@ related-skills:
   - ../../../marketing/demand-gen-manager/funnel-optimizer/SKILL.md
   - ../../../marketing/demand-gen-manager/ad-campaign-builder/SKILL.md
   - ../../../marketing/marketing-operations-manager/campaign-analytics-reporter/SKILL.md
+  - ../../../design/brand-designer/brand-voice-analyst/SKILL.md
+  - ../../content-marketer/copywriting-analyst/SKILL.md
+  - ../../marketing-operations-manager/seo-auditor/SKILL.md
 triggers:
   - "audit the landing page"
   - "why is conversion rate low"

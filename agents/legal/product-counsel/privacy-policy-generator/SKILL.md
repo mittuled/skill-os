@@ -15,6 +15,7 @@ related-skills:
   - ../terms-of-service-drafter/SKILL.md
   - ../../../legal/security-compliance-programme-manager/compliance-auditor/SKILL.md
   - ../../../legal/corporate-counsel/contract-review-orchestrator/SKILL.md
+  - ../terms-of-service-generator/SKILL.md
 triggers:
   - "generate privacy policy"
   - "privacy policy needed"

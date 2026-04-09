@@ -13,6 +13,7 @@ complexity: complex
 related-skills:
   - ../monthly-close-runner/SKILL.md
   - ../accounts-payable-manager/SKILL.md
+  - ../financial-audit-preparer/SKILL.md
 ---
 
 # financial-systems-setup

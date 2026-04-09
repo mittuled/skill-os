@@ -13,6 +13,8 @@ related-skills:
   - ../cohort-selector-sales/SKILL.md
   - ../../../sales/sales-manager/sales-playbook-builder/SKILL.md
   - ../../../sales/account-executive/sales-signal-collector/SKILL.md
+  - ../cold-outreach-builder/SKILL.md
+  - ../follow-up-sequence-builder/SKILL.md
 triggers:
   - "map buying committee"
   - "identify decision makers"

@@ -14,6 +14,7 @@ related-skills:
   - ../sales-signal-collector/SKILL.md
   - ../../../sales/sales-manager/objection-handler-updater-sales/SKILL.md
   - ../../../sales/solutions-engineering-manager/technical-buyer-signal-extractor/SKILL.md
+  - ../expansion-motion-sales/SKILL.md
 ---
 
 # sales-signal-synthesizer

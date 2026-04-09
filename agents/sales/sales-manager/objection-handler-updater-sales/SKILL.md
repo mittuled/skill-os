@@ -14,6 +14,7 @@ related-skills:
   - ../sales-playbook-builder/SKILL.md
   - ../../../sales/vp-sales/pricing-finaliser-sales/SKILL.md
   - ../../../sales/account-executive/sales-signal-synthesizer/SKILL.md
+  - ../../account-executive/sales-signal-collector/SKILL.md
 ---
 
 # objection-handler-updater-sales

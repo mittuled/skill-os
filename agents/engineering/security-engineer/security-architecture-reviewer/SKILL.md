@@ -14,6 +14,7 @@ related-skills:
   - ../threat-modelling/SKILL.md
   - ../security-baseline-setup/SKILL.md
   - ../security-requirements-extractor/SKILL.md
+  - ../penetration-tester/SKILL.md
 ---
 
 # security-architecture-reviewer

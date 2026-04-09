@@ -12,6 +12,9 @@ complexity: simple
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/spec-translator-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/sprint-reviewer-eng/SKILL.md
+  - ../../vp-engineering/backlog-populator-eng/SKILL.md
+  - ../iteration-prioritiser-f/SKILL.md
+  - ../iteration-prioritiser-p-eng/SKILL.md
 ---
 
 # backlog-groomer-eng

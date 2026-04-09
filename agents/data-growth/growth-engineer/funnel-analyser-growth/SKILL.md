@@ -11,6 +11,8 @@ related-skills:
   - growth-loop-optimiser
   - activation-moment-validator
   - metrics-dashboard-growth
+  - ../paywall-builder/SKILL.md
+  - ../onboarding-engineer/SKILL.md
 ---
 
 # funnel-analyser-growth

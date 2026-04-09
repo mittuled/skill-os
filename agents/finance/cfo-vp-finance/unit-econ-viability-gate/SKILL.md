@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../../../finance/fpa-analyst/unit-economics-monitor/SKILL.md
   - ../../../finance/finance-manager/business-model-sketcher-finance/SKILL.md
+  - ../pricing-finaliser-finance/SKILL.md
 ---
 
 # unit-econ-viability-gate

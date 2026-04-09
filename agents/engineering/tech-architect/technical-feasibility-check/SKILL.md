@@ -13,6 +13,9 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-architect/architecture-designer/SKILL.md
   - ../../../engineering/tech-architect/design-feasibility-reviewer/SKILL.md
+  - ../../vp-engineering/architecture-reviewer/SKILL.md
+  - ../api-contract-definer/SKILL.md
+  - ../moat-analyzer-tech/SKILL.md
 ---
 
 # technical-feasibility-check

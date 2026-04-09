@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../monthly-variance-analyser/SKILL.md
   - ../annual-budget-builder/SKILL.md
+  - ../../finance-manager/financial-risk-reviewer/SKILL.md
 triggers:
   - "revenue forecast"
   - "financial forecast"

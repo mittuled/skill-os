@@ -14,6 +14,8 @@ related-skills:
   - ../../../sales/sales-manager/sales-playbook-builder/SKILL.md
   - ../../../sales/sales-manager/first-sales-process-builder/SKILL.md
   - ../../../sales/account-executive/expansion-motion-sales/SKILL.md
+  - ../pricing-strategy-sales/SKILL.md
+  - ../../business-development/partner-activation-planner/SKILL.md
 triggers:
   - "frame the sales opportunity"
   - "define the sales motion for this segment"

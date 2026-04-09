@@ -14,6 +14,9 @@ related-skills:
   - ../cap-table-initialisation/SKILL.md
   - ../fundraising-process-manager/SKILL.md
   - ../../../legal/corporate-counsel/founder-equity-issuance/SKILL.md
+  - ../safe-note-setup/SKILL.md
+  - ../secondary-transaction-coordinator/SKILL.md
+  - ../secondary-market-manager/SKILL.md
 ---
 
 # cap-table-manager

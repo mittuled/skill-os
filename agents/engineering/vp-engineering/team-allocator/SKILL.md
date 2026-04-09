@@ -12,6 +12,7 @@ complexity: medium
 related-skills:
   - ../../../engineering/vp-engineering/effort-estimator-eng/SKILL.md
   - ../../../engineering/vp-engineering/phase-planner-eng/SKILL.md
+  - ../velocity-monitor/SKILL.md
 ---
 
 # team-allocator

@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../../../marketing/content-marketer/content-marketing-operations/SKILL.md
   - ../channel-signal-analyst/SKILL.md
+  - ../roadmap-timing-input/SKILL.md
 triggers:
   - "build a content engine"
   - "set up repeatable content production"

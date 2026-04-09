@@ -13,6 +13,11 @@ complexity: simple
 related-skills:
   - ../../../sales/sales-manager/gtm-activation-sales/SKILL.md
   - ../../../sales/account-executive/sales-signal-collector/SKILL.md
+  - ../follow-up-sequence-builder/SKILL.md
+  - ../cold-outreach-builder/SKILL.md
+  - ../lead-qualifier/SKILL.md
+  - ../prospect-analyst-orchestrator/SKILL.md
+  - ../decision-maker-mapper/SKILL.md
 ---
 
 # cohort-selector-sales

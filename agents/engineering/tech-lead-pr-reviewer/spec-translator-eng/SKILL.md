@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/backlog-groomer-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/dependency-mapper/SKILL.md
+  - ../../vp-engineering/backlog-populator-eng/SKILL.md
 ---
 
 # spec-translator-eng

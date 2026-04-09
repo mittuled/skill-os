@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../data-room-builder/SKILL.md
   - ../fundraising-process-manager/SKILL.md
+  - ../due-diligence-coordinator/SKILL.md
 ---
 
 # data-room-manager

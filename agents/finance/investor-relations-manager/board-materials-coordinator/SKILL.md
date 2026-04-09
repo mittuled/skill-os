@@ -13,6 +13,8 @@ complexity: medium
 related-skills:
   - ../../../finance/fpa-analyst/board-financial-pack/SKILL.md
   - ../monthly-investor-update/SKILL.md
+  - ../investor-comms-drafter/SKILL.md
+  - ../board-meeting-preparer/SKILL.md
 ---
 
 # board-materials-coordinator

@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/phase-scope-adjuster-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/go-live-approver-eng/SKILL.md
+  - ../../vp-engineering/inter-phase-retrospective/SKILL.md
 ---
 
 # inter-phase-reviewer-eng

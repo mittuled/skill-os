@@ -13,6 +13,9 @@ complexity: simple
 related-skills:
   - ../threat-model-sketch/SKILL.md
   - ../security-architecture-reviewer/SKILL.md
+  - ../security-compliance-enabler/SKILL.md
+  - ../secure-code-reviewer/SKILL.md
+  - ../compliance-ga-reviewer-eng/SKILL.md
 ---
 
 # security-requirements-extractor

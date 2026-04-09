@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../progressive-rollout-executor/SKILL.md
   - ../rollback-planner/SKILL.md
+  - ../../tech-lead-pr-reviewer/ga-rollout-executor-planner/SKILL.md
 ---
 
 # rollout-configurator

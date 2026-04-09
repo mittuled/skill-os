@@ -14,6 +14,7 @@ related-skills:
   - ../first-sales-process-builder/SKILL.md
   - ../sales-playbook-builder/SKILL.md
   - ../../../sales/sales-development-rep/cohort-selector-sales/SKILL.md
+  - ../../business-development/partner-activation-executor/SKILL.md
 ---
 
 # gtm-activation-sales

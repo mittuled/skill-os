@@ -13,6 +13,7 @@ complexity: complex
 related-skills:
   - ../content-moderation-advisor/SKILL.md
   - ../privacy-impact-assessor/SKILL.md
+  - ../privacy-policy-generator/SKILL.md
 ---
 
 # terms-of-service-drafter

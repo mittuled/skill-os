@@ -13,6 +13,7 @@ complexity: medium
 related-skills:
   - ../monthly-investor-update/SKILL.md
   - ../board-materials-coordinator/SKILL.md
+  - ../investor-pipeline-manager/SKILL.md
 ---
 
 # investor-comms-drafter
