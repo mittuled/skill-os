@@ -16,6 +16,12 @@ related-skills:
   - ../payroll-processor/SKILL.md
   - ../financial-audit-preparer/SKILL.md
   - ../financial-systems-setup/SKILL.md
+triggers:
+  - "run monthly close"
+  - "close the books"
+  - "month-end close"
+  - "monthly financial close"
+  - "close this month"
 ---
 
 # monthly-close-runner
