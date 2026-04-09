@@ -11,6 +11,12 @@ agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build manager programme"
+  - "manager development plan"
+  - "leadership training"
+  - "develop managers"
+  - "management skills training"
 ---
 
 # manager-development-programme
