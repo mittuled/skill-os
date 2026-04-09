@@ -11,6 +11,12 @@ agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "analyse skills gaps"
+  - "identify skill deficiencies"
+  - "skills gap analysis"
+  - "team capability gaps"
+  - "learning needs assessment"
 ---
 
 # skills-gap-analyser
