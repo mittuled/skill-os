@@ -10,6 +10,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "map assumptions"
+  - "assumption mapping"
+  - "identify assumptions"
+  - "document assumptions"
+  - "assumption analysis"
 ---
 
 # assumption-mapper
