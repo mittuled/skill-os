@@ -14,6 +14,12 @@ related-skills:
   - ../technical-buyer-signal-extractor/SKILL.md
   - ../../../sales/sales-manager/sales-playbook-builder/SKILL.md
   - ../../../sales/solutions-engineer/proof-of-concept-runner/SKILL.md
+triggers:
+  - "build solutions playbook"
+  - "create SE playbook"
+  - "solutions engineering playbook"
+  - "solutions playbook"
+  - "SE playbook builder"
 ---
 
 # solutions-playbook-builder
