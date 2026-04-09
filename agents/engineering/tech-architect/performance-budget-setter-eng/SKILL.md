@@ -11,6 +11,12 @@ agent: tech-architect
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "set performance budget"
+  - "performance budgets"
+  - "define perf targets"
+  - "performance thresholds"
+  - "web performance budget"
 ---
 
 # performance-budget-setter-eng
