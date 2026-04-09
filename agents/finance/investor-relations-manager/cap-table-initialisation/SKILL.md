@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../cap-table-manager/SKILL.md
   - ../safe-note-setup/SKILL.md
+triggers:
+  - "initialise cap table"
+  - "set up cap table"
+  - "create cap table"
+  - "cap table setup"
+  - "initial equity structure"
 ---
 
 # cap-table-initialisation
