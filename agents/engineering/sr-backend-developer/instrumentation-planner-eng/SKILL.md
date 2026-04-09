@@ -10,6 +10,12 @@ related-skills:
   - ../instrumentation-implementer/SKILL.md
   - ../builder/SKILL.md
   - ../../../engineering/database-expert/data-model-designer/SKILL.md
+triggers:
+  - "plan instrumentation"
+  - "instrumentation planning"
+  - "observability planning"
+  - "plan telemetry"
+  - "instrumentation design"
 ---
 
 # instrumentation-planner-eng
