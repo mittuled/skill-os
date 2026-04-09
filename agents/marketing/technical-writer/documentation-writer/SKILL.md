@@ -10,6 +10,12 @@ agent: technical-writer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "write documentation"
+  - "draft technical docs"
+  - "create user documentation"
+  - "write product docs"
+  - "technical writing"
 ---
 
 # documentation-writer
