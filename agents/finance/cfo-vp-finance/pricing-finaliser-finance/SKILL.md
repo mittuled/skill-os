@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../finance/fpa-analyst/pricing-review-runner/SKILL.md
   - ../unit-econ-viability-gate/SKILL.md
+triggers:
+  - "finalise pricing"
+  - "approve pricing decision"
+  - "lock in pricing"
+  - "pricing sign-off"
+  - "pricing finalisation"
 ---
 
 # pricing-finaliser-finance
