@@ -13,6 +13,12 @@ complexity: simple
 related-skills:
   - ../data-room-builder/SKILL.md
   - ../fundraising-process-manager/SKILL.md
+triggers:
+  - "build v1 data room"
+  - "create seed data room"
+  - "first data room"
+  - "early-stage data room"
+  - "data room v1"
 ---
 
 # data-room-v1-builder
