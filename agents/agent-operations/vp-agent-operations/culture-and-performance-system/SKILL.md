@@ -11,6 +11,12 @@ agent: vp-agent-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build culture system"
+  - "performance management"
+  - "culture and performance"
+  - "perf review system"
+  - "org culture design"
 ---
 
 # culture-and-performance-system
