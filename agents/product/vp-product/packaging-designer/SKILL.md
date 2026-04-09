@@ -11,6 +11,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "design packaging vp"
+  - "product packaging vp"
+  - "package design vp"
+  - "offer design"
+  - "packaging strategy"
 ---
 
 # packaging-designer
