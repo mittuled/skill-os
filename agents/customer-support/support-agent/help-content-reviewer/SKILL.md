@@ -10,6 +10,12 @@ agent: support-agent
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "review help content"
+  - "audit help articles"
+  - "help content review"
+  - "check support docs"
+  - "help centre review"
 ---
 
 # help-content-reviewer
