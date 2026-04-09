@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../proof-of-concept-runner/SKILL.md
   - ../../../sales/solutions-engineering-manager/technical-buyer-signal-extractor/SKILL.md
+triggers:
+  - "assess technical feasibility"
+  - "technical feasibility"
+  - "can we build this"
+  - "feasibility check sales"
+  - "evaluate technical fit"
 ---
 
 # technical-feasibility-for-sales
