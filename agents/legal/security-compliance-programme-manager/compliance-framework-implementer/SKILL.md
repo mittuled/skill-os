@@ -16,6 +16,12 @@ related-skills:
   - ../policy-document-owner/SKILL.md
   - ../../product-counsel/open-source-auditor/SKILL.md
   - ../risk-register-maintainer/SKILL.md
+triggers:
+  - "implement compliance framework"
+  - "deploy compliance controls"
+  - "compliance framework setup"
+  - "adopt compliance standard"
+  - "compliance implementation"
 ---
 
 # compliance-framework-implementer
