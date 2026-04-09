@@ -14,6 +14,12 @@ related-skills:
   - ../crisis-communications-planner/SKILL.md
   - ../media-relationship-builder/SKILL.md
   - ../press-release-writer/SKILL.md
+triggers:
+  - "monitor earned media"
+  - "track press mentions"
+  - "media coverage report"
+  - "earned media analysis"
+  - "PR coverage tracking"
 ---
 
 # earned-media-monitor
