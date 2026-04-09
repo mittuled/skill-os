@@ -15,6 +15,12 @@ related-skills:
   - ../mlops-pipeline-builder/SKILL.md
   - ../model-requirements-definer/SKILL.md
   - ../model-performance-monitor/SKILL.md
+triggers:
+  - "evaluate model"
+  - "run model evaluation"
+  - "model benchmarking"
+  - "ML model assessment"
+  - "model performance evaluation"
 ---
 
 # model-evaluation-runner
