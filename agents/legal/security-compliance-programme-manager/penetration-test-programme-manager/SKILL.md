@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../soc2-programme-manager/SKILL.md
   - ../../../legal/product-counsel/security-auditor-legal/SKILL.md
+triggers:
+  - "manage pentest programme"
+  - "run penetration testing"
+  - "pentest programme"
+  - "penetration test planning"
+  - "security testing programme"
 ---
 
 # penetration-test-programme-manager
