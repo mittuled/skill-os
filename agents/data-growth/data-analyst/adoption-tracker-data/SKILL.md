@@ -10,6 +10,12 @@ related-skills:
   - funnel-analyser
   - metrics-dashboard-builder
   - adoption-tracker
+triggers:
+  - "track feature adoption"
+  - "adoption rate analysis"
+  - "feature usage tracking"
+  - "monitor product adoption"
+  - "adoption metrics dashboard"
 ---
 
 # adoption-tracker-data
