@@ -10,6 +10,12 @@ related-skills:
   - instrumentation-spec-growth
   - instrumentation-verifier-growth
   - instrumentation-clarity-reviewer
+triggers:
+  - "review GA instrumentation"
+  - "audit Google Analytics setup"
+  - "GA4 implementation review"
+  - "validate GA tracking"
+  - "Google Analytics audit"
 ---
 
 # ga-instrumentation-reviewer
