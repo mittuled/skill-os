@@ -14,6 +14,12 @@ related-skills:
   - ../compliance-ga-reviewer-eng/SKILL.md
   - ../security-requirements-extractor/SKILL.md
   - ../security-baseline-setup/SKILL.md
+triggers:
+  - "enable security compliance"
+  - "compliance enablement"
+  - "SOC2 compliance setup"
+  - "security compliance framework"
+  - "compliance controls setup"
 ---
 
 # security-compliance-enabler
