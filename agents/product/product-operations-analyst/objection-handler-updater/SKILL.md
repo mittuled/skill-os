@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "update objection handler"
+  - "refresh objection handling"
+  - "objection responses"
+  - "update sales objections"
+  - "objection library"
 ---
 
 # objection-handler-updater
