@@ -14,6 +14,12 @@ related-skills:
   - ../notification-pipeline-builder/SKILL.md
   - ../funnel-analyser-growth/SKILL.md
   - ../paywall-builder/SKILL.md
+triggers:
+  - "engineer onboarding flow"
+  - "build onboarding experience"
+  - "implement onboarding steps"
+  - "onboarding UX engineering"
+  - "activation flow engineering"
 ---
 
 # onboarding-engineer
