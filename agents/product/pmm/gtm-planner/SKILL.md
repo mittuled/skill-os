@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "plan go-to-market"
+  - "gtm plan"
+  - "go-to-market strategy"
+  - "gtm strategy"
+  - "launch strategy"
 ---
 
 # gtm-planner
