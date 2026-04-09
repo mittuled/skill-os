@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "jtbd to stories"
+  - "jobs to user stories"
+  - "convert jtbd"
+  - "jtbd user stories"
+  - "stories from jobs"
 ---
 
 # jtbd-to-stories
