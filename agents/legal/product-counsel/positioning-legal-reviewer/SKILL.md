@@ -13,6 +13,12 @@ complexity: simple
 related-skills:
   - ../pricing-legal-reviewer/SKILL.md
   - ../business-model-legal-reviewer/SKILL.md
+triggers:
+  - "review positioning legally"
+  - "legal marketing review"
+  - "positioning legal check"
+  - "legal review of messaging"
+  - "marketing claims legal"
 ---
 
 # positioning-legal-reviewer
