@@ -14,6 +14,12 @@ complexity: medium
 related-skills:
   - ../infrastructure-scaling-executor/SKILL.md
   - ../production-readiness-reviewer/SKILL.md
+triggers:
+  - "extract infra requirements"
+  - "infrastructure requirements"
+  - "infra spec extraction"
+  - "define infra needs"
+  - "infra requirement gathering"
 ---
 
 # infrastructure-requirements-extractor
