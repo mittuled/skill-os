@@ -6,6 +6,12 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "verify QA instrumentation"
+  - "QA instrumentation check"
+  - "validate analytics in QA"
+  - "QA tracking validation"
+  - "instrumentation audit QA"
 ---
 
 # instrumentation-verifier-qa
