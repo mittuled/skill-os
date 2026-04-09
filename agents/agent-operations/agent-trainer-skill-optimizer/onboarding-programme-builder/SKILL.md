@@ -11,6 +11,12 @@ agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build onboarding programme"
+  - "create onboarding plan"
+  - "new hire onboarding"
+  - "onboarding programme setup"
+  - "design onboarding"
 ---
 
 # onboarding-programme-builder
