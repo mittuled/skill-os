@@ -12,6 +12,12 @@ agent: customer-programs-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run advisory board"
+  - "customer advisory board"
+  - "CAB meeting"
+  - "manage advisory board"
+  - "advisory board session"
 ---
 
 # customer-advisory-board-runner
