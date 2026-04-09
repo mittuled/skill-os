@@ -13,6 +13,12 @@ related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/inter-phase-reviewer-eng/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/dependency-resolver/SKILL.md
   - ../../vp-engineering/scope-boundary-setter-eng/SKILL.md
+triggers:
+  - "adjust phase scope"
+  - "scope adjustment"
+  - "phase scope change"
+  - "trim phase scope"
+  - "scope negotiation"
 ---
 
 # phase-scope-adjuster-eng
