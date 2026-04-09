@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review user flow"
+  - "flow design review"
+  - "user flow check"
+  - "flow review"
+  - "review flow design"
 ---
 
 # flow-designer-review
