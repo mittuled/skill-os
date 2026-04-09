@@ -10,6 +10,12 @@ agent: vendor-management-procurement
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run procurement process"
+  - "execute vendor procurement"
+  - "manage purchase request"
+  - "procurement workflow"
+  - "vendor onboarding process"
 ---
 
 # procurement-process-runner
