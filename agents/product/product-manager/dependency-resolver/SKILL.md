@@ -11,6 +11,12 @@ related-skills:
   - sprint-planner
   - scope-boundary-setter
   - phase-scope-adjuster
+triggers:
+  - "resolve dependencies"
+  - "fix dependencies"
+  - "dependency resolution"
+  - "unblock dependencies"
+  - "clear blockers"
 ---
 
 # dependency-resolver
