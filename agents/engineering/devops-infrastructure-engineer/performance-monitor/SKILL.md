@@ -15,6 +15,12 @@ related-skills:
   - ../runbook-drafter/SKILL.md
   - ../production-readiness-reviewer/SKILL.md
   - ../infrastructure-load-testing/SKILL.md
+triggers:
+  - "monitor performance"
+  - "system performance monitoring"
+  - "infra performance tracking"
+  - "APM setup"
+  - "track system metrics"
 ---
 
 # performance-monitor
