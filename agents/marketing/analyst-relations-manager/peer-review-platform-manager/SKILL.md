@@ -10,6 +10,12 @@ agent: analyst-relations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage review platform"
+  - "G2 profile management"
+  - "Gartner Peer Insights program"
+  - "peer review strategy"
+  - "customer review collection"
 ---
 
 # peer-review-platform-manager
