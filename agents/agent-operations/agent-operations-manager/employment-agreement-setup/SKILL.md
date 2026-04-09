@@ -11,6 +11,12 @@ agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "set up employment agreement"
+  - "draft employment contract"
+  - "employment agreement setup"
+  - "agent contract creation"
+  - "employment docs"
 ---
 
 # employment-agreement-setup
