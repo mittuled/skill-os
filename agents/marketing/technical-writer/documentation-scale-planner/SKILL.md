@@ -10,6 +10,12 @@ agent: technical-writer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan documentation at scale"
+  - "docs scaling strategy"
+  - "documentation team plan"
+  - "scale technical writing"
+  - "docs ops planning"
 ---
 
 # documentation-scale-planner
