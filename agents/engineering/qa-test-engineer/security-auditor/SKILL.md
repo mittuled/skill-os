@@ -6,6 +6,12 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "audit security"
+  - "security audit"
+  - "run security checks"
+  - "application security audit"
+  - "security vulnerability scan"
 ---
 
 # security-auditor
