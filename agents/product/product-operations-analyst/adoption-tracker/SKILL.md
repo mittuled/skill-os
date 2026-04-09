@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "track adoption"
+  - "monitor adoption"
+  - "adoption metrics"
+  - "feature adoption"
+  - "user adoption tracking"
 ---
 
 # adoption-tracker
