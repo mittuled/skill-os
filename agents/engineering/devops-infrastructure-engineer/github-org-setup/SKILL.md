@@ -6,6 +6,12 @@ agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "set up GitHub org"
+  - "GitHub organization setup"
+  - "github org config"
+  - "configure GitHub org"
+  - "GitHub team structure"
 ---
 
 # github-org-setup
