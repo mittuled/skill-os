@@ -14,6 +14,12 @@ related-skills:
   - ../soc2-programme-manager/SKILL.md
   - ../gdpr-ccpa-compliance-manager/SKILL.md
   - ../disaster-recovery-drill-runner/SKILL.md
+triggers:
+  - "run security training"
+  - "security awareness programme"
+  - "employee security training"
+  - "phishing awareness training"
+  - "security training runner"
 ---
 
 # security-awareness-training-runner
