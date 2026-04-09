@@ -11,6 +11,12 @@ related-skills:
   - retention-model-hypothesiser
   - distribution-viability-check
   - growth-loop-optimiser
+triggers:
+  - "design growth model"
+  - "build growth framework"
+  - "growth model architecture"
+  - "create growth equation"
+  - "model growth levers"
 ---
 
 # growth-model-designer
