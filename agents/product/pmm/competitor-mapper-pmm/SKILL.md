@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "map competitors"
+  - "competitor landscape"
+  - "competitive map"
+  - "competitor analysis"
+  - "market map pmm"
 ---
 
 # competitor-mapper-pmm
