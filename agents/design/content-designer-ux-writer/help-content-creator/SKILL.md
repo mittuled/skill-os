@@ -11,6 +11,12 @@ agent: content-designer-ux-writer
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "create help content"
+  - "help article"
+  - "write help docs"
+  - "support content"
+  - "help documentation"
 ---
 
 # help-content-creator
