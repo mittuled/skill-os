@@ -10,6 +10,12 @@ agent: it-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage hardware lifecycle"
+  - "hardware procurement"
+  - "track device inventory"
+  - "equipment lifecycle"
+  - "hardware refresh cycle"
 ---
 
 # hardware-lifecycle-manager
