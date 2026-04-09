@@ -11,6 +11,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "ingest product feedback vp"
+  - "product feedback review"
+  - "process feedback vp"
+  - "feedback ingestion"
+  - "collect feedback vp"
 ---
 
 # product-feedback-ingestion
