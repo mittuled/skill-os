@@ -14,6 +14,12 @@ related-skills:
   - ../security-architecture-reviewer/SKILL.md
   - ../continuous-security-monitoring/SKILL.md
   - ../security-compliance-enabler/SKILL.md
+triggers:
+  - "set up security baseline"
+  - "security baseline"
+  - "hardening baseline"
+  - "security configuration baseline"
+  - "baseline security controls"
 ---
 
 # security-baseline-setup
