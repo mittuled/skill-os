@@ -13,6 +13,12 @@ complexity: complex
 related-skills:
   - ../privacy-impact-assessor/SKILL.md
   - ../product-legal-reviewer/SKILL.md
+triggers:
+  - "assess AI risk"
+  - "AI legal risk review"
+  - "AI compliance check"
+  - "AI risk assessment"
+  - "review AI for legal risk"
 ---
 
 # ai-risk-assessor
