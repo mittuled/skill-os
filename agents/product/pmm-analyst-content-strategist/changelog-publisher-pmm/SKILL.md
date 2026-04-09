@@ -10,6 +10,12 @@ agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "publish changelog"
+  - "release notes"
+  - "changelog update"
+  - "product changelog"
+  - "update changelog"
 ---
 
 # changelog-publisher-pmm
