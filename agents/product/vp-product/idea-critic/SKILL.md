@@ -10,6 +10,12 @@ agent: vp-product
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "critique idea"
+  - "idea review"
+  - "challenge idea"
+  - "evaluate product idea"
+  - "stress test idea"
 ---
 
 # idea-critic
