@@ -10,6 +10,12 @@ related-skills:
   - goal-framer-data
   - funnel-analyser
   - funnel-analyser-growth
+triggers:
+  - "track statistical significance"
+  - "check A/B test significance"
+  - "experiment significance check"
+  - "call experiment winner"
+  - "assess test validity"
 ---
 
 # statistical-significance-tracker
