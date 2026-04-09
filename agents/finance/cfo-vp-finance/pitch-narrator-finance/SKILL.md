@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../finance/fpa-analyst/fundraising-model-builder/SKILL.md
   - ../../../finance/investor-relations-manager/fundraising-process-manager/SKILL.md
+triggers:
+  - "narrate the financials"
+  - "explain financial slides"
+  - "pitch financial story"
+  - "walk through the numbers"
+  - "finance pitch narrative"
 ---
 
 # pitch-narrator-finance
