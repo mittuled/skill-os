@@ -10,6 +10,12 @@ agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "write in-app announcement pmm"
+  - "in-app release note"
+  - "product announcement"
+  - "feature announcement copy"
+  - "in-app message pmm"
 ---
 
 # in-app-announcement-writer
