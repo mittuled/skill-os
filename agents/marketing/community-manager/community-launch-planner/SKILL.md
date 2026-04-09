@@ -10,6 +10,12 @@ agent: community-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan community launch"
+  - "launch community platform"
+  - "community kickoff plan"
+  - "community go-live strategy"
+  - "new community launch"
 ---
 
 # community-launch-planner
