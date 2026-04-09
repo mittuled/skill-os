@@ -10,6 +10,12 @@ agent: head-of-design
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "estimate design effort"
+  - "design estimation"
+  - "design effort sizing"
+  - "size design work"
+  - "estimate design"
 ---
 
 # effort-estimator-design
