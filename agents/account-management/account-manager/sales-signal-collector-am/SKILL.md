@@ -10,6 +10,12 @@ agent: account-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "collect account signals"
+  - "gather expansion signals"
+  - "track usage signals"
+  - "log account health data"
+  - "capture sales signals AM"
 ---
 
 # sales-signal-collector-am
