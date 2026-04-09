@@ -10,6 +10,12 @@ agent: account-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run expansion motion"
+  - "execute account expansion"
+  - "upsell motion AM"
+  - "grow account ARR"
+  - "expansion playbook AM"
 ---
 
 # expansion-motion-am
