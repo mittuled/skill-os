@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "adjust phase scope"
+  - "scope adjustment"
+  - "phase scope change"
+  - "resize phase scope"
+  - "revise phase scope"
 ---
 
 # phase-scope-adjuster
