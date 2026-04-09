@@ -13,6 +13,12 @@ related-skills:
   - ../../../engineering/vp-engineering/effort-estimator-eng/SKILL.md
   - ../../../engineering/vp-engineering/milestone-definer-eng/SKILL.md
   - ../team-allocator/SKILL.md
+triggers:
+  - "plan engineering phase"
+  - "phase planning"
+  - "engineering phase plan"
+  - "sprint phase plan"
+  - "delivery phase planning"
 ---
 
 # phase-planner-eng
