@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/vp-engineering/scope-boundary-setter-eng/SKILL.md
   - ../../../engineering/vp-engineering/backlog-populator-eng/SKILL.md
+triggers:
+  - "review spec intake"
+  - "spec intake"
+  - "review incoming spec"
+  - "spec triage"
+  - "evaluate new spec"
 ---
 
 # spec-intake-review
