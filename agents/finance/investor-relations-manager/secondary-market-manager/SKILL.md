@@ -14,6 +14,12 @@ related-skills:
   - ../cap-table-manager/SKILL.md
   - ../fundraising-process-manager/SKILL.md
   - ../secondary-transaction-coordinator/SKILL.md
+triggers:
+  - "manage secondary market"
+  - "secondary share sales"
+  - "secondary market"
+  - "facilitate secondary"
+  - "secondary liquidity"
 ---
 
 # secondary-market-manager
