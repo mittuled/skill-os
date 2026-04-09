@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../board-materials-coordinator/SKILL.md
   - ../monthly-investor-update/SKILL.md
+triggers:
+  - "prepare board meeting"
+  - "board meeting prep"
+  - "set up board meeting"
+  - "get ready for board"
+  - "board meeting agenda"
 ---
 
 # board-meeting-preparer
