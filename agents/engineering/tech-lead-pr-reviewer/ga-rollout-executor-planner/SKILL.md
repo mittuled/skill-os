@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-lead-pr-reviewer/go-live-approver-eng/SKILL.md
   - ../../../engineering/devops-infrastructure-engineer/rollout-configurator/SKILL.md
+triggers:
+  - "plan GA rollout"
+  - "GA rollout execution"
+  - "general availability rollout"
+  - "GA launch plan"
+  - "GA release plan"
 ---
 
 # ga-rollout-executor-planner
