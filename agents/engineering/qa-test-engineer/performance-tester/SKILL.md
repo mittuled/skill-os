@@ -6,6 +6,12 @@ agent: qa-test-engineer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run performance tests"
+  - "performance testing"
+  - "perf test"
+  - "load and performance tests"
+  - "benchmark application"
 ---
 
 # performance-tester
