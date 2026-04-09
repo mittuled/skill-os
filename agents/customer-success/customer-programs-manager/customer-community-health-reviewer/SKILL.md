@@ -11,6 +11,12 @@ agent: customer-programs-manager
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "community health review"
+  - "review community health"
+  - "community engagement audit"
+  - "check community metrics"
+  - "community health"
 ---
 
 # customer-community-health-reviewer
