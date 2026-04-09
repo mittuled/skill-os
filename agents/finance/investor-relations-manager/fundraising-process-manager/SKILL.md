@@ -19,6 +19,12 @@ related-skills:
   - ../due-diligence-coordinator/SKILL.md
   - ../data-room-manager/SKILL.md
   - ../secondary-market-manager/SKILL.md
+triggers:
+  - "manage fundraising process"
+  - "run the fundraise"
+  - "fundraising process"
+  - "manage investor outreach"
+  - "lead fundraising"
 ---
 
 # fundraising-process-manager
