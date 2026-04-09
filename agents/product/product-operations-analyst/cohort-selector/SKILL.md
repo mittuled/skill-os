@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "select cohort"
+  - "choose cohort"
+  - "cohort selection"
+  - "define cohort"
+  - "user cohort"
 ---
 
 # cohort-selector
