@@ -10,6 +10,12 @@ agent: account-management-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "frame expansion opportunity"
+  - "identify upsell targets"
+  - "build expansion business case"
+  - "cross-sell opportunity"
+  - "account growth targets"
 ---
 
 # opportunity-framer-am
