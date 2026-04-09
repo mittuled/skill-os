@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../model-requirements-definer/SKILL.md
   - ../ml-architecture-designer/SKILL.md
+triggers:
+  - "assess AI feasibility"
+  - "is ML the right approach"
+  - "AI viability check"
+  - "evaluate ML approach"
+  - "data readiness assessment"
 ---
 
 # ai-feasibility-assessor
