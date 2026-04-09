@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../monthly-close-runner/SKILL.md
   - ../financial-systems-setup/SKILL.md
+triggers:
+  - "manage accounts payable"
+  - "pay vendor invoices"
+  - "AP management"
+  - "process bills"
+  - "accounts payable"
 ---
 
 # accounts-payable-manager
