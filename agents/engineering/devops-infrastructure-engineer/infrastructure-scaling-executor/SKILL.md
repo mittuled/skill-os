@@ -15,6 +15,12 @@ related-skills:
   - ../performance-monitor/SKILL.md
   - ../infrastructure-requirements-extractor/SKILL.md
   - ../../platform-engineer/platform-scale-preparation/SKILL.md
+triggers:
+  - "execute infra scaling"
+  - "scale infrastructure"
+  - "infra scale-up"
+  - "run scaling operation"
+  - "infrastructure scale out"
 ---
 
 # infrastructure-scaling-executor
