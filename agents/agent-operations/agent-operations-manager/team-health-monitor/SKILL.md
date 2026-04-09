@@ -11,6 +11,12 @@ agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "monitor team health"
+  - "check team pulse"
+  - "team health check"
+  - "team wellbeing review"
+  - "org health monitor"
 ---
 
 # team-health-monitor
