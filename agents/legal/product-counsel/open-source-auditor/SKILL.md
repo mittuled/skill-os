@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../product-legal-reviewer/SKILL.md
   - ../../../legal/security-compliance-programme-manager/compliance-framework-implementer/SKILL.md
+triggers:
+  - "audit open source usage"
+  - "open source compliance"
+  - "OSS license audit"
+  - "review open source licenses"
+  - "open source legal audit"
 ---
 
 # open-source-auditor
