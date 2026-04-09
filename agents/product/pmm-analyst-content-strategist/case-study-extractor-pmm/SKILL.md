@@ -10,6 +10,12 @@ agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "extract case study"
+  - "write case study pmm"
+  - "create case study"
+  - "customer case study"
+  - "case study content"
 ---
 
 # case-study-extractor-pmm
