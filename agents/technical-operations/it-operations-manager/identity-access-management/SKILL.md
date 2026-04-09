@@ -10,6 +10,12 @@ agent: it-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "manage identity access"
+  - "IAM policy setup"
+  - "SSO configuration"
+  - "access control review"
+  - "identity governance"
 ---
 
 # identity-access-management
