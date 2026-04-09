@@ -11,6 +11,12 @@ agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build support runbook"
+  - "cs support runbook"
+  - "create runbook cs"
+  - "support process runbook"
+  - "runbook builder cs"
 ---
 
 # support-runbook-builder-cs
