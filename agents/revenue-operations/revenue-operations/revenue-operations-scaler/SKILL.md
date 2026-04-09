@@ -10,6 +10,12 @@ agent: revenue-operations
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "scale revenue operations"
+  - "grow RevOps capacity"
+  - "rev ops scaling plan"
+  - "revenue ops maturity"
+  - "scale GTM operations"
 ---
 
 # revenue-operations-scaler
