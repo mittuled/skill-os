@@ -13,6 +13,12 @@ complexity: simple
 related-skills:
   - ../threat-modelling/SKILL.md
   - ../security-requirements-extractor/SKILL.md
+triggers:
+  - "sketch threat model"
+  - "quick threat model"
+  - "threat model draft"
+  - "rapid threat modeling"
+  - "lightweight threat model"
 ---
 
 # threat-model-sketch
