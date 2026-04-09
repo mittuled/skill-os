@@ -11,6 +11,12 @@ agent: skill-builder
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "source engineering talent"
+  - "find engineers"
+  - "engineer sourcing"
+  - "technical candidate search"
+  - "recruit engineers"
 ---
 
 # engineering-talent-sourcer
