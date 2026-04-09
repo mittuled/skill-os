@@ -11,6 +11,12 @@ related-skills:
   - requirements-extractor
   - jtbd-to-stories
   - roadmap-placer
+triggers:
+  - "populate backlog"
+  - "add to backlog"
+  - "fill product backlog"
+  - "backlog items"
+  - "product backlog"
 ---
 
 # backlog-populator
