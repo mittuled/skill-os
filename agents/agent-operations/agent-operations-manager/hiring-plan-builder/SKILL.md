@@ -11,6 +11,12 @@ agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "build hiring plan"
+  - "create headcount plan"
+  - "hiring roadmap"
+  - "plan team growth"
+  - "headcount planning"
 ---
 
 # hiring-plan-builder
