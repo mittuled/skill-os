@@ -13,6 +13,12 @@ related-skills:
   - ../../../engineering/vp-engineering/spec-intake-review/SKILL.md
   - ../../../engineering/tech-lead-pr-reviewer/phase-scope-adjuster-eng/SKILL.md
   - ../risk-register-builder-eng/SKILL.md
+triggers:
+  - "set scope boundaries"
+  - "define project scope"
+  - "scope boundary definition"
+  - "scope framing"
+  - "engineering scope setting"
 ---
 
 # scope-boundary-setter-eng
