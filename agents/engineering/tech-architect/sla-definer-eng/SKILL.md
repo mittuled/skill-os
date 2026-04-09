@@ -12,6 +12,12 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-architect/performance-budget-setter-eng/SKILL.md
   - ../../../engineering/tech-architect/scale-infrastructure-planner/SKILL.md
+triggers:
+  - "define SLA"
+  - "SLA definition"
+  - "service level agreement"
+  - "define uptime targets"
+  - "reliability targets"
 ---
 
 # sla-definer-eng
