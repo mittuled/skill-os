@@ -11,6 +11,12 @@ related-skills:
   - sprint-planner
   - backlog-groomer
   - phase-planner
+triggers:
+  - "map dependencies review"
+  - "review dependencies"
+  - "dependency review"
+  - "dependency mapping"
+  - "dep map review"
 ---
 
 # dependency-mapper-review
