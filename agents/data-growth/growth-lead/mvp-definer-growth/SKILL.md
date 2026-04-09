@@ -10,6 +10,12 @@ related-skills:
   - growth-model-designer
   - activation-signal-definer
   - statistical-significance-tracker
+triggers:
+  - "define growth MVP"
+  - "scope growth experiment MVP"
+  - "minimum viable growth test"
+  - "MVP scope growth"
+  - "growth MVP definition"
 ---
 
 # mvp-definer-growth
