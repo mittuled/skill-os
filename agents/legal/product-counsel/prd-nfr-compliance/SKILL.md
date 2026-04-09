@@ -13,6 +13,12 @@ complexity: simple
 related-skills:
   - ../compliance-ga-reviewer-legal/SKILL.md
   - ../../../legal/corporate-counsel/compliance-scanner/SKILL.md
+triggers:
+  - "review PRD compliance"
+  - "PRD legal requirements"
+  - "non-functional requirements legal"
+  - "NFR compliance check"
+  - "PRD legal review"
 ---
 
 # prd-nfr-compliance
