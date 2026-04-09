@@ -11,6 +11,12 @@ agent: content-designer-ux-writer
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "support readiness brief"
+  - "brief support team"
+  - "prepare support"
+  - "support launch brief"
+  - "support readiness"
 ---
 
 # support-readiness-briefer
