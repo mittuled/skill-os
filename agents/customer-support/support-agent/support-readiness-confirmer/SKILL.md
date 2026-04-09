@@ -10,6 +10,12 @@ agent: support-agent
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "confirm support readiness"
+  - "is support ready"
+  - "support readiness check"
+  - "readiness confirmation"
+  - "verify support readiness"
 ---
 
 # support-readiness-confirmer
