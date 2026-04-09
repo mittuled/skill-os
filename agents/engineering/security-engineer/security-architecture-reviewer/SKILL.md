@@ -15,6 +15,12 @@ related-skills:
   - ../security-baseline-setup/SKILL.md
   - ../security-requirements-extractor/SKILL.md
   - ../penetration-tester/SKILL.md
+triggers:
+  - "review security architecture"
+  - "security design review"
+  - "architecture security audit"
+  - "security architecture assessment"
+  - "threat surface review"
 ---
 
 # security-architecture-reviewer
