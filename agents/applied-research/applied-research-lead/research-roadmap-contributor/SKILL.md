@@ -10,6 +10,12 @@ agent: applied-research-lead
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "contribute to research roadmap"
+  - "research planning"
+  - "add to research roadmap"
+  - "research prioritisation"
+  - "shape research agenda"
 ---
 
 # research-roadmap-contributor
