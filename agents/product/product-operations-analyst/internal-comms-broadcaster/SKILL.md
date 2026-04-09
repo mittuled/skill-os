@@ -10,6 +10,12 @@ agent: product-operations-analyst
 version: 1.0.0
 complexity: simple
 related-skills: []
+triggers:
+  - "broadcast internal comms"
+  - "internal announcement"
+  - "team broadcast"
+  - "internal messaging"
+  - "communicate internally"
 ---
 
 # internal-comms-broadcaster
