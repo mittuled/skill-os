@@ -10,6 +10,12 @@ agent: pmm
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "review roadmap language"
+  - "roadmap copy review"
+  - "roadmap wording"
+  - "check roadmap language"
+  - "roadmap messaging"
 ---
 
 # roadmap-language-reviewer
