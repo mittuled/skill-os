@@ -11,6 +11,12 @@ related-skills:
   - instrumentation-planner-data
   - instrumentation-implementer-data
   - goal-framer-data
+triggers:
+  - "write instrumentation spec"
+  - "define tracking spec"
+  - "analytics tracking specification"
+  - "data instrumentation plan"
+  - "event taxonomy spec"
 ---
 
 # instrumentation-spec-data
