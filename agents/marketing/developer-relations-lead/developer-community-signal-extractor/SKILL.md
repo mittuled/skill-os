@@ -10,6 +10,12 @@ agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "extract dev community signals"
+  - "analyze developer feedback"
+  - "developer sentiment analysis"
+  - "community signal report"
+  - "dev forum signal mining"
 ---
 
 # developer-community-signal-extractor
