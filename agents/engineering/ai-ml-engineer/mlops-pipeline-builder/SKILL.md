@@ -15,6 +15,12 @@ related-skills:
   - ../model-evaluation-runner/SKILL.md
   - ../model-trainer/SKILL.md
   - ../model-performance-monitor/SKILL.md
+triggers:
+  - "build MLOps pipeline"
+  - "MLOps setup"
+  - "ML deployment pipeline"
+  - "model CI/CD"
+  - "MLOps infrastructure"
 ---
 
 # mlops-pipeline-builder
