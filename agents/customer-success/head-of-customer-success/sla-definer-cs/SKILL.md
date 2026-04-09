@@ -11,6 +11,12 @@ agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "define SLA"
+  - "create SLA cs"
+  - "set service levels"
+  - "SLA definition"
+  - "service level agreement"
 ---
 
 # sla-definer-cs
