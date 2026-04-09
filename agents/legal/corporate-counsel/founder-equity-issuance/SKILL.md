@@ -16,6 +16,12 @@ related-skills:
   - ../../general-counsel/ip-assignment/SKILL.md
   - ../../general-counsel/stock-plan-setup/SKILL.md
   - ../../../finance/investor-relations-manager/cap-table-manager/SKILL.md
+triggers:
+  - "issue founder equity"
+  - "founder share issuance"
+  - "grant founder shares"
+  - "founder equity setup"
+  - "issue founder stock"
 ---
 
 # founder-equity-issuance
