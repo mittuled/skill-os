@@ -11,6 +11,12 @@ agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "run annual config review"
+  - "right-size agent resources"
+  - "audit tool access"
+  - "annual configuration review"
+  - "agent resource audit"
 ---
 
 # annual-comp-review-runner
