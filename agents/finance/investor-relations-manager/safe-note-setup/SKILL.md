@@ -13,6 +13,12 @@ complexity: medium
 related-skills:
   - ../cap-table-manager/SKILL.md
   - ../cap-table-initialisation/SKILL.md
+triggers:
+  - "set up SAFE note"
+  - "issue SAFE note"
+  - "SAFE agreement setup"
+  - "create SAFE"
+  - "SAFE note configuration"
 ---
 
 # safe-note-setup
