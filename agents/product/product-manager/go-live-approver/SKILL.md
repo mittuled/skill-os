@@ -11,6 +11,12 @@ agent: product-manager
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "approve go-live"
+  - "go-live approval"
+  - "sign off launch"
+  - "launch approval"
+  - "approve release"
 ---
 
 # go-live-approver
