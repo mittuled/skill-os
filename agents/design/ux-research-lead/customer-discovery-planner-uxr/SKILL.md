@@ -11,6 +11,12 @@ agent: ux-research-lead
 version: 1.0.0
 complexity: medium
 related-skills: []
+triggers:
+  - "plan customer discovery"
+  - "customer discovery"
+  - "discovery research plan"
+  - "user discovery plan"
+  - "research discovery"
 ---
 
 # customer-discovery-planner-uxr
