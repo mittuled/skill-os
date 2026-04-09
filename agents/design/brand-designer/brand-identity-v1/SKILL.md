@@ -11,6 +11,12 @@ agent: brand-designer
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "brand identity"
+  - "create brand identity"
+  - "brand v1"
+  - "initial brand design"
+  - "brand guidelines"
 ---
 
 # brand-identity-v1
