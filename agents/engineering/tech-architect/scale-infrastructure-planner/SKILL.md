@@ -11,6 +11,12 @@ agent: tech-architect
 version: 1.0.0
 complexity: complex
 related-skills: []
+triggers:
+  - "plan infrastructure scaling"
+  - "scale infra plan"
+  - "infrastructure growth plan"
+  - "scaling roadmap"
+  - "capacity planning"
 ---
 
 # scale-infrastructure-planner
