@@ -9,6 +9,12 @@ complexity: medium
 related-skills:
   - ../design-implementer/SKILL.md
   - ../accessibility-checker-eng/SKILL.md
+triggers:
+  - "map components"
+  - "component mapping"
+  - "design to component map"
+  - "UI component inventory"
+  - "map design components"
 ---
 
 # component-mapper-eng
