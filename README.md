@@ -131,12 +131,19 @@ See [`paperclip/QUICKSTART.md`](paperclip/QUICKSTART.md) for setup, routing tabl
 
 ---
 
-## Validation
+## Validation & Quality
 
 ```bash
+# Validate structure and schema
 python3 scripts/validate.py                              # Full repo
 python3 scripts/validate.py agents/<agent>/              # One agent
 python3 scripts/validate.py agents/<agent>/<skill>/SKILL.md  # One skill
+
+# Score quality (triggers, depth, references, assets, sections)
+python3 scripts/score.py                  # Top 20 leaderboard
+python3 scripts/score.py --bottom 20     # Worst 20 — contributor targets
+python3 scripts/score.py --summary       # Average score per department
+python3 scripts/score.py --json          # Machine-readable output
 ```
 
 No external dependencies. Requires Python 3.10+.
