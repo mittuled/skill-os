@@ -2,17 +2,14 @@
 
 ## Done
 
-- **003 production-grade depth** — 528 skills enriched with `references/` and `assets/` subdirectories; every skill is practitioner-executable without leaving the repo
+- **003 production-grade depth** — 527 skills enriched with `references/` and `assets/` subdirectories; every skill is practitioner-executable without leaving the repo
 - **Public release** — repo open-sourced, community files added, validation script shipped
 - **Department reorganization** — 15 departments canonicalized, ethos profiles written for each
-- **Paperclip integration** — skill-os connected as a knowledge source; agents resolve skills at runtime
-
-## Up Next
-
-- **Triggers field + discoverability** — populate `triggers` frontmatter on all skills so platforms can surface the right skill from natural-language input
-- **LangGraph adapter** — thin wrapper to load any skill as a LangGraph node with typed inputs/outputs
-- **CrewAI adapter** — expose skills as CrewAI tools with descriptions auto-derived from frontmatter
-- **Skill quality scoring** — automated script that grades each skill on completeness, specificity, and anti-pattern coverage; surfaces low-scoring skills for improvement
+- **Paperclip integration** — skill-os connected as a knowledge source; agents resolve skills at runtime via `instructionsFilePath`
+- **Triggers field + discoverability** — `triggers` frontmatter populated on all 527 skills; `scripts/search.py` CLI for natural-language skill lookup
+- **Skill quality scoring** — `scripts/score.py` grades every skill on 7 dimensions; leaderboard + department averages + contributor targets
+- **LangGraph adapter** — `adapters/langgraph/`: any SKILL.md as a LangGraph node; `SkillGraph` fluent builder for multi-skill chains; complexity-aware model selection
+- **CrewAI adapter** — `adapters/crewai/`: `skill_to_agent()`, `skill_to_task()`, `SkillCrew` fluent pipeline builder
 
 ## Ideas / Contributions Welcome
 
