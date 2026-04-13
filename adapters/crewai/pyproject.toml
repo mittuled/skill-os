@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "skill-os-crewai"
+version = "0.1.0"
+description = "CrewAI adapter for skill-os — turn SKILL.md files into Agents and Tasks"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+crewai = ["crewai>=0.51"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["adapters.crewai*"]
