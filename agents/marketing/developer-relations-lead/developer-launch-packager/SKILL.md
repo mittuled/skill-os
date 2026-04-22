@@ -9,7 +9,10 @@ department: marketing
 agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - developer-gtm-planner
+  - api-documentation-designer
+  - developer-experience-reviewer
 triggers:
   - "package the developer launch"
   - "prepare SDK release assets"

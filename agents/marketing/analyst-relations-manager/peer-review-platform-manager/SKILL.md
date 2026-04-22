@@ -9,7 +9,10 @@ department: marketing
 agent: analyst-relations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - magic-quadrant-strategy
+  - analyst-report-monitor
+  - analyst-briefing-scheduler
 triggers:
   - "manage review platform"
   - "G2 profile management"

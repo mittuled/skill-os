@@ -9,7 +9,10 @@ department: design
 agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - ux-flow-designer
+  - prototype-creator
+  - wireframe-builder
 triggers:
   - "design the user flow"
   - "map the interaction flow"

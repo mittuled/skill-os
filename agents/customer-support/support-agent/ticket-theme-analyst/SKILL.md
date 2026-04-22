@@ -9,7 +9,9 @@ department: customer-support
 agent: support-agent
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - support-ticket-triage
+  - help-centre-builder-support
 triggers:
   - "analyze ticket themes"
   - "find ticket patterns"

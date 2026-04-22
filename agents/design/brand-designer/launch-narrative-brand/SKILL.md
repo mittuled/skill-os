@@ -10,7 +10,10 @@ department: design
 agent: brand-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - brand-identity-v1
+  - positioning-crafter-brand
+  - in-app-announcement-writer-content
 triggers:
   - "brand launch narrative"
   - "launch story brand"

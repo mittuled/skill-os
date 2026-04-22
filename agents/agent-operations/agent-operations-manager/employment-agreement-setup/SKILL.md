@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - employee-handbook-v1
+  - first-hire-process-builder
+  - team-health-monitor
 triggers:
   - "set up employment agreement"
   - "draft employment contract"

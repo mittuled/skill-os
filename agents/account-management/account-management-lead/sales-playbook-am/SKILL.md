@@ -9,7 +9,10 @@ department: account-management
 agent: account-management-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - opportunity-framer-am
+  - expansion-motion-am
+  - sales-signal-synthesizer-am
 triggers:
   - "build AM sales playbook"
   - "account management playbook"

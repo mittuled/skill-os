@@ -10,7 +10,10 @@ department: design
 agent: ux-research-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - user-researcher-uxr
+  - jtbd-mapper
+  - product-feedback-ingestion-uxr
 triggers:
   - "plan customer discovery"
   - "customer discovery"

@@ -10,7 +10,10 @@ department: agent-operations
 agent: vp-agent-operations
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - team-capability-assessor
+  - employee-handbook-v1
+  - hiring-plan-builder
 triggers:
   - "plan org scale"
   - "org growth planning"

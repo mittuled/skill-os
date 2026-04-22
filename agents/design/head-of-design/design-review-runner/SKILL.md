@@ -10,7 +10,10 @@ department: design
 agent: head-of-design
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - accessibility-checker-design
+  - inter-phase-design-reviewer
+  - design-implementer-review
 triggers:
   - "run a design review"
   - "crit this design"

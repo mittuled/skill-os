@@ -9,7 +9,9 @@ department: technical-operations
 agent: it-support-specialist
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - access-provisioning-manager
+  - hardware-lifecycle-manager
 triggers:
   - "run IT helpdesk"
   - "resolve IT tickets"

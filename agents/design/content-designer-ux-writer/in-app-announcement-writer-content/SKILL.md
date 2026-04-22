@@ -9,7 +9,10 @@ department: design
 agent: content-designer-ux-writer
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - content-design-spec
+  - launch-narrative-brand
+  - support-readiness-briefer
 triggers:
   - "write in-app announcement"
   - "in-app message"

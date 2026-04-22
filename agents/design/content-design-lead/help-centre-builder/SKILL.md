@@ -10,7 +10,10 @@ department: design
 agent: content-design-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - content-design-spec
+  - help-content-creator
+  - support-pre-briefer-content
 triggers:
   - "build help centre"
   - "help center content"

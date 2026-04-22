@@ -10,7 +10,10 @@ department: customer-success
 agent: customer-programs-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - nps-programme-manager
+  - customer-advisory-board-runner
+  - cs-health-monitor
 triggers:
   - "community health review"
   - "review community health"

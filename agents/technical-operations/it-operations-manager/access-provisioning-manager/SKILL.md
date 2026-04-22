@@ -9,7 +9,10 @@ department: technical-operations
 agent: it-operations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - identity-access-management
+  - saas-stack-manager
+  - it-helpdesk-operator
 triggers:
   - "provision user access"
   - "manage access requests"

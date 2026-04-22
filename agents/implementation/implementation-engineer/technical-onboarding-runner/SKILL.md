@@ -9,7 +9,10 @@ department: implementation
 agent: implementation-engineer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - implementation-requirements-extractor
+  - implementation-playbook-builder
+  - integration-catalogue-builder
 triggers:
   - "run technical onboarding"
   - "execute customer onboarding"

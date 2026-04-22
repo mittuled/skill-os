@@ -9,7 +9,10 @@ department: marketing
 agent: technical-writer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - documentation-writer
+  - api-developer-experience-reviewer
+  - documentation-scale-planner
 triggers:
   - "design API documentation"
   - "create API reference docs"

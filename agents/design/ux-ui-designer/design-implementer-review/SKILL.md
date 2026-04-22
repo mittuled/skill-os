@@ -10,7 +10,10 @@ department: design
 agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - component-mapper-design
+  - cross-platform-tester-design
+  - design-review-runner
 triggers:
   - "review design implementation"
   - "design implementation check"

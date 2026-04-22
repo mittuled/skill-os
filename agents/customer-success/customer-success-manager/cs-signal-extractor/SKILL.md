@@ -10,7 +10,10 @@ department: customer-success
 agent: customer-success-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - user-feedback-synthesiser-cs
+  - cs-health-monitor
+  - expansion-motion-designer-cs
 triggers:
   - "extract cs signals"
   - "identify churn signals"

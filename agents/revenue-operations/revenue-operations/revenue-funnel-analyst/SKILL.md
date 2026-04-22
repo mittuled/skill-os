@@ -9,7 +9,9 @@ department: revenue-operations
 agent: revenue-operations
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - revenue-attribution-monitor
+  - revenue-model-operationaliser
 triggers:
   - "analyze revenue funnel"
   - "funnel conversion analysis"

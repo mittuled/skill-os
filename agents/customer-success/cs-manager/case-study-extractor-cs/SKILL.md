@@ -10,7 +10,10 @@ department: customer-success
 agent: cs-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - customer-reference-programme-manager
+  - cs-health-monitor
+  - cs-signal-extractor
 triggers:
   - "extract a case study"
   - "create customer case study"

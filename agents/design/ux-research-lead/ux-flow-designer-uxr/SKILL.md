@@ -10,7 +10,10 @@ department: design
 agent: ux-research-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - jtbd-to-stories-uxr
+  - prototype-usability-validator
+  - feedback-loop-formaliser-uxr
 triggers:
   - "design ux flow"
   - "ux flow design"

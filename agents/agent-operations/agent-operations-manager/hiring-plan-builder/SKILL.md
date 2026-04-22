@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - org-scale-planner
+  - team-capability-assessor
+  - first-hire-process-builder
 triggers:
   - "build hiring plan"
   - "create headcount plan"

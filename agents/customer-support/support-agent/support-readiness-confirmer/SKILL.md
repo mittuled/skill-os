@@ -9,7 +9,9 @@ department: customer-support
 agent: support-agent
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - support-readiness-briefer-support
+  - support-activation
 triggers:
   - "confirm support readiness"
   - "is support ready"

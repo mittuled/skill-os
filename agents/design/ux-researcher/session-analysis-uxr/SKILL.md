@@ -10,7 +10,10 @@ department: design
 agent: ux-researcher
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - prototype-usability-validator
+  - user-feedback-synthesiser
+  - feedback-loop-formaliser-uxr
 triggers:
   - "analyse research session"
   - "session analysis uxr"

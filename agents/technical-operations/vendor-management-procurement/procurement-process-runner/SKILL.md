@@ -9,7 +9,10 @@ department: technical-operations
 agent: vendor-management-procurement
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - vendor-risk-assessor
+  - vendor-contract-manager
+  - saas-stack-manager
 triggers:
   - "run procurement process"
   - "execute vendor procurement"

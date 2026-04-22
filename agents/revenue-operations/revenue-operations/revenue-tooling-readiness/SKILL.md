@@ -9,7 +9,9 @@ department: revenue-operations
 agent: revenue-operations
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - crm-setup-v1
+  - revenue-model-operationaliser
 triggers:
   - "assess revenue tooling"
   - "revenue tool readiness"

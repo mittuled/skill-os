@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - culture-and-performance-system
+  - recruiting-pipeline-builder
+  - technical-skills-programme
 triggers:
   - "analyse skills gaps"
   - "identify skill deficiencies"

@@ -10,7 +10,10 @@ department: customer-success
 agent: technical-account-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - technical-health-monitor
+  - technical-expansion-identifier
+  - support-runbook-builder-cs
 triggers:
   - "contribute to TAM playbook"
   - "update tam playbook"

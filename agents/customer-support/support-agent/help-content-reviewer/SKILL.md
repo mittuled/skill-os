@@ -9,7 +9,9 @@ department: customer-support
 agent: support-agent
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - help-centre-builder-support
+  - support-readiness-briefer-support
 triggers:
   - "review help content"
   - "audit help articles"

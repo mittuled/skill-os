@@ -10,7 +10,10 @@ department: design
 agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - wireframe-builder
+  - accessibility-checker-design
+  - design-implementer-review
 triggers:
   - "map components for this feature"
   - "what design system components do we need"

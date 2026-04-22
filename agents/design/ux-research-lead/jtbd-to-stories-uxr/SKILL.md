@@ -10,7 +10,10 @@ department: design
 agent: ux-research-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - jtbd-mapper
+  - ux-flow-designer-uxr
+  - prototype-usability-validator
 triggers:
   - "jtbd to user stories"
   - "convert jtbd to stories"

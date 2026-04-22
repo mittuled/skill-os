@@ -9,7 +9,10 @@ department: marketing
 agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - developer-feedback-synthesiser
+  - developer-experience-reviewer
+  - community-signal-extractor
 triggers:
   - "extract dev community signals"
   - "analyze developer feedback"

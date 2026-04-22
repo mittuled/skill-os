@@ -10,7 +10,10 @@ department: design
 agent: ux-researcher
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - product-feedback-ingestion-uxr
+  - jtbd-mapper
+  - feedback-loop-formaliser-uxr
 triggers:
   - "user research"
   - "user interviews"

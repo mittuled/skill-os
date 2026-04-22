@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - annual-comp-review-runner
+  - compensation-benchmarking
+  - option-pool-design
 triggers:
   - "assess agent cost-effectiveness"
   - "justify compute budget"

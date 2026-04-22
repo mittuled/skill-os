@@ -10,7 +10,10 @@ department: customer-success
 agent: customer-success-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - cs-onboarding-playbook-cs
+  - early-adopter-success-builder-cs
+  - cs-signal-extractor
 triggers:
   - "activate customer success"
   - "cs activation"

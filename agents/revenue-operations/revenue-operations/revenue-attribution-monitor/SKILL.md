@@ -9,7 +9,9 @@ department: revenue-operations
 agent: revenue-operations
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - revenue-funnel-analyst
+  - crm-setup-v1
 triggers:
   - "monitor revenue attribution"
   - "track attribution model"

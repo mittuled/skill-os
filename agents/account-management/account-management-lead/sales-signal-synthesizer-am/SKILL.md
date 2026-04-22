@@ -9,7 +9,9 @@ department: account-management
 agent: account-management-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - sales-signal-collector-am
+  - opportunity-framer-am
 triggers:
   - "synthesize account signals"
   - "analyze AM sales signals"

@@ -9,7 +9,9 @@ department: technical-operations
 agent: it-operations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - saas-stack-manager
+  - it-helpdesk-operator
 triggers:
   - "manage hardware lifecycle"
   - "hardware procurement"

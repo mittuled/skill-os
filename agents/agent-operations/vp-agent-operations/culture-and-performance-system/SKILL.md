@@ -10,7 +10,10 @@ department: agent-operations
 agent: vp-agent-operations
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - team-capability-assessor
+  - skills-gap-analyser
+  - team-health-monitor
 triggers:
   - "build culture system"
   - "performance management"

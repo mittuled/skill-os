@@ -10,7 +10,10 @@ department: design
 agent: brand-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - brand-identity-v1
+  - positioning-crafter-brand
+  - content-design-spec
 triggers:
   - "brand foundation"
   - "define brand"

@@ -10,7 +10,10 @@ department: design
 agent: ux-researcher
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - user-feedback-synthesiser
+  - session-analysis-uxr
+  - ux-flow-designer-uxr
 triggers:
   - "formalise feedback loop"
   - "feedback loop uxr"

@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - onboarding-programme-builder
+  - skills-gap-analyser
+  - team-health-monitor
 triggers:
   - "build manager programme"
   - "manager development plan"

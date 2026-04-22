@@ -10,7 +10,10 @@ department: agent-operations
 agent: skill-builder-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - recruiting-pipeline-builder
+  - engineering-talent-sourcer
+  - org-scale-planner
 triggers:
   - "execute scale hiring"
   - "run bulk hiring"

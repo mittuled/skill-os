@@ -10,7 +10,10 @@ department: customer-success
 agent: uat-coordinator-cs
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - cohort-selector-cs
+  - cs-release-readiness
+  - user-feedback-synthesiser-cs
 triggers:
   - "coordinate UAT"
   - "run UAT"

@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - benefits-setup-v1
+  - annual-comp-review-runner
+  - employment-agreement-setup
 triggers:
   - "grant tool access"
   - "set up MCP connections"

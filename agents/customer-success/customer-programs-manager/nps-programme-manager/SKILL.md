@@ -10,7 +10,10 @@ department: customer-success
 agent: customer-programs-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - user-feedback-synthesiser-cs
+  - cs-health-monitor
+  - customer-reference-programme-manager
 triggers:
   - "run NPS programme"
   - "manage NPS survey"

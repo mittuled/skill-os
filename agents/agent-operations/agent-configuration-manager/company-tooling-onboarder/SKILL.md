@@ -11,7 +11,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - mcp-server-builder
+  - 409a-valuation-commissioner
+  - option-pool-design
 triggers:
   - "set up our tools"
   - "connect our SaaS tools"

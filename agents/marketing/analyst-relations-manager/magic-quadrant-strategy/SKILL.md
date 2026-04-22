@@ -9,7 +9,11 @@ department: marketing
 agent: analyst-relations-manager
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - analyst-briefing-scheduler
+  - analyst-inquiry-responder
+  - analyst-report-monitor
+  - peer-review-platform-manager
 triggers:
   - "Gartner Magic Quadrant strategy"
   - "MQ positioning plan"

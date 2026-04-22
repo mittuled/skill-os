@@ -9,7 +9,10 @@ department: implementation
 agent: implementation-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - integration-catalogue-builder
+  - implementation-requirements-extractor
+  - technical-onboarding-runner
 triggers:
   - "build implementation playbook"
   - "create onboarding playbook"

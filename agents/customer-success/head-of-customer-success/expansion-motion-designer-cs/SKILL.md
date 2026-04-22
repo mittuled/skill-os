@@ -10,7 +10,10 @@ department: customer-success
 agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - cs-health-monitor
+  - cs-signal-extractor
+  - sla-definer-cs
 triggers:
   - "design expansion motion"
   - "expansion motion cs"

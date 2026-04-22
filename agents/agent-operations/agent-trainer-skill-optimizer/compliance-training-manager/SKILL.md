@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - employee-handbook-v1
+  - culture-and-performance-system
+  - team-health-monitor
 triggers:
   - "manage compliance training"
   - "run compliance programme"

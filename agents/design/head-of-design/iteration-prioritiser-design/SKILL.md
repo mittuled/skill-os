@@ -10,7 +10,10 @@ department: design
 agent: head-of-design
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - accessibility-auditor-design
+  - iteration-design-p
+  - effort-estimator-design
 triggers:
   - "prioritise design iterations"
   - "design iteration priority"

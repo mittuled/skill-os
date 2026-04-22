@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - benefits-programme-administrator
+  - option-pool-design
+  - employee-handbook-v1
 triggers:
   - "set up agent benefits"
   - "initial tool provisioning"

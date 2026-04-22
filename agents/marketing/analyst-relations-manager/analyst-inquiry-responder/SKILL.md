@@ -9,7 +9,10 @@ department: marketing
 agent: analyst-relations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - analyst-briefing-scheduler
+  - magic-quadrant-strategy
+  - analyst-report-monitor
 triggers:
   - "respond to analyst inquiry"
   - "handle analyst RFI"

@@ -10,7 +10,10 @@ department: design
 agent: head-of-design
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - accessibility-auditor-design
+  - design-review-runner
+  - component-mapper-design
 triggers:
   - "check accessibility"
   - "design a11y check"

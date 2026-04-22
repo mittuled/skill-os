@@ -10,7 +10,10 @@ department: design
 agent: content-design-lead
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - content-design-spec
+  - copy-implementation-reviewer
+  - support-readiness-briefer
 triggers:
   - "brief support content"
   - "support pre-brief"

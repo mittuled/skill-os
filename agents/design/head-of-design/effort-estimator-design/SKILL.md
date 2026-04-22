@@ -9,7 +9,9 @@ department: design
 agent: head-of-design
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - spec-translator-design
+  - iteration-prioritiser-design
 triggers:
   - "estimate design effort"
   - "design estimation"

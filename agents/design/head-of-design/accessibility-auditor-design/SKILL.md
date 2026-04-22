@@ -10,7 +10,10 @@ department: design
 agent: head-of-design
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - accessibility-checker-design
+  - design-review-runner
+  - session-analysis
 triggers:
   - "audit accessibility"
   - "design accessibility audit"

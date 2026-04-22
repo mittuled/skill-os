@@ -10,7 +10,9 @@ department: design
 agent: brand-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - brand-foundation
+  - brand-identity-v1
 triggers:
   - "name the company"
   - "company naming"

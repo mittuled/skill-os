@@ -10,7 +10,9 @@ department: design
 agent: head-of-design
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - design-review-runner
+  - inter-phase-design-reviewer
 triggers:
   - "design demo"
   - "demo the design"

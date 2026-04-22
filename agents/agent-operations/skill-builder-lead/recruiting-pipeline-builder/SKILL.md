@@ -10,7 +10,10 @@ department: agent-operations
 agent: skill-builder-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - team-capability-assessor
+  - scale-hiring-executor
+  - engineering-talent-sourcer
 triggers:
   - "build recruiting pipeline"
   - "set up hiring pipeline"

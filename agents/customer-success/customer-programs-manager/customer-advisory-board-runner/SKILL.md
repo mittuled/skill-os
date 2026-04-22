@@ -11,7 +11,10 @@ department: customer-success
 agent: customer-programs-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - customer-reference-programme-manager
+  - user-feedback-synthesiser-cs
+  - nps-programme-manager
 triggers:
   - "run advisory board"
   - "customer advisory board"

@@ -10,7 +10,10 @@ department: customer-success
 agent: customer-programs-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - case-study-extractor-cs
+  - customer-advisory-board-runner
+  - nps-programme-manager
 triggers:
   - "manage reference programme"
   - "customer reference program"

@@ -10,7 +10,10 @@ department: customer-success
 agent: head-of-customer-success
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - cs-activation
+  - sla-definer-cs
+  - training-material-creator-cs
 triggers:
   - "build the onboarding playbook"
   - "design the customer onboarding flow"

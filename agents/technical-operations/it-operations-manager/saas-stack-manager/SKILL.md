@@ -9,7 +9,10 @@ department: technical-operations
 agent: it-operations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - identity-access-management
+  - access-provisioning-manager
+  - vendor-contract-manager
 triggers:
   - "manage SaaS stack"
   - "evaluate new SaaS tools"

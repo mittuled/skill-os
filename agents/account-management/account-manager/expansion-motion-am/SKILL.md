@@ -9,7 +9,10 @@ department: account-management
 agent: account-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - opportunity-framer-am
+  - sales-signal-collector-am
+  - sales-playbook-am
 triggers:
   - "run expansion motion"
   - "execute account expansion"

@@ -10,7 +10,10 @@ department: design
 agent: ux-ui-designer
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - spec-translator-design
+  - effort-estimator-design
+  - wireframe-builder
 triggers:
   - "populate design backlog"
   - "design backlog"

@@ -10,7 +10,10 @@ department: design
 agent: ux-research-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - customer-discovery-planner-uxr
+  - jtbd-to-stories-uxr
+  - user-feedback-synthesiser
 triggers:
   - "map jobs to be done"
   - "jtbd mapping"

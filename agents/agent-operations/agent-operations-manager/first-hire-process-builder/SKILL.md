@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - employment-agreement-setup
+  - onboarding-programme-builder
+  - employee-handbook-v1
 triggers:
   - "build first hire process"
   - "first employee onboarding"

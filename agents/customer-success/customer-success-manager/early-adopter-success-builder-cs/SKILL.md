@@ -10,7 +10,10 @@ department: customer-success
 agent: customer-success-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - cs-activation
+  - cohort-selector-cs
+  - user-feedback-synthesiser-cs
 triggers:
   - "build early adopter success"
   - "early adopter program"

@@ -9,7 +9,10 @@ department: marketing
 agent: developer-relations-lead
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - developer-launch-packager
+  - developer-community-grower
+  - developer-experience-reviewer
 triggers:
   - "plan the developer GTM"
   - "how do we reach developers"

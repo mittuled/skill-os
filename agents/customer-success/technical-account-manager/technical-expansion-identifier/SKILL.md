@@ -11,7 +11,10 @@ department: customer-success
 agent: technical-account-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - technical-health-monitor
+  - expansion-motion-designer-cs
+  - tam-playbook-contributor
 triggers:
   - "identify technical expansion"
   - "find upsell opportunities"

@@ -9,7 +9,10 @@ department: technical-operations
 agent: vendor-management-procurement
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - procurement-process-runner
+  - vendor-contract-manager
+  - vendor-performance-reviewer
 triggers:
   - "assess vendor risk"
   - "vendor risk review"

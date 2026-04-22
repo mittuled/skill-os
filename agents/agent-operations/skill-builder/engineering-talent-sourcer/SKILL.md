@@ -10,7 +10,10 @@ department: agent-operations
 agent: skill-builder
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - recruiting-pipeline-builder
+  - scale-hiring-executor
+  - skills-gap-analyser
 triggers:
   - "source engineering talent"
   - "find engineers"

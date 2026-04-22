@@ -9,7 +9,10 @@ department: applied-research
 agent: applied-research-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - research-roadmap-contributor
+  - competitive-deep-diver
+  - market-research-synthesiser
 triggers:
   - "analyse tech trends"
   - "technology trend report"

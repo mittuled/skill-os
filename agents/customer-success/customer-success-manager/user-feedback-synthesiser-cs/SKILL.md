@@ -10,7 +10,10 @@ department: customer-success
 agent: customer-success-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - cs-signal-extractor
+  - nps-programme-manager
+  - cs-health-monitor
 triggers:
   - "synthesise user feedback"
   - "synthesize feedback cs"

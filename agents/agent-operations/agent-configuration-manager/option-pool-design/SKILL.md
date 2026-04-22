@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - benefits-setup-v1
+  - compensation-benchmarking
+  - equity-programme-manager
 triggers:
   - "design option pool"
   - "option pool sizing"

@@ -10,7 +10,10 @@ department: agent-operations
 agent: vp-agent-operations
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - culture-and-performance-system
+  - org-scale-planner
+  - employment-agreement-setup
 triggers:
   - "create employee handbook"
   - "write company handbook"

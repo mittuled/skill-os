@@ -10,7 +10,10 @@ department: design
 agent: ux-ui-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - wireframe-builder
+  - design-implementer-review
+  - accessibility-checker-design
 triggers:
   - "cross-platform design test"
   - "test design cross-platform"

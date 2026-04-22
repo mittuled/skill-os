@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - skills-gap-analyser
+  - compensation-benchmarking
+  - onboarding-programme-builder
 triggers:
   - "build tech skills programme"
   - "technical training plan"

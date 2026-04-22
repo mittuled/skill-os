@@ -9,7 +9,9 @@ department: customer-support
 agent: support-agent
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - ticket-theme-analyst
+  - support-runbook-builder
 triggers:
   - "triage support ticket"
   - "ticket triage"

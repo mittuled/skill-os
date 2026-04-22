@@ -10,7 +10,10 @@ department: agent-operations
 agent: vp-agent-operations
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - org-scale-planner
+  - culture-and-performance-system
+  - recruiting-pipeline-builder
 triggers:
   - "assess team capability"
   - "evaluate team skills"

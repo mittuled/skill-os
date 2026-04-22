@@ -9,7 +9,10 @@ department: customer-support
 agent: support-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - support-runbook-builder
+  - incident-response-planner-support
+  - help-centre-builder-support
 triggers:
   - "activate support"
   - "support activation"

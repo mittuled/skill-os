@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - 409a-valuation-commissioner
+  - annual-comp-review-runner
+  - technical-skills-programme
 triggers:
   - "benchmark agent models"
   - "compare compute costs"

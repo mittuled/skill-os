@@ -10,7 +10,10 @@ department: customer-success
 agent: cs-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - training-material-creator-cs
+  - support-runbook-builder-cs
+  - cohort-selector-cs
 triggers:
   - "cs release readiness"
   - "prepare cs for release"

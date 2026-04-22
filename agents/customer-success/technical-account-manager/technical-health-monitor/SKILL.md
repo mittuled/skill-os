@@ -10,7 +10,10 @@ department: customer-success
 agent: technical-account-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - technical-expansion-identifier
+  - tam-playbook-contributor
+  - cs-health-monitor
 triggers:
   - "monitor technical health"
   - "technical health check"

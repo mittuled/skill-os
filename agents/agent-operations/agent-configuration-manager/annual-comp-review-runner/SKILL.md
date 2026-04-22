@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - 409a-valuation-commissioner
+  - compensation-benchmarking
+  - benefits-programme-administrator
 triggers:
   - "run annual config review"
   - "right-size agent resources"

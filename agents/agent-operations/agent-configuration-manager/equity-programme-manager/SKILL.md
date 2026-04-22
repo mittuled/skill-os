@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-configuration-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - option-pool-design
+  - 409a-valuation-commissioner
+  - compensation-benchmarking
 triggers:
   - "manage equity programme"
   - "agent equity allocation"

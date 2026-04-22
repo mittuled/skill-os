@@ -9,7 +9,10 @@ department: marketing
 agent: community-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - community-launch-planner
+  - community-health-grower
+  - community-led-growth-designer
 triggers:
   - "build early community"
   - "seed founding members"

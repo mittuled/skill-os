@@ -9,7 +9,10 @@ department: marketing
 agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - developer-community-signal-extractor
+  - developer-experience-reviewer
+  - api-developer-experience-reviewer
 triggers:
   - "summarize developer feedback"
   - "what are developers saying"

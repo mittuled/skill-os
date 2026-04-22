@@ -10,7 +10,10 @@ department: design
 agent: content-design-lead
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - content-design-spec
+  - ux-copy-writer
+  - support-pre-briefer-content
 triggers:
   - "review copy implementation"
   - "copy review"

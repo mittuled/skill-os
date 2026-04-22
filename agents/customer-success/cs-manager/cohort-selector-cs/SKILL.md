@@ -10,7 +10,10 @@ department: customer-success
 agent: cs-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - cs-health-monitor
+  - cs-release-readiness
+  - early-adopter-success-builder-cs
 triggers:
   - "select a customer cohort"
   - "pick cohort for cs"

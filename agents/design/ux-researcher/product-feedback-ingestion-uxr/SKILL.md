@@ -10,7 +10,10 @@ department: design
 agent: ux-researcher
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - user-feedback-synthesiser
+  - feedback-loop-formaliser-uxr
+  - customer-discovery-planner-uxr
 triggers:
   - "ingest product feedback"
   - "process user feedback"

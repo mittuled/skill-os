@@ -9,7 +9,10 @@ department: customer-support
 agent: support-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - support-runbook-builder
+  - ticket-theme-analyst
+  - help-content-reviewer
 triggers:
   - "build the help center"
   - "create a knowledge base"

@@ -10,7 +10,10 @@ department: design
 agent: visual-interaction-designer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - iteration-design-p
+  - iteration-prioritiser-design
+  - accessibility-auditor-design
 triggers:
   - "analyse design session"
   - "session analysis design"

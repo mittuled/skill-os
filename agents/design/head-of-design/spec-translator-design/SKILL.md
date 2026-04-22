@@ -10,7 +10,10 @@ department: design
 agent: head-of-design
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - effort-estimator-design
+  - backlog-populator-design
+  - flow-designer
 triggers:
   - "translate design spec"
   - "design spec translation"

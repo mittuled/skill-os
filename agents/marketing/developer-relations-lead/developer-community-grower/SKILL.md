@@ -9,7 +9,10 @@ department: marketing
 agent: developer-relations-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - developer-community-signal-extractor
+  - developer-gtm-planner
+  - community-led-growth-designer
 triggers:
   - "grow the developer community"
   - "plan a developer event"

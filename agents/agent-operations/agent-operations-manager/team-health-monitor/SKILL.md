@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-operations-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - culture-and-performance-system
+  - employment-agreement-setup
+  - skills-gap-analyser
 triggers:
   - "monitor team health"
   - "check team pulse"

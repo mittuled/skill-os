@@ -10,7 +10,10 @@ department: design
 agent: content-designer-ux-writer
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - help-centre-builder
+  - ux-copy-writer
+  - support-readiness-briefer
 triggers:
   - "create help content"
   - "help article"

@@ -10,7 +10,10 @@ department: design
 agent: content-designer-ux-writer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - support-pre-briefer-content
+  - help-content-creator
+  - training-material-creator-content
 triggers:
   - "support readiness brief"
   - "brief support team"

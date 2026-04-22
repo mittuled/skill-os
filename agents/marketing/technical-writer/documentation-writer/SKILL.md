@@ -9,7 +9,10 @@ department: marketing
 agent: technical-writer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - documentation-requirements-extractor
+  - documentation-accuracy-auditor
+  - api-documentation-designer
 triggers:
   - "write documentation"
   - "draft technical docs"

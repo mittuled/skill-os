@@ -9,7 +9,9 @@ department: account-management
 agent: account-manager
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - sales-signal-synthesizer-am
+  - expansion-motion-am
 triggers:
   - "collect account signals"
   - "gather expansion signals"

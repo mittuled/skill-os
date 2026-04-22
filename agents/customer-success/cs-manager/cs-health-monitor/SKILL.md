@@ -10,7 +10,10 @@ department: customer-success
 agent: cs-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - sla-definer-cs
+  - expansion-motion-designer-cs
+  - cs-signal-extractor
 triggers:
   - "customer health"
   - "health-score-monitor"

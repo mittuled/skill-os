@@ -9,7 +9,10 @@ department: applied-research
 agent: applied-research-lead
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - competitive-deep-diver
+  - research-roadmap-contributor
+  - signal-benchmarker
 triggers:
   - "synthesise market research"
   - "market research summary"

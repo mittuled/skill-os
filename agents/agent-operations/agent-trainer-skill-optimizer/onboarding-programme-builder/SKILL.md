@@ -10,7 +10,10 @@ department: agent-operations
 agent: agent-trainer-skill-optimizer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - first-hire-process-builder
+  - manager-development-programme
+  - compliance-training-manager
 triggers:
   - "build onboarding programme"
   - "create onboarding plan"
