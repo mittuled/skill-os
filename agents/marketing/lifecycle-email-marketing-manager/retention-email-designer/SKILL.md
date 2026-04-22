@@ -5,7 +5,10 @@ department: marketing
 agent: lifecycle-email-marketing-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - email-performance-optimiser
+  - nurture-campaign-builder
+  - onboarding-sequence-designer
 ---
 
 # retention-email-designer
@@ -60,3 +63,6 @@ Creates re-engagement and churn-risk email sequences triggered by usage signals,
 ## Related Skills
 
 *No related skills defined yet.*
+- [`email-performance-optimiser`](../email-performance-optimiser/SKILL.md) — sibling skill under the same agent — combine with email-performance-optimiser for end-to-end coverage
+- [`nurture-campaign-builder`](../nurture-campaign-builder/SKILL.md) — sibling skill under the same agent — combine with nurture-campaign-builder for end-to-end coverage
+- [`onboarding-sequence-designer`](../onboarding-sequence-designer/SKILL.md) — sibling skill under the same agent — combine with onboarding-sequence-designer for end-to-end coverage

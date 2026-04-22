@@ -5,7 +5,12 @@ department: marketing
 agent: event-marketing-manager
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - company-offsite-producer
+  - conference-presence-manager
+  - event-calendar-planner
+  - user-conference-producer
+  - webinar-and-virtual-event-manager
 triggers:
   - "produce sales kickoff"
   - "plan SKO event"
@@ -69,3 +74,8 @@ Plans and produces the annual sales kickoff event, equipping the sales organisat
 ## Related Skills
 
 *No related skills defined yet.*
+- [`company-offsite-producer`](../company-offsite-producer/SKILL.md) — sibling skill under the same agent — combine with company-offsite-producer for end-to-end coverage
+- [`conference-presence-manager`](../conference-presence-manager/SKILL.md) — sibling skill under the same agent — combine with conference-presence-manager for end-to-end coverage
+- [`event-calendar-planner`](../event-calendar-planner/SKILL.md) — sibling skill under the same agent — combine with event-calendar-planner for end-to-end coverage
+- [`user-conference-producer`](../user-conference-producer/SKILL.md) — sibling skill under the same agent — combine with user-conference-producer for end-to-end coverage
+- [`webinar-and-virtual-event-manager`](../webinar-and-virtual-event-manager/SKILL.md) — sibling skill under the same agent — combine with webinar-and-virtual-event-manager for end-to-end coverage

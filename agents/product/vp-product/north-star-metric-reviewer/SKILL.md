@@ -10,7 +10,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "review north star metric"
   - "north star review"
@@ -54,4 +57,6 @@ Reviews whether the north-star metric still accurately reflects product and busi
 **On failure**: Report which data was unavailable for correlation analysis, what strategic ambiguities prevented alignment assessment, and recommend specific clarifications needed from leadership before the review can be completed.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

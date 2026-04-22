@@ -9,7 +9,12 @@ department: product
 agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - case-study-extractor-pmm
+  - changelog-publisher-pmm
+  - content-engine-builder-pmm
+  - in-app-announcement-writer
+  - partner-activation-planner-pmm
 triggers:
   - "general availability announcement"
   - "ga announcement"
@@ -52,4 +57,8 @@ Writes and distributes the general availability announcement for major releases,
 **On failure**: Report which components stalled (missing approvals, delayed GA date, unavailable customer quote), what draft materials are ready, and recommend a revised distribution timeline or fallback messaging strategy.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`case-study-extractor-pmm`](../case-study-extractor-pmm/SKILL.md) — sibling skill under the same agent — combine with case-study-extractor-pmm for end-to-end coverage
+- [`changelog-publisher-pmm`](../changelog-publisher-pmm/SKILL.md) — sibling skill under the same agent — combine with changelog-publisher-pmm for end-to-end coverage
+- [`content-engine-builder-pmm`](../content-engine-builder-pmm/SKILL.md) — sibling skill under the same agent — combine with content-engine-builder-pmm for end-to-end coverage
+- [`in-app-announcement-writer`](../in-app-announcement-writer/SKILL.md) — sibling skill under the same agent — combine with in-app-announcement-writer for end-to-end coverage
+- [`partner-activation-planner-pmm`](../partner-activation-planner-pmm/SKILL.md) — sibling skill under the same agent — combine with partner-activation-planner-pmm for end-to-end coverage

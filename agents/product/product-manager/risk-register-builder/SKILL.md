@@ -11,7 +11,36 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - backlog-groomer
+  - backlog-populator
+  - customer-discovery-planner
+  - demand-validator
+  - dependency-mapper-review
+  - dependency-resolver
+  - design-approval
+  - flow-designer-review
+  - go-live-approver
+  - internal-demo-runner
+  - jtbd-to-stories
+  - launch-checklist-runner
+  - market-sizer
+  - milestone-definer
+  - performance-budget-setter
+  - phase-planner
+  - phase-scope-adjuster
+  - pmm-pre-briefer
+  - requirements-extractor
+  - story-writer
+  - roadmap-placer
+  - scope-boundary-setter
+  - spec-translator
+  - sprint-planner
+  - sprint-reviewer
+  - support-pre-briefer
+  - third-party-integrator-review
+  - uat-coordinator
+  - user-researcher
 triggers:
   - "build risk register"
   - "risk register"
@@ -59,4 +88,32 @@ Builds and maintains the product risk register, identifying delivery, market, an
 **On failure**: Report which risk categories could not be assessed (missing engineering estimates, unavailable competitive data, absent compliance guidance), which stakeholders did not participate in validation, and recommend specific information-gathering actions to complete the register. Flag any high-severity risks that were identified but lack feasible mitigation — these require immediate escalation regardless of register completeness.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`backlog-groomer`](../backlog-groomer/SKILL.md) — sibling skill under the same agent — combine with backlog-groomer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`customer-discovery-planner`](../customer-discovery-planner/SKILL.md) — sibling skill under the same agent — combine with customer-discovery-planner for end-to-end coverage
+- [`demand-validator`](../demand-validator/SKILL.md) — sibling skill under the same agent — combine with demand-validator for end-to-end coverage
+- [`dependency-mapper-review`](../dependency-mapper-review/SKILL.md) — sibling skill under the same agent — combine with dependency-mapper-review for end-to-end coverage
+- [`dependency-resolver`](../dependency-resolver/SKILL.md) — sibling skill under the same agent — combine with dependency-resolver for end-to-end coverage
+- [`design-approval`](../design-approval/SKILL.md) — sibling skill under the same agent — combine with design-approval for end-to-end coverage
+- [`flow-designer-review`](../flow-designer-review/SKILL.md) — sibling skill under the same agent — combine with flow-designer-review for end-to-end coverage
+- [`go-live-approver`](../go-live-approver/SKILL.md) — sibling skill under the same agent — combine with go-live-approver for end-to-end coverage
+- [`internal-demo-runner`](../internal-demo-runner/SKILL.md) — sibling skill under the same agent — combine with internal-demo-runner for end-to-end coverage
+- [`jtbd-to-stories`](../jtbd-to-stories/SKILL.md) — sibling skill under the same agent — combine with jtbd-to-stories for end-to-end coverage
+- [`launch-checklist-runner`](../launch-checklist-runner/SKILL.md) — sibling skill under the same agent — combine with launch-checklist-runner for end-to-end coverage
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`milestone-definer`](../milestone-definer/SKILL.md) — sibling skill under the same agent — combine with milestone-definer for end-to-end coverage
+- [`performance-budget-setter`](../performance-budget-setter/SKILL.md) — sibling skill under the same agent — combine with performance-budget-setter for end-to-end coverage
+- [`phase-planner`](../phase-planner/SKILL.md) — sibling skill under the same agent — combine with phase-planner for end-to-end coverage
+- [`phase-scope-adjuster`](../phase-scope-adjuster/SKILL.md) — sibling skill under the same agent — combine with phase-scope-adjuster for end-to-end coverage
+- [`pmm-pre-briefer`](../pmm-pre-briefer/SKILL.md) — sibling skill under the same agent — combine with pmm-pre-briefer for end-to-end coverage
+- [`requirements-extractor`](../requirements-extractor/SKILL.md) — sibling skill under the same agent — combine with requirements-extractor for end-to-end coverage
+- [`story-writer`](../story-writer/SKILL.md) — sibling skill under the same agent — combine with story-writer for end-to-end coverage
+- [`roadmap-placer`](../roadmap-placer/SKILL.md) — sibling skill under the same agent — combine with roadmap-placer for end-to-end coverage
+- [`scope-boundary-setter`](../scope-boundary-setter/SKILL.md) — sibling skill under the same agent — combine with scope-boundary-setter for end-to-end coverage
+- [`spec-translator`](../spec-translator/SKILL.md) — sibling skill under the same agent — combine with spec-translator for end-to-end coverage
+- [`sprint-planner`](../sprint-planner/SKILL.md) — sibling skill under the same agent — combine with sprint-planner for end-to-end coverage
+- [`sprint-reviewer`](../sprint-reviewer/SKILL.md) — sibling skill under the same agent — combine with sprint-reviewer for end-to-end coverage
+- [`support-pre-briefer`](../support-pre-briefer/SKILL.md) — sibling skill under the same agent — combine with support-pre-briefer for end-to-end coverage
+- [`third-party-integrator-review`](../third-party-integrator-review/SKILL.md) — sibling skill under the same agent — combine with third-party-integrator-review for end-to-end coverage
+- [`uat-coordinator`](../uat-coordinator/SKILL.md) — sibling skill under the same agent — combine with uat-coordinator for end-to-end coverage
+- [`user-researcher`](../user-researcher/SKILL.md) — sibling skill under the same agent — combine with user-researcher for end-to-end coverage

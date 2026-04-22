@@ -7,6 +7,9 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "resolve dependencies"
   - "fix dependencies"
@@ -70,3 +73,6 @@ The dependency resolver takes blocking or at-risk dependencies surfaced by the d
 - `sprint-planner` -- adjusts sprint scope based on resolution outcomes and re-sequencing decisions.
 - `scope-boundary-setter` -- collaborates when scope reduction is the chosen resolution path.
 - `phase-scope-adjuster` -- recalibrates phase plans when dependency resolution shifts delivery timelines.
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

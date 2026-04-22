@@ -7,6 +7,10 @@ agent: analytics-lead
 version: 1.0.0
 complexity: complex
 related-skills:
+  - instrumentation-clarity-reviewer
+  - instrumentation-planner-data
+  - instrumentation-implementer-data
+  - goal-framer-data
 triggers:
   - "write instrumentation spec"
   - "define tracking spec"

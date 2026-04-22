@@ -5,7 +5,10 @@ department: marketing
 agent: social-media-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - social-listening-analyst
+  - social-content-calendar-manager
+  - ugc-programme-designer
 triggers:
   - "manage influencer program"
   - "coordinate influencer outreach"
@@ -67,3 +70,6 @@ Identifies, vets, and manages relationships with relevant influencers and creato
 ## Related Skills
 
 *No related skills defined yet.*
+- [`social-listening-analyst`](../social-listening-analyst/SKILL.md) — sibling skill under the same agent — combine with social-listening-analyst for end-to-end coverage
+- [`social-content-calendar-manager`](../social-content-calendar-manager/SKILL.md) — sibling skill under the same agent — combine with social-content-calendar-manager for end-to-end coverage
+- [`ugc-programme-designer`](../ugc-programme-designer/SKILL.md) — sibling skill under the same agent — combine with ugc-programme-designer for end-to-end coverage

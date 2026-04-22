@@ -10,7 +10,10 @@ department: engineering
 agent: tech-architect
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - technical-feasibility-check
+  - design-feasibility-reviewer
+  - tech-scaffolder
 triggers:
   - "set performance budget"
   - "performance budgets"
@@ -52,4 +55,6 @@ Sets quantitative performance budgets for latency, throughput, and memory that e
 **On failure**: Report which budget categories could not be defined and why (missing baselines, unclear product requirements, architectural uncertainty). Recommend specific data collection or spikes needed before budgets can be set.
 
 ## Related Skills
-- (none yet — cross-references added in validation pass)
+- [`technical-feasibility-check`](../technical-feasibility-check/SKILL.md) — sibling skill under the same agent — combine with technical-feasibility-check for end-to-end coverage
+- [`design-feasibility-reviewer`](../design-feasibility-reviewer/SKILL.md) — sibling skill under the same agent — combine with design-feasibility-reviewer for end-to-end coverage
+- [`tech-scaffolder`](../tech-scaffolder/SKILL.md) — sibling skill under the same agent — combine with tech-scaffolder for end-to-end coverage

@@ -5,7 +5,14 @@ department: engineering
 agent: qa-test-engineer
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - instrumentation-verifier-prod
+  - instrumentation-verifier-qa
+  - integration-test-runner
+  - performance-tester
+  - regression-test-runner
+  - security-auditor
+  - staging-validator
 triggers:
   - "unit tests"
   - "automated tests"
@@ -55,3 +62,10 @@ The QA / Test Engineer executes unit test suites and reports coverage and failur
 ## Related Skills
 
 *None defined yet.*
+- [`instrumentation-verifier-prod`](../instrumentation-verifier-prod/SKILL.md) — sibling skill under the same agent — combine with instrumentation-verifier-prod for end-to-end coverage
+- [`instrumentation-verifier-qa`](../instrumentation-verifier-qa/SKILL.md) — sibling skill under the same agent — combine with instrumentation-verifier-qa for end-to-end coverage
+- [`integration-test-runner`](../integration-test-runner/SKILL.md) — sibling skill under the same agent — combine with integration-test-runner for end-to-end coverage
+- [`performance-tester`](../performance-tester/SKILL.md) — sibling skill under the same agent — combine with performance-tester for end-to-end coverage
+- [`regression-test-runner`](../regression-test-runner/SKILL.md) — sibling skill under the same agent — combine with regression-test-runner for end-to-end coverage
+- [`security-auditor`](../security-auditor/SKILL.md) — sibling skill under the same agent — combine with security-auditor for end-to-end coverage
+- [`staging-validator`](../staging-validator/SKILL.md) — sibling skill under the same agent — combine with staging-validator for end-to-end coverage

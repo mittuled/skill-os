@@ -5,7 +5,10 @@ department: marketing
 agent: event-marketing-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - conference-presence-manager
+  - event-calendar-planner
+  - sales-kickoff-producer
 triggers:
   - "run webinar"
   - "plan virtual event"
@@ -68,3 +71,6 @@ Manages the webinar and virtual event programme from planning through post-event
 ## Related Skills
 
 *No related skills defined yet.*
+- [`conference-presence-manager`](../conference-presence-manager/SKILL.md) — sibling skill under the same agent — combine with conference-presence-manager for end-to-end coverage
+- [`event-calendar-planner`](../event-calendar-planner/SKILL.md) — sibling skill under the same agent — combine with event-calendar-planner for end-to-end coverage
+- [`sales-kickoff-producer`](../sales-kickoff-producer/SKILL.md) — sibling skill under the same agent — combine with sales-kickoff-producer for end-to-end coverage

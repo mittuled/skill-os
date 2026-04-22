@@ -9,7 +9,10 @@ department: product
 agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - ga-announcement
+  - case-study-extractor-pmm
+  - in-app-announcement-writer
 triggers:
   - "publish changelog"
   - "release notes"
@@ -50,4 +53,6 @@ Publishes the product changelog with clear, customer-friendly release notes that
 **On failure**: Report which inputs were missing (incomplete release notes, unavailable PM for review), what partial draft exists, and recommend a timeline for completing and publishing the entry.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`ga-announcement`](../ga-announcement/SKILL.md) — sibling skill under the same agent — combine with ga-announcement for end-to-end coverage
+- [`case-study-extractor-pmm`](../case-study-extractor-pmm/SKILL.md) — sibling skill under the same agent — combine with case-study-extractor-pmm for end-to-end coverage
+- [`in-app-announcement-writer`](../in-app-announcement-writer/SKILL.md) — sibling skill under the same agent — combine with in-app-announcement-writer for end-to-end coverage

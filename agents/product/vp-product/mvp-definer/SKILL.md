@@ -9,7 +9,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "define the MVP"
   - "what's the minimum we need to ship"
@@ -54,4 +57,6 @@ Defines the minimum viable product scope that tests the core value hypothesis.
 **On failure**: Report which elements could not be resolved (ambiguous hypothesis, unresolvable scope disagreement, missing effort estimates), what trade-offs were explored, and recommend specific next steps such as a design spike, technical spike, or stakeholder alignment session to unblock the definition.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

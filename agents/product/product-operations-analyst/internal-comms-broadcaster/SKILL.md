@@ -9,7 +9,10 @@ department: product
 agent: product-operations-analyst
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - objection-handler-updater
+  - early-adopter-success-builder
+  - iteration-prioritiser
 triggers:
   - "broadcast internal comms"
   - "internal announcement"
@@ -48,4 +51,6 @@ Broadcasts internal communications about product releases and changes to relevan
 **On failure**: Report which teams could not be reached (e.g., channel not available, team lead unavailable for briefing), what partial distribution was completed, and recommend follow-up actions to close the communication gap.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`objection-handler-updater`](../objection-handler-updater/SKILL.md) — sibling skill under the same agent — combine with objection-handler-updater for end-to-end coverage
+- [`early-adopter-success-builder`](../early-adopter-success-builder/SKILL.md) — sibling skill under the same agent — combine with early-adopter-success-builder for end-to-end coverage
+- [`iteration-prioritiser`](../iteration-prioritiser/SKILL.md) — sibling skill under the same agent — combine with iteration-prioritiser for end-to-end coverage

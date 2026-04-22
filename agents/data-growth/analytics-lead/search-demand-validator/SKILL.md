@@ -7,6 +7,8 @@ agent: analytics-lead
 version: 1.0.0
 complexity: medium
 related-skills:
+  - market-sizer-data
+  - demand-validator
 triggers:
   - "validate search demand"
   - "check keyword search volume"

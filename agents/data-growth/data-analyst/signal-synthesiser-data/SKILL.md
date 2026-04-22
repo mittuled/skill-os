@@ -7,6 +7,9 @@ agent: data-analyst
 version: 1.0.0
 complexity: medium
 related-skills:
+  - signal-synthesiser-data-p
+  - metrics-dashboard-builder
+  - funnel-analyser
 triggers:
   - "A/B test"
   - "ab-test-statistician"

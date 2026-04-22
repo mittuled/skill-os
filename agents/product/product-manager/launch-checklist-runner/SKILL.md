@@ -10,7 +10,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "release notes"
   - "launch checklist"
@@ -53,4 +56,6 @@ Runs through the launch checklist to confirm all go-live criteria are met, syste
 **On failure**: Report which checklist categories could not be evaluated (unavailable owners, inaccessible systems, missing documentation), the items that were evaluated with their status, and the specific actions needed to complete the run -- including who must provide what information and by when.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

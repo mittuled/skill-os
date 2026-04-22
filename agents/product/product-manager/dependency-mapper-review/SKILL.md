@@ -7,6 +7,9 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "map dependencies review"
   - "review dependencies"
@@ -64,3 +67,6 @@ The dependency mapper review identifies, catalogues, and assesses cross-team, cr
 - `sprint-planner` -- uses the dependency map to sequence stories and avoid blocked work entering the sprint.
 - `backlog-groomer` -- flags potential dependencies during refinement for this skill to formally map.
 - `phase-planner` -- consumes the dependency map when building multi-phase delivery plans.
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

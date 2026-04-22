@@ -5,7 +5,11 @@ department: marketing
 agent: lifecycle-email-marketing-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - nurture-campaign-builder
+  - onboarding-sequence-designer
+  - retention-email-designer
+  - transactional-email-designer
 triggers:
   - "optimize email performance"
   - "improve email open rates"
@@ -67,3 +71,7 @@ Runs A/B tests on subject lines, send times, and content across all email progra
 ## Related Skills
 
 *No related skills defined yet.*
+- [`nurture-campaign-builder`](../nurture-campaign-builder/SKILL.md) — sibling skill under the same agent — combine with nurture-campaign-builder for end-to-end coverage
+- [`onboarding-sequence-designer`](../onboarding-sequence-designer/SKILL.md) — sibling skill under the same agent — combine with onboarding-sequence-designer for end-to-end coverage
+- [`retention-email-designer`](../retention-email-designer/SKILL.md) — sibling skill under the same agent — combine with retention-email-designer for end-to-end coverage
+- [`transactional-email-designer`](../transactional-email-designer/SKILL.md) — sibling skill under the same agent — combine with transactional-email-designer for end-to-end coverage

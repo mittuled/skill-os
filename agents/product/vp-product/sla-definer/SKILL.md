@@ -11,7 +11,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "define sla"
   - "sla definition"
@@ -56,4 +59,6 @@ Defines the service-level agreements that the product will commit to for custome
 **On failure**: Report which metrics lack sufficient historical data, what architectural gaps prevent commitment, the best available interim SLA (e.g., best-effort with transparency commitments), and a roadmap to close gaps for a full SLA in a defined timeframe.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

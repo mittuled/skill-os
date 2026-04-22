@@ -5,7 +5,10 @@ department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - infrastructure-scaling-executor
+  - alerting-configurator
+  - production-readiness-reviewer
 triggers:
   - "automate deployments"
   - "remove manual deploy steps"
@@ -57,3 +60,6 @@ The DevOps / Infrastructure Engineer automates deployment processes to reduce ma
 ## Related Skills
 
 *None defined yet.*
+- [`infrastructure-scaling-executor`](../infrastructure-scaling-executor/SKILL.md) — sibling skill under the same agent — combine with infrastructure-scaling-executor for end-to-end coverage
+- [`alerting-configurator`](../alerting-configurator/SKILL.md) — sibling skill under the same agent — combine with alerting-configurator for end-to-end coverage
+- [`production-readiness-reviewer`](../production-readiness-reviewer/SKILL.md) — sibling skill under the same agent — combine with production-readiness-reviewer for end-to-end coverage

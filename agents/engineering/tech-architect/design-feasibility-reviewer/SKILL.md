@@ -13,6 +13,8 @@ complexity: medium
 related-skills:
   - ../technical-feasibility-check/SKILL.md
   - ../architecture-designer/SKILL.md
+  - performance-budget-setter-eng
+  - scale-infrastructure-planner
 triggers:
   - "review design feasibility"
   - "feasibility review"
@@ -62,3 +64,5 @@ Reviews design proposals to confirm they are technically implementable by evalua
 
 - [`technical-feasibility-check`](../technical-feasibility-check/SKILL.md) -- Technical feasibility checks assess system-level feasibility while design reviews focus on interaction-level feasibility.
 - [`architecture-designer`](../architecture-designer/SKILL.md) -- Architecture decisions constrain what designs are feasible; design reviews enforce those constraints.
+- [`performance-budget-setter-eng`](../performance-budget-setter-eng/SKILL.md) — sibling skill under the same agent — combine with performance-budget-setter-eng for end-to-end coverage
+- [`scale-infrastructure-planner`](../scale-infrastructure-planner/SKILL.md) — sibling skill under the same agent — combine with scale-infrastructure-planner for end-to-end coverage

@@ -12,7 +12,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "narrate product pitch"
   - "product pitch"
@@ -57,4 +60,6 @@ Crafts the narrative arc for pitching the product opportunity to stakeholders or
 **On failure**: Report which narrative elements are weak (e.g., "opportunity sizing lacks credible TAM data," "problem statement needs customer evidence"), what additional inputs are needed, and recommend specific research or data collection to strengthen the pitch.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

@@ -11,7 +11,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "sprint planning"
   - "plan sprint"
@@ -52,4 +55,6 @@ Plans the sprint by selecting and sequencing stories from the groomed backlog, m
 **On failure**: Report which stories could not be included (missing estimates, unresolved blockers, insufficient capacity), what capacity gaps exist, and recommend specific grooming actions or backlog adjustments needed before the sprint can be fully planned.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

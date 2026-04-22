@@ -5,7 +5,18 @@ department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - infrastructure-scaling-executor
+  - production-readiness-reviewer
+  - github-org-setup
+  - ci-cd-pipeline-builder
+  - cloud-foundation-setup
+  - deployment-architecture-designer
+  - deployment-automation
+  - environment-parity-planner
+  - feature-flag-configurator
+  - incident-response-planner
+  - infrastructure-cost-optimiser
 triggers:
   - "monitoring alerts"
   - "set up alerts"
@@ -61,3 +72,14 @@ The DevOps / Infrastructure Engineer configures alerts for infrastructure and ap
 ## Related Skills
 
 *None defined yet.*
+- [`infrastructure-scaling-executor`](../infrastructure-scaling-executor/SKILL.md) — sibling skill under the same agent — combine with infrastructure-scaling-executor for end-to-end coverage
+- [`production-readiness-reviewer`](../production-readiness-reviewer/SKILL.md) — sibling skill under the same agent — combine with production-readiness-reviewer for end-to-end coverage
+- [`github-org-setup`](../github-org-setup/SKILL.md) — sibling skill under the same agent — combine with github-org-setup for end-to-end coverage
+- [`ci-cd-pipeline-builder`](../ci-cd-pipeline-builder/SKILL.md) — sibling skill under the same agent — combine with ci-cd-pipeline-builder for end-to-end coverage
+- [`cloud-foundation-setup`](../cloud-foundation-setup/SKILL.md) — sibling skill under the same agent — combine with cloud-foundation-setup for end-to-end coverage
+- [`deployment-architecture-designer`](../deployment-architecture-designer/SKILL.md) — sibling skill under the same agent — combine with deployment-architecture-designer for end-to-end coverage
+- [`deployment-automation`](../deployment-automation/SKILL.md) — sibling skill under the same agent — combine with deployment-automation for end-to-end coverage
+- [`environment-parity-planner`](../environment-parity-planner/SKILL.md) — sibling skill under the same agent — combine with environment-parity-planner for end-to-end coverage
+- [`feature-flag-configurator`](../feature-flag-configurator/SKILL.md) — sibling skill under the same agent — combine with feature-flag-configurator for end-to-end coverage
+- [`incident-response-planner`](../incident-response-planner/SKILL.md) — sibling skill under the same agent — combine with incident-response-planner for end-to-end coverage
+- [`infrastructure-cost-optimiser`](../infrastructure-cost-optimiser/SKILL.md) — sibling skill under the same agent — combine with infrastructure-cost-optimiser for end-to-end coverage

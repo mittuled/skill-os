@@ -7,6 +7,8 @@ agent: product-manager
 version: 1.0.0
 complexity: complex
 related-skills:
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "plan customer discovery"
   - "set up user interviews"
@@ -81,3 +83,5 @@ The customer discovery planner designs structured programs that surface real cus
 - `requirements-extractor` -- consumes the discovery brief to produce structured requirements.
 - `jtbd-to-stories` -- translates the JTBD cards from synthesis into backlog-ready user stories.
 - `market-sizer` -- provides TAM/SAM/SOM context that shapes participant profile and hypothesis scope.
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

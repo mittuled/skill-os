@@ -9,7 +9,10 @@ department: product
 agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - early-adopter-success-builder
+  - iteration-prioritiser
+  - objection-handler-updater
 triggers:
   - "monitor revenue impact"
   - "track revenue impact"
@@ -51,4 +54,6 @@ Monitors the revenue impact of product changes and feature launches.
 **On failure**: Report which revenue data was unavailable (e.g., billing system lag, missing cohort segmentation), what partial analysis was completed, and recommend a revised timeline or data request to complete the assessment.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`early-adopter-success-builder`](../early-adopter-success-builder/SKILL.md) — sibling skill under the same agent — combine with early-adopter-success-builder for end-to-end coverage
+- [`iteration-prioritiser`](../iteration-prioritiser/SKILL.md) — sibling skill under the same agent — combine with iteration-prioritiser for end-to-end coverage
+- [`objection-handler-updater`](../objection-handler-updater/SKILL.md) — sibling skill under the same agent — combine with objection-handler-updater for end-to-end coverage

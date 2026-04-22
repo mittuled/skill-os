@@ -9,7 +9,18 @@ department: product
 agent: product-operations-analyst
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - adoption-tracker
+  - cohort-selector
+  - cs-onboarding-playbook
+  - early-adopter-success-builder
+  - feedback-loop-formaliser
+  - internal-comms-broadcaster
+  - iteration-prioritiser
+  - revenue-impact-monitor
+  - rollout-configurator-review
+  - signal-synthesiser
+  - support-ticket-triage
 triggers:
   - "update objection handler"
   - "refresh objection handling"
@@ -49,4 +60,14 @@ Updates the sales objection handler based on product changes and new competitive
 **On failure**: Report which objections could not be updated (e.g., proof points not yet available for a new feature, competitive information unverified), what partial updates were made, and recommend a timeline for completing the remaining entries.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`adoption-tracker`](../adoption-tracker/SKILL.md) — sibling skill under the same agent — combine with adoption-tracker for end-to-end coverage
+- [`cohort-selector`](../cohort-selector/SKILL.md) — sibling skill under the same agent — combine with cohort-selector for end-to-end coverage
+- [`cs-onboarding-playbook`](../cs-onboarding-playbook/SKILL.md) — sibling skill under the same agent — combine with cs-onboarding-playbook for end-to-end coverage
+- [`early-adopter-success-builder`](../early-adopter-success-builder/SKILL.md) — sibling skill under the same agent — combine with early-adopter-success-builder for end-to-end coverage
+- [`feedback-loop-formaliser`](../feedback-loop-formaliser/SKILL.md) — sibling skill under the same agent — combine with feedback-loop-formaliser for end-to-end coverage
+- [`internal-comms-broadcaster`](../internal-comms-broadcaster/SKILL.md) — sibling skill under the same agent — combine with internal-comms-broadcaster for end-to-end coverage
+- [`iteration-prioritiser`](../iteration-prioritiser/SKILL.md) — sibling skill under the same agent — combine with iteration-prioritiser for end-to-end coverage
+- [`revenue-impact-monitor`](../revenue-impact-monitor/SKILL.md) — sibling skill under the same agent — combine with revenue-impact-monitor for end-to-end coverage
+- [`rollout-configurator-review`](../rollout-configurator-review/SKILL.md) — sibling skill under the same agent — combine with rollout-configurator-review for end-to-end coverage
+- [`signal-synthesiser`](../signal-synthesiser/SKILL.md) — sibling skill under the same agent — combine with signal-synthesiser for end-to-end coverage
+- [`support-ticket-triage`](../support-ticket-triage/SKILL.md) — sibling skill under the same agent — combine with support-ticket-triage for end-to-end coverage

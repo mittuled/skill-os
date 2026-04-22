@@ -9,7 +9,10 @@ department: product
 agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - objection-handler-updater
+  - early-adopter-success-builder
+  - iteration-prioritiser
 triggers:
   - "synthesise signals"
   - "signal synthesis"
@@ -52,4 +55,6 @@ Synthesises signals from multiple sources (usage, support, sales, NPS) into acti
 **On failure**: Report which signal sources were unavailable or incomplete (e.g., NPS survey not yet closed, sales CRM data export delayed), what partial synthesis was produced, and recommend a timeline for completing the full synthesis once data gaps close.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`objection-handler-updater`](../objection-handler-updater/SKILL.md) — sibling skill under the same agent — combine with objection-handler-updater for end-to-end coverage
+- [`early-adopter-success-builder`](../early-adopter-success-builder/SKILL.md) — sibling skill under the same agent — combine with early-adopter-success-builder for end-to-end coverage
+- [`iteration-prioritiser`](../iteration-prioritiser/SKILL.md) — sibling skill under the same agent — combine with iteration-prioritiser for end-to-end coverage

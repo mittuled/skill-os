@@ -5,7 +5,10 @@ department: marketing
 agent: social-media-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - influencer-coordination-manager
+  - social-listening-analyst
+  - ugc-programme-designer
 triggers:
   - "build social content calendar"
   - "plan social posts"
@@ -66,3 +69,6 @@ Plans and publishes the organic social content calendar across all platforms, en
 ## Related Skills
 
 *No related skills defined yet.*
+- [`influencer-coordination-manager`](../influencer-coordination-manager/SKILL.md) — sibling skill under the same agent — combine with influencer-coordination-manager for end-to-end coverage
+- [`social-listening-analyst`](../social-listening-analyst/SKILL.md) — sibling skill under the same agent — combine with social-listening-analyst for end-to-end coverage
+- [`ugc-programme-designer`](../ugc-programme-designer/SKILL.md) — sibling skill under the same agent — combine with ugc-programme-designer for end-to-end coverage

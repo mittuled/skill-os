@@ -9,7 +9,10 @@ department: product
 agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - objection-handler-updater
+  - early-adopter-success-builder
+  - iteration-prioritiser
 triggers:
   - "triage support tickets"
   - "support triage"
@@ -52,4 +55,6 @@ Triages incoming support tickets to identify product bugs and urgent issues requ
 **On failure**: Report which tickets could not be categorised (e.g., insufficient reproduction steps, unclear customer context), what partial triage was completed, and recommend follow-up actions (e.g., "request reproduction steps from customer for tickets #1234 and #1256").
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`objection-handler-updater`](../objection-handler-updater/SKILL.md) — sibling skill under the same agent — combine with objection-handler-updater for end-to-end coverage
+- [`early-adopter-success-builder`](../early-adopter-success-builder/SKILL.md) — sibling skill under the same agent — combine with early-adopter-success-builder for end-to-end coverage
+- [`iteration-prioritiser`](../iteration-prioritiser/SKILL.md) — sibling skill under the same agent — combine with iteration-prioritiser for end-to-end coverage

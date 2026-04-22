@@ -9,7 +9,10 @@ department: product
 agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - objection-handler-updater
+  - early-adopter-success-builder
+  - iteration-prioritiser
 triggers:
   - "select cohort"
   - "choose cohort"
@@ -52,4 +55,6 @@ Selects the user cohort for a controlled rollout based on risk profile and repre
 **On failure**: Report which data was unavailable (e.g., missing segmentation data, no baseline population stats), what partial analysis was completed, and recommend steps to unblock (e.g., "request user segmentation export from data engineering").
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`objection-handler-updater`](../objection-handler-updater/SKILL.md) — sibling skill under the same agent — combine with objection-handler-updater for end-to-end coverage
+- [`early-adopter-success-builder`](../early-adopter-success-builder/SKILL.md) — sibling skill under the same agent — combine with early-adopter-success-builder for end-to-end coverage
+- [`iteration-prioritiser`](../iteration-prioritiser/SKILL.md) — sibling skill under the same agent — combine with iteration-prioritiser for end-to-end coverage

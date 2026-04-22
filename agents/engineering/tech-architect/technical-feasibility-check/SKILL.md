@@ -16,6 +16,8 @@ related-skills:
   - ../../vp-engineering/architecture-reviewer/SKILL.md
   - ../api-contract-definer/SKILL.md
   - ../moat-analyzer-tech/SKILL.md
+  - performance-budget-setter-eng
+  - scale-infrastructure-planner
 triggers:
   - "check technical feasibility"
   - "technical feasibility"
@@ -66,3 +68,5 @@ Assesses whether a proposed feature or system is technically feasible given curr
 
 - [`architecture-designer`](../../../engineering/tech-architect/architecture-designer/SKILL.md) -- feasibility checks inform and constrain the architecture design that follows a go decision.
 - [`design-feasibility-reviewer`](../../../engineering/tech-architect/design-feasibility-reviewer/SKILL.md) -- design feasibility reviews complement technical checks by validating UX and interaction assumptions.
+- [`performance-budget-setter-eng`](../performance-budget-setter-eng/SKILL.md) — sibling skill under the same agent — combine with performance-budget-setter-eng for end-to-end coverage
+- [`scale-infrastructure-planner`](../scale-infrastructure-planner/SKILL.md) — sibling skill under the same agent — combine with scale-infrastructure-planner for end-to-end coverage

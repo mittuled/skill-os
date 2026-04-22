@@ -9,7 +9,24 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - assumption-mapper
+  - business-model-sketcher
+  - competitive-response-monitor
+  - design-partner-programme-builder
+  - gate-12-evaluator
+  - prd-assembler
+  - idea-critic
+  - launch-coordinator
+  - moat-analyzer
+  - mvp-definer
+  - north-star-metric-reviewer
+  - opportunity-framer
+  - packaging-designer
+  - pitch-narrator
+  - pricing-v1-setter
+  - product-feedback-ingestion
+  - sla-definer
 triggers:
   - "frame product goals"
   - "goal framing"
@@ -50,4 +67,20 @@ Defines measurable product goals aligned to business outcomes for a given initia
 **On failure**: Report which elements are incomplete (missing baselines, unvalidated measurement method, lack of stakeholder alignment), what was attempted, and recommend specific data pulls or stakeholder conversations needed to close the gaps.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`assumption-mapper`](../assumption-mapper/SKILL.md) — sibling skill under the same agent — combine with assumption-mapper for end-to-end coverage
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`design-partner-programme-builder`](../design-partner-programme-builder/SKILL.md) — sibling skill under the same agent — combine with design-partner-programme-builder for end-to-end coverage
+- [`gate-12-evaluator`](../gate-12-evaluator/SKILL.md) — sibling skill under the same agent — combine with gate-12-evaluator for end-to-end coverage
+- [`prd-assembler`](../prd-assembler/SKILL.md) — sibling skill under the same agent — combine with prd-assembler for end-to-end coverage
+- [`idea-critic`](../idea-critic/SKILL.md) — sibling skill under the same agent — combine with idea-critic for end-to-end coverage
+- [`launch-coordinator`](../launch-coordinator/SKILL.md) — sibling skill under the same agent — combine with launch-coordinator for end-to-end coverage
+- [`moat-analyzer`](../moat-analyzer/SKILL.md) — sibling skill under the same agent — combine with moat-analyzer for end-to-end coverage
+- [`mvp-definer`](../mvp-definer/SKILL.md) — sibling skill under the same agent — combine with mvp-definer for end-to-end coverage
+- [`north-star-metric-reviewer`](../north-star-metric-reviewer/SKILL.md) — sibling skill under the same agent — combine with north-star-metric-reviewer for end-to-end coverage
+- [`opportunity-framer`](../opportunity-framer/SKILL.md) — sibling skill under the same agent — combine with opportunity-framer for end-to-end coverage
+- [`packaging-designer`](../packaging-designer/SKILL.md) — sibling skill under the same agent — combine with packaging-designer for end-to-end coverage
+- [`pitch-narrator`](../pitch-narrator/SKILL.md) — sibling skill under the same agent — combine with pitch-narrator for end-to-end coverage
+- [`pricing-v1-setter`](../pricing-v1-setter/SKILL.md) — sibling skill under the same agent — combine with pricing-v1-setter for end-to-end coverage
+- [`product-feedback-ingestion`](../product-feedback-ingestion/SKILL.md) — sibling skill under the same agent — combine with product-feedback-ingestion for end-to-end coverage
+- [`sla-definer`](../sla-definer/SKILL.md) — sibling skill under the same agent — combine with sla-definer for end-to-end coverage

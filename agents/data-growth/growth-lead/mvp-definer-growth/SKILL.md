@@ -7,6 +7,9 @@ agent: growth-lead
 version: 1.0.0
 complexity: medium
 related-skills:
+  - growth-model-designer
+  - activation-signal-definer
+  - statistical-significance-tracker
 triggers:
   - "define growth MVP"
   - "scope growth experiment MVP"

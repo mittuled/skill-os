@@ -7,6 +7,7 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
+  - risk-register-builder
 triggers:
   - "experiment design"
   - "validate demand"
@@ -65,3 +66,4 @@ The demand validator determines whether a proposed solution has sufficient real-
 - `market-sizer` -- provides TAM/SAM context that frames the demand question at the right scale.
 - `roadmap-placer` -- consumes the demand verdict to adjust roadmap positioning.
 - `backlog-populator` -- creates or archives backlog items based on the validation outcome.
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

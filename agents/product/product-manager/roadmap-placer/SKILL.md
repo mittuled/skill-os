@@ -10,7 +10,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "place this on the roadmap"
   - "schedule this feature for next quarter"
@@ -51,4 +54,6 @@ Places approved features and initiatives on the product roadmap with timing, seq
 **On failure**: Report which inputs prevented placement (missing effort estimates, unresolved dependency conflicts, capacity data unavailable), which slot options were evaluated and why each was rejected, and recommend specific actions to unblock placement.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

@@ -12,6 +12,8 @@ complexity: medium
 related-skills:
   - ../../../engineering/tech-architect/architecture-designer/SKILL.md
   - ../../../engineering/tech-architect/api-contract-definer/SKILL.md
+  - performance-budget-setter-eng
+  - scale-infrastructure-planner
 triggers:
   - "scaffold the project"
   - "set up the repo structure"
@@ -62,3 +64,5 @@ Creates the initial technical scaffold, project structure, tooling configuration
 
 - [`architecture-designer`](../../../engineering/tech-architect/architecture-designer/SKILL.md) -- the architecture design drives the stack and structure choices that the scaffold implements.
 - [`api-contract-definer`](../../../engineering/tech-architect/api-contract-definer/SKILL.md) -- API contracts determine which endpoints and interfaces the scaffold must stub out.
+- [`performance-budget-setter-eng`](../performance-budget-setter-eng/SKILL.md) — sibling skill under the same agent — combine with performance-budget-setter-eng for end-to-end coverage
+- [`scale-infrastructure-planner`](../scale-infrastructure-planner/SKILL.md) — sibling skill under the same agent — combine with scale-infrastructure-planner for end-to-end coverage

@@ -9,7 +9,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "conduct user research pm"
   - "user research pm"
@@ -69,4 +72,6 @@ Conducts user research interviews and synthesises findings into actionable produ
 **On failure**: Report which research activities could not be completed (insufficient participant recruitment, cancelled interviews, too few participants to identify patterns), what data was collected, preliminary observations from whatever interviews did occur, and recommend specific actions to recover — such as expanding the recruitment pool, adjusting the participant profile criteria, extending the study timeline, or pivoting to a lightweight survey to supplement the incomplete interview data.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

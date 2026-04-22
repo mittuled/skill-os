@@ -5,7 +5,12 @@ department: marketing
 agent: event-marketing-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - company-offsite-producer
+  - conference-presence-manager
+  - sales-kickoff-producer
+  - user-conference-producer
+  - webinar-and-virtual-event-manager
 triggers:
   - "plan event calendar"
   - "build events roadmap"
@@ -66,3 +71,8 @@ Plans the annual event calendar including conferences, webinars, and hosted even
 ## Related Skills
 
 *No related skills defined yet.*
+- [`company-offsite-producer`](../company-offsite-producer/SKILL.md) — sibling skill under the same agent — combine with company-offsite-producer for end-to-end coverage
+- [`conference-presence-manager`](../conference-presence-manager/SKILL.md) — sibling skill under the same agent — combine with conference-presence-manager for end-to-end coverage
+- [`sales-kickoff-producer`](../sales-kickoff-producer/SKILL.md) — sibling skill under the same agent — combine with sales-kickoff-producer for end-to-end coverage
+- [`user-conference-producer`](../user-conference-producer/SKILL.md) — sibling skill under the same agent — combine with user-conference-producer for end-to-end coverage
+- [`webinar-and-virtual-event-manager`](../webinar-and-virtual-event-manager/SKILL.md) — sibling skill under the same agent — combine with webinar-and-virtual-event-manager for end-to-end coverage

@@ -9,7 +9,10 @@ department: product
 agent: pmm
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - sales-playbook-messaging
+  - launch-narrative-builder
+  - positioning-crafter
 triggers:
   - "review roadmap language"
   - "roadmap copy review"
@@ -67,3 +70,6 @@ Reviews roadmap language for external-readiness and PMM consistency, ensuring th
 - prd-executive-summary
 - internal-comms-broadcaster-pmm
 - launch-narrative-builder
+- [`sales-playbook-messaging`](../sales-playbook-messaging/SKILL.md) — sibling skill under the same agent — combine with sales-playbook-messaging for end-to-end coverage
+- [`launch-narrative-builder`](../launch-narrative-builder/SKILL.md) — sibling skill under the same agent — combine with launch-narrative-builder for end-to-end coverage
+- [`positioning-crafter`](../positioning-crafter/SKILL.md) — sibling skill under the same agent — combine with positioning-crafter for end-to-end coverage

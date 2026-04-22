@@ -7,6 +7,9 @@ agent: analytics-lead
 version: 1.0.0
 complexity: medium
 related-skills:
+  - north-star-metric-reviewer-data
+  - metrics-dashboard-builder
+  - instrumentation-spec-data
 triggers:
   - "configure data alerts"
   - "set up metric alerts"

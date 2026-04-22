@@ -9,7 +9,10 @@ department: product
 agent: product-operations-analyst
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - objection-handler-updater
+  - early-adopter-success-builder
+  - iteration-prioritiser
 triggers:
   - "formalise feedback loop"
   - "feedback loop product"
@@ -52,4 +55,6 @@ Formalises the feedback loop between customers, support, and product to ensure s
 **On failure**: Report which teams or channels could not be integrated (e.g., sales team uses a CRM with no API, support tool lacks tagging capability), what partial process was designed, and recommend workarounds or tooling changes to close the gaps.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`objection-handler-updater`](../objection-handler-updater/SKILL.md) — sibling skill under the same agent — combine with objection-handler-updater for end-to-end coverage
+- [`early-adopter-success-builder`](../early-adopter-success-builder/SKILL.md) — sibling skill under the same agent — combine with early-adopter-success-builder for end-to-end coverage
+- [`iteration-prioritiser`](../iteration-prioritiser/SKILL.md) — sibling skill under the same agent — combine with iteration-prioritiser for end-to-end coverage

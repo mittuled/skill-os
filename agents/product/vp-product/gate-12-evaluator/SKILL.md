@@ -11,7 +11,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "gate 12 evaluation"
   - "evaluate gate 12"
@@ -55,4 +58,6 @@ Evaluates whether the product has met the gate criteria to proceed to the next p
 **On failure**: Report which criteria were not met, the evidence gaps, what remediation is required, an estimated timeline to re-evaluate, and a recommendation on whether to pause, pivot, or de-scope.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

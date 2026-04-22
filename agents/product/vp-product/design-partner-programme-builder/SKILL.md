@@ -11,7 +11,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "build design partner program"
   - "design partner programme"
@@ -60,4 +63,6 @@ Builds the design partner programme to get early customer input during developme
 **On failure**: Report which step stalled (e.g., insufficient partner recruitment, low engagement rates), the feedback collected to date, what alternative validation methods were attempted (surveys, competitor analysis), and a recommendation on whether to extend the programme, pivot the ICP, or proceed to GA with acknowledged risk.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

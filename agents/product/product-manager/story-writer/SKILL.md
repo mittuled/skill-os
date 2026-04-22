@@ -9,7 +9,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - backlog-populator
+  - market-sizer
+  - risk-register-builder
 triggers:
   - "user story"
   - "write user stories"
@@ -51,4 +54,6 @@ Writes well-formed user stories with context, user goal, and acceptance criteria
 **On failure**: Report which elements are incomplete (missing persona research, unclear business outcome, untestable criteria), what was attempted, and recommend specific actions — such as scheduling a discovery session, reviewing analytics for the target persona, or consulting engineering on feasibility constraints.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

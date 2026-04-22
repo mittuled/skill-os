@@ -5,7 +5,10 @@ department: engineering
 agent: qa-test-engineer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - instrumentation-verifier-qa
+  - performance-tester
+  - unit-test-runner
 triggers:
   - "test plan"
   - "integration tests"
@@ -60,3 +63,6 @@ The QA / Test Engineer executes integration tests to validate interactions betwe
 ## Related Skills
 
 *None defined yet.*
+- [`instrumentation-verifier-qa`](../instrumentation-verifier-qa/SKILL.md) — sibling skill under the same agent — combine with instrumentation-verifier-qa for end-to-end coverage
+- [`performance-tester`](../performance-tester/SKILL.md) — sibling skill under the same agent — combine with performance-tester for end-to-end coverage
+- [`unit-test-runner`](../unit-test-runner/SKILL.md) — sibling skill under the same agent — combine with unit-test-runner for end-to-end coverage

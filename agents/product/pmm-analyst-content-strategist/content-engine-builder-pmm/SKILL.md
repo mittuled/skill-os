@@ -9,7 +9,10 @@ department: product
 agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - ga-announcement
+  - case-study-extractor-pmm
+  - in-app-announcement-writer
 triggers:
   - "build content engine"
   - "content strategy engine"
@@ -52,4 +55,6 @@ Builds and operates the content production engine for ongoing PMM content, estab
 **On failure**: Report which components could not be stood up (missing contributors, undefined content types, tooling gaps), what partial infrastructure exists, and recommend a phased plan to close remaining gaps.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`ga-announcement`](../ga-announcement/SKILL.md) — sibling skill under the same agent — combine with ga-announcement for end-to-end coverage
+- [`case-study-extractor-pmm`](../case-study-extractor-pmm/SKILL.md) — sibling skill under the same agent — combine with case-study-extractor-pmm for end-to-end coverage
+- [`in-app-announcement-writer`](../in-app-announcement-writer/SKILL.md) — sibling skill under the same agent — combine with in-app-announcement-writer for end-to-end coverage

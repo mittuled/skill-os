@@ -11,7 +11,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "coordinate launch"
   - "launch coordination"
@@ -60,4 +63,6 @@ Coordinates all cross-functional activities required for a successful product la
 **On failure**: Report which workstreams are blocked, the current state of each checklist item, recommended date for re-attempt, and specific actions required to unblock (e.g., "enablement training not completed -- reschedule for Tuesday, push GA to Thursday").
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

@@ -9,7 +9,21 @@ department: product
 agent: pmm
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - competitive-response-monitor-pmm
+  - competitor-mapper-pmm
+  - gtm-activation-pmm
+  - gtm-planner
+  - internal-comms-broadcaster-pmm
+  - launch-narrative-builder
+  - packaging-designer-pmm
+  - pmm-market-intelligence
+  - pmm-pre-briefer-pmm
+  - positioning-crafter
+  - prd-executive-summary
+  - pricing-finaliser-pmm
+  - pricing-strategy-pmm
+  - roadmap-language-reviewer
 triggers:
   - "sales playbook"
   - "build sales messaging"
@@ -69,3 +83,17 @@ Contributes the messaging framework to the sales playbook, providing the structu
 - positioning-crafter
 - competitive-response-monitor-pmm
 - pmm-pre-briefer-pmm
+- [`competitive-response-monitor-pmm`](../competitive-response-monitor-pmm/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor-pmm for end-to-end coverage
+- [`competitor-mapper-pmm`](../competitor-mapper-pmm/SKILL.md) — sibling skill under the same agent — combine with competitor-mapper-pmm for end-to-end coverage
+- [`gtm-activation-pmm`](../gtm-activation-pmm/SKILL.md) — sibling skill under the same agent — combine with gtm-activation-pmm for end-to-end coverage
+- [`gtm-planner`](../gtm-planner/SKILL.md) — sibling skill under the same agent — combine with gtm-planner for end-to-end coverage
+- [`internal-comms-broadcaster-pmm`](../internal-comms-broadcaster-pmm/SKILL.md) — sibling skill under the same agent — combine with internal-comms-broadcaster-pmm for end-to-end coverage
+- [`launch-narrative-builder`](../launch-narrative-builder/SKILL.md) — sibling skill under the same agent — combine with launch-narrative-builder for end-to-end coverage
+- [`packaging-designer-pmm`](../packaging-designer-pmm/SKILL.md) — sibling skill under the same agent — combine with packaging-designer-pmm for end-to-end coverage
+- [`pmm-market-intelligence`](../pmm-market-intelligence/SKILL.md) — sibling skill under the same agent — combine with pmm-market-intelligence for end-to-end coverage
+- [`pmm-pre-briefer-pmm`](../pmm-pre-briefer-pmm/SKILL.md) — sibling skill under the same agent — combine with pmm-pre-briefer-pmm for end-to-end coverage
+- [`positioning-crafter`](../positioning-crafter/SKILL.md) — sibling skill under the same agent — combine with positioning-crafter for end-to-end coverage
+- [`prd-executive-summary`](../prd-executive-summary/SKILL.md) — sibling skill under the same agent — combine with prd-executive-summary for end-to-end coverage
+- [`pricing-finaliser-pmm`](../pricing-finaliser-pmm/SKILL.md) — sibling skill under the same agent — combine with pricing-finaliser-pmm for end-to-end coverage
+- [`pricing-strategy-pmm`](../pricing-strategy-pmm/SKILL.md) — sibling skill under the same agent — combine with pricing-strategy-pmm for end-to-end coverage
+- [`roadmap-language-reviewer`](../roadmap-language-reviewer/SKILL.md) — sibling skill under the same agent — combine with roadmap-language-reviewer for end-to-end coverage

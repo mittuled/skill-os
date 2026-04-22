@@ -9,7 +9,10 @@ department: product
 agent: pmm
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - launch-narrative-builder
+  - sales-playbook-messaging
+  - positioning-crafter
 triggers:
   - "design product packaging"
   - "pmm packaging"
@@ -69,3 +72,6 @@ Designs the product packaging and naming from a marketing and positioning perspe
 - pricing-finaliser-pmm
 - positioning-crafter
 - gtm-planner
+- [`launch-narrative-builder`](../launch-narrative-builder/SKILL.md) — sibling skill under the same agent — combine with launch-narrative-builder for end-to-end coverage
+- [`sales-playbook-messaging`](../sales-playbook-messaging/SKILL.md) — sibling skill under the same agent — combine with sales-playbook-messaging for end-to-end coverage
+- [`positioning-crafter`](../positioning-crafter/SKILL.md) — sibling skill under the same agent — combine with positioning-crafter for end-to-end coverage

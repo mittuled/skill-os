@@ -10,7 +10,10 @@ department: engineering
 agent: tech-architect
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - technical-feasibility-check
+  - design-feasibility-reviewer
+  - tech-scaffolder
 triggers:
   - "plan infrastructure scaling"
   - "scale infra plan"
@@ -55,4 +58,6 @@ Plans the infrastructure changes required to support projected user, traffic, an
 **On failure**: Report which scale dimensions could not be planned (unclear growth projections, missing baseline metrics, budget constraints that make required scaling infeasible). Recommend specific data collection, load testing, or budget discussions needed before the plan can be completed.
 
 ## Related Skills
-- (none yet — cross-references added in validation pass)
+- [`technical-feasibility-check`](../technical-feasibility-check/SKILL.md) — sibling skill under the same agent — combine with technical-feasibility-check for end-to-end coverage
+- [`design-feasibility-reviewer`](../design-feasibility-reviewer/SKILL.md) — sibling skill under the same agent — combine with design-feasibility-reviewer for end-to-end coverage
+- [`tech-scaffolder`](../tech-scaffolder/SKILL.md) — sibling skill under the same agent — combine with tech-scaffolder for end-to-end coverage

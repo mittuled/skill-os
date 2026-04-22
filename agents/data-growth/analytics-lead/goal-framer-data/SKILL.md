@@ -7,6 +7,8 @@ agent: analytics-lead
 version: 1.0.0
 complexity: medium
 related-skills:
+  - north-star-metric-reviewer-data
+  - goal-framer
 triggers:
   - "frame analytics goals"
   - "define data success metrics"

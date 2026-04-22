@@ -10,7 +10,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "product roadmap"
   - "roadmap strategy"
@@ -58,4 +61,6 @@ Assembles the product requirements document from inputs across discovery, design
 **On failure**: Report which input artifacts are missing or conflicting, what sections could not be completed, and recommend specific follow-up actions (e.g., "engineering feasibility for payment integration is unresolved -- schedule a spike before PRD finalization").
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

@@ -5,7 +5,10 @@ department: marketing
 agent: social-media-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - influencer-coordination-manager
+  - social-content-calendar-manager
+  - ugc-programme-designer
 triggers:
   - "monitor social mentions"
   - "social listening report"
@@ -66,3 +69,6 @@ Monitors brand mentions, competitor conversations, and category sentiment across
 ## Related Skills
 
 *No related skills defined yet.*
+- [`influencer-coordination-manager`](../influencer-coordination-manager/SKILL.md) — sibling skill under the same agent — combine with influencer-coordination-manager for end-to-end coverage
+- [`social-content-calendar-manager`](../social-content-calendar-manager/SKILL.md) — sibling skill under the same agent — combine with social-content-calendar-manager for end-to-end coverage
+- [`ugc-programme-designer`](../ugc-programme-designer/SKILL.md) — sibling skill under the same agent — combine with ugc-programme-designer for end-to-end coverage

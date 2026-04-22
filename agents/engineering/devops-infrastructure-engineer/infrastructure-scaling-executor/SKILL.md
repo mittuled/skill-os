@@ -15,6 +15,16 @@ related-skills:
   - ../performance-monitor/SKILL.md
   - ../infrastructure-requirements-extractor/SKILL.md
   - ../../platform-engineer/platform-scale-preparation/SKILL.md
+  - alerting-configurator
+  - ci-cd-pipeline-builder
+  - cloud-foundation-setup
+  - deployment-architecture-designer
+  - deployment-automation
+  - environment-parity-planner
+  - feature-flag-configurator
+  - github-org-setup
+  - incident-response-planner
+  - infrastructure-cost-optimiser
 triggers:
   - "execute infra scaling"
   - "scale infrastructure"
@@ -65,3 +75,13 @@ Executes infrastructure scaling operations -- both horizontal and vertical -- in
 
 - [`infrastructure-load-testing`](../infrastructure-load-testing/SKILL.md) -- Load testing validates whether scaling changes achieve the target capacity.
 - [`performance-monitor`](../performance-monitor/SKILL.md) -- Performance monitoring detects the resource saturation that triggers scaling.
+- [`alerting-configurator`](../alerting-configurator/SKILL.md) — sibling skill under the same agent — combine with alerting-configurator for end-to-end coverage
+- [`ci-cd-pipeline-builder`](../ci-cd-pipeline-builder/SKILL.md) — sibling skill under the same agent — combine with ci-cd-pipeline-builder for end-to-end coverage
+- [`cloud-foundation-setup`](../cloud-foundation-setup/SKILL.md) — sibling skill under the same agent — combine with cloud-foundation-setup for end-to-end coverage
+- [`deployment-architecture-designer`](../deployment-architecture-designer/SKILL.md) — sibling skill under the same agent — combine with deployment-architecture-designer for end-to-end coverage
+- [`deployment-automation`](../deployment-automation/SKILL.md) — sibling skill under the same agent — combine with deployment-automation for end-to-end coverage
+- [`environment-parity-planner`](../environment-parity-planner/SKILL.md) — sibling skill under the same agent — combine with environment-parity-planner for end-to-end coverage
+- [`feature-flag-configurator`](../feature-flag-configurator/SKILL.md) — sibling skill under the same agent — combine with feature-flag-configurator for end-to-end coverage
+- [`github-org-setup`](../github-org-setup/SKILL.md) — sibling skill under the same agent — combine with github-org-setup for end-to-end coverage
+- [`incident-response-planner`](../incident-response-planner/SKILL.md) — sibling skill under the same agent — combine with incident-response-planner for end-to-end coverage
+- [`infrastructure-cost-optimiser`](../infrastructure-cost-optimiser/SKILL.md) — sibling skill under the same agent — combine with infrastructure-cost-optimiser for end-to-end coverage

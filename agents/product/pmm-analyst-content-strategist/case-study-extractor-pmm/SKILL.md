@@ -9,7 +9,12 @@ department: product
 agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - ga-announcement
+  - in-app-announcement-writer
+  - partner-activation-planner-pmm
+  - changelog-publisher-pmm
+  - content-engine-builder-pmm
 triggers:
   - "extract case study"
   - "write case study pmm"
@@ -53,4 +58,8 @@ Extracts and structures customer case studies from CS and sales inputs into publ
 **On failure**: Report which stage stalled (customer declined participation, metrics could not be verified, stakeholder approval timed out), what partial materials exist, and recommend next steps such as anonymizing the story or escalating the approval request.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`ga-announcement`](../ga-announcement/SKILL.md) — sibling skill under the same agent — combine with ga-announcement for end-to-end coverage
+- [`in-app-announcement-writer`](../in-app-announcement-writer/SKILL.md) — sibling skill under the same agent — combine with in-app-announcement-writer for end-to-end coverage
+- [`partner-activation-planner-pmm`](../partner-activation-planner-pmm/SKILL.md) — sibling skill under the same agent — combine with partner-activation-planner-pmm for end-to-end coverage
+- [`changelog-publisher-pmm`](../changelog-publisher-pmm/SKILL.md) — sibling skill under the same agent — combine with changelog-publisher-pmm for end-to-end coverage
+- [`content-engine-builder-pmm`](../content-engine-builder-pmm/SKILL.md) — sibling skill under the same agent — combine with content-engine-builder-pmm for end-to-end coverage

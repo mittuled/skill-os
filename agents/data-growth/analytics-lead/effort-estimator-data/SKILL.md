@@ -7,6 +7,8 @@ agent: analytics-lead
 version: 1.0.0
 complexity: simple
 related-skills:
+  - instrumentation-planner-data
+  - instrumentation-spec-data
 triggers:
   - "estimate analytics effort"
   - "data project estimation"

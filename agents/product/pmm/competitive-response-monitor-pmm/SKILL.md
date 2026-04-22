@@ -9,7 +9,10 @@ department: product
 agent: pmm
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - sales-playbook-messaging
+  - launch-narrative-builder
+  - positioning-crafter
 triggers:
   - "monitor competitive response"
   - "track competitor moves"
@@ -74,3 +77,6 @@ Monitors competitive activity and maintains the competitive response playbook, e
 - positioning-crafter
 - sales-playbook-messaging
 - pmm-market-intelligence
+- [`sales-playbook-messaging`](../sales-playbook-messaging/SKILL.md) — sibling skill under the same agent — combine with sales-playbook-messaging for end-to-end coverage
+- [`launch-narrative-builder`](../launch-narrative-builder/SKILL.md) — sibling skill under the same agent — combine with launch-narrative-builder for end-to-end coverage
+- [`positioning-crafter`](../positioning-crafter/SKILL.md) — sibling skill under the same agent — combine with positioning-crafter for end-to-end coverage

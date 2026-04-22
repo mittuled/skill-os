@@ -7,6 +7,9 @@ agent: growth-engineer
 version: 1.0.0
 complexity: medium
 related-skills:
+  - instrumentation-spec-growth
+  - instrumentation-implementer-growth
+  - instrumentation-planner-data
 triggers:
   - "plan growth instrumentation"
   - "growth tracking plan"

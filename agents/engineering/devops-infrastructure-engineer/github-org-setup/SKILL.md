@@ -5,7 +5,10 @@ department: engineering
 agent: devops-infrastructure-engineer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - alerting-configurator
+  - infrastructure-scaling-executor
+  - production-readiness-reviewer
 triggers:
   - "set up GitHub org"
   - "GitHub organization setup"
@@ -61,3 +64,6 @@ The DevOps / Infrastructure Engineer configures the GitHub organisation with rep
 ## Related Skills
 
 *None defined yet.*
+- [`alerting-configurator`](../alerting-configurator/SKILL.md) — sibling skill under the same agent — combine with alerting-configurator for end-to-end coverage
+- [`infrastructure-scaling-executor`](../infrastructure-scaling-executor/SKILL.md) — sibling skill under the same agent — combine with infrastructure-scaling-executor for end-to-end coverage
+- [`production-readiness-reviewer`](../production-readiness-reviewer/SKILL.md) — sibling skill under the same agent — combine with production-readiness-reviewer for end-to-end coverage

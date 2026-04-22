@@ -7,6 +7,10 @@ agent: data-analyst
 version: 1.0.0
 complexity: medium
 related-skills:
+  - adoption-tracker-data
+  - metrics-dashboard-builder
+  - funnel-analyser-growth
+  - statistical-significance-tracker
 triggers:
   - "SQL query"
   - "sql-query-author"

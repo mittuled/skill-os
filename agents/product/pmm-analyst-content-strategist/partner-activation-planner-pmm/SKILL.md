@@ -10,7 +10,10 @@ department: product
 agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - case-study-extractor-pmm
+  - ga-announcement
+  - in-app-announcement-writer
 triggers:
   - "partner activation plan"
   - "activate partners"
@@ -51,4 +54,6 @@ Plans partner activation activities for product launches, ensuring integration p
 **On failure**: Report which partners could not be activated (declined, missed deadlines, integration not ready), what assets were produced, and recommend whether to proceed with a reduced partner set or delay activation to the next launch window.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`case-study-extractor-pmm`](../case-study-extractor-pmm/SKILL.md) — sibling skill under the same agent — combine with case-study-extractor-pmm for end-to-end coverage
+- [`ga-announcement`](../ga-announcement/SKILL.md) — sibling skill under the same agent — combine with ga-announcement for end-to-end coverage
+- [`in-app-announcement-writer`](../in-app-announcement-writer/SKILL.md) — sibling skill under the same agent — combine with in-app-announcement-writer for end-to-end coverage

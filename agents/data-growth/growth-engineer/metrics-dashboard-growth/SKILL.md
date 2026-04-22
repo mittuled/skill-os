@@ -7,6 +7,10 @@ agent: growth-engineer
 version: 1.0.0
 complexity: medium
 related-skills:
+  - metrics-dashboard-builder
+  - growth-model-designer
+  - funnel-analyser-growth
+  - statistical-significance-tracker
 triggers:
   - "build growth metrics dashboard"
   - "create growth KPI dashboard"

@@ -14,6 +14,16 @@ related-skills:
   - ../infrastructure-requirements-extractor/SKILL.md
   - ../runbook-drafter/SKILL.md
   - ../performance-monitor/SKILL.md
+  - alerting-configurator
+  - ci-cd-pipeline-builder
+  - cloud-foundation-setup
+  - deployment-architecture-designer
+  - deployment-automation
+  - environment-parity-planner
+  - feature-flag-configurator
+  - github-org-setup
+  - incident-response-planner
+  - infrastructure-cost-optimiser
 triggers:
   - "check if we're production ready"
   - "run a production readiness review"
@@ -67,3 +77,13 @@ Reviews whether a service or system meets production readiness criteria across r
 - [`infrastructure-requirements-extractor`](../infrastructure-requirements-extractor/SKILL.md) -- Infrastructure requirements inform the capacity and architecture aspects of the readiness review.
 - [`runbook-drafter`](../runbook-drafter/SKILL.md) -- Runbooks are a required artifact for the operational readiness domain.
 - [`performance-monitor`](../performance-monitor/SKILL.md) -- Monitoring and alerting are validated as part of the observability audit.
+- [`alerting-configurator`](../alerting-configurator/SKILL.md) — sibling skill under the same agent — combine with alerting-configurator for end-to-end coverage
+- [`ci-cd-pipeline-builder`](../ci-cd-pipeline-builder/SKILL.md) — sibling skill under the same agent — combine with ci-cd-pipeline-builder for end-to-end coverage
+- [`cloud-foundation-setup`](../cloud-foundation-setup/SKILL.md) — sibling skill under the same agent — combine with cloud-foundation-setup for end-to-end coverage
+- [`deployment-architecture-designer`](../deployment-architecture-designer/SKILL.md) — sibling skill under the same agent — combine with deployment-architecture-designer for end-to-end coverage
+- [`deployment-automation`](../deployment-automation/SKILL.md) — sibling skill under the same agent — combine with deployment-automation for end-to-end coverage
+- [`environment-parity-planner`](../environment-parity-planner/SKILL.md) — sibling skill under the same agent — combine with environment-parity-planner for end-to-end coverage
+- [`feature-flag-configurator`](../feature-flag-configurator/SKILL.md) — sibling skill under the same agent — combine with feature-flag-configurator for end-to-end coverage
+- [`github-org-setup`](../github-org-setup/SKILL.md) — sibling skill under the same agent — combine with github-org-setup for end-to-end coverage
+- [`incident-response-planner`](../incident-response-planner/SKILL.md) — sibling skill under the same agent — combine with incident-response-planner for end-to-end coverage
+- [`infrastructure-cost-optimiser`](../infrastructure-cost-optimiser/SKILL.md) — sibling skill under the same agent — combine with infrastructure-cost-optimiser for end-to-end coverage

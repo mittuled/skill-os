@@ -7,6 +7,8 @@ agent: product-manager
 version: 1.0.0
 complexity: medium
 related-skills:
+  - market-sizer
+  - risk-register-builder
 triggers:
   - "backlog grooming"
   - "groom backlog"
@@ -63,3 +65,5 @@ The backlog groomer refines the product backlog by ensuring every story within t
 - `sprint-planner` -- consumes the groomed backlog to build the sprint plan.
 - `story-writer` -- authors the user stories that grooming polishes.
 - `dependency-mapper-review` -- receives dependency flags surfaced during grooming.
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

@@ -10,7 +10,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "jtbd to stories"
   - "jobs to user stories"
@@ -58,4 +61,6 @@ Translates jobs-to-be-done insights into user stories with clear acceptance crit
 **On failure**: Report which steps could not be completed (insufficient JTBD data, missing persona definitions, engineering unavailable for review), the stories drafted so far with their current state, the gaps in coverage, and what specific inputs are needed to resume -- including which customer interviews or discovery activities should be conducted to fill the JTBD gaps.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

@@ -9,7 +9,10 @@ department: product
 agent: vp-product
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - business-model-sketcher
+  - competitive-response-monitor
+  - goal-framer
 triggers:
   - "map assumptions"
   - "assumption mapping"
@@ -51,4 +54,6 @@ Maps the key assumptions underlying a product idea and ranks them by risk.
 **On failure**: Report which assumption categories could not be populated (e.g., no feasibility input from engineering, no market data for viability), what was mapped, and recommend specific stakeholder sessions or data requests needed to complete the map.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`business-model-sketcher`](../business-model-sketcher/SKILL.md) — sibling skill under the same agent — combine with business-model-sketcher for end-to-end coverage
+- [`competitive-response-monitor`](../competitive-response-monitor/SKILL.md) — sibling skill under the same agent — combine with competitive-response-monitor for end-to-end coverage
+- [`goal-framer`](../goal-framer/SKILL.md) — sibling skill under the same agent — combine with goal-framer for end-to-end coverage

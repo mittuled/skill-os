@@ -9,7 +9,10 @@ department: product
 agent: pmm
 version: 1.0.0
 complexity: complex
-related-skills: []
+related-skills:
+  - sales-playbook-messaging
+  - launch-narrative-builder
+  - positioning-crafter
 triggers:
   - "activate gtm"
   - "gtm execution"
@@ -71,3 +74,6 @@ Activates the GTM plan at launch including channel execution and partner coordin
 - launch-narrative-builder
 - enablement-brief-writer
 - internal-comms-broadcaster-pmm
+- [`sales-playbook-messaging`](../sales-playbook-messaging/SKILL.md) — sibling skill under the same agent — combine with sales-playbook-messaging for end-to-end coverage
+- [`launch-narrative-builder`](../launch-narrative-builder/SKILL.md) — sibling skill under the same agent — combine with launch-narrative-builder for end-to-end coverage
+- [`positioning-crafter`](../positioning-crafter/SKILL.md) — sibling skill under the same agent — combine with positioning-crafter for end-to-end coverage

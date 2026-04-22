@@ -5,7 +5,10 @@ department: engineering
 agent: qa-test-engineer
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - performance-tester
+  - instrumentation-verifier-qa
+  - unit-test-runner
 triggers:
   - "audit security"
   - "security audit"
@@ -61,3 +64,6 @@ The QA / Test Engineer conducts security audits of code and configurations to id
 ## Related Skills
 
 *None defined yet.*
+- [`performance-tester`](../performance-tester/SKILL.md) — sibling skill under the same agent — combine with performance-tester for end-to-end coverage
+- [`instrumentation-verifier-qa`](../instrumentation-verifier-qa/SKILL.md) — sibling skill under the same agent — combine with instrumentation-verifier-qa for end-to-end coverage
+- [`unit-test-runner`](../unit-test-runner/SKILL.md) — sibling skill under the same agent — combine with unit-test-runner for end-to-end coverage

@@ -9,7 +9,12 @@ department: product
 agent: pmm-analyst-content-strategist
 version: 1.0.0
 complexity: simple
-related-skills: []
+related-skills:
+  - case-study-extractor-pmm
+  - changelog-publisher-pmm
+  - content-engine-builder-pmm
+  - ga-announcement
+  - partner-activation-planner-pmm
 triggers:
   - "write in-app announcement pmm"
   - "in-app release note"
@@ -50,4 +55,8 @@ Writes in-app announcement copy for new feature releases and product updates, op
 **On failure**: Report what blocked publication (missing design approval, broken CTA link, staging render issue), what draft copy exists, and recommend a revised timeline.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`case-study-extractor-pmm`](../case-study-extractor-pmm/SKILL.md) — sibling skill under the same agent — combine with case-study-extractor-pmm for end-to-end coverage
+- [`changelog-publisher-pmm`](../changelog-publisher-pmm/SKILL.md) — sibling skill under the same agent — combine with changelog-publisher-pmm for end-to-end coverage
+- [`content-engine-builder-pmm`](../content-engine-builder-pmm/SKILL.md) — sibling skill under the same agent — combine with content-engine-builder-pmm for end-to-end coverage
+- [`ga-announcement`](../ga-announcement/SKILL.md) — sibling skill under the same agent — combine with ga-announcement for end-to-end coverage
+- [`partner-activation-planner-pmm`](../partner-activation-planner-pmm/SKILL.md) — sibling skill under the same agent — combine with partner-activation-planner-pmm for end-to-end coverage

@@ -9,7 +9,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "coordinate uat"
   - "user acceptance testing"
@@ -51,4 +54,6 @@ Coordinates user acceptance testing with design partners or beta customers.
 **On failure**: Report which UAT activities could not be completed (participant no-shows, environment issues, insufficient test coverage), what was attempted, and recommend next steps — such as rescheduling sessions, fixing environment blockers, or expanding the participant pool.
 
 ## Related Skills
-- (none yet — cross-references added in Phase 1.6)
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

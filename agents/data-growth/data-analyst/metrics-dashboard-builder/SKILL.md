@@ -7,6 +7,10 @@ agent: data-analyst
 version: 1.0.0
 complexity: medium
 related-skills:
+  - data-model-designer-data
+  - goal-framer-data
+  - alerting-configurator-data
+  - metrics-dashboard-growth
 triggers:
   - "analytics dashboard"
   - "dashboard-builder"

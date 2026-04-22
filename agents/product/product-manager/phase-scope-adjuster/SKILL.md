@@ -10,7 +10,10 @@ department: product
 agent: product-manager
 version: 1.0.0
 complexity: medium
-related-skills: []
+related-skills:
+  - market-sizer
+  - backlog-populator
+  - risk-register-builder
 triggers:
   - "adjust phase scope"
   - "scope adjustment"
@@ -53,4 +56,6 @@ Adjusts product scope mid-phase in response to discoveries, capacity changes, or
 **On failure**: Report which trade-offs could not be resolved (conflicting stakeholder priorities, insufficient data to rank options, unclear exit criteria), what was attempted, and recommend specific escalation paths or data gathering to unblock the decision.
 
 ## Related Skills
-- (none yet -- cross-references added in Phase 1.6)
+- [`market-sizer`](../market-sizer/SKILL.md) — sibling skill under the same agent — combine with market-sizer for end-to-end coverage
+- [`backlog-populator`](../backlog-populator/SKILL.md) — sibling skill under the same agent — combine with backlog-populator for end-to-end coverage
+- [`risk-register-builder`](../risk-register-builder/SKILL.md) — sibling skill under the same agent — combine with risk-register-builder for end-to-end coverage

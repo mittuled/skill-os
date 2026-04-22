@@ -7,6 +7,10 @@ agent: growth-engineer
 version: 1.0.0
 complexity: complex
 related-skills:
+  - instrumentation-spec-data
+  - instrumentation-implementer-growth
+  - instrumentation-clarity-reviewer
+  - growth-model-designer
 triggers:
   - "write growth instrumentation spec"
   - "growth tracking specification"
